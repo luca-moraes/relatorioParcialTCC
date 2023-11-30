@@ -1,0 +1,80 @@
+\documentclass[acronym,symbols]{fei}
+
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{outlines}
+\usepackage{ulem}
+\usepackage{caption}
+\usepackage{makecell}
+\usepackage{csquotes}
+\usepackage{lipsum}  
+\usepackage{lscape}
+	
+\usepackage{color, colortbl}
+	
+\definecolor{Green}{rgb}{0.88,1,1}
+\definecolor{Gray}{gray}{0.9}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,    
+    urlcolor=blue,
+}
+
+%%%% -- Configuracoes Iniciais%%%%%%%%%%%%%%%
+
+\author{
+ Lucas Mateus de Moraes - RA: 22.220.004-0 \and
+ Orientador: Prof. Dr. Charles Henrique Porto Ferreira
+}
+
+\title{APLICAÇÃO DE TÉCNICAS DE PROCESSAMENTO DE LINGUAGEM NATURAL PARA AVALIAÇÃO AUTOMÁTICA DE QUESTÕES DISSERTATIVAS}
+
+% comando para inserção de subfloats do tipo figure, usado aqui no template
+% remova este comando se for usar o pacote subfig
+% não recomendo o pacote subcaption
+\newsubfloat{figure}
+
+\addbibresource{referencias.bib}
+
+\begin{document}
+\maketitle 
+
+\begin{resumo}
+\textbf{Resumo em português, resumir introdução, insights da revisão, metodologia e proposta experimental.}
+
+O presente trabalho tem como objetivo analisar a similaridade semântica entre a resposta padrão de uma questões e a resposta dissertativa de um alunos, tentando avaliar um grau de parafraseamento, ou uma forma de representação de texto, que indique um possível resultado de correção para aquela respostas.
+
+A proposta possui seus desafios de pesquisa, estudo e desenvolvimento, porém, não possui problemas significativos em relação a obter bases de dados ou lidar com dados sensíveis. Além de que, possui uma valor de contribuição valioso para a presente instituição de ensino e outras universidades, também sendo capaz de contribuir com o ensino de forma geral, pois, o uso de inteligência artificial (\textit{AI}) e processamento de linguagem natural (\textit{NLP}) aplicados a educação ainda é um tópico pouco explorado e de grande relevância, podendo assim, tornar a universidade e o presente trabalho uma possível referência no assunto, caso seu desenvolvimento futuro seja bem sucedido.
+
+\palavraschave{Semantic Similarity; Paraphrase Detection; Natural Language Processing; Evaluation of Descriptive Answers}
+
+\end{resumo}
+
+\begin{abstract}
+
+The present work aims to analyze the semantic similarity between the standard response to a question and a student's essay-type response, attempting to assess a degree of paraphrasing or a form of text representation that indicates a potential grading outcome for that response.
+
+The proposal presents challenges in terms of research, study, and development; however, it does not encounter significant issues regarding obtaining databases or handling sensitive data. Moreover, it holds valuable contribution potential for the current educational institution and other universities. It is also capable of contributing to education in general, as the use of artificial intelligence (\textit{AI}) and natural language processing (\textit{NLP}) applied to education is still a relatively unexplored and highly relevant topic. Therefore, the university and the present work could potentially become a reference in the field if its future development proves successful.
+
+\keywords{Semantic Similarity; Paraphrase Detection; Natural Language Processing; Evaluation of Descriptive Answers}
+
+\end{abstract}
+
+\listoffigures
+\listoftables
+
+\tableofcontents
+
+\include{texto/introducao}
+\include{texto/conceitos}
+\include{texto/revisao_bibliografica}
+\include{texto/metodologia}
+\include{texto/proposta_experimental}
+\include{texto/conclusao}
+
+\printbibliography
+
+\end{document}

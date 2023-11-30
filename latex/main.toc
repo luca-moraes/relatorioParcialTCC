@@ -1,0 +1,33 @@
+\babel@toc {brazil}{}\relax
+\babel@toc {brazil}{}\relax
+\babel@toc {english}{}\relax
+\babel@toc {brazil}{}\relax
+\babel@toc {english}{}\relax
+\babel@toc {brazil}{}\relax
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivo}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Questões de Pesquisa}{8}{section.1.2}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Conceitos}}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Processamento de linguagem natural}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Representação de textos}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}TFIDF}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Word embedding}{11}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Similaridade de textos}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Palavras chaves}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Frequência de palavras}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Distância de Jaccard}{11}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Distância de Cosseno}{11}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Distância Euclidiana}{11}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Language Models}{11}{subsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.6.1}Parafraseamento}{11}{subsubsection.2.3.6.1}%
+\contentsline {section}{\numberline {2.4}Métricas de avaliação}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Acurácia}{11}{subsection.2.4.1}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão Bibliográfica}}{12}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Metodologia}}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Abordagem de pesquisa:}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Bases de dados:}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Materiais:}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Métodos:}{16}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Avaliação:}{17}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{PROPOSTA EXPERIMENTAL}}{18}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{CONCLUSÃO}}{19}{chapter.6}%

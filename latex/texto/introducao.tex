@@ -1,0 +1,82 @@
+\chapter{Introdução}
+
+{\color{red}\textbf{Até 2 páginas, incluindo seção de objetivo abaixo. Contextualizar problema e possível solução. Sugere-se relacionar com outras pesquisas ou \textit{cases} de mercado. Pode-se citar noticias de jornais, postagens de blogs confiáveis como medium, towards data science, technoblog, etc...}\cite{4G2009}}
+
+Na atualidade das instituições de ensino, uma variedade de métodos de avaliação são empregados para mensurar o aprendizado dos alunos, destacando-se entre eles as questões dissertativas, nas quais os alunos devem fornecer suas respostas de maneira textual. Esse método proporciona ao professor uma compreensão mais aprofundada da linha de raciocínio do aluno durante a correção, possibilitando assim, uma avaliação mais precisa do nível de aprendizado alcançado e um melhor acompanhamento da evolução do aluno ao longo do tempo~\cite{artigoPorcentagemQuestoes}.
+
+Embora a precisão da avaliação seja uma vantagem desse método, o mesmo exige maior tempo de leitura, análise e compreensão de cada questão por parte do professor, uma vez que ele precisará analisar integralmente o conteúdo dos textos fornecidos como resposta pelos alunos. Tal dificuldade pode levar o docente a preferir questões objetivas, que, por possuírem um gabarito, demandam um tempo menor de correção. Entretanto, é importante ressaltar que as questões objetivas não atingem o mesmo nível de precisão na avaliação em comparação com as questões dissertativas, uma vez que possibilitam que o aluno escolha uma alternativa de maneira aleatória e possa obter a resposta correta mesmo sem ter nenhum conhecimento da mesma, ao contrário das questões dissertativas, em que essa possibilidade não existe.
+
+A utilização de avaliações dissertativas é utilizado em apenas 30\% das formas de avaliação aplicadas aos alunos, conforme demonstrado em um estudo realizado por % pelas pesquisadoras Katya Luciane de Oliveira, Mestre em Psicologia pela Universidade São Francisco, e Acácia Aparecida Angeli dos Santos, Doutora em Psicologia Escolar e do Desenvolvimento Humano pela USP.
+ ~\cite{artigoPorcentagemQuestoes}. Este estudo aborda as vantagens das avaliações dissertativas e sua maior adequação para a avaliação do desempenho e acompanhamento do progresso dos alunos no processo de aprendizado. Considerando esse contexto, seria benéfico para as instituições de ensino adotar mais frequentemente avaliações dissertativas. No entanto, como mencionado anteriormente, um dos principais impeditivos da adoção desse método seria o aumento na carga de trabalho dos professores responsáveis pelas correções. Dessa forma, o presente trabalho tem por objetivo propor uma abordagem para realizar avaliação automática das respostas dissertativas dos alunos, comparando-as com uma resposta padrão fornecida por um especialista da área como modelo do conhecimento esperado para aquela questão.
+
+De forma geral, a abordagem proposta irá avaliar o ``grau de similaridade'' entre as respostas das questões levando em consideração propriedades estatística e semântica dos textos. Sendo assim, pretende-se propor uma métrica que possa mensurar a similaridade entre as respostas.  Para que essa avaliação seja efetivamente realizada, uma série de fatores, os quais podemos considerar como elementos relevantes na composição de uma resposta, devem ser considerados. Entre esses fatores pode-se citar: presença de palavas chaves, número de modificações para transformar uma resposta na outra, ordem das palavras, similaridade de texto, grau de parafraseamento, entre outros.
+
+%Como um desses fatores podemos considerar a presença de palavras-chave que devem constar na resposta, podendo ser especificadas pelo professor, cada uma podendo ter um peso na avaliação da similaridade semântica. Outros fatores, como a quantidade de modificações necessárias para transformar a resposta do aluno na resposta original %(o que pode ser chamado de grau de parafraseamento), , a distância entre os cossenos dos dois textos (que fornece um grau de proximidade entre o conteúdo de ambos) e a ordem das palavras (que diz respeito à sintaxe do texto) também podem ser considerados, cada um com pesos apropriados.  Além disso, pretende-se investigar se toda resposta correta é, em algum grau, uma paráfrase da resposta padrão, em que o sentido semântico é preservado.
+%Porém, levando em conta que a correção de respostas dissertativas é algo 
+
+%Sendo assim, o objetivo é propor uma métrica que avalie as respostas fornecidas em comparação com uma resposta correta definida como modelo para uma determinada questão, visando que essa métrica possa ser usada para avaliações da forma mais ampla possível.
+
+\section{Objetivo}
+
+O objetivo final deste trabalho é o desenvolvimento e implementação de uma abordagem automatizada de avaliação para respostas dissertativas em ambientes educacionais. A proposta busca simplificar o processo de correção manual dessas respostas, promovendo uma análise precisa do desempenho dos alunos e reduzindo a carga de trabalho sobre os professores. As metas planejadas podem ser especificadas nos seguintes tópicos:
+
+\begin{itemize}
+  \item Desenvolver um algoritmo robusto para calcular para mensurar a similaridade semântica entre respostas dissertativas e uma resposta padrão.
+  \item Considerar fatores como a presença de palavras-chave, quantidade de repetições de palavras, grau de parafraseamento, distância entre cossenos dos textos e ordem das palavras na avaliação automática.
+  \item Validar a eficácia da técnica por meio de estudos de caso e comparações com dados de avaliações já corrigidas.
+  \item Como última meta, caso as anteriores sejam alcançadas com sucesso, planejar a integração da técnica com plataformas educacionais existentes ou com um protótipo, testando seu funcionamento na prática, o que pode torná-la acessível e aplicável em ambientes reais no futuro.
+\end{itemize}
+
+\section{Questões de Pesquisa}
+
+O tema abordado levanta importantes questões de pesquisa, nas quais o presente trabalho buscará responder os seguintes questionamentos:
+
+\begin{enumerate}
+    \item Toda resposta correta pode ser considerada, em algum grau, uma paráfrase de uma resposta padrão?
+    \item A partir de qual ponto pode-se dizer que o grau de paráfrase entre os textos da resposta de um aluno e a resposta padrão indica corretude? Ou, em vez de uma saída binária, o resultado deve ser representado por uma escala variável?
+    \item Quais parâmetros podem ser considerados como componentes relevantes para pontuar a similaridade semântica entre as respostas?
+    \item Esses parâmetros podem definir uma pontuação que funcione de maneira geral quando aplicada a casos reais e práticos de correções dissertativas?
+\end{enumerate}
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Título} & Fonte & Referência \\ \midrule
+Determining Degree of Relevance of Reviews Using a Graph-Based Text Representation & IEEE & \cite{DeterminingDegreeRelevanceReviewsUsingGraphBasedTextRepresentation} \\
+A Chinese text paraphrase detection method based on dependency tree & IEEE & \cite{ChineseParaphraseDetectionBasedDependencyTree} \\
+Nowhere to Hide: Finding Plagiarized Documents Based on Sentence Similarity & IEEE & \cite{FindingPlagiarizedDocumentsBasedSentenceSimilarity} \\
+Enhanced Text Matching Based on Semantic Transformation & IEEE & \cite{EnhancedTextMatchingBasedSemanticTransformation} \\
+Semantic similarity based assessment of descriptive type answers & IEEE & \cite{SemanticSimilarityBasedAssessmentDescriptiveTypeAnswers} \\
+A comparative analysis of various approaches for automated assessment of descriptive answers & IEEE & \cite{comparativeAnalysisVariousApproachesAutomatedAssessmentDescriptiveAnswers} \\
+A reliable approach to automatic assessment of short answer free responses & SSL & \cite{ReliableApproachAutomaticAssessmentShortAnswerFreeResponses}  \\
+A Descriptive Answer Evaluation System Using Cosine Similarity Technique & IEEE & \cite{DescriptiveAnswerEvaluationSystemUsingCosineSimilarityTechnique} \\
+An Intelligent System for Evaluation of Descriptive Answers & IEEE & \cite{IntelligentSystemEvaluationDescriptiveAnswersFuzzyGraphs} \\
+Application Research of Similarity Algorithm in the Design of English Intelligent Question Answering System & IEEE & \cite{ApplicationResearchSimilarityAlgorithmDesignEnglishIntelligentQuestionAnsweringSystem} \\
+Near duplicate text detection using graph depiction & IEEE & \cite{NearDuplicateTextDetectionKendalRankCorrelationModelTVM} \\
+Recognition of Parallelism Sentence Based on Recurrent Neural Network & IEEE & \cite{RecognitionParallelismSentenceBasedRecurrentNeuralNetwork} \\
+LSGC: An Interactive Text Matching Model Combined with Enhanced Encoding & IEEE & \cite{LSGCInteractiveTextMatchingModelEnhancedEncoding} \\
+A software system for determining the semantic similarity of short texts in Serbian & IEEE & \cite{SoftwareSystemSemanticSimilarityShortTextSerbian} \\
+Arabic Semantic Textual Similarity Identification based on Convolutional Gated Recurrent Units & IEEE & \cite{ArabicSemanticTextualSimilarityConvolutionalGatedRecurrentUnits} \\
+A Chinese text paraphrase detection method based on dependency tree & IEEE & \cite{ChineseParaphraseDetectionBasedDependencyTree} \\
+Using paraphrases to improve tweet classification: Comparing WordNet and word embedding approaches & IEEE & \cite{UsingParaphrasesTweetClassificationComparingWordNetAndWordEmbedding} \\
+\rowcolor{Gray} SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection & SSL & \cite{UnsupervisedLexicalSemanticChangeDetection} \\
+SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation & SSL & \cite{SemanticTextualSimilarityMultilingualCrosslingualFocusedEvaluation} \\
+Use of Syntactic Similarity Based Similarity Matrix for Evaluating Descriptive Answer & IEEE & \cite{SyntacticSimilarityBasedSimilarityMatrixForEvaluatingDescriptiveAnswer} \\
+Chapter 16 - Semantic similarity–based descriptive answer evaluation & SCD & \cite{SemanticSimilarityBasedDescriptiveAnswerEvaluation} \\
+A Study of Automated Evaluation of Student’s Examination Paper using Machine Learning Techniques & IEEE & \cite{StudyAutomatedEvaluationStudentsExaminationPaperMachineLearningTechniques} \\
+Online Examination with short text matching & IEEE & \cite{OnlineExaminationWithShortTextMatching} \\
+Towards Automated Evaluation of Handwritten Assessments & IEEE & \cite{TowardsAutomatedEvaluationHandwrittenAssessments} \\
+Automatic Short Answer Grading (ASAG) using Attention-Based Deep Learning MODEL & IEEE & \cite{AutomaticShortAnswerGrading-ASAG-usingAttentionBasedDeepLearningMODEL} \\
+Semantic similarity–based descriptive answer evaluation & SSL & \cite{SemanticSimilarityBasedDescriptiveAnswerEvaluation} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+
+\newpage

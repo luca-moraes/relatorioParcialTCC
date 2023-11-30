@@ -1,0 +1,50 @@
+\chapter{Revisão Bibliográfica}
+
+{\color{red}\textbf{Até 2 páginas. Trocar título por benchmarking de mercado em caso PIPE. Sugestões: 1) 1 paragrafo falando sobre locais que artigos foram buscados, palavras-chaves utilizadas, quantos artigos foram lidos integralmente ao final. Se foi utilizada a tabela de sumarização, apresentá-la. 2) Colocar cada "grande assunto" em uma subseção. Por exemplo: TCC sobre classificação de doenças cardíacas foi pesquisado métodos de classificação e métodos de IA para auxílio ao diagnóstico de doenças cardíacas. Nesse sentido, teríamos 2 subseções. 3)Fazer uma subseção final chamada Considerações Finais e apresentar lacunas identificadas ou qual a estratégia que o grupo utilizará dado os artigos lidos; 4) em média são lidos de 3-4 artigos por integrante do grupo.}}
+
+Para realização da revisão bibliográfica foram utilizados as ferramentas de buscas de artigos científicos do \textit{Google Scholar} (\url{https://scholar.google.com/}), \textit{IEEE Xplore} (\url{https://ieeexplore.ieee.org/Xplore/home.jsp}), \textit{ScienceDirect} (\url{https://www.sciencedirect.com/}) e \textit{Semantic Scholar} (\url{https://www.semanticscholar.org/}).
+
+Como palavras-chaves na busca foram utilizados termos em inglês, sendo ele, \textit{"semantic similarity between texts"}, \textit{"measure degree of paraphrase"}, \textit{"paraphrase detection"}, \textit{"natural language processing"}, \textit{"measure semantic similarity between answers"} e \textit{"evaluation of descriptve answers"}. Os termos que trouxeram os melhores resultados e estavam presentes nos melhores artigos selecionados foram \textit{"semantic similarity"}, \textit{"natural language processing"} e \textit{"evaluation of descriptve answers"}.
+
+Inicialmente foram selecionados 26 artigos que poderiam ser relevantes para o presente trabalho com base nos temas, uma tabela sumarizada com todos os artigos selecionados pode ser vista na imagem abaixo:
+
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{imgs/rev.png}
+    \caption{Figura da tabela de revisão bibliográfica sumarizada.}
+    \label{fig:1}
+\end{figure}
+
+Após uma filtragem com base nos resumos e palavras-chaves, foram selecionados 4 artigos como base para a revisão bibliográfica como consta na tabela abaixo: 
+
+\begin{table}[h!]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Base} &
+  \multicolumn{1}{l}{Total encontrados} &
+  \multicolumn{1}{l}{Após remoção dos Duplicados} &
+  \multicolumn{1}{l}{Após análise do resumo} \\ \midrule 
+IEEE             & 21 & 21 & 2 \\
+Science Direct   & 1  & 1  & 1 \\
+Semantic Scholar & 4  & 3  & 1 \\ \bottomrule
+\end{tabular}%
+}
+\caption{Tabela do funil de leitura.}
+\label{table:1}
+\end{table}
+
+No final os artigos filtrados foram e lidos integralmente foram: 
+
+\begin{itemize}
+    \item \textit{"Unsupervised Lexical Semantic Change Detection"} \cite{UnsupervisedLexicalSemanticChangeDetection}.
+    \item \textit{"Use of Syntactic Similarity Based Similarity Matrix for Evaluating Descriptive Answer"} \cite{SyntacticSimilarityBasedSimilarityMatrixForEvaluatingDescriptiveAnswer}.
+    \item \textit{"Semantic similarity–based descriptive answer evaluation"} \cite{SemanticSimilarityBasedDescriptiveAnswerEvaluation}.
+    \item \textit{"A Study of Automated Evaluation of Student’s Examination Paper using Machine Learning Techniques"} \cite{StudyAutomatedEvaluationStudentsExaminationPaperMachineLearningTechniques}.
+\end{itemize}
+
+Desses artigos pode-se destacar alguns pontos relevantes para o presente trabalho. No caso do artigo\textit{"Use of Syntactic Similarity Based Similarity Matrix for Evaluating Descriptive Answer"}, podemos destacar que o trabalho utiliza a técnica de Análise Semântica Latente (LSA), que é comumente usada para determinar a similaridade de documentos, mas ressalta suas limitações em documentos curtos. O artigo destaca a ausência de abordagens anteriores que se concentrem na avaliação automática de respostas descritivas usando vetores de ordem de palavras. O método proposto utiliza uma matriz de similaridade entre vetores de ordem de palavras para avaliar respostas descritivas. A similaridade entre os vetores é calculada por meio de uma métrica de similaridade sintática, ou seja baseada na ordem das palavras. Os resultados indicam que a abordagem baseada em ordem de palavras é promissora para a avaliação automática de respostas descritivas. A matriz de similaridade é apresentada como uma ferramenta eficaz para computar as notas de cada pergunta.
+
+\newpage
