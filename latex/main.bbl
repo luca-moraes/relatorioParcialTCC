@@ -1,0 +1,1418 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{AutomaticShortAnswerGrading-ASAG-usingAttentionBasedDeepLearningMODEL}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cd9fa2076b0ea9fbcc2152e178c2ed91}{%
+           family={Amur},
+           familyi={A\bibinitperiod},
+           given={Zaira\bibnamedelima Hassan},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d31457eb43a7f66193bf6d108b628b93}{%
+           family={Hooi},
+           familyi={H\bibinitperiod},
+           given={Yew\bibnamedelima Kwang},
+           giveni={Y\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eeafe36ceca98473432541e826d8476}{%
+           family={Soomro},
+           familyi={S\bibinitperiod},
+           given={Gul\bibnamedelima Muhammad},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{91d0dad751343086582413a2534ae981}
+      \strng{fullhash}{91d0dad751343086582413a2534ae981}
+      \strng{bibnamehash}{91d0dad751343086582413a2534ae981}
+      \strng{authorbibnamehash}{91d0dad751343086582413a2534ae981}
+      \strng{authornamehash}{91d0dad751343086582413a2534ae981}
+      \strng{authorfullhash}{91d0dad751343086582413a2534ae981}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 International Conference on Digital Transformation and Intelligence (ICDI)}
+      \field{title}{Automatic Short Answer Grading (ASAG) using Attention-Based Deep Learning MODEL}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ICDI57181.2022.10007187
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10007187
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10007187
+      \endverb
+    \endentry
+    \entry{automaticAssessmentShortAnswers}{article}{}
+      \name{author}{7}{}{%
+        {{un=2,uniquepart=given,hash=ed3f1cdc3196eb8f2d52eb1279189de1}{%
+           family={Bachman},
+           familyi={B\bibinitperiod},
+           given={Lyle\bibnamedelima F},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=ddc191457fbfb296fcfc5cf6afac6ac9}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997206e38832aa71c2c5ced8d84d62c1}{%
+           family={Kamei},
+           familyi={K\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26e97f1d0f7960367a48aee43b003656}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Mikyung},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=367290ee9520923c976f31e9bc034d42}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c77311ee3bbe7512738c26d56f50f673}{%
+           family={Salvador},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8e60a500c10ac45bcca85b29b75ad98}{%
+           family={Sawaki},
+           familyi={S\bibinitperiod},
+           given={Yasuyo},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{fullhash}{347d1bcff2b17487866ee7d8421f0c9e}
+      \strng{bibnamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{authorbibnamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{authornamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{authorfullhash}{347d1bcff2b17487866ee7d8421f0c9e}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{COLING 2002: The 17th International Conference on Computational Linguistics: Project Notes}
+      \field{title}{A reliable approach to automatic assessment of short answer free responses}
+      \field{year}{2002}
+      \verb{urlraw}
+      \verb https://aclanthology.org/C02-2023.pdf
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/C02-2023.pdf
+      \endverb
+    \endentry
+    \entry{ReliableApproachAutomaticAssessmentShortAnswerFreeResponses}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{un=2,uniquepart=given,hash=ed3f1cdc3196eb8f2d52eb1279189de1}{%
+           family={Bachman},
+           familyi={B\bibinitperiod},
+           given={Lyle\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=ddc191457fbfb296fcfc5cf6afac6ac9}{%
+           family={Carr},
+           familyi={C\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=997206e38832aa71c2c5ced8d84d62c1}{%
+           family={Kamei},
+           familyi={K\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26e97f1d0f7960367a48aee43b003656}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Mikyung},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=367290ee9520923c976f31e9bc034d42}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c77311ee3bbe7512738c26d56f50f673}{%
+           family={Salvador},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8e60a500c10ac45bcca85b29b75ad98}{%
+           family={Sawaki},
+           familyi={S\bibinitperiod},
+           given={Yasuyo},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{fullhash}{347d1bcff2b17487866ee7d8421f0c9e}
+      \strng{bibnamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{authorbibnamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{authornamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
+      \strng{authorfullhash}{347d1bcff2b17487866ee7d8421f0c9e}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Computational Linguistics}
+      \field{title}{A Reliable Approach to Automatic Assessment of Short Answer Free Responses}
+      \field{year}{2002}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:27889503
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:27889503
+      \endverb
+    \endentry
+    \entry{IntelligentSystemEvaluationDescriptiveAnswersFuzzyGraphs}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=789f2d59be13d598909034cd76885617}{%
+           family={Bagaria},
+           familyi={B\bibinitperiod},
+           given={Vinal},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7099fff35f0dbfdb08e55a9906cac040}{%
+           family={Badve},
+           familyi={B\bibinitperiod},
+           given={Mohit},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a2f463fa27d0febb84fa5ea520e8b21}{%
+           family={Beldar},
+           familyi={B\bibinitperiod},
+           given={Manasi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=319677130a07aaccb86559c9c47aae19}{%
+           family={Ghane},
+           familyi={G\bibinitperiod},
+           given={Sunil},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1422ce38d1fe07e316fe9526b76c8a39}
+      \strng{fullhash}{7ca0cd4091e34d9dbce98f28689d77cb}
+      \strng{bibnamehash}{1422ce38d1fe07e316fe9526b76c8a39}
+      \strng{authorbibnamehash}{1422ce38d1fe07e316fe9526b76c8a39}
+      \strng{authornamehash}{1422ce38d1fe07e316fe9526b76c8a39}
+      \strng{authorfullhash}{7ca0cd4091e34d9dbce98f28689d77cb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 3rd International Conference on Intelligent Sustainable Systems (ICISS)}
+      \field{title}{An Intelligent System for Evaluation of Descriptive Answers}
+      \field{year}{2020}
+      \field{pages}{19\bibrangedash 24}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICISS49785.2020.9316110
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9316110
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9316110
+      \endverb
+    \endentry
+    \entry{SoftwareSystemSemanticSimilarityShortTextSerbian}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a7b747e44d5659326698d0ce7d89c618}{%
+           family={Batanovi\'{c}},
+           familyi={B\bibinitperiod},
+           given={Vuk},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d89152b28129532c35a4e3059cd299a7}{%
+           family={Furlan},
+           familyi={F\bibinitperiod},
+           given={Bojan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bef543ba725d94b2a67acd9a87de7ef1}{%
+           family={Nikoli\'{c}},
+           familyi={N\bibinitperiod},
+           given={Bo\v{s}ko},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e6a9cc5ca1857cdcdc17f8eb9e406a7d}
+      \strng{fullhash}{e6a9cc5ca1857cdcdc17f8eb9e406a7d}
+      \strng{bibnamehash}{e6a9cc5ca1857cdcdc17f8eb9e406a7d}
+      \strng{authorbibnamehash}{e6a9cc5ca1857cdcdc17f8eb9e406a7d}
+      \strng{authornamehash}{e6a9cc5ca1857cdcdc17f8eb9e406a7d}
+      \strng{authorfullhash}{e6a9cc5ca1857cdcdc17f8eb9e406a7d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 19thTelecommunications Forum (TELFOR) Proceedings of Papers}
+      \field{title}{A software system for determining the semantic similarity of short texts in Serbian}
+      \field{year}{2011}
+      \field{pages}{1249\bibrangedash 1252}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/TELFOR.2011.6143778
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/6143778
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/6143778
+      \endverb
+    \endentry
+    \entry{SemanticTextualSimilarityMultilingualCrosslingualFocusedEvaluation}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0de5abe01792930949b5ae4a802e68cb}{%
+           family={Cer},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima Matthew},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcf514887c063254cdf2bb30b3f7944b}{%
+           family={Diab},
+           familyi={D\bibinitperiod},
+           given={Mona\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39f0a6a48ac08d60ef7340dad900caa8}{%
+           family={Agirre},
+           familyi={A\bibinitperiod},
+           given={Eneko},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e96c8800c1c2e57b02b57220a008b827}{%
+           family={Lopez-Gazpio},
+           familyi={L\bibinithyphendelim G\bibinitperiod},
+           given={I\~{n}igo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ede296c12d7a570bc8b70fcb82116a5f}{%
+           family={Specia},
+           familyi={S\bibinitperiod},
+           given={Lucia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2eaa1790840faf00a7ef242f33939ec3}
+      \strng{fullhash}{c8a136d9a517740a367070bbd596d4c2}
+      \strng{bibnamehash}{2eaa1790840faf00a7ef242f33939ec3}
+      \strng{authorbibnamehash}{2eaa1790840faf00a7ef242f33939ec3}
+      \strng{authornamehash}{2eaa1790840faf00a7ef242f33939ec3}
+      \strng{authorfullhash}{c8a136d9a517740a367070bbd596d4c2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Workshop on Semantic Evaluation}
+      \field{title}{SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:4421747
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:4421747
+      \endverb
+    \endentry
+    \entry{RecognitionParallelismSentenceBasedRecurrentNeuralNetwork}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=cb24569819b65ad6792b93d8a8b16e9e}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Yange},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=156f3afeea913531eceb7377f750f143}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc5ff570adcdcbbd3a4fa6c1b29947bf}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xianjun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87a2d1d50dca4d07c14f01f660c8f499}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lizhen},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ccf37c3e96f86adb68370411a7f35d6}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xinlei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c17dbf42f221e817f5a0c3e7c28933e}
+      \strng{fullhash}{7f7040ca837da5dfa39fdebe0c752b98}
+      \strng{bibnamehash}{2c17dbf42f221e817f5a0c3e7c28933e}
+      \strng{authorbibnamehash}{2c17dbf42f221e817f5a0c3e7c28933e}
+      \strng{authornamehash}{2c17dbf42f221e817f5a0c3e7c28933e}
+      \strng{authorfullhash}{7f7040ca837da5dfa39fdebe0c752b98}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE 9th International Conference on Software Engineering and Service Science (ICSESS)}
+      \field{title}{Recognition of Parallelism Sentence Based on Recurrent Neural Network}
+      \field{year}{2018}
+      \field{pages}{148\bibrangedash 151}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICSESS.2018.8663734
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8663734
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8663734
+      \endverb
+    \endentry
+    \entry{FindingPlagiarizedDocumentsBasedSentenceSimilarity}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7e398a3b40cf998ca8fac359affafd8b}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={Nathaniel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f375826220e25671f771d079aa5e305}{%
+           family={Pera},
+           familyi={P\bibinitperiod},
+           given={Maria\bibnamedelima Soledad},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1db1835f04df5feb2f03a2d2adf80531}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Yiu-Kai},
+           giveni={Y\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e75aa66d1d93ddefeaed37c22b936408}
+      \strng{fullhash}{e75aa66d1d93ddefeaed37c22b936408}
+      \strng{bibnamehash}{e75aa66d1d93ddefeaed37c22b936408}
+      \strng{authorbibnamehash}{e75aa66d1d93ddefeaed37c22b936408}
+      \strng{authornamehash}{e75aa66d1d93ddefeaed37c22b936408}
+      \strng{authorfullhash}{e75aa66d1d93ddefeaed37c22b936408}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology}
+      \field{title}{Nowhere to Hide: Finding Plagiarized Documents Based on Sentence Similarity}
+      \field{volume}{1}
+      \field{year}{2008}
+      \field{pages}{690\bibrangedash 696}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/WIIAT.2008.16
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/4740531
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/4740531
+      \endverb
+    \endentry
+    \entry{ChineseParaphraseDetectionBasedDependencyTree}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=02bbd8c3a37f4c305987e0ae2942cf59}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yipeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61fce142b6cc7f51a3522f957baa7f25}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=908091724636e903ea8dbbd61b01ec43}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f348c9ff0cf379ca6f876314d8ec6ac1}
+      \strng{fullhash}{f348c9ff0cf379ca6f876314d8ec6ac1}
+      \strng{bibnamehash}{f348c9ff0cf379ca6f876314d8ec6ac1}
+      \strng{authorbibnamehash}{f348c9ff0cf379ca6f876314d8ec6ac1}
+      \strng{authornamehash}{f348c9ff0cf379ca6f876314d8ec6ac1}
+      \strng{authorfullhash}{f348c9ff0cf379ca6f876314d8ec6ac1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE 13th International Conference on Networking, Sensing, and Control (ICNSC)}
+      \field{title}{A Chinese text paraphrase detection method based on dependency tree}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICNSC.2016.7479003
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7479003
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7479003
+      \endverb
+    \endentry
+    \entry{comparativeAnalysisVariousApproachesAutomatedAssessmentDescriptiveAnswers}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8759d9779d03665657dad6cad6d6ffba}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Amarjeet},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c170e1021f08f8a3324f2d32d317dbfa}{%
+           family={Sasikumar},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2d22799fd5530c3fec92d3216b7abf59}
+      \strng{fullhash}{2d22799fd5530c3fec92d3216b7abf59}
+      \strng{bibnamehash}{2d22799fd5530c3fec92d3216b7abf59}
+      \strng{authorbibnamehash}{2d22799fd5530c3fec92d3216b7abf59}
+      \strng{authornamehash}{2d22799fd5530c3fec92d3216b7abf59}
+      \strng{authorfullhash}{2d22799fd5530c3fec92d3216b7abf59}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 International Conference on Computational Intelligence in Data Science(ICCIDS)}
+      \field{title}{A comparative analysis of various approaches for automated assessment of descriptive answers}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ICCIDS.2017.8272650
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8272650
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8272650
+      \endverb
+    \endentry
+    \entry{OnlineExaminationWithShortTextMatching}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=82a8359db3a65c61914e3cb3f76ef680}{%
+           family={Kudi},
+           familyi={K\bibinitperiod},
+           given={Pooja},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b6b3caf5fe77b372c349a842b6085b7}{%
+           family={Manekar},
+           familyi={M\bibinitperiod},
+           given={Amitkumar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9919257da9c800481d99987c9bb0ec3}{%
+           family={Daware},
+           familyi={D\bibinitperiod},
+           given={Kavita},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48c85331c2a446ad6e83d90a1895fc27}{%
+           family={Dhatrak},
+           familyi={D\bibinitperiod},
+           given={Tejaswini},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{377640987f6e444c575f1f5ed292e188}
+      \strng{fullhash}{5b83fb025ab84dce457d14e4ab259723}
+      \strng{bibnamehash}{377640987f6e444c575f1f5ed292e188}
+      \strng{authorbibnamehash}{377640987f6e444c575f1f5ed292e188}
+      \strng{authornamehash}{377640987f6e444c575f1f5ed292e188}
+      \strng{authorfullhash}{5b83fb025ab84dce457d14e4ab259723}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE Global Conference on Wireless Computing & Networking (GCWCN)}
+      \field{title}{Online Examination with short text matching}
+      \field{year}{2014}
+      \field{pages}{56\bibrangedash 60}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/GCWCN.2014.7030847
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7030847
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7030847
+      \endverb
+    \endentry
+    \entry{UsingParaphrasesTweetClassificationComparingWordNetAndWordEmbedding}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=50e89bccd18b3d241fb1e04eeeaa5ce0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Quanzhi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79f0934521b19b2dcd6f1d892ef7b3c1}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Sameena},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b576d328e9b0f4401d1363e5a30441ac}{%
+           family={Ghassemi},
+           familyi={G\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fc66065d8899f8f2b98cc4e41c750b1}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55d08c361b14de98e0bdcb94acef5103}{%
+           family={Nourbakhsh},
+           familyi={N\bibinitperiod},
+           given={Armineh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=465ce34c8ad9338fedd461524d42d6ee}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaomo},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03b5de3be79d340c969d9846e78e9105}
+      \strng{fullhash}{f7064193316630d172e5e5fd8d78d488}
+      \strng{bibnamehash}{03b5de3be79d340c969d9846e78e9105}
+      \strng{authorbibnamehash}{03b5de3be79d340c969d9846e78e9105}
+      \strng{authornamehash}{03b5de3be79d340c969d9846e78e9105}
+      \strng{authorfullhash}{f7064193316630d172e5e5fd8d78d488}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE International Conference on Big Data (Big Data)}
+      \field{title}{Using paraphrases to improve tweet classification: Comparing WordNet and word embedding approaches}
+      \field{year}{2016}
+      \field{pages}{4014\bibrangedash 4016}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/BigData.2016.7841094
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7841094
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7841094
+      \endverb
+    \endentry
+    \entry{ArabicSemanticTextualSimilarityConvolutionalGatedRecurrentUnits}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=02beb536e181217d179fe5857cf2af8d}{%
+           family={Mahmoud},
+           familyi={M\bibinitperiod},
+           given={Adnen},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9f557995af90440e051799da84b80db}{%
+           family={Zrigui},
+           familyi={Z\bibinitperiod},
+           given={Mounir},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13d70928d3cec3a468cbbf00fbcff040}
+      \strng{fullhash}{13d70928d3cec3a468cbbf00fbcff040}
+      \strng{bibnamehash}{13d70928d3cec3a468cbbf00fbcff040}
+      \strng{authorbibnamehash}{13d70928d3cec3a468cbbf00fbcff040}
+      \strng{authornamehash}{13d70928d3cec3a468cbbf00fbcff040}
+      \strng{authorfullhash}{13d70928d3cec3a468cbbf00fbcff040}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 International Conference on INnovations in Intelligent SysTems and Applications (INISTA)}
+      \field{title}{Arabic Semantic Textual Similarity Identification based on Convolutional Gated Recurrent Units}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/INISTA52262.2021.9548576
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9548576
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9548576
+      \endverb
+    \endentry
+    \entry{ML}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f16d5e4c04b4b4bc85402a8d3e3d2725}{%
+           family={Marsland},
+           familyi={M\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Chapman \& Hall/CRC}%
+      }
+      \strng{namehash}{f16d5e4c04b4b4bc85402a8d3e3d2725}
+      \strng{fullhash}{f16d5e4c04b4b4bc85402a8d3e3d2725}
+      \strng{bibnamehash}{f16d5e4c04b4b4bc85402a8d3e3d2725}
+      \strng{authorbibnamehash}{f16d5e4c04b4b4bc85402a8d3e3d2725}
+      \strng{authornamehash}{f16d5e4c04b4b4bc85402a8d3e3d2725}
+      \strng{authorfullhash}{f16d5e4c04b4b4bc85402a8d3e3d2725}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{1466583282}
+      \field{title}{Machine Learning: An Algorithmic Perspective, Second Edition}
+      \field{year}{2014}
+    \endentry
+    \entry{SemanticSimilarityBasedAssessmentDescriptiveTypeAnswers}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=50425c9e76578778d3c945917e919a42}{%
+           family={Meena},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c15a96ffa4e2227ba943790aaf2331e7}{%
+           family={Lawrance},
+           familyi={L\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c36ec161579df5c14e148f6677dacd1}
+      \strng{fullhash}{4c36ec161579df5c14e148f6677dacd1}
+      \strng{bibnamehash}{4c36ec161579df5c14e148f6677dacd1}
+      \strng{authorbibnamehash}{4c36ec161579df5c14e148f6677dacd1}
+      \strng{authornamehash}{4c36ec161579df5c14e148f6677dacd1}
+      \strng{authorfullhash}{4c36ec161579df5c14e148f6677dacd1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on Computing Technologies and Intelligent Data Engineering (ICCTIDE'16)}
+      \field{title}{Semantic similarity based assessment of descriptive type answers}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ICCTIDE.2016.7725366
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7725366
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7725366
+      \endverb
+    \endentry
+    \entry{artigoPorcentagemQuestoes}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=07f4b18735299c381378c0af225a2204}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Katya\bibnamedelimb Luciane\bibnamedelima de},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=870ed4eb9170dd408ed8236c4fe14ee9}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Ac\'{a}cia\bibnamedelimb Aparecida\bibnamedelimb Angeli\bibnamedelimb dos\bibnamedelima Santos},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {pt}%
+      }
+      \list{publisher}{1}{%
+        {scielopepsic}%
+      }
+      \strng{namehash}{464408151192f5fd445812600b0e7876}
+      \strng{fullhash}{464408151192f5fd445812600b0e7876}
+      \strng{bibnamehash}{464408151192f5fd445812600b0e7876}
+      \strng{authorbibnamehash}{464408151192f5fd445812600b0e7876}
+      \strng{authornamehash}{464408151192f5fd445812600b0e7876}
+      \strng{authorfullhash}{464408151192f5fd445812600b0e7876}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1413-8557}
+      \field{journaltitle}{{Psicologia Escolar e Educacional}}
+      \field{month}{06}
+      \field{title}{Avalia\c{c}\~{a}o da aprendizagem na universidade}
+      \field{volume}{9}
+      \field{year}{2005}
+      \field{pages}{37\bibrangedash 46}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1413-85572005000100004&nrm=iso
+      \endverb
+      \verb{url}
+      \verb http://pepsic.bvsalud.org/scielo.php?script=sci_arttext&pid=S1413-85572005000100004&nrm=iso
+      \endverb
+    \endentry
+    \entry{SyntacticSimilarityBasedSimilarityMatrixForEvaluatingDescriptiveAnswer}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=10aff1bfe73c7f295c983ce8b9202d9a}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Dimple\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58dfe691f8a79610904806f6cae40233}{%
+           family={Pawar},
+           familyi={P\bibinitperiod},
+           given={Jyoti\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a0ca42f2cc83fc9bcfd6e86daa2e6763}
+      \strng{fullhash}{a0ca42f2cc83fc9bcfd6e86daa2e6763}
+      \strng{bibnamehash}{a0ca42f2cc83fc9bcfd6e86daa2e6763}
+      \strng{authorbibnamehash}{a0ca42f2cc83fc9bcfd6e86daa2e6763}
+      \strng{authornamehash}{a0ca42f2cc83fc9bcfd6e86daa2e6763}
+      \strng{authorfullhash}{a0ca42f2cc83fc9bcfd6e86daa2e6763}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE Sixth International Conference on Technology for Education}
+      \field{title}{Use of Syntactic Similarity Based Similarity Matrix for Evaluating Descriptive Answer}
+      \field{year}{2014}
+      \field{pages}{253\bibrangedash 256}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/T4E.2014.60
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7009583
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7009583
+      \endverb
+    \endentry
+    \entry{NearDuplicateTextDetectionKendalRankCorrelationModelTVM}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b82a7e5f53b55bd3055d0a74a832909}{%
+           family={Poulos},
+           familyi={P\bibinitperiod},
+           given={Marios},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b82a7e5f53b55bd3055d0a74a832909}
+      \strng{fullhash}{2b82a7e5f53b55bd3055d0a74a832909}
+      \strng{bibnamehash}{2b82a7e5f53b55bd3055d0a74a832909}
+      \strng{authorbibnamehash}{2b82a7e5f53b55bd3055d0a74a832909}
+      \strng{authornamehash}{2b82a7e5f53b55bd3055d0a74a832909}
+      \strng{authorfullhash}{2b82a7e5f53b55bd3055d0a74a832909}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 7th International Conference on Information, Intelligence, Systems & Applications (IISA)}
+      \field{title}{Near duplicate text detection using graph depiction}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IISA.2016.7785368
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/7785368
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/7785368
+      \endverb
+    \endentry
+    \entry{DeterminingDegreeRelevanceReviewsUsingGraphBasedTextRepresentation}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4ce59cf23b52910db21e97bf7b80a3ff}{%
+           family={Ramachandran},
+           familyi={R\bibinitperiod},
+           given={Lakshmi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97a4421ccf101a6a5e5f49b0a26eb1a2}{%
+           family={Gehringer},
+           familyi={G\bibinitperiod},
+           given={Edward\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63c2b181816e8d7fb4ed557eb7b729fb}
+      \strng{fullhash}{63c2b181816e8d7fb4ed557eb7b729fb}
+      \strng{bibnamehash}{63c2b181816e8d7fb4ed557eb7b729fb}
+      \strng{authorbibnamehash}{63c2b181816e8d7fb4ed557eb7b729fb}
+      \strng{authornamehash}{63c2b181816e8d7fb4ed557eb7b729fb}
+      \strng{authorfullhash}{63c2b181816e8d7fb4ed557eb7b729fb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 IEEE 23rd International Conference on Tools with Artificial Intelligence}
+      \field{title}{Determining Degree of Relevance of Reviews Using a Graph-Based Text Representation}
+      \field{year}{2011}
+      \field{pages}{442\bibrangedash 445}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICTAI.2011.72
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/6103362
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/6103362
+      \endverb
+    \endentry
+    \entry{TowardsAutomatedEvaluationHandwrittenAssessments}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b737b18e4b0e7e4f56f94dfe759d8ce4}{%
+           family={Rowtula},
+           familyi={R\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2302142768cf205bdcffe4b585c049d}{%
+           family={Oota},
+           familyi={O\bibinitperiod},
+           given={Subba\bibnamedelima Reddy},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b5c41deba331fceda0e4091b5f959e9}{%
+           family={C.V},
+           familyi={C\bibinitperiod},
+           given={Jawahar},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3272d32b6daad7de5c03000c6091b3db}
+      \strng{fullhash}{3272d32b6daad7de5c03000c6091b3db}
+      \strng{bibnamehash}{3272d32b6daad7de5c03000c6091b3db}
+      \strng{authorbibnamehash}{3272d32b6daad7de5c03000c6091b3db}
+      \strng{authornamehash}{3272d32b6daad7de5c03000c6091b3db}
+      \strng{authorfullhash}{3272d32b6daad7de5c03000c6091b3db}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 International Conference on Document Analysis and Recognition (ICDAR)}
+      \field{title}{Towards Automated Evaluation of Handwritten Assessments}
+      \field{year}{2019}
+      \field{pages}{426\bibrangedash 433}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICDAR.2019.00075
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8977982
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8977982
+      \endverb
+    \endentry
+    \entry{StudyAutomatedEvaluationStudentsExaminationPaperMachineLearningTechniques}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c6c2d07551f56a3062dcf69667ea880a}{%
+           family={Sanuvala},
+           familyi={S\bibinitperiod},
+           given={Ganga},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1a0d2ef8cf8c6450f8c076afcc941e8}{%
+           family={Fatima},
+           familyi={F\bibinitperiod},
+           given={Syeda\bibnamedelima Sameen},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ddea686d1b8906693e5a0bb9b4d3d651}
+      \strng{fullhash}{ddea686d1b8906693e5a0bb9b4d3d651}
+      \strng{bibnamehash}{ddea686d1b8906693e5a0bb9b4d3d651}
+      \strng{authorbibnamehash}{ddea686d1b8906693e5a0bb9b4d3d651}
+      \strng{authornamehash}{ddea686d1b8906693e5a0bb9b4d3d651}
+      \strng{authorfullhash}{ddea686d1b8906693e5a0bb9b4d3d651}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS)}
+      \field{title}{A Study of Automated Evaluation of Student\textquoteright{}s Examination Paper using Machine Learning Techniques}
+      \field{year}{2021}
+      \field{pages}{1049\bibrangedash 1054}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICCCIS51004.2021.9397227
+      \endverb
+    \endentry
+    \entry{UnsupervisedLexicalSemanticChangeDetection}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=93be4da20b221e4ad5689c3a2a92489e}{%
+           family={Schlechtweg},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e9166e829e36f89efce8317d2af4e8f}{%
+           family={McGillivray},
+           familyi={M\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a60f89afc6800d1edf50c0e7a04fdb6}{%
+           family={Hengchen},
+           familyi={H\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a591f6a643f4f359c072dc149af787d}{%
+           family={Dubossarsky},
+           familyi={D\bibinitperiod},
+           given={Haim},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c641ab6a820b93fb39a36048e3f5303}{%
+           family={Tahmasebi},
+           familyi={T\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea2c59b569a0748a66934c089073351b}
+      \strng{fullhash}{c81d057294c6d1d51c227a2159de2dea}
+      \strng{bibnamehash}{ea2c59b569a0748a66934c089073351b}
+      \strng{authorbibnamehash}{ea2c59b569a0748a66934c089073351b}
+      \strng{authornamehash}{ea2c59b569a0748a66934c089073351b}
+      \strng{authorfullhash}{c81d057294c6d1d51c227a2159de2dea}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ArXiv}
+      \field{title}{SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection}
+      \field{volume}{abs/2007.11464}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:220686630
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:220686630
+      \endverb
+    \endentry
+    \entry{SemanticSimilarityBasedDescriptiveAnswerEvaluation}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=16d718f248959ac2fe382b3031e1f4d9}{%
+           family={Shaukat},
+           familyi={S\bibinitperiod},
+           given={Mohammad\bibnamedelima Shaharyar},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0e0894da5bf27ddf70006f29dd58728}{%
+           family={Tanzeem},
+           familyi={T\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4072f30fa45c3ab9f7cb4c29c05ca9b2}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Tameem},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fdf92b9cc4148bd4d42bbc968996ac2}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Nesar},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=fe27775f35c898e3044371c235da340a}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Sarika},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c92eeed080bd7877649a11ed51aab3c0}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod}}}%
+        {{hash=acf3f00cce095396382e4ead4dc20486}{%
+           family={Balas},
+           familyi={B\bibinitperiod},
+           given={Valentina\bibnamedelima Emilia},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{798ff50c20417d80ac696b534312ccb5}
+      \strng{fullhash}{6bede7211471fa169e6e825f2af00fd1}
+      \strng{bibnamehash}{798ff50c20417d80ac696b534312ccb5}
+      \strng{authorbibnamehash}{798ff50c20417d80ac696b534312ccb5}
+      \strng{authornamehash}{798ff50c20417d80ac696b534312ccb5}
+      \strng{authorfullhash}{6bede7211471fa169e6e825f2af00fd1}
+      \strng{editorbibnamehash}{90c4f77ef47353fa70bb42087db65831}
+      \strng{editornamehash}{90c4f77ef47353fa70bb42087db65831}
+      \strng{editorfullhash}{90c4f77ef47353fa70bb42087db65831}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Web Semantics}
+      \field{isbn}{978-0-12-822468-7}
+      \field{title}{Chapter 16 - Semantic similarity--based descriptive answer evaluation}
+      \field{year}{2021}
+      \field{pages}{221\bibrangedash 231}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-822468-7.00014-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128224687000146
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128224687000146
+      \endverb
+      \keyw{Semantic similarity,subjective evaluation,WordNet,natural language processing}
+    \endentry
+    \entry{dataSetGoogleASQA}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a7e1c39199b88cc9d174e7b3bf60c5d5}{%
+           family={Stelmakh},
+           familyi={S\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89952d52953aa56e0f7e1e7ccb8403ac}{%
+           family={Luan},
+           familyi={L\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22a3a1ed163bc6c49fcc9ff7bea77ceb}{%
+           family={Dhingra},
+           familyi={D\bibinitperiod},
+           given={Bhuwan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2d81e9b20f78f2acfbdb5cdc60a7d7ea}
+      \strng{fullhash}{70f77d36e19ad7568ee05773c06f089b}
+      \strng{bibnamehash}{2d81e9b20f78f2acfbdb5cdc60a7d7ea}
+      \strng{authorbibnamehash}{2d81e9b20f78f2acfbdb5cdc60a7d7ea}
+      \strng{authornamehash}{2d81e9b20f78f2acfbdb5cdc60a7d7ea}
+      \strng{authorfullhash}{70f77d36e19ad7568ee05773c06f089b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2204.06092}
+      \field{title}{Asqa: Factoid questions meet long-form answers}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://aclanthology.org/2022.emnlp-main.566.pdf
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2022.emnlp-main.566.pdf
+      \endverb
+    \endentry
+    \entry{DescriptiveAnswerEvaluationSystemUsingCosineSimilarityTechnique}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b6ee85d4ff63f2e51c2487a468de5c8}{%
+           family={Thalor},
+           familyi={T\bibinitperiod},
+           given={Meenakshi\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b6ee85d4ff63f2e51c2487a468de5c8}
+      \strng{fullhash}{3b6ee85d4ff63f2e51c2487a468de5c8}
+      \strng{bibnamehash}{3b6ee85d4ff63f2e51c2487a468de5c8}
+      \strng{authorbibnamehash}{3b6ee85d4ff63f2e51c2487a468de5c8}
+      \strng{authornamehash}{3b6ee85d4ff63f2e51c2487a468de5c8}
+      \strng{authorfullhash}{3b6ee85d4ff63f2e51c2487a468de5c8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 International Conference on Communication information and Computing Technology (ICCICT)}
+      \field{title}{A Descriptive Answer Evaluation System Using Cosine Similarity Technique}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICCICT50803.2021.9510170
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9510170
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9510170
+      \endverb
+    \endentry
+    \entry{LSGCInteractiveTextMatchingModelEnhancedEncoding}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fe8992fae1a22288ba09ab641367f3a5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chenglin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dda16c0a5d50fc830d0d4a3787937fa}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xiaowei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=428d0a578763b92da37848a678e0d037}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Zhimin},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25bbf4047d900f3760c65b01ee899dba}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a412f39ab767bb9e22fdbdd717888bff}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhenyu},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdf79d3fd7859f89203861ffcc231144}
+      \strng{fullhash}{50f76f80117f79571ea53964689ae237}
+      \strng{bibnamehash}{fdf79d3fd7859f89203861ffcc231144}
+      \strng{authorbibnamehash}{fdf79d3fd7859f89203861ffcc231144}
+      \strng{authornamehash}{fdf79d3fd7859f89203861ffcc231144}
+      \strng{authorfullhash}{50f76f80117f79571ea53964689ae237}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 International Joint Conference on Neural Networks (IJCNN)}
+      \field{title}{LSGC: An Interactive Text Matching Model Combined with Enhanced Encoding}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IJCNN55064.2022.9889792
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9889792
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9889792
+      \endverb
+    \endentry
+    \entry{ApplicationResearchSimilarityAlgorithmDesignEnglishIntelligentQuestionAnsweringSystem}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=948f26b38fba102b6f820808e554bc53}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{948f26b38fba102b6f820808e554bc53}
+      \strng{fullhash}{948f26b38fba102b6f820808e554bc53}
+      \strng{bibnamehash}{948f26b38fba102b6f820808e554bc53}
+      \strng{authorbibnamehash}{948f26b38fba102b6f820808e554bc53}
+      \strng{authornamehash}{948f26b38fba102b6f820808e554bc53}
+      \strng{authorfullhash}{948f26b38fba102b6f820808e554bc53}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 IEEE 2nd International Conference on Mobile Networks and Wireless Communications (ICMNWC)}
+      \field{title}{Application Research of Similarity Algorithm in the Design of English Intelligent Question Answering System}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICMNWC56175.2022.10031708
+      \endverb
+    \endentry
+    \entry{EnhancedTextMatchingBasedSemanticTransformation}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9a076810adbe413852d53f92acc80832}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shutao},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9361670197e595aa3444bb5e3ea346a}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Haibo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c85e7eb039b1da3674af614ee5700b2c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liangfeng},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=009c0c7dad8de48a99a621ec4aee0a40}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4718c7c0cb918405d291aee21c5153c5}
+      \strng{fullhash}{78816ca04812f33233de746607741724}
+      \strng{bibnamehash}{4718c7c0cb918405d291aee21c5153c5}
+      \strng{authorbibnamehash}{4718c7c0cb918405d291aee21c5153c5}
+      \strng{authornamehash}{4718c7c0cb918405d291aee21c5153c5}
+      \strng{authorfullhash}{78816ca04812f33233de746607741724}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Enhanced Text Matching Based on Semantic Transformation}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{30897\bibrangedash 30904}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2020.2973206
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8993831
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8993831
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{4G2009}
+\endrefsection
+\endinput
+

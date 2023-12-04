@@ -14,27 +14,45 @@ Para o bom desenvolvimento do projeto é necessário a revisão de assuntos basi
 
 \section{Processamento de linguagem natural}
 
+O Processamento de Linguagem Natural (PLN) refere-se à aplicação de técnicas computacionais para a interpretação e manipulação de linguagem humana. Envolve o desenvolvimento de algoritmos e modelos que capacitam computadores a compreender, analisar e gerar texto de maneira semelhante ao entendimento humano.
+
 \section{Representação de textos}
 
+A Representação de Textos é crucial para permitir que algoritmos compreendam palavras e documentos. Duas técnicas comuns são TFIDF (Term Frequency-Inverse Document Frequency) e Word Embedding. O TFIDF avalia a importância de uma palavra em um documento, enquanto o Word Embedding mapeia palavras em vetores contínuos, capturando relações semânticas.
+
 \subsection{TFIDF}
+O TFIDF é uma técnica que atribui pesos a palavras com base em sua frequência no documento e em todo o conjunto de documentos. Palavras frequentes em um documento, mas raras no conjunto de documentos, recebem pontuações mais altas, destacando sua relevância no contexto do documento específico.
 \subsection{Word embedding}
+O Word Embedding é uma técnica que mapeia palavras em vetores de números reais, capturando relações semânticas e contextuais. Essa representação densa permite que algoritmos de PLN compreendam a similaridade e a semântica entre palavras.
 
 \section{Similaridade de textos}
+A Similaridade de Textos é fundamental para comparar documentos ou palavras. Diversas métricas são empregadas, como Palavras-Chave, Frequência de Palavras, Distância de Jaccard, Distância de Cosseno, Distância Euclidiana e Modelos de Linguagem.
 
 \subsection{Palavras chaves}
+A similaridade pode ser avaliada considerando as palavras-chave mais relevantes em documentos. A sobreposição ou relevância compartilhada entre essas palavras indica o grau de similaridade.
+
+
 \subsection{Frequência de palavras}
+Medir a similaridade com base na frequência de palavras é uma abordagem simples. Documentos com termos semelhantes ou proporções de termos comuns mais altas são considerados mais similares.
 \subsection{Distância de Jaccard}
+A Distância de Jaccard avalia a similaridade entre conjuntos, medindo a proporção de elementos comuns entre dois conjuntos. Para texto, representa a sobreposição de palavras entre dois documentos.
 \subsection{Distância de Cosseno}
+A Distância de Cosseno mede o ângulo entre dois vetores de palavras, representando a similaridade direcional entre documentos. Quanto menor o ângulo, maior a similaridade.
 \subsection{Distância Euclidiana}
+A Distância Euclidiana calcula a distância geométrica entre pontos em um espaço vetorial. Em texto, representa a dissimilaridade entre as distribuições de palavras.
 
 \subsection{Language Models}
+Os Modelos de Linguagem, como os de Parafraseamento, buscam entender a similaridade semântica entre frases ou documentos, indo além da análise baseada em palavras.
+
 
 \subsubsection{Parafraseamento}
+Modelos de Parafraseamento são específicos para avaliar a similaridade entre frases ou documentos que expressam a mesma ideia de maneira diferente. Esses modelos buscam capturar nuances semânticas e estruturais, identificando relações de equivalência entre diferentes formulações.
 
 \section{Métricas de avaliação}
+As Métricas de Avaliação quantificam o desempenho de modelos de PLN. A Acurácia é uma medida fundamental, representando a proporção de predições corretas em relação ao total. Outras métricas, como Precisão, Revocação e F1-Score, oferecem insights adicionais sobre o desempenho do modelo em diferentes aspectos da classificação ou similaridade.
 
 \subsection{Acurácia}
-
+A Acurácia é uma métrica fundamental de avaliação, comumente usada para medir o desempenho geral de modelos de PLN. Representa a proporção de predições corretas em relação ao total de predições. Embora seja uma medida direta, a Acurácia pode ser limitada em cenários desbalanceados, sendo complementada por métricas adicionais, como Precisão, Revocação e F1-Score, para avaliação mais abrangente do desempenho do modelo.
 %\section*{Técnicas de classificação/similaridade de texto}
 
 %As principais técnicas utilizadas nos artigos selecionados foram:
