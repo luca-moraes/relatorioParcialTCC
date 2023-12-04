@@ -30,5 +30,5 @@
 \contentsline {section}{\numberline {4.4}Métodos:}{17}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Avaliação:}{18}{section.4.5}%
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{PROPOSTA EXPERIMENTAL}}{19}{chapter.5}%
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{CONCLUSÃO}}{20}{chapter.6}%
-\contentsline {chapter}{\bfseries \hspace {\tocnumwidth }REFER\^ENCIAS}{21}{section*.10}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{CONCLUSÃO}}{21}{chapter.6}%
+\contentsline {chapter}{\bfseries \hspace {\tocnumwidth }REFER\^ENCIAS}{22}{section*.10}%
