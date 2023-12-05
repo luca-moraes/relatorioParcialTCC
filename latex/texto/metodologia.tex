@@ -11,9 +11,9 @@ Levando em conta que o presente trabalho possui como objetivo realizar avaliaç�
 Como fonte principal de dados, utilizaremos o \textit{DataSet ASQA (Answer Summaries for Questions which are Ambiguous)} da \textit{Google Research} em parceria com as universidade de \textit{Duke University} e \textit{Cornell University}, o \textit{DataSet} contém respostas dissertativas para questões com perguntas ambíguas, isso permitirá a construção dos experimentos e refino das técnicas que serão utilizadas no presente trabalho \cite{dataSetGoogleASQA}.
 
 
-Além da fonte principal de dados, planejamos também serão utilizar dados das respostas dissertativas dos alunos de Ciência da Computação do Centro Universitário FEI para questões dissertativas do ENADE.
+Além da fonte principal de dados, planejamos também utilizar dados das respostas dissertativas dos alunos de Ciência da Computação do Centro Universitário FEI para questões dissertativas do ENADE.
 
-Ademais, existe a possibilidade de que um futuro questionário seja confeccionado para que, com a ajuda voluntária dos alunos da mesma instituição, mais dados sejam coletados e usados no presente trabalho. Essa possibilidade está aberta, mas só será realizada caso seja efetivamente necessário.
+Ademais, existe a possibilidade de que um futuro questionário seja confeccionado para que, com a ajuda voluntária dos alunos da mesma instituição, mais dados sejam coletados e usados no presente trabalho. Essa possibilidade será investigada caso seja necessário.
 
 %Faremos uso de uma base de dados própria fornecida pela Professora Leila Bergamasco, a base contém as respostas dissertativas das questões de um simulado do ENADE, constam apenas respostas de alunos do Centro Universitário FEI, integrantes do curso de Ciência da Computação entre o 5° e 8° ciclo. Ademais, 
 
@@ -25,11 +25,9 @@ Se no decorrer do processo de experimentação, dificuldades em relação as cap
 \section{Métodos:}
 Serão utilizados métodos de NLP, tais como mineração de texto, medição de distância de cossenos (para mensurar similaridade de textos), frequência de sentidos de palavras (SFD), presença de palavras-chaves (KW), ordem de sequência das palavras, entre outros. Para compor toda a metodologia, pretende-se elaborar uma métrica de avaliação do grau de similaridade semântica entre dois conteúdos. 
 
-Assumindo que dois textos possuem exatamento o mesmo conteúdo, sua similaridade poderia ser descrita em uma escala percentual como 100\%.
+Assumindo que dois textos possuem exatamento o mesmo conteúdo, sua similaridade poderia ser descrita em uma escala percentual como 100\%, por outro lado, haverão textos que possuirão conteúdo sintaticamente diferentes, logo, espera-se que seu percentual de similaridade diminua, porém, ainda assim seria possivel a existência de similaridade semântica entre esse texto e a respota correta, sendo assim, é importante avaliar aspectos semânticos do texto. 
 
-Por outro lado haverão textos que possuirão conteúdo sintaticamente diferentes, logo, espera-se que seu percentual de similaridade diminua, porém, ainda assim seria possivel a existência de similaridade semântica entre esse texto e a respota correta, sendo assim, é importante avaliar aspectos semânticos do texto. 
-
-Desta forma a hipótese é que, para avaliarmos tal similaridade, será necessário avaliar uma série de fatores importantes que irão compor a métrica de avaliação proposta. Esses fatores seriam:
+Desta forma, a hipótese é que, para avaliarmos tal similaridade, será necessário avaliar uma série de fatores importantes que irão compor a métrica de avaliação proposta. Esses fatores seriam:
 \begin{itemize}
     \item \textbf{As propriedades da sintaxe do texto:} Tal fator será levado em consideração tendo em vista que os trabalhos avaliados na revisão bibliográfica demonstraram a importância de propriedades sintáticas como a ordem em que as sequências de palavras estão posicionadas no texto.
     \item \textbf{Frequência de Sentidos de Palavras (SFD):} Pois também foi demonstrado nos trabalhos avaliados na revisão bibliográfica que essa medida estatística é relevante para a avaliação das respostas.
@@ -46,25 +44,28 @@ Caso a métrica proposta acima apresente bons resultados, pode-se cogitar a elab
 \end{itemize}
 Esses dois fatores não foram considerados nos trabalhos revisados anteriormente, na eventual proposta de uma segunda métrica, ter-se-á como hipótese que os dois fatores resultarão em uma melhoria no resultado.
 
-A proposta da métrica pode ser matemáticamente descrita como na equação da Figura \ref{figure:2} 
-\begin{figure}[h!]
-\[Métrica1 = \frac{fator1*peso_{1} + fator2*peso_{2} + fator3*peso_{3} + fator4*peso_{4}}{\sum_{i=1}^{4}peso_{i}}\]
-\caption{Equação da primeira métrica proposta.}\label{figure:2}
-\end{figure}
+A proposta da métrica pode ser matemáticamente descrita como na Equação 2.
+\begin{equation}
+Métrica1 = \frac{fator1 \times peso_{1} + fator2 \times peso_{2} + fator3 \times peso_{3} + fator4 \times peso_{4}}{\sum_{i=1}^{4}peso_{i}}
+\end{equation}
 
-Onde o \textit{fator1} são as propriedades sintáticas do texto, o \textit{fator2} representa o SFD, o \textit{fator3} é a distância de cossenos e o \textit{fator4} é referente as \textit{keywords}. 
+Em que \textit{fator1} são as propriedades sintáticas do texto, o \textit{fator2} representa o SFD, o \textit{fator3} é a distância de cossenos e o \textit{fator4} é referente as \textit{keywords}. 
 
-Como resultado a métrica deverá fornecer um númeor de zero a cem que, quanto maior, indica maior proximidade semântica entre os textos e uma maior probabilidade de acerto da resposta fornecida por um aluno. 
+Como resultado a métrica deverá fornecer um número no intervalo de 0  100 que, quanto maior, indica maior proximidade semântica entre os textos e uma maior probabilidade de acerto da resposta fornecida por um aluno. 
 
-No caso da segunda métrica, o diferencial seria adição dos dois outros fatores para mensurar o grau de parafraseamento e a quantidade de modificações, sendo respectivamente o \textit{fator5} e o \textit{fator6} como descrito na equação da Figura \ref{figure:3}
+No caso da segunda métrica, o diferencial seria adição dos dois outros fatores para mensurar o grau de parafraseamento e a quantidade de modificações, sendo respectivamente o \textit{fator5} e o \textit{fator6} como descrito na Equação 3.
 
-\begin{figure}[h!]
-\tiny \[Métrica2 = \frac{fator1*peso_{1} + fator2*peso_{2} + fator3*peso_{3} + fator4*peso_{4} + fator5*peso_{5} + fator6*peso_{6}}{\sum_{i=1}^{6}peso_{i}}\]
-\caption{Equação da segunda métrica proposta.}\label{figure:3}
-\end{figure}
+\begin{equation}
+\tiny Métrica2 = \frac{fator1 \times peso_{1} + fator2 \times peso_{2} + fator3 \times peso_{3} + fator4 \times peso_{4} + fator5 \times peso_{5} + fator6 \times peso_{6}}{\sum_{i=1}^{6}peso_{i}}
+\end{equation}
 
 \section{Avaliação:}
-Para avaliação do desempenho das técnicas propostas, as bases de dados serão dividas em duas, uma primeiramente para treinamento e refino dos experimentos. Após os resultados estarem satisfatórios, a segunda parte dos dados será utilizada para a validação dos resultados obtidos pelo algoritmo, verificando se estão condizente com os resultados fornecidos pelas avaliações registradas nos dados e se seu funcionamento é geral ou se há algum viés nos resultados.
+Para avaliação do desempenho das técnicas propostas, as bases de dados serão divididas em duas, uma primeiramente para treinamento e refino dos experimentos. Após os resultados estarem satisfatórios, a segunda parte dos dados será utilizada para a validação dos resultados obtidos pelo algoritmo, verificando se estão condizente com os resultados fornecidos pelas avaliações registradas nos dados e se seu funcionamento é geral ou se há algum viés nos resultados. Uma representação visual das etapas gerais imaginadas para o processo pode ser vista na Figura \ref{figure:4}.
+
+\begin{figure}[h!]
+\includegraphics[width=\textwidth]{./imgs/diagramasTcc.png}
+\caption{Diagrama geral das etapas do processo.}\label{figure:4}
+\end{figure}
 
 % olhar depois:
 

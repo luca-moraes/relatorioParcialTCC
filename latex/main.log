@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.30)  5 DEC 2023 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.30)  5 DEC 2023 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2331,8 +2331,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 \openout4 = `main.mw'.
 
  (main.lof
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+1.
 
 (/usr/local/share/miktex-texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -2341,30 +2341,30 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+1.
 
 (/usr/local/share/miktex-texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-9.
+11.
 
 (/usr/local/share/miktex-texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-9.
+11.
 
 (/usr/local/share/miktex-texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 11.
 )
 \openout4 = `main.mw'.
 
@@ -2386,7 +2386,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  (main.toc
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 21.
+(Font)              scaled to size 12.0pt on input line 22.
 )
 \openout4 = `main.mw'.
 
@@ -2482,7 +2482,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 \openout4 = `main.mw'.
 
 
-[11] (main.mw)
+[11{/usr/local/share/miktex-texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/
+share/miktex-texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/share/miktex-te
+xmf/fonts/enc/dvips/lm/lm-rm.enc}] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2503,9 +2505,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 \openout4 = `main.mw'.
 
- [12{/usr/local/share/miktex-texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local
-/share/miktex-texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/share/miktex-t
-exmf/fonts/enc/dvips/lm/lm-rm.enc}] (main.mw)
+ [12] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2545,11 +2545,20 @@ exmf/fonts/enc/dvips/lm/lm-rm.enc}] (main.mw)
 
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+
+[14] (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 )
 \openout2 = `texto/revisao_bibliografica.aux'.
 
-
-(texto/revisao_bibliografica.tex
+ (texto/revisao_bibliografica.tex
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 .
 
@@ -2666,7 +2675,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \openout4 = `main.mw'.
 
- [14
+ [15
 
 
 
@@ -2696,12 +2705,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \openout4 = `main.mw'.
 
- [15] (main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
  [16] (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [17] (main.mw)
 \openout4 = `main.mw'.
 
 )
@@ -2714,7 +2723,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \openout4 = `main.mw'.
 
- [17
+ [18
 
 
 
@@ -2740,7 +2749,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \openout4 = `main.mw'.
 
- [18] (main.mw)
+ [19] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2749,28 +2758,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 51.
+LaTeX Warning: Command \' invalid in math mode on input line 49.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 59.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 62.
+(Font)              scaled to size 8.0pt on input line 59.
+
+LaTeX Warning: Command \' invalid in math mode on input line 59.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 62.
+(Font)              <5> on input line 60.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 60.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <> on input line 60.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <0.7> on input line 60.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <0.5> on input line 60.
+\openout4 = `main.mw'.
 
-LaTeX Warning: Command \' invalid in math mode on input line 62.
+[20{/usr/local/share/miktex-texmf/fonts/enc/dvips/lm/lm-mathex.enc}] (main.mw)
+\openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
-[19{/usr/local/share/miktex-texmf/fonts/enc/dvips/lm/lm-mathex.enc}] (main.mw)
 \openout4 = `main.mw'.
 
+<./imgs/diagramasTcc.png, id=399, 763.85374pt x 322.20375pt>
+File: ./imgs/diagramasTcc.png Graphic file (type png)
+<use ./imgs/diagramasTcc.png>
+Package pdftex.def Info: ./imgs/diagramasTcc.png  used on input line 66.
+(pdftex.def)             Requested size: 455.0pt x 191.92255pt.
 \openout4 = `main.mw'.
 
 
-[20] (main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
+[21 <./imgs/diagramasTcc.png>] (main.mw)
 \openout4 = `main.mw'.
 
 )
@@ -2779,7 +2803,8 @@ LaTeX Warning: Command \' invalid in math mode on input line 62.
  (texto/proposta_experimental.tex
 \openout4 = `main.mw'.
 
- [21
+
+[22
 
 
 
@@ -2791,18 +2816,138 @@ LaTeX Warning: Command \' invalid in math mode on input line 62.
 
 \openout4 = `main.mw'.
 
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->\cellcolor [HTML]{656565}{\ul 
+                                        }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@sharp ->{\ul 
+               }
+l.177 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 \openout4 = `main.mw'.
 
- [22] (main.mw)
+[23] (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 )
+\openout4 = `main.mw'.
+
+ [24] (main.mw)
+\openout4 = `main.mw'.
+
 \openout2 = `texto/conclusao.aux'.
 
-(texto/conclusao.tex)
+ (texto/conclusao.tex)
 \openout4 = `main.mw'.
 
- [23
+ [25
 
 
 
@@ -2816,27 +2961,27 @@ LaTeX Warning: Command \' invalid in math mode on input line 62.
 
 \openout4 = `main.mw'.
 
- [24
+ [26
 
 
 
 
-] (main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [25] (main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [26]
+]
 (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [27] (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [28] (main.mw)
 \openout4 = `main.mw'.
 
 \tf@lof=\write22
@@ -2942,85 +3087,85 @@ LaTeX Warning: Command \' invalid in math mode on input line 62.
 
 \openout4 = `main.mw'.
 
-) (texto/conceitos.aux
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
 )
-(texto/revisao_bibliografica.aux
+(texto/conceitos.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+) (texto/revisao_bibliografica.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3078,12 +3223,15 @@ LaTeX Warning: Command \' invalid in math mode on input line 62.
 
 \openout4 = `main.mw'.
 
+) (texto/proposta_experimental.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
-)
-(texto/proposta_experimental.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3122,7 +3270,7 @@ L3 programming layer <2020/03/25>
 \openout4 = `main.out'.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C0F5B40D6CBAA6A12D2CEED929994C88;2106.
+(rerunfilecheck)             Checksum: 91FA99D07FB3FD86536D19E08989957E;2243.
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3140,13 +3288,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45295 strings out of 474588
- 815989 string characters out of 5752806
- 2224554 words of memory out of 5000000
- 66489 multiletter control sequences out of 15000+600000
- 597642 words of font info for 114 fonts, out of 8000000 for 9000
+ 45349 strings out of 474588
+ 817045 string characters out of 5752806
+ 2223561 words of memory out of 5000000
+ 66527 multiletter control sequences out of 15000+600000
+ 608655 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 124i,13n,121p,2356b,4457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,17n,121p,2356b,4457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/share/miktex-texmf/fonts/type1/public/lm/lmex10.pfb></usr/local/s
 hare/miktex-texmf/fonts/type1/public/lm/lmmi12.pfb></usr/local/share/miktex-tex
 mf/fonts/type1/public/lm/lmmi6.pfb></usr/local/share/miktex-texmf/fonts/type1/p
@@ -3159,9 +3307,9 @@ b></home/eu/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/eu/
 .miktex/texmfs/install/fonts/type1/public/newtx/ztmbi.pfb></home/eu/.miktex/tex
 mfs/install/fonts/type1/public/newtx/ztmr.pfb></home/eu/.miktex/texmfs/install/
 fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (26 pages, 402498 bytes).
+Output written on main.pdf (28 pages, 428710 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 15093 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 16650 words of extra memory for PDF output out of 17280 (max. 10000000)
 
