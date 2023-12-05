@@ -67,83 +67,14 @@
       \verb https://ieeexplore.ieee.org/document/10007187
       \endverb
     \endentry
-    \entry{automaticAssessmentShortAnswers}{article}{}
-      \name{author}{7}{}{%
-        {{un=2,uniquepart=given,hash=ed3f1cdc3196eb8f2d52eb1279189de1}{%
-           family={Bachman},
-           familyi={B\bibinitperiod},
-           given={Lyle\bibnamedelima F},
-           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=ddc191457fbfb296fcfc5cf6afac6ac9}{%
-           family={Carr},
-           familyi={C\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=997206e38832aa71c2c5ced8d84d62c1}{%
-           family={Kamei},
-           familyi={K\bibinitperiod},
-           given={Greg},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=26e97f1d0f7960367a48aee43b003656}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Mikyung},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=367290ee9520923c976f31e9bc034d42}{%
-           family={Pan},
-           familyi={P\bibinitperiod},
-           given={Michael\bibnamedelima J},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c77311ee3bbe7512738c26d56f50f673}{%
-           family={Salvador},
-           familyi={S\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a8e60a500c10ac45bcca85b29b75ad98}{%
-           family={Sawaki},
-           familyi={S\bibinitperiod},
-           given={Yasuyo},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
-      \strng{fullhash}{347d1bcff2b17487866ee7d8421f0c9e}
-      \strng{bibnamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
-      \strng{authorbibnamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
-      \strng{authornamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
-      \strng{authorfullhash}{347d1bcff2b17487866ee7d8421f0c9e}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{COLING 2002: The 17th International Conference on Computational Linguistics: Project Notes}
-      \field{title}{A reliable approach to automatic assessment of short answer free responses}
-      \field{year}{2002}
-      \verb{urlraw}
-      \verb https://aclanthology.org/C02-2023.pdf
-      \endverb
-      \verb{url}
-      \verb https://aclanthology.org/C02-2023.pdf
-      \endverb
-    \endentry
     \entry{ReliableApproachAutomaticAssessmentShortAnswerFreeResponses}{inproceedings}{}
       \name{author}{7}{}{%
-        {{un=2,uniquepart=given,hash=ed3f1cdc3196eb8f2d52eb1279189de1}{%
+        {{un=0,uniquepart=base,hash=ed3f1cdc3196eb8f2d52eb1279189de1}{%
            family={Bachman},
            familyi={B\bibinitperiod},
            given={Lyle\bibnamedelima F.},
            giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=ddc191457fbfb296fcfc5cf6afac6ac9}{%
            family={Carr},
            familyi={C\bibinitperiod},
@@ -187,10 +118,8 @@
       \strng{authorbibnamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
       \strng{authornamehash}{1338e7f22b663bee8d3cb9d2abd7e34d}
       \strng{authorfullhash}{347d1bcff2b17487866ee7d8421f0c9e}
-      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -421,6 +350,33 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/8663734
       \endverb
+    \endentry
+    \entry{NLP}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c63e034ea77c7c55818aa4da5f40f479}{%
+           family={Eisenstein},
+           familyi={E\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{c63e034ea77c7c55818aa4da5f40f479}
+      \strng{fullhash}{c63e034ea77c7c55818aa4da5f40f479}
+      \strng{bibnamehash}{c63e034ea77c7c55818aa4da5f40f479}
+      \strng{authorbibnamehash}{c63e034ea77c7c55818aa4da5f40f479}
+      \strng{authornamehash}{c63e034ea77c7c55818aa4da5f40f479}
+      \strng{authorfullhash}{c63e034ea77c7c55818aa4da5f40f479}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to natural language processing}
+      \field{year}{2019}
     \endentry
     \entry{FindingPlagiarizedDocumentsBasedSentenceSimilarity}{article}{}
       \name{author}{3}{}{%
@@ -1412,7 +1368,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{4G2009}
 \endrefsection
 \endinput
 

@@ -1,18 +1,16 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[42] biber:340> INFO - === Mon Dec  4, 2023, 13:54:53
-[52] Biber.pm:419> INFO - Reading 'main.bcf'
-[99] Biber.pm:979> INFO - Found 29 citekeys in bib section 0
-[107] Biber.pm:4419> INFO - Processing section 0
-[113] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[119] bibtex.pm:1713> INFO - LaTeX decoding ...
-[141] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[301] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[301] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[301] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[301] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
-[323] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'ascii'
-[323] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[351] bbl.pm:763> INFO - Output to main.bbl
-[352] Biber.pm:131> WARN - I didn't find a database entry for '4G2009' (section 0)
-[352] Biber.pm:133> INFO - WARNINGS: 1
+[47] biber:340> INFO - === Mon Dec  4, 2023, 20:27:02
+[91] Biber.pm:419> INFO - Reading 'main.bcf'
+[138] Biber.pm:979> INFO - Found 28 citekeys in bib section 0
+[150] Biber.pm:4419> INFO - Processing section 0
+[172] Biber.pm:4610> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[177] bibtex.pm:1713> INFO - LaTeX decoding ...
+[207] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[428] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[428] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[428] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[428] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
+[460] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'ascii'
+[461] bbl.pm:661> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[490] bbl.pm:763> INFO - Output to main.bbl

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.30)  4 DEC 2023 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.30)  4 DEC 2023 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2308,15 +2308,7 @@ Package biblatex Info: Input encoding 'ascii' forced by
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                4G2009
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(main.bbl)
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2349,42 +2341,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 ] (main.mw)
 \openout4 = `main.mw'.
 
- (main.lof
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-.
-
-(/home/alunos/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(/home/alunos/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-.
-
-(/home/alunos/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-9.
-
-(/home/alunos/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-9.
-
-(/home/alunos/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 9.
-)
+ (main.lof)
 \openout4 = `main.mw'.
 
  [4
@@ -2394,7 +2351,41 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout4 = `main.mw'.
 
 
-(main.lot)
+(main.lot
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+0.
+ (/home/alunos/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/home/alunos/.miktex/texmfs/install/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+0.
+
+(/home/alunos/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+10.
+
+(/home/alunos/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+10.
+
+(/home/alunos/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 10.
+)
 \openout4 = `main.mw'.
 
  [5
@@ -2403,9 +2394,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] (main.mw)
 \openout4 = `main.mw'.
 
- (main.toc
+
+(main.toc
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 21.
 )
 \openout4 = `main.mw'.
 
@@ -2422,23 +2414,15 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 
 \openout4 = `main.mw'.
 
-
-
-LaTeX Warning: Citation '4G2009' on page 7 undefined on input line 3.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 13.
+(Font)              scaled to size 10.0pt on input line 11.
 \openout4 = `main.mw'.
 
-[7
+ [7
 
 
 
@@ -2462,116 +2446,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 \openout4 = `main.mw'.
 
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 45.
-
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
 
 [9] (main.mw)
 \openout4 = `main.mw'.
@@ -2580,11 +2456,6 @@ LaTeX Warning: No positions in optional float specifier.
 \openout2 = `texto/conceitos.aux'.
 
  (texto/conceitos.tex
-<bar-plot-5g.jpg, id=291, 911.405pt x 456.70625pt>
-File: bar-plot-5g.jpg Graphic file (type jpg)
-<use bar-plot-5g.jpg>
-Package pdftex.def Info: bar-plot-5g.jpg  used on input line 7.
-(pdftex.def)             Requested size: 227.5pt x 114.00206pt.
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2600,7 +2471,7 @@ Package pdftex.def Info: bar-plot-5g.jpg  used on input line 7.
 
 
 
- <./bar-plot-5g.jpg>] (main.mw)
+] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2617,16 +2488,13 @@ Package pdftex.def Info: bar-plot-5g.jpg  used on input line 7.
 
 \openout4 = `main.mw'.
 
- [11]
-(main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
+ [11{/home/alunos/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/hom
+e/alunos/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-mathit.enc}{/home/alunos/
+.miktex/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2668,6 +2536,19 @@ Package pdftex.def Info: bar-plot-5g.jpg  used on input line 7.
 
 \openout4 = `main.mw'.
 
+ [13] (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2677,8 +2558,9 @@ Package pdftex.def Info: bar-plot-5g.jpg  used on input line 7.
 )
 \openout2 = `texto/revisao_bibliografica.aux'.
 
- (texto/revisao_bibliografica.tex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
+
+(texto/revisao_bibliografica.tex
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 .
 
 (/home/alunos/.miktex/texmfs/install/tex/latex/lm/t1lmtt.fd
@@ -2690,7 +2572,111 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 \openout4 = `main.mw'.
 
- [13
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [14
 
 
 
@@ -2702,34 +2688,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \openout4 = `main.mw'.
 
-<imgs/rev.png, id=323, 3408.735pt x 1292.83pt>
-File: imgs/rev.png Graphic file (type png)
-<use imgs/rev.png>
-Package pdftex.def Info: imgs/rev.png  used on input line 15.
-(pdftex.def)             Requested size: 455.0pt x 172.55182pt.
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [14 <./imgs/rev.png>] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2749,6 +2709,12 @@ Package pdftex.def Info: imgs/rev.png  used on input line 15.
  [15] (main.mw)
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+
+[16] (main.mw)
+\openout4 = `main.mw'.
+
 )
 \openout2 = `texto/metodologia.aux'.
 
@@ -2757,23 +2723,14 @@ Package pdftex.def Info: imgs/rev.png  used on input line 15.
 
 \openout4 = `main.mw'.
 
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 16.
-
-(/home/alunos/.miktex/texmfs/install/tex/latex/newtx/ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 16.
 \openout4 = `main.mw'.
 
- [16
+ [17
 
 
 
 
-{/home/alunos/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ts1.enc}] (main
-.mw)
+] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2786,16 +2743,6 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-
-[17] (main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2811,13 +2758,23 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+ [19]
+(main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 )
 \openout2 = `texto/proposta_experimental.aux'.
 
  (texto/proposta_experimental.tex
 \openout4 = `main.mw'.
 
- [19
+ [20
 
 
 
@@ -2831,28 +2788,14 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 \openout4 = `main.mw'.
 
-
-[20] (main.mw)
+ [21] (main.mw)
 \openout4 = `main.mw'.
 
 )
 \openout2 = `texto/conclusao.aux'.
 
- (texto/conclusao.tex)
-\openout4 = `main.mw'.
 
- [21
-
-
-
-
-] (main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
+(texto/conclusao.tex)
 \openout4 = `main.mw'.
 
  [22
@@ -2869,13 +2812,27 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 \openout4 = `main.mw'.
 
- [23]
-(main.mw)
+ [23
+
+
+
+
+] (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
  [24] (main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [25]
+(main.mw)
 \openout4 = `main.mw'.
 
 \tf@lof=\write22
@@ -3054,7 +3011,8 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 \openout4 = `main.mw'.
 
-) (texto/revisao_bibliografica.aux
+)
+(texto/revisao_bibliografica.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3145,10 +3103,14 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 \openout4 = `main.out'.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0D274640C3DD190E8320CF0429E0D76A;1896.
+(rerunfilecheck)             Checksum: B7EDD9B371D0565F2E7A920CE70C4DD2;2105.
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3166,22 +3128,24 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45349 strings out of 474588
- 819650 string characters out of 5749986
- 2221500 words of memory out of 5000000
- 66519 multiletter control sequences out of 15000+600000
- 593177 words of font info for 126 fonts, out of 8000000 for 9000
+ 45270 strings out of 474588
+ 818173 string characters out of 5749986
+ 2224350 words of memory out of 5000000
+ 66471 multiletter control sequences out of 15000+600000
+ 591276 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 124i,12n,121p,2356b,4457s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/alunos/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/
-alunos/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></home/aluno
-s/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/alunos/.mikte
-x/texmfs/install/fonts/type1/public/newtx/ztmbi.pfb></home/alunos/.miktex/texmf
-s/install/fonts/type1/public/newtx/ztmr.pfb></home/alunos/.miktex/texmfs/instal
-l/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (24 pages, 972514 bytes).
+ 124i,13n,121p,2356b,4457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/alunos/.miktex/texmfs/install/fonts/type1/public/lm/lmmi12.pfb></home/
+alunos/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/alunos/.mi
+ktex/texmfs/install/fonts/type1/public/lm/lmsy10.pfb></home/alunos/.miktex/texm
+fs/install/fonts/type1/public/lm/lmtt12.pfb></home/alunos/.miktex/texmfs/instal
+l/fonts/type1/public/newtx/ztmb.pfb></home/alunos/.miktex/texmfs/install/fonts/
+type1/public/newtx/ztmbi.pfb></home/alunos/.miktex/texmfs/install/fonts/type1/p
+ublic/newtx/ztmr.pfb></home/alunos/.miktex/texmfs/install/fonts/type1/public/ne
+wtx/ztmri.pfb>
+Output written on main.pdf (25 pages, 324092 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 14583 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 513 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 12533 words of extra memory for PDF output out of 14400 (max. 10000000)
 
