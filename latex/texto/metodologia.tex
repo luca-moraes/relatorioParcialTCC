@@ -31,7 +31,7 @@ Por outro lado haverão textos que possuirão conteúdo sintaticamente diferente
 
 Desta forma a hipótese é que, para avaliarmos tal similaridade, será necessário avaliar uma série de fatores importantes que irão compor a métrica de avaliação proposta. Esses fatores seriam:
 \begin{itemize}
-    \item \textbf{As métricas da sintaxe do texto:} Tal fator será levado em consideração tendo em vista que os trabalhos avaliados na revisão bibliográfica demonstraram a importância da ordem em que as sequências de palavras estão posicionadas no texto.
+    \item \textbf{As propriedades da sintaxe do texto:} Tal fator será levado em consideração tendo em vista que os trabalhos avaliados na revisão bibliográfica demonstraram a importância de propriedades sintáticas como a ordem em que as sequências de palavras estão posicionadas no texto.
     \item \textbf{Frequência de Sentidos de Palavras (SFD):} Pois também foi demonstrado nos trabalhos avaliados na revisão bibliográfica que essa medida estatística é relevante para a avaliação das respostas.
     \item \textbf{A medição da distância de cossenos:} Essa medida tem relevância para a métrica pois mensura a similaridade semântica entre dois textos através de suas representações vetoriais.
     \item \textbf{A presença de palavras-chave (\textit{keywords}):} Serão palavras definidas para cada questão pelo seu confeccionador como termos com um grau mais elevado de relevância para a resposta esperada do aluno. determinadas como parte da resposta padrão para aquela questão.
@@ -42,9 +42,26 @@ Todos os fatores apresentados acima já foram utilizados de maneira isolada por 
 Caso a métrica proposta acima apresente bons resultados, pode-se cogitar a elaboração de uma segunda métrica, em que dois outros fatores seriam adicionados como uma possível melhoria à primeira, sendo eles: 
 \begin{itemize}
     \item A verificação da possibilidade de um texto ser classificado como paráfrase de outro, já que o trabalho possui como hipótese que toda resposta correta é em algum grau uma paráfrase da resposta modelo. Com a identificação da paráfrase, como pode ser feita a medição do grau de parafraseamento entre os dois textos.
-    \item A quantidade de modificação necessário para que a resposta fornecida seja transformada lexicalmente e sintaticamente na resposta modelo.
+    \item A quantidade de modificações necessárias para que a resposta fornecida seja transformada lexicalmente e sintaticamente na resposta modelo.
 \end{itemize}
 Esses dois fatores não foram considerados nos trabalhos revisados anteriormente, na eventual proposta de uma segunda métrica, ter-se-á como hipótese que os dois fatores resultarão em uma melhoria no resultado.
+
+A proposta da métrica pode ser matemáticamente descrita como na equação da Figura \ref{figure:2} 
+\begin{figure}[h!]
+\[Métrica1 = \frac{fator1*peso_{1} + fator2*peso_{2} + fator3*peso_{3} + fator4*peso_{4}}{\sum_{i=1}^{4}peso_{i}}\]
+\caption{Equação da primeira métrica proposta.}\label{figure:2}
+\end{figure}
+
+Onde o \textit{fator1} são as propriedades sintáticas do texto, o \textit{fator2} representa o SFD, o \textit{fator3} é a distância de cossenos e o \textit{fator4} é referente as \textit{keywords}. 
+
+Como resultado a métrica deverá fornecer um númeor de zero a cem que, quanto maior, indica maior proximidade semântica entre os textos e uma maior probabilidade de acerto da resposta fornecida por um aluno. 
+
+No caso da segunda métrica, o diferencial seria adição dos dois outros fatores para mensurar o grau de parafraseamento e a quantidade de modificações, sendo respectivamente o \textit{fator5} e o \textit{fator6} como descrito na equação da Figura \ref{figure:3}
+
+\begin{figure}[h!]
+\tiny \[Métrica2 = \frac{fator1*peso_{1} + fator2*peso_{2} + fator3*peso_{3} + fator4*peso_{4} + fator5*peso_{5} + fator6*peso_{6}}{\sum_{i=1}^{6}peso_{i}}\]
+\caption{Equação da segunda métrica proposta.}\label{figure:3}
+\end{figure}
 
 \section{Avaliação:}
 Para avaliação do desempenho das técnicas propostas, as bases de dados serão dividas em duas, uma primeiramente para treinamento e refino dos experimentos. Após os resultados estarem satisfatórios, a segunda parte dos dados será utilizada para a validação dos resultados obtidos pelo algoritmo, verificando se estão condizente com os resultados fornecidos pelas avaliações registradas nos dados e se seu funcionamento é geral ou se há algum viés nos resultados.

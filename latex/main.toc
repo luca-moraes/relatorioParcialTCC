@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {4.2}Bases de dados:}{17}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Materiais:}{17}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Métodos:}{18}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Avaliação:}{19}{section.4.5}%
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{PROPOSTA EXPERIMENTAL}}{20}{chapter.5}%
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{CONCLUSÃO}}{22}{chapter.6}%
-\contentsline {chapter}{\bfseries \hspace {\tocnumwidth }REFER\^ENCIAS}{23}{section*.8}%
+\contentsline {section}{\numberline {4.5}Avaliação:}{20}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{PROPOSTA EXPERIMENTAL}}{21}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{CONCLUSÃO}}{23}{chapter.6}%
+\contentsline {chapter}{\bfseries \hspace {\tocnumwidth }REFER\^ENCIAS}{24}{section*.11}%
