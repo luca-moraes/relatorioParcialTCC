@@ -55,7 +55,7 @@ Semantic similarity–based descriptive answer evaluation & SSL & \cite{Semantic
 %    \label{fig:1}
 %\end{figure}
 
-Após uma filtragem com base nos resumos e palavras-chaves, foram selecionados quatro artigos como base para a revisão bibliográfica como consta na Tabela \ref{table:2}, considerando sua proximidade com a proposta deste trabalho para leitura integral de seu conteúdo.
+Após uma filtragem com base nos resumos e palavras-chaves, tendo como critério, a semelhança dos termos e a similaridade de outros artigos em comparação com a proposta do presente artigo, foram selecionados quatro artigos como base para a revisão bibliográfica como consta na Tabela \ref{table:2}, para leitura integral de seu conteúdo.
 
 \begin{table}[htb!]
 \resizebox{\columnwidth}{!}{%
@@ -76,7 +76,7 @@ Semantic Scholar & 4  & 3  & 1 \\ \bottomrule
 
 \newpage
 
-O artigo proposto por \cite{UnsupervisedLexicalSemanticChangeDetection}, faz o uso de embeddings de tipo (type embeddings) e embeddings contextualizados (token embeddings) para representar as palavras. Primeiro, é introduzida a distribuição de frequência de sentido (SFD), e a detecção de mudança binária é definida em termos de limiares de frequência. Após isso, a distância de Jensen-Shannon (JSD) entre as distribuições normalizadas de frequência é utilizada para medir a mudança efetuada.
+O artigo proposto por \cite{UnsupervisedLexicalSemanticChangeDetection}, faz o uso de \textit{embeddings} de tipo (\textit{type embeddings}) e \textit{embeddings} contextualizados (\textit{token embeddings}) para representar as palavras. Primeiro, é introduzida a distribuição de frequência de sentido (SFD), e a detecção de mudança binária é definida em termos de limiares de frequência. Após isso, a distância de Jensen-Shannon (JSD) entre as distribuições normalizadas de frequência é utilizada para medir a mudança efetuada.
     
 No artigo proposto por \cite{SyntacticSimilarityBasedSimilarityMatrixForEvaluatingDescriptiveAnswer}, podemos destacar que o trabalho utiliza a técnica de Análise Semântica Latente (LSA), que é comumente usada para determinar a similaridade de documentos, mas ressalta suas limitações em documentos curtos. O artigo destaca a ausência de abordagens anteriores que se concentrem na avaliação automática de respostas descritivas usando vetores de ordem de palavras. O método proposto utiliza uma matriz de similaridade entre vetores de ordem de palavras para avaliar respostas descritivas. A similaridade entre os vetores é calculada por meio de uma métrica de similaridade sintática, ou seja baseada na ordem das palavras. Os resultados indicam que a abordagem baseada em ordem de palavras é promissora para a avaliação automática de respostas descritivas. A matriz de similaridade é apresentada como uma ferramenta eficaz para computar as notas de cada pergunta.
     
@@ -88,12 +88,12 @@ Os autores \cite{StudyAutomatedEvaluationStudentsExaminationPaperMachineLearning
 
 No contexto da revisão bibliográfica, alguns conceitos importantes foram retirados dos artigos selecionados, para contribuir com o presente trabalho. Dentre esses, destacam-se a análise da similaridade semântica com cossenos, a consideração da frequência de Sentidos de Palavras (SFD) e a utilização de vetores de ordem de palavras como elementos-chave.
 
-A análise de similaridade semântica com cossenos é uma técnica importante, conforme evidenciado nos artigos revisados. Essa abordagem é frequentemente empregada para medir a proximidade semântica entre textos.
+A análise de similaridade semântica com cossenos é uma técnica importante, conforme evidenciado nos artigos revisados \cite{SemanticSimilarityBasedDescriptiveAnswerEvaluation}. Essa abordagem é frequentemente empregada para medir a proximidade semântica entre textos.
 
 O uso da Frequência de Sentidos de Palavras (SFD) em um dos artigos indica a importância específica da distribuição de frequência das palavras. Esse conceito pode contribuir para o trabalho, sendo relevante para aspectos da sintaxe e da semântica do texto.
 
 A utilização de vetores de ordem de palavras, como abordado em um dos artigos, resalta a importância da ordem das palavras na avaliação de respostas descritivas. Essa técnica pode superar limitações associadas à Análise Semântica Latente (LSA) em documentos curtos, oferecendo uma abordagem promissora para a avaliação automática.
 
-Em síntese, a revisão bibliográfica ressalta a importância de conceitos como a análise de similaridade semântica com cossenos, a distribuição de frequência de sentidos de palavras e da exploração de vetores de ordem de palavras como pontos relevantes nos estudos revisados.
+Em síntese, a revisão bibliográfica gerou a necessidade de explicitar conceitos fundamentais a análise de similaridade semântica com cossenos, a distribuição de frequência de sentidos de palavras e da exploração de vetores de ordem de palavras como pontos relevantes nos estudos revisados.
 
 \newpage

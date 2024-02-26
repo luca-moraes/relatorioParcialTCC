@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.30)  26 FEB 2024 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2023.11.30)  26 FEB 2024 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2090,13 +2090,13 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 \cftsubfigureindent=\skip351
 \cftsubfigurenumwidth=\skip352
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 41.
+ 42.
 
 (/home/alunos/.miktex/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 41.
+(Font)              scaled to size 12.0pt on input line 42.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -2111,24 +2111,24 @@ LaTeX Warning: Unused global option(s):
 (texto/proposta_experimental.aux) (texto/conclusao.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (/home/alunos/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2152,19 +2152,19 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@mv@tabular=\count575
 \c@mv@boldtabular=\count576
-LaTeX Info: Redefining \microtypecontext on input line 41.
-Package microtype Info: Applying patch `item' on input line 41.
-Package microtype Info: Applying patch `toc' on input line 41.
-Package microtype Info: Applying patch `eqnum' on input line 41.
-Package microtype Info: Applying patch `footnote' on input line 41.
-Package microtype Info: Applying patch `verbatim' on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 42.
+Package microtype Info: Applying patch `item' on input line 42.
+Package microtype Info: Applying patch `toc' on input line 42.
+Package microtype Info: Applying patch `eqnum' on input line 42.
+Package microtype Info: Applying patch `footnote' on input line 42.
+Package microtype Info: Applying patch `verbatim' on input line 42.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 41.
+LaTeX Info: Redefining \showhyphens on input line 42.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2181,7 +2181,7 @@ Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 42.
  (main.out) (main.out)
 \@outlinefile=\write21
 \openout4 = `main.out'.
@@ -2309,12 +2309,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (main.bbl)
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
+Package biblatex Info: Reference section=0 on input line 42.
+Package biblatex Info: Reference segment=0 on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 43.
+(Font)              scaled to size 12.0pt on input line 44.
 \openout4 = `main.mw'.
 
  [1
@@ -2324,7 +2324,7 @@ in.mw)
 \openout4 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 46.
+(Font)              scaled to size 12.0pt on input line 47.
 \openout4 = `main.mw'.
 
  [2
@@ -2410,6 +2410,10 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 \openout2 = `texto/introducao.aux'.
 
  (texto/introducao.tex
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2721,6 +2725,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 
 [17] (main.mw)
 \openout4 = `main.mw'.
@@ -2799,7 +2807,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 \openout4 = `main.mw'.
 
-<./imgs/diagramasTcc.png, id=399, 763.85374pt x 322.20375pt>
+<./imgs/diagramasTcc.png, id=403, 763.85374pt x 322.20375pt>
 File: ./imgs/diagramasTcc.png Graphic file (type png)
 <use ./imgs/diagramasTcc.png>
 Package pdftex.def Info: ./imgs/diagramasTcc.png  used on input line 66.
@@ -2814,6 +2822,10 @@ Package pdftex.def Info: ./imgs/diagramasTcc.png  used on input line 66.
 
 
 (texto/proposta_experimental.tex
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
  [22
@@ -3279,10 +3291,19 @@ and I'll forget about whatever was undefined.
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 \openout4 = `main.out'.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 91FA99D07FB3FD86536D19E08989957E;2243.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3300,11 +3321,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45349 strings out of 474588
- 819665 string characters out of 5749986
- 2224449 words of memory out of 5000000
- 66527 multiletter control sequences out of 15000+600000
- 608655 words of font info for 126 fonts, out of 8000000 for 9000
+ 45355 strings out of 474588
+ 819753 string characters out of 5749986
+ 2223463 words of memory out of 5000000
+ 66531 multiletter control sequences out of 15000+600000
+ 608791 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  124i,17n,121p,2356b,4457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/alunos/.miktex/texmfs/install/fonts/type1/public/lm/lmex10.pfb></home/
@@ -3320,9 +3341,9 @@ ktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/alunos/.miktex/tex
 mfs/install/fonts/type1/public/newtx/ztmbi.pfb></home/alunos/.miktex/texmfs/ins
 tall/fonts/type1/public/newtx/ztmr.pfb></home/alunos/.miktex/texmfs/install/fon
 ts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (28 pages, 428656 bytes).
+Output written on main.pdf (28 pages, 430531 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
+ 584 PDF objects out of 1000 (max. 8388607)
  119 named destinations out of 1000 (max. 500000)
  16650 words of extra memory for PDF output out of 17280 (max. 10000000)
 

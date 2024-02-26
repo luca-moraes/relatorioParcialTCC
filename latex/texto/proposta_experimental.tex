@@ -7,7 +7,7 @@ A proposta experimental pode ser dividida nos seguintes tópicos:
 	\item \textbf{Avaliação individual da presença de palavras chaves:} O algoritmo proposto deve avaliar se as palavras chaves determinadas para aquela questão, estão presentes no texto e pontuar com base na quantidade de palavras-chave encontradas. Tendo como hipótese que essa avaliação individualemte não fornecerá um resultado com alta precisão.
 	\item \textbf{Avalição individual da frequência de palavras (SFD):} O algoritmo realizará a medição da frequência das palavras no texto da resposta padrão e da resposta fornecida pelo aluno, cada palavra terá sua frequência em ambos os textos e a diferença entre as duas será medida em porcentagem. Caso palavras diferentes apareçam no texto da respota do aluno, podemos levar em consideração inicialmente a possibilidade de descartá-las, outras possibilidades futuras também podem ser consideradas caso melhores abordagens sejam encontradas na literatura científica.
 	\item \textbf{Avalição individual da sintaxe do texto:} Utilizando vetores de ordem de palavras o algoritmo deve realizar a medição das métricas de sintaxe do texto, primeiramente da resposta padrão, em sequência, das respotas dos alunos. O vetor de ordem de palavras da respota padrão será comparado com os vetores de ordem de palavras que representem as respostas dos alunos.
-	\item \textbf{Avaliçao semantica através da distância de cossenos:} Na avaliação da distância de cossenos  os textos serão representados em vetores de palavras que representam a similaridade direcional, não a ordem como no item anterior, conforme os ângulos calculado entre os vetores diminui, sabemos que o grau de similaridade entre os textos aumenta.
+	\item \textbf{Avaliçao semantica através da distância de cossenos:} Na avaliação da distância de cossenos  os textos serão representados em vetores de palavras que representam a similaridade direcional, não a ordem como no item anterior, conforme os ângulos calculado entre os vetores diminui, sabemos que o grau de similaridade entre os textos aumenta. Dentro de diferentes técnicas de medição, a revisão bibliográfica demonstrou que essa é a mais precisa \cite{SemanticSimilarityBasedDescriptiveAnswerEvaluation}.
 \end{itemize}
 
 Além das avaliações individuais definidas acima, também serão avaliados os fatores em diferentes conjuntos para que os resultado obtidos através dessas combinções sejam comparados com a junção de todos os quatro fatores em uma só métrica, tendo como hipótese que as métricas com um conjunto de fatores combinados funcionarão melhor do que um fator individualmente e que a métrica de todos os fatores juntos terá o melhor resultado. 
@@ -160,7 +160,7 @@ Na Tabela \ref{table:3} está estruturado o cronograma proposta para as fases qu
   \multicolumn{1}{l|}{} &
   \multicolumn{1}{l|}{\cellcolor[HTML]{656565}} &
   \multicolumn{1}{l|}{} \\ \hline
-\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Ajustes finais para refinamento do \\ algoritmo e finalização do projeto\end{tabular}} &
+\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Ajustes finais para refinamento do \\ algoritmo e finalização do projeto \\ (Relatório final e material do INOVA FEI)\end{tabular}} &
   \multicolumn{1}{l|}{} &
   \multicolumn{1}{l|}{} &
   \multicolumn{1}{l|}{} &
