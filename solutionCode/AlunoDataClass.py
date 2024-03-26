@@ -137,9 +137,10 @@ def main():
 
                 normalizedSimilarity = 0 + ((similarity - 1) * (3 - 0)) / (1 - 0)
 
-                normalizedDistance = MaxAbsScaler().fit_transform(np.array([similarity]).reshape(-1, 1))
+                # normalizedDistance = MaxAbsScaler().fit_transform(np.array([livDistance]).reshape(-1, 1))
+                normalizedDistance = len(reference.reference_response) - livDistance
 
-                maxMediaGrade = (normalizedDistance + normalizedSimilarity)/2
+                maxMediaGrade = (normalizedDistance + normalizedSimilarity[0])/2
 
                 if maxMediaGrade > mediaGrade:
                     mediaGrade = maxMediaGrade
