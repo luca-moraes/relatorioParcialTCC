@@ -1,6 +1,7 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field, asdict
 from typing import List
 import csv
+import json
 
 @dataclass
 class Answer:
@@ -34,6 +35,11 @@ def read_csv(filename):
         for row in reader:
             data.append(row)
     return data
+
+def write_to_json(data, filename):
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
 
 def main():
     questions_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/questions.csv')
@@ -79,8 +85,10 @@ def main():
             if question.number_question == student.number_question:
                 question.responses_students.append(student)
                 
+    question_dicts = [asdict(question) for question in questionList]
+    write_to_json(question_dicts, './normalizedData/ptbrData.json')
+    
     print("Done!")
-
                 
 if __name__ == "__main__":
     main()
