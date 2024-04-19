@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
+@dataclass
 class Answer:
     number_question: int
     answer_question: str

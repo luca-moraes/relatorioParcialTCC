@@ -1,31 +1,8 @@
 from dataclasses import dataclass, field, asdict
+from Models import Answer, RefResponse, Keywords, Question
 from typing import List
 import csv
 import json
-
-@dataclass
-class Answer:
-    number_question: int
-    answer_question: str
-    grade: float
-
-@dataclass
-class RefResponse:
-    number_question: int
-    reference_response: str
-    
-@dataclass
-class Keywords:
-    number_question: int
-    word: str
-
-@dataclass
-class Question:
-    number_question: int
-    question_text: str
-    keywords: List[Keywords]
-    reference_responses: List[RefResponse]
-    responses_students: List[Answer]
 
 def read_csv(filename):
     data = []
@@ -39,7 +16,6 @@ def read_csv(filename):
 def write_to_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-
 
 def main():
     questions_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/questions.csv')
@@ -68,7 +44,9 @@ def main():
     studentsResponseList = []
     for row in students_responses_data:
         question_id = int(row[0])
-        studentsResponseList.append(Answer(number_question=question_id, answer_question=row[1], grade=int(row[2])))
+        answer_text = row[1]
+        answer_grade = float(row[2])
+        studentsResponseList.append(Answer(number_question=question_id, answer_question=answer_text, grade=answer_grade))
         
     for question in questionList:
         for keyword in keywordsList:
