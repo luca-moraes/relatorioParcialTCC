@@ -2,7 +2,6 @@ import json
 from typing import List
 from Models import Answer, RefResponse, Keywords, Question
 
-
 def load_from_json(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -25,15 +24,17 @@ def load_from_json(filename):
 
     return question_list
 
-def main():
+def loadQuestions():
     filename = './normalizedData/ptbrData.json'
     loaded_questions = load_from_json(filename)
 
-    for question in loaded_questions:
-        print(f"Question {question.number_question}: {question.question_text}")
-        print(f"Keywords: {', '.join([kw.word for kw in question.keywords])}")
-        print(f"Reference Responses: {[rr.reference_response for rr in question.reference_responses]}")
-        print(f"Number of Student Responses: {len(question.responses_students)}")
+    # for question in loaded_questions:
+    #     print(f"Question {question.number_question}: {question.question_text}")
+    #     print(f"Keywords: {', '.join([kw.word for kw in question.keywords])}")
+    #     print(f"Reference Responses: {[rr.reference_response for rr in question.reference_responses]}")
+    #     print(f"Number of Student Responses: {len(question.responses_students)}")
 
-if __name__ == "__main__":
-    main()
+    return loaded_questions
+
+# if __name__ == "__main__":
+#     main()
