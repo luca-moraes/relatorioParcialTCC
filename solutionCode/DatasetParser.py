@@ -18,11 +18,18 @@ def write_to_json(data, filename):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 def main():
+    #infos dos datasets 
     questions_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/questions.csv')
     keywords_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/concepts.csv')
+    
     reference_responses_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/reference_answers.csv')
+    reference_responses_data2 = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/reference_answers_extended.csv')
+    
     students_responses_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/student_answers_and_grades_v1.csv')
-
+    students_responses_data2 = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/student_answers_and_grades_v2.csv')
+    students_responses_data3 = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/student_answers_and_grades_v2_other_graders.csv')
+    
+    #parser dos dados
     questionList = []
     for row in questions_data:
         question_id = int(row[0])
@@ -40,6 +47,10 @@ def main():
         question_id = int(row[0])
         reference_response_text = row[1]
         referenceResponsesList.append(RefResponse(number_question=question_id, reference_response=reference_response_text))
+    for row in reference_responses_data2:
+        question_id = int(row[0])
+        reference_response_text = row[1]
+        referenceResponsesList.append(RefResponse(number_question=question_id, reference_response=reference_response_text))
 
     studentsResponseList = []
     for row in students_responses_data:
@@ -47,7 +58,18 @@ def main():
         answer_text = row[1]
         answer_grade = float(row[2])
         studentsResponseList.append(Answer(number_question=question_id, answer_question=answer_text, grade=answer_grade))
+    for row in students_responses_data2:
+        question_id = int(row[0])
+        answer_text = row[1]
+        answer_grade = float(row[2])
+        studentsResponseList.append(Answer(number_question=question_id, answer_question=answer_text, grade=answer_grade))
+    for row in students_responses_data3:
+        question_id = int(row[0])
+        answer_text = row[1]
+        answer_grade = float(row[2])
+        studentsResponseList.append(Answer(number_question=question_id, answer_question=answer_text, grade=answer_grade))
         
+    #juncao das infos
     for question in questionList:
         for keyword in keywordsList:
             if question.number_question == keyword.number_question:
@@ -62,7 +84,8 @@ def main():
         for student in studentsResponseList:
             if question.number_question == student.number_question:
                 question.responses_students.append(student)
-                
+              
+    #criacao do json  
     question_dicts = [asdict(question) for question in questionList]
     write_to_json(question_dicts, './normalizedData/ptbrData.json')
     

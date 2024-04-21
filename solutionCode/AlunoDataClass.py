@@ -2,69 +2,14 @@ from dataclasses import dataclass
 from typing import List
 import csv
 import numpy as np
+import DataClassFiller as dcf
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import MaxAbsScaler
 from Levenshtein import distance
-
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
-import numpy as np
-
-# Adicione essas importações no início do seu script
-from dataclasses import dataclass
-from typing import List
-import csv
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import CountVectorizer
-from Levenshtein import distance
-
-@dataclass
-class Answer:
-    #identification_student: int
-    number_question: int
-    answer_question: str
-    grade: int
-
-@dataclass
-class RefResponse:
-    number_question: int
-    reference_response: str
-
-@dataclass
-class Question:
-    number_question: int
-    question_text: str
-    reference_responses: List[RefResponse]
-    responses_students: List[Answer]
-
-def read_csv(filename):
-    data = []
-    with open(filename, 'r', encoding='utf-8') as file:
-        reader = csv.reader(file)
-        next(reader)
-        for row in reader:
-            data.append(row)
-    return data
-
-# def preprocess_data(data):
-#     questions = {}
-#     for row in data:
-#         question_id = int(row[0])
-#         question_text = row[1]
-#         if question_id not in questions:
-#             questions[question_id] = Question(number_question=question_id, reference_response="", responses_students=[])
-#         if len(row) == 2:
-#             if question_id not in questions:
-#                 questions[question_id].reference_response = question_text
-#         else:
-#             answer = Answer(identification_student=len(questions[question_id].responses_students) + 1,
-#                             number_question=question_id,
-#                             answer_question=question_text,
-#                             grade=int(row[2]))
-#             questions[question_id].responses_students.append(answer)
-#     return list(questions.values())
 
 def calculate_cosine_similarity(reference_response, student_responses):
     vectorizer = CountVectorizer().fit([reference_response] + student_responses)
@@ -75,57 +20,7 @@ def calculate_cosine_similarity(reference_response, student_responses):
 def main():
     # distance("pitom", "python")
 
-    questions_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/questions.csv')
-    reference_responses_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/reference_answers.csv')
-    students_responses_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/student_answers_and_grades_v1.csv')
-
-    # questions = preprocess_data(questions_data)
-    # reference_responses = {}
-    # for row in reference_responses_data:
-    #     question_id = int(row[0])
-    #     if question_id not in reference_responses:
-    #         reference_responses[question_id] = row[1]
-
-    questionList = []
-    for row in questions_data:
-        question_id = int(row[0])
-        question_text = row[1]
-        questionList.append(Question(number_question=question_id, question_text=question_text, reference_responses=[], responses_students=[]))
-
-    referenceResponsesList = []
-    for row in reference_responses_data:
-        question_id = int(row[0])
-        reference_response_text = row[1]
-        referenceResponsesList.append(RefResponse(number_question=question_id, reference_response=reference_response_text))
-
-    studentsResponseList = []
-    for row in students_responses_data:
-        question_id = int(row[0])
-        studentsResponseList.append(Answer(number_question=question_id,
-                        answer_question=row[1],
-                        grade=int(row[2])))
-    
-    # for row in students_responses_data:
-    #     question_id = int(row[0])
-    #     if question_id in questions:
-    #         question = questions[question_id]
-    #         answer = Answer(identification_student=len(question.responses_students) + 1,
-    #                         number_question=question_id,
-    #                         answer_question=row[1],
-    #                         grade=int(row[2]))
-    #         question.responses_students.append(answer)
-    #     else:
-    #         print(f"Questão {question_id} não listada.")
-        
-    for question in questionList:
-        for reference in referenceResponsesList:
-            if question.number_question == reference.number_question:
-                question.reference_responses.append(reference)
-
-    for question in questionList:
-        for student in studentsResponseList:
-            if question.number_question == student.number_question:
-                question.responses_students.append(student)
+    questionList = dcf.loadQuestions()
 
     # for question in questions:
     #     if question.number_question in reference_responses:
