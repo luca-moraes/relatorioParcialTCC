@@ -1,5 +1,4 @@
 import json
-from typing import List
 from Models import Answer, RefResponse, Keywords, Question
 
 def load_from_json(filename):
@@ -25,7 +24,7 @@ def load_from_json(filename):
     return question_list
 
 def loadQuestions():
-    filename = './normalizedData/ptbrData.json'
+    filename = './normalizedData/ptbrDataset/ptbrData.json'
     loaded_questions = load_from_json(filename)
 
     # for question in loaded_questions:

@@ -1,6 +1,3 @@
-from dataclasses import dataclass
-from typing import List
-import csv
 import numpy as np
 import DataClassFiller as dcf
 from sklearn.metrics.pairwise import cosine_similarity
@@ -21,17 +18,6 @@ def main():
     # distance("pitom", "python")
 
     questionList = dcf.loadQuestions()
-
-    # for question in questions:
-    #     if question.number_question in reference_responses:
-    #         reference_response = reference_responses[question.number_question]
-    #         student_responses = [student_response.answer_question for student_response in question.responses_students]
-    #         similarities = calculate_cosine_similarity(reference_response, student_responses)
-    #         print(f"Questao {question.number_question}:")
-    #         for i, similarity in enumerate(similarities):
-    #             print(f"  Aluno {question.responses_students[i].identification_student} - Nota: {question.responses_students[i].grade}, Sim: {similarity:.4f}")
-    #     else:
-    #         print(f"Resposta modelo da {question.number_question} nao listada.")
 
     # for question in questionList:
     #     for answer in question.responses_students:

@@ -1,6 +1,5 @@
-from dataclasses import dataclass, field, asdict
-from Models import Answer, RefResponse, Keywords, Question
-from typing import List
+from dataclasses import asdict
+from Models import Answer, RefResponse, Keywords, Question, QuestionsOnly
 import csv
 import json
 
@@ -17,7 +16,7 @@ def write_to_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
-def main():
+def parsePtBrDataset():
     #infos dos datasets 
     questions_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/questions.csv')
     keywords_data = read_csv('./dataset/ptbr-asag/PT_ASAG_2018_v2.0/PT_ASAG_2018_v2.0/concepts.csv')
@@ -85,11 +84,25 @@ def main():
             if question.number_question == student.number_question:
                 question.responses_students.append(student)
               
+    questionsOnlyList = []
+    for question in questionList:
+        questionsOnlyList.append(QuestionsOnly(number_question=question.number_question,
+            question_text=question.question_text,
+            keywords=question.keywords,
+            reference_responses=question.reference_responses))    
+        
     #criacao do json  
     question_dicts = [asdict(question) for question in questionList]
-    write_to_json(question_dicts, './normalizedData/ptbrData.json')
+    write_to_json(question_dicts, './normalizedData/ptbrDataset/ptbrData.json')
+    
+    #json de perguntas
+    questionOnly_dicts = [asdict(question) for question in questionsOnlyList]
+    write_to_json(questionOnly_dicts, './normalizedData/ptbrDataset/ptbrQuestionsOnly.json')
     
     print("Done!")
-                
+            
+def main():
+    parsePtBrDataset()
+        
 if __name__ == "__main__":
     main()

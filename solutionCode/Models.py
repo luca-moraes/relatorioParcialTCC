@@ -24,3 +24,17 @@ class Question:
     keywords: List[Keywords]
     reference_responses: List[RefResponse]
     responses_students: List[Answer]
+    
+@dataclass
+class QuestionsOnly:
+    number_question: int
+    question_text: str
+    keywords: List[Keywords]
+    reference_responses: List[RefResponse]
+    
+@dataclass
+class AnswerParams:
+    answer_number: int
+    answer_values: Answer
+    consine_similarity: float
+    liv_distance: int

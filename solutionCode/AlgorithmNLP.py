@@ -1,12 +1,11 @@
 from sklearn.linear_model import LinearRegression
-from Models import Question
 import numpy as np
-import DataClassFiller as dcf
+#import solutionCode.DataHandlersPtbr.DataClassFiller as dcf
 
-questions = dcf.loadQuestions()
+#questions = dcf.loadQuestions()
 
-for question in questions:
-    print(str(question.number_question) + " " + question.question_text)
+#for question in questions:
+#    print(str(question.number_question) + " " + question.question_text)
 
 # Dados de entrada e saída (exemplo)
 X = np.array([[1, 2], [2, 3], [3, 4]])
