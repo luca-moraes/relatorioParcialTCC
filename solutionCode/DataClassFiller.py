@@ -1,6 +1,25 @@
 import json
-from Models import Answer, RefResponse, Keywords, Question
+from Models import Answer, RefResponse, Keywords, Question, AnswerParams
 
+def loadAnswersParamsJson(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    answer_list = []
+    for item in data:
+        answer = Answer(**item['answer_values'])
+        cosine_similarity = item['consine_similarity']
+        liv_distance = item['liv_distance']
+
+        answer_params = AnswerParams(answer_number=item['answer_number'],
+                                    answer_values=answer,
+                                    consine_similarity=cosine_similarity,
+                                    liv_distance=liv_distance)
+        
+        answer_list.append(answer_params)
+
+    return answer_list
+    
 def load_from_json(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -35,5 +54,10 @@ def loadQuestions():
 
     return loaded_questions
 
+def loadAnswersParams():
+    filename = './normalizedData/ptbrDataset/answersParams.json'
+    loaded_answers_params = loadAnswersParamsJson(filename)
+    return loaded_answers_params
+    
 # if __name__ == "__main__":
 #     main()
