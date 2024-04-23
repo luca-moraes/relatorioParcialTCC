@@ -55,7 +55,7 @@ def loadQuestions():
     return loaded_questions
 
 def loadAnswersParams():
-    filename = './normalizedData/ptbrDataset/answersParams.json'
+    filename = './normalizedData/ptbrDataset/answersParams2.json'
     loaded_answers_params = loadAnswersParamsJson(filename)
     return loaded_answers_params
     

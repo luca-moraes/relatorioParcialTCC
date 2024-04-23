@@ -34,9 +34,16 @@ def main():
             for reference in question.reference_responses:
                 similarity = calculate_cosine_similarity(reference.reference_response, [answer.answer_question])
                 livDistance = distance(answer.answer_question, reference.reference_response)
+
+                #normalizedSimilarity = similarity[0]
+                normalizedSimilarity = 0 + ((similarity[0] - 1) * (3 - 0)) / (1 - 0)
+                #normalizedDistance = livDistance
+                normalizedDistance = len(reference.reference_response) - livDistance
                 
-                similarities.append(similarity[0])
-                livDistances.append(livDistance)
+                # similarities.append(similarity[0])
+                # livDistances.append(livDistance)
+                similarities.append(normalizedSimilarity)
+                livDistances.append(normalizedDistance)
             
             answerParamsList.append(AnswerParams(answersNum,
                 answer,
@@ -45,7 +52,7 @@ def main():
             answersNum += 1
     
     answerParamsDict = [asdict(answerParams) for answerParams in answerParamsList]
-    write_to_json(answerParamsDict, './normalizedData/ptbrDataset/answersParams.json')
+    write_to_json(answerParamsDict, './normalizedData/ptbrDataset/answersParams2.json')
                 
 if __name__ == "__main__":
     main()
