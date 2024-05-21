@@ -4,12 +4,12 @@ import DataClassFiller as dcf
 # import nlu
 import os
 
-#from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModel
 
 from transformers import BertModel, BertTokenizer
 import torch
 
-#from torch.nn.functional import cosine_similarity
+from torch.nn.functional import cosine_similarity
 import torch.nn.functional as tnf
 
 #from transformers import BertTokenizer, BertModel
@@ -27,6 +27,7 @@ from Levenshtein import distance
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
+from mpi4py import MPI
 
 # tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 # model = BertModel.from_pretrained('bert-base-uncased')
@@ -99,31 +100,34 @@ def normalize(value, left_min, left_max, right_min, right_max):
     # Mapeia value do intervalo [left_min, left_max] para [right_min, right_max]
     return right_min + ((value - left_min) / (left_max - left_min)) * (right_max - right_min)
 
-def main():
-    questionList = dcf.loadQuestions()
+def process_questions(questionList):
+    #questionList = dcf.loadQuestions()[0:2]
     #pipe = nlu.load('xx.embed_sentence')
     
     answersNum = 0
     answerParamsList = []
     for question in questionList:
         for answer in question.responses_students:
-            similarities = []
-            livDistances = []
+            # similarities = []
+            # livDistances = []
             bertSim = []
             
             for reference in question.reference_responses:
-                freqSimilarity = calculate_cosine_similarity(reference.reference_response, [answer.answer_question])
-                livDistance = distance(answer.answer_question, reference.reference_response)
+                # freqSimilarity = calculate_cosine_similarity(reference.reference_response, [answer.answer_question])
+                # livDistance = distance(answer.answer_question, reference.reference_response)
 
                 #normalizedSimilarity = similarity[0]
                 #normalizedSimilarity = 0 + ((freqSimilarity[0] - 1) * (3 - 0)) / (1 - 0)
                 #normalizedSimilarity = 0 + ((freqSimilarity[0] + 1) * (3 - 0)) / (1 - (-1))
-                normalizedFreq = normalize(freqSimilarity, -1, 1, 0, 3)
+                # normalizedFreq = normalize(freqSimilarity[0], -1, 1, 0, 3)
 
                 #normalizedDistance = livDistance
                 #normalizedDistance = len(reference.reference_response) - livDistance
-                normalizedDistance = 3 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
+                # normalizedDistance = 0
+                # if livDistance < len(reference.reference_response):
+                #     normalizedDistance = 3 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
 
+                                
                 #bert semantica:
                 #similarity_score = calculate_bert_similarity(reference.reference_response, answer.answer_question)
 
@@ -150,19 +154,51 @@ def main():
 
                 # similarities.append(similarity[0])
                 # livDistances.append(livDistance)
-                similarities.append(normalizedFreq)
-                livDistances.append(normalizedDistance)
+                # similarities.append(normalizedFreq)
+                # livDistances.append(normalizedDistance)
                 bertSim.append(normalizedBert)
             
             answerParamsList.append(AnswerParams(answersNum,
                 answer,
-                max(similarities),
-                min(livDistances),
-                max(bertSim)))
+                0,
+                0,
+                # max(similarities),
+                # max(livDistances),
+                max(bertSim)
+                # 0
+                ))
             answersNum += 1
     
-    answerParamsDict = [asdict(answerParams) for answerParams in answerParamsList]
-    write_to_json(answerParamsDict, './normalizedData/ptbrDataset/answersParams2.json')
+    return answerParamsList
+    # answerParamsDict = [asdict(answerParams) for answerParams in answerParamsList]
+    # write_to_json(answerParamsDict, './normalizedData/ptbrDataset/answersParams2.json')
+                
+def main():
+    comm = MPI.COMM_WORLD
+    rank = comm.Get_rank()
+    size = comm.Get_size()
+
+    if rank == 0:
+        questionList = dcf.loadQuestions()
+        chunks = np.array_split(questionList, size)
+    else:
+        chunks = None
+    
+    local_chunk = comm.scatter(chunks, root=0)
+
+    local_results = process_questions(local_chunk)
+
+    all_results = comm.gather(local_results, root=0)
+
+    if rank == 0:
+        flattened_results = [item for sublist in all_results for item in sublist]
+        
+        # Ajustar answersNum para serem únicos
+        # for idx, answerParam in enumerate(flattened_results):
+        #     answerParam.answer_id = idx
+        
+        answerParamsDict = [asdict(answerParams) for answerParams in flattened_results]
+        write_to_json(answerParamsDict, './normalizedData/ptbrDataset/answersParams.json')
                 
 if __name__ == "__main__":
     main()

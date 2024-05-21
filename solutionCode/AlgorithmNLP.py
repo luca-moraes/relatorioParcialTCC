@@ -10,6 +10,7 @@ import DataClassFiller as dcf
 #    print(str(question.number_question) + " " + question.question_text)
 
 loadedAnswersParams = dcf.loadAnswersParams()
+#quest = dcf.loadQuestions()
 
 # Dados de entrada e saída (exemplo)
 # X = np.array([[1, 2], [2, 3], [3, 4]])
