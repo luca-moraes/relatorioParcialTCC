@@ -179,7 +179,7 @@ def main():
     size = comm.Get_size()
 
     if rank == 0:
-        questionList = dcf.loadQuestions()
+        questionList = dcf.loadQuestions()[0:4]
         chunks = np.array_split(questionList, size)
     else:
         chunks = None
