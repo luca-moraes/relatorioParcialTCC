@@ -36,5 +36,6 @@ class QuestionsOnly:
 class AnswerParams:
     answer_number: int
     answer_values: Answer
-    consine_similarity: float
+    frequence_similarity: float
     liv_distance: int
+    bert_score: float

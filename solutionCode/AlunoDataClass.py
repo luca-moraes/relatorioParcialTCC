@@ -49,7 +49,7 @@ def main():
     #         print(f"  Aluno x - Nota: {answer.grade}, Sim: {maxSimilarity[0]}, Dist: {minLivDistance}, Grade: {mediaGrade}")
     #         print("Resposta do aluno: ", answer.answer_question + "\n Resposta do professor: " + finalRef + "\n")
                 
-    X = []  # Entradas: [maxSimilarity, minLivDistance]
+    X = []  # Entradas: [maxSimilarity, minLivDistance. bertSim]
     y = []  # Saídas: notas reais (grades)
     
     for question in questionList:
