@@ -1,0 +1,23 @@
+70% m 30% t
+
+Erro quadrático médio (antes da clippagem): 0.5219413521527168
+Erro médio absoluto (antes da clippagem): 0.5515484995697088
+Pesos otimizados: [0.60642229 0.29398504 0.2973203 ]
+Erro quadrático médio (após clippagem): 0.516541401699409
+Erro médio absoluto (após clippagem): 0.5262061702857399
+
+80% m 20% t
+
+Erro quadrático médio (antes da clippagem): 0.5432131173524406
+Erro médio absoluto (antes da clippagem): 0.5592619612377178
+Pesos otimizados: [0.57723772 0.25741401 0.33623257]
+Erro quadrático médio (após clippagem): 0.5385185711049412
+Erro médio absoluto (após clippagem): 0.5374640696848446
+
+100% m 0% t
+
+Erro quadrático médio (antes da clippagem): 0.6231344753101524
+Erro médio absoluto (antes da clippagem): 0.6096773238330128
+Pesos otimizados: [0.47001387 0.27656985 0.51803824]
+Erro quadrático médio (após clippagem): 0.6157199768997569
+Erro médio absoluto (após clippagem): 0.5837452966150881
