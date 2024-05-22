@@ -11,6 +11,8 @@ from Models import Question, Answer, RefResponse, Keywords, AnswerParams
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 from Levenshtein import distance
+from concurrent.futures import ThreadPoolExecutor
+
 from mpi4py import MPI
 
 model_name = "neuralmind/bert-base-portuguese-cased"
@@ -36,6 +38,17 @@ def calculate_cosine_similarity(reference_response, student_responses):
     similarity_matrix = cosine_similarity(vectors)
     return similarity_matrix[0][1:]
 
+def calculate_freq_and_liv(reference, answer_question):
+    freqSimilarity = calculate_cosine_similarity(reference.reference_response, [answer_question])
+    normalizedFreq = normalize(freqSimilarity[0], -1, 1, 0, 3)
+    
+    livDistance = distance(answer_question, reference.reference_response)
+    normalizedDistance = 0
+    if livDistance < len(reference.reference_response):
+        normalizedDistance = 3 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
+    
+    return normalizedFreq, normalizedDistance
+
 def normalize(value, left_min, left_max, right_min, right_max):
     result = right_min + ((value - left_min) / (left_max - left_min)) * (right_max - right_min)
     return right_max if result >= right_max else result
@@ -51,24 +64,31 @@ def process_questions(questionList):
             bert_scores = [tnf.cosine_similarity(student_embedding, ref_emb.unsqueeze(0)).item() for ref_emb in reference_embeddings]
             normalized_bert_scores = [normalize(score, -1, 1, 0, 3) for score in bert_scores]
 
-            similarities = []
+            freqSimilarity = []
             livDistances = []
             
-            for reference in question.reference_responses:
-                freqSimilarity = calculate_cosine_similarity(reference.reference_response, [answer.answer_question])
-                normalizedFreq = normalize(freqSimilarity[0], -1, 1, 0, 3)
+            # for reference in question.reference_responses:
+            #     freqSimilarity = calculate_cosine_similarity(reference.reference_response, [answer.answer_question])
+            #     normalizedFreq = normalize(freqSimilarity[0], -1, 1, 0, 3)
                 
-                livDistance = distance(answer.answer_question, reference.reference_response)
-                normalizedDistance = 0
-                if livDistance < len(reference.reference_response):
-                    normalizedDistance = 3 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
+            #     livDistance = distance(answer.answer_question, reference.reference_response)
+            #     normalizedDistance = 0
+            #     if livDistance < len(reference.reference_response):
+            #         normalizedDistance = 3 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
                 
-                similarities.append(normalizedFreq)
-                livDistances.append(normalizedDistance)
+            #     freqSimilarity.append(normalizedFreq)
+            #     livDistances.append(normalizedDistance)
+                
+            with ThreadPoolExecutor() as executor:
+                future_to_ref = {executor.submit(calculate_freq_and_liv, reference, answer.answer_question): reference for reference in question.reference_responses}
+                for future in future_to_ref:
+                    normalizedFreq, normalizedDistance = future.result()
+                    freqSimilarity.append(normalizedFreq)
+                    livDistances.append(normalizedDistance)
             
             answerParamsList.append(AnswerParams(0,
                 answer,
-                max(similarities),
+                max(freqSimilarity),
                 max(livDistances),
                 max(normalized_bert_scores)
                 ))
@@ -99,7 +119,7 @@ def main():
             answerParam.answer_number = idx
         
         answerParamsDict = [asdict(answerParams) for answerParams in answers_full_list]
-        write_to_json(answerParamsDict, '../normalizedData/ptbrDataset/answersParams.json')
+        write_to_json(answerParamsDict, '../normalizedData/ptbrDataset/answersParams4.json')
                 
 if __name__ == "__main__":
     main()

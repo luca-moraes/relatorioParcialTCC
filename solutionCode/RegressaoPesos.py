@@ -11,7 +11,7 @@ def normalize_predictions(predictions, min_val=0, max_val=3):
 
 loadedAnswersParamsAll = dcf.loadAnswersParams()
 
-loadedAnswersParams = loadedAnswersParamsAll[:int(0.7 * len(loadedAnswersParamsAll))]
+loadedAnswersParams = loadedAnswersParamsAll[:int(1 * len(loadedAnswersParamsAll))]
 
 input_data = []
 output_data = []
