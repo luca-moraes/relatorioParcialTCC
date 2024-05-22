@@ -37,5 +37,5 @@ class AnswerParams:
     answer_number: int
     answer_values: Answer
     frequence_similarity: float
-    liv_distance: int
+    liv_distance: float
     bert_score: float

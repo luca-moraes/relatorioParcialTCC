@@ -3,7 +3,7 @@ import numpy as np
 import DataClassFiller as dcf
 from transformers import BertModel, BertTokenizer
 import torch
-from torch.nn.functional import cosine_similarity
+#from torch.nn.functional import cosine_similarity
 import torch.nn.functional as tnf
 
 from dataclasses import asdict
