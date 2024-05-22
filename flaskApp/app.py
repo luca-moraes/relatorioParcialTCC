@@ -1,14 +1,12 @@
 from flask import Flask, render_template, request, jsonify
 import textwrap
+import FlaskDcf as dcf
+from FlaskModels import QuestionsOnly, AnswerParams, RefResponse
+import FlaskNLP as myNLP
 
 app = Flask(__name__)
 
-# Lista de questões de exemplo
-questions = [
-    {"id": 1, "text": "Qual é a capital da França?", "answer": "Paris"},
-    {"id": 2, "text": "Qual é a fórmula da água?", "answer": "H2O"},
-    {"id": 3, "text": "Quem escreveu 'Dom Quixote'?", "answer": "Miguel de Cervantes"},
-]
+questions = dcf.loadQuestionsOnly()
 
 @app.route('/')
 def index():
@@ -16,29 +14,28 @@ def index():
 
 @app.route('/submit', methods=['POST'])
 def submit():
-    question_id = int(request.form['question_id'])
-    user_answer = request.form['answer'].strip().lower()
+    question_id = int(request.form['number_question'])
+    user_answer = request.form['answer']
     
-    # Encontra a resposta correta
-    question = next((q for q in questions if q["id"] == question_id), None)
-    answer = question['answer']
-    correct_answer = question['answer'].strip().lower() if question else ""
+    question = next((q for q in questions if q.number_question == question_id), None)
+    refs = question.reference_responses
     
-    # Verifica se a resposta está correta
-    is_correct = user_answer == correct_answer
+    answer = myNLP.process_questions(user_answer, refs)
     
-    # Formata a mensagem com a cor correspondente
-    if is_correct:
-        message = f"Correto!<br> Pontuação: 10"
+    nota_final = answer.nota_final
+    
+    if nota_final > 2:
+        nota_final = myNLP.normalize(nota_final, 0, 3, 0, 10)
+        message = f"Correto!<br> Sua nota é: {nota_final:.2f}.<br>Seu parâmetros foram:<br> Frequência de termos -> {answer.frequencia_termos:.2f}<br> Distância de Levenshtein -> {answer.levenshtein_distancia:.2f}<br> Semântica BERT -> {answer.bert_semantica:.2f}"
         color_class = "correct"
     else:
-        message = f"Incorreto!<br> A resposta correta é: {answer}"
+        message = f"Incorreto!<br> Uma resposta correta poderia ser: {refs[0].reference_response}<br> Sua nota seria: {nota_final:.2f}.<br>Seu parâmetros foram:<br> Frequência de termos -> {answer.frequencia_termos:.2f}<br> Distância de Levenshtein -> {answer.levenshtein_distancia:.2f}<br> Semântica BERT -> {answer.bert_semantica:.2f}"
         color_class = "incorrect"
     
-    # Quebra o texto em linhas para evitar que ele se sobreponha
     wrapped_message = textwrap.fill(message, width=40)
     
     return jsonify({"message": wrapped_message, "color_class": color_class})
+
 
 if __name__ == '__main__':
     app.run(debug=True)

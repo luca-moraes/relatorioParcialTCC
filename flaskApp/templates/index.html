@@ -16,12 +16,12 @@
         <hr>
         <div class="cards-container">
             {% for question in questions %}
-            <div class="card" data-question-id="{{ question.id }}">
-                <p>{{ question.text }}</p>
+            <div class="card" data-question-id="{{ question.number_question }}">
+                <p>{{ question.question_text }}</p>
                 <button class="show-answer-form">Responder</button>
                 <div class="answer-form" style="display: none;">
                     <form action="/submit" method="post">
-                        <input type="hidden" name="question_id" value="{{ question.id }}">
+                        <input type="hidden" name="number_question" value="{{ question.number_question }}">
                         <textarea name="answer" rows="4" placeholder="Escreva sua resposta aqui..."></textarea>
                         <button type="submit">Submeter Resposta</button>
                     </form>
