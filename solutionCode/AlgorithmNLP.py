@@ -20,7 +20,7 @@ input_data = []
 output_data = []
 
 for answer in loadedAnswersParams:
-    input_data.append([answer.consine_similarity, answer.liv_distance])
+    input_data.append([answer.frequence_similarity, answer.liv_distance])
     output_data.append(answer.answer_values.grade)
 
 # Inicialização dos pesos

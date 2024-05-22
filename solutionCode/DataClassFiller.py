@@ -8,13 +8,15 @@ def loadAnswersParamsJson(filename):
     answer_list = []
     for item in data:
         answer = Answer(**item['answer_values'])
-        cosine_similarity = item['consine_similarity']
+        cosine_similarity = item['frequence_similarity']
         liv_distance = item['liv_distance']
+        bert_score = item['bert_score']
 
         answer_params = AnswerParams(answer_number=item['answer_number'],
                                     answer_values=answer,
-                                    consine_similarity=cosine_similarity,
-                                    liv_distance=liv_distance)
+                                    frequence_similarity=cosine_similarity,
+                                    liv_distance=liv_distance,
+                                    bert_score=bert_score)
         
         answer_list.append(answer_params)
 
@@ -43,7 +45,7 @@ def load_from_json(filename):
     return question_list
 
 def loadQuestions():
-    filename = './normalizedData/ptbrDataset/ptbrData.json'
+    filename = '../normalizedData/ptbrDataset/ptbrData.json'
     loaded_questions = load_from_json(filename)
 
     # for question in loaded_questions:
