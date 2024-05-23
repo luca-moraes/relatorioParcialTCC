@@ -9,16 +9,19 @@ def write_to_json(data, filename):
         
 def calculate_general_error(answer_tests):
     total_error = 0
+    highest_error = 0
     num_answers = len(answer_tests)
 
     for answer_test in answer_tests:
         total_error += answer_test.percentual_error
+        highest_error += 1 if answer_test.percentual_error > 0.4 else 0
 
     general_error = total_error / num_answers
     
     print("Numero de Testes: {}".format(num_answers))
     print("Erro Geral do Algoritmo: {:.2%}".format(general_error))
-
+    print("Numero de Erros Graves: {}".format(highest_error))
+    print("Porcentagem de Erros Graves: {:.2%}".format(highest_error / num_answers))    
 
 def test_all(peso1, peso2, peso3, answers):
     answerTestsList = []
