@@ -39,3 +39,13 @@ class AnswerParams:
     frequence_similarity: float
     liv_distance: float
     bert_score: float
+
+@dataclass
+class AnswerTestParams:
+    answer_number: int
+    answer_values: Answer
+    frequence_similarity: float
+    liv_distance: float
+    bert_score: float
+    nota_atribuida: float
+    percentual_error: float

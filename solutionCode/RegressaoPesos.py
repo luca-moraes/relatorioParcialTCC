@@ -3,6 +3,8 @@ from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 import DataClassFiller as dcf
 
+import PercentualTests as ptest
+
 def weighted_average(input_data, weights):
     return np.dot(input_data, weights)
 
@@ -11,7 +13,9 @@ def normalize_predictions(predictions, min_val=0, max_val=3):
 
 loadedAnswersParamsAll = dcf.loadAnswersParams()
 
-loadedAnswersParams = loadedAnswersParamsAll[:int(1 * len(loadedAnswersParamsAll))]
+loadedAnswersParams = loadedAnswersParamsAll[:int(0.8 * len(loadedAnswersParamsAll))]
+
+loadedAnswersTests = loadedAnswersParamsAll[int(0.8 * len(loadedAnswersParamsAll)):]
 
 input_data = []
 output_data = []
@@ -51,3 +55,5 @@ print("Pesos otimizados:", optimized_weights)
 
 print("Erro quadrático médio (após clippagem):", mse_after_clipping)
 print("Erro médio absoluto (após clippagem):", mae_after_clipping)
+
+ptest.test_all(optimized_weights[0], optimized_weights[1], optimized_weights[2], loadedAnswersTests)
