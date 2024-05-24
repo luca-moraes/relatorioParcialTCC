@@ -155,6 +155,39 @@ h1 {
     border: 1px solid #f5c6cb;
 }
 
+/*menus*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.navbar-left {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-center {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-center a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-right img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
 /* daqui pra baixo n muda */
 
 footer {

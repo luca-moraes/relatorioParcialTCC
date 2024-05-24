@@ -14,8 +14,8 @@ def normalize_predictions(predictions, min_val=0, max_val=3):
 #loadedAnswersParamsAll = dcf.loadAnswersParams()
 loadedAnswersParamsAll = dcf.loadEnAnswersParams()
 
-trainPercent = 1
-testPercent = 0.9
+trainPercent = 0.7
+testPercent = 0.7
 
 loadedAnswersParams = loadedAnswersParamsAll[:int(trainPercent * len(loadedAnswersParamsAll))]
 

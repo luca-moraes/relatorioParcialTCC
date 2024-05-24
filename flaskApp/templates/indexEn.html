@@ -27,12 +27,12 @@
         <h1>Escolha uma questão e submeta sua resposta, sua avaliação será fornecida na mesma hora!</h1>
         <hr>
         <div class="cards-container">
-            {% for question in questions %}
+            {% for question in questionsEn %}
             <div class="card" data-question-id="{{ question.number_question }}">
-                <p>{{ question.question_text }}</p>
+                <p>{{ question.question_text }}?</p>
                 <button class="show-answer-form">Responder</button>
                 <div class="answer-form" style="display: none;">
-                    <form action="/submit" method="post">
+                    <form action="/submitEn" method="post">
                         <input type="hidden" name="number_question" value="{{ question.number_question }}">
                         <textarea name="answer" rows="4" placeholder="Escreva sua resposta aqui..."></textarea>
                         <button type="submit">Submeter Resposta</button>
@@ -55,10 +55,10 @@
         });
 
         document.querySelectorAll('.answer-form form').forEach(form => {
-            form.addEventListener('submit', async (e) => {
+            form.addEventListener('submitEn', async (e) => {
                 e.preventDefault();
                 const formData = new FormData(form);
-                const response = await fetch('/submit', {
+                const response = await fetch('/submitEn', {
                     method: 'POST',
                     body: formData
                 });

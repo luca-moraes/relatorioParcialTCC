@@ -39,7 +39,8 @@ def test_all(peso1, peso2, peso3, answers):
 
         error = 0
         if(answer.answer_values.grade == 0):
-            error = nota / 3
+            #error = nota / 3
+            error = nota / 5
         else:
             # percentual = nota / answer.answer_values.grade
             percentual = (min(nota, answer.answer_values.grade) / max(nota, answer.answer_values.grade))
@@ -57,7 +58,7 @@ def test_all(peso1, peso2, peso3, answers):
     calculate_general_error(answerTestsList)
     
     answerTestsDict = [asdict(answerTests) for answerTests in answerTestsList]
-    write_to_json(answerTestsDict, '../normalizedData/ptbrDataset/testsResults.json')
+    write_to_json(answerTestsDict, '../normalizedData/enDataset/testsResults.json')
                 
     # return nota
     #return normalize(nota, 0, 3, 0, 10)
