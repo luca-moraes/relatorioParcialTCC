@@ -15,7 +15,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 from mpi4py import MPI
 
-model_name = "neuralmind/bert-base-portuguese-cased"
+# model_name = "neuralmind/bert-large-portuguese-cased"
+model_name = "google-bert/bert-base-cased"
 tokenizer = BertTokenizer.from_pretrained(model_name)
 model = BertModel.from_pretrained(model_name)
 
@@ -46,6 +47,17 @@ def calculate_freq_and_liv(reference, answer_question):
     normalizedDistance = 0
     if livDistance < len(reference.reference_response):
         normalizedDistance = 3 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
+    
+    return normalizedFreq, normalizedDistance
+
+def calculate_freq_and_liv_en(reference, answer_question):
+    freqSimilarity = calculate_cosine_similarity(reference.reference_response, [answer_question])
+    normalizedFreq = normalize(freqSimilarity[0], -1, 1, 0, 5)
+    
+    livDistance = distance(answer_question, reference.reference_response)
+    normalizedDistance = 0
+    if livDistance < len(reference.reference_response):
+        normalizedDistance = 5 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
     
     return normalizedFreq, normalizedDistance
 
@@ -94,6 +106,36 @@ def process_questions(questionList):
                 ))
     
     return answerParamsList
+       
+def process_en_questions(questionList):
+    answerParamsList = []
+    for question in questionList:
+        reference_embeddings = get_embedding_device([ref.reference_response for ref in question.reference_responses])
+
+        answersList = question.responses_students
+        for answer in answersList:
+            student_embedding = get_embedding_device([answer.answer_question]).squeeze(0)
+            bert_scores = [tnf.cosine_similarity(student_embedding, ref_emb.unsqueeze(0)).item() for ref_emb in reference_embeddings]
+            normalized_bert_scores = [normalize(score, -1, 1, 0, 5) for score in bert_scores]
+
+            freqSimilarity = []
+            livDistances = []
+
+            with ThreadPoolExecutor() as executor:
+                future_to_ref = {executor.submit(calculate_freq_and_liv_en, reference, answer.answer_question): reference for reference in question.reference_responses}
+                for future in future_to_ref:
+                    normalizedFreq, normalizedDistance = future.result()
+                    freqSimilarity.append(normalizedFreq)
+                    livDistances.append(normalizedDistance)
+            
+            answerParamsList.append(AnswerParams(0,
+                answer,
+                max(freqSimilarity),
+                max(livDistances),
+                max(normalized_bert_scores)
+                ))
+    
+    return answerParamsList
                 
 def main():
     comm = MPI.COMM_WORLD
@@ -101,7 +143,8 @@ def main():
     size = comm.Get_size()
 
     if rank == 0:
-        questionList = dcf.loadQuestions()
+        # questionList = dcf.loadQuestions()
+        questionList = dcf.loadEnQuestions()
         chunks = np.array_split(questionList, size)
     else:
         chunks = None
@@ -119,7 +162,8 @@ def main():
             answerParam.answer_number = idx
         
         answerParamsDict = [asdict(answerParams) for answerParams in answers_full_list]
-        write_to_json(answerParamsDict, '../normalizedData/ptbrDataset/answersParams5.json')
+        # write_to_json(answerParamsDict, '../normalizedData/ptbrDataset/answersParamsLarge.json')
+        write_to_json(answerParamsDict, '../normalizedData/enDataset/answersParams.json')
                 
 if __name__ == "__main__":
     main()

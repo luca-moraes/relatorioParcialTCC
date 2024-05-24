@@ -3,6 +3,13 @@ from Models import Answer, RefResponse, Keywords, Question, QuestionsOnly
 import csv
 import json
 
+def read_en_txt(filename):
+    data = []
+    with open(filename, 'r', encoding='utf-8') as file:
+        for line in file:
+            data.append(line.strip().split('\t'))
+    return data
+
 def read_csv(filename):
     data = []
     with open(filename, 'r', encoding='utf-8') as file:
@@ -15,6 +22,57 @@ def read_csv(filename):
 def write_to_json(data, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
+def parseEnDataset():
+    # Informações do dataset
+    data = read_en_txt('./dataset/texas-asag/ASAG-Method/dataset/NorthTexasDataset/expand.txt')
+    
+    # Parser dos dados
+    question_dict = {}
+    for row in data:
+        question_text = row[0]
+        reference_response_text = row[1]
+        student_response_text = row[2]
+        student_grade = float(row[3])
+        
+        if question_text not in question_dict:
+            question_dict[question_text] = {
+                "question_text": question_text,
+                "reference_response": RefResponse(number_question=len(question_dict)+1, reference_response=reference_response_text),
+                "responses_students": []
+            }
+        
+        question_dict[question_text]["responses_students"].append(
+            Answer(number_question=len(question_dict), answer_question=student_response_text, grade=student_grade)
+        )
+    
+    questionList = []
+    for idx, (question_text, question_data) in enumerate(question_dict.items(), start=1):
+        question = Question(
+            number_question=idx,
+            question_text=question_data["question_text"],
+            keywords=[],
+            reference_responses=[question_data["reference_response"]],
+            responses_students=question_data["responses_students"]
+        )
+        questionList.append(question)
+    
+    questionsOnlyList = [QuestionsOnly(
+        number_question=question.number_question,
+        question_text=question.question_text,
+        keywords=question.keywords,
+        reference_responses=question.reference_responses
+    ) for question in questionList]
+    
+    # Criação do JSON
+    question_dicts = [asdict(question) for question in questionList]
+    write_to_json(question_dicts, './normalizedData/enDataset/enData.json')
+    
+    # JSON de perguntas
+    questionOnly_dicts = [asdict(question) for question in questionsOnlyList]
+    write_to_json(questionOnly_dicts, './normalizedData/enDataset/enQuestionsOnly.json')
+    
+    print("Done!")
 
 def parsePtBrDataset():
     #infos dos datasets 
@@ -102,7 +160,8 @@ def parsePtBrDataset():
     print("Done!")
             
 def main():
-    parsePtBrDataset()
+    # parsePtBrDataset()
+    parseEnDataset()
         
 if __name__ == "__main__":
     main()

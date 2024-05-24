@@ -36,7 +36,7 @@ import json
 
 from sentence_transformers import SentenceTransformer
 
-model_name = "neuralmind/bert-base-portuguese-cased"
+model_name = "neuralmind/bert-large-portuguese-cased"
 model = SentenceTransformer(model_name)
 
 def write_to_json(data, filename):
@@ -87,7 +87,7 @@ def main():
     if rank == 0:
         flattened_results = [item for sublist in all_results for item in sublist]
         answerParamsDict = [{"answersNum": a, "answer": b, "bertSim": d} for (a, b, c, d, e) in flattened_results]
-        write_to_json(answerParamsDict, './normalizedData/ptbrDataset/answersParams.json')
+        write_to_json(answerParamsDict, './normalizedData/ptbrDataset/answersParamsLarge.json')
                 
 if __name__ == "__main__":
     main()

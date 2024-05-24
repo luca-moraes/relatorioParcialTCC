@@ -56,8 +56,19 @@ def loadQuestions():
 
     return loaded_questions
 
+def loadEnQuestions():
+    filename = '../normalizedData/enDataset/enData.json'
+    loaded_questions = load_from_json(filename)
+    
+    return loaded_questions
+
 def loadAnswersParams():
-    filename = '../normalizedData/ptbrDataset/answersParams4.json'
+    filename = '../normalizedData/ptbrDataset/answersParamsLarge.json'
+    loaded_answers_params = loadAnswersParamsJson(filename)
+    return loaded_answers_params
+
+def loadEnAnswersParams():
+    filename = '../normalizedData/enDataset/answersParamsLarge.json'
     loaded_answers_params = loadAnswersParamsJson(filename)
     return loaded_answers_params
     
