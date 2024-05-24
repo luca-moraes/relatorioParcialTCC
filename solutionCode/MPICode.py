@@ -16,7 +16,7 @@ from concurrent.futures import ThreadPoolExecutor
 from mpi4py import MPI
 
 # model_name = "neuralmind/bert-large-portuguese-cased"
-model_name = "google-bert/bert-base-cased"
+model_name = "google-bert/bert-large-cased"
 tokenizer = BertTokenizer.from_pretrained(model_name)
 model = BertModel.from_pretrained(model_name)
 
@@ -151,7 +151,7 @@ def main():
     
     local_chunk = comm.scatter(chunks, root=0)
 
-    local_results = process_questions(local_chunk)
+    local_results = process_en_questions(local_chunk)
 
     all_results = comm.gather(local_results, root=0)
 
@@ -163,7 +163,7 @@ def main():
         
         answerParamsDict = [asdict(answerParams) for answerParams in answers_full_list]
         # write_to_json(answerParamsDict, '../normalizedData/ptbrDataset/answersParamsLarge.json')
-        write_to_json(answerParamsDict, '../normalizedData/enDataset/answersParams.json')
+        write_to_json(answerParamsDict, '../normalizedData/enDataset/answersParamsLarge.json')
                 
 if __name__ == "__main__":
     main()

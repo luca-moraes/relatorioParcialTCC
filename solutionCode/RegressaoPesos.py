@@ -11,11 +11,13 @@ def weighted_average(input_data, weights):
 def normalize_predictions(predictions, min_val=0, max_val=3):
     return np.clip(predictions, min_val, max_val)
 
-loadedAnswersParamsAll = dcf.loadAnswersParams()
+#loadedAnswersParamsAll = dcf.loadAnswersParams()
+loadedAnswersParamsAll = dcf.loadEnAnswersParams()
 
+trainPercent = 1
 testPercent = 0.9
 
-loadedAnswersParams = loadedAnswersParamsAll[:int(testPercent * len(loadedAnswersParamsAll))]
+loadedAnswersParams = loadedAnswersParamsAll[:int(trainPercent * len(loadedAnswersParamsAll))]
 
 loadedAnswersTests = loadedAnswersParamsAll[int(testPercent * len(loadedAnswersParamsAll)):]
 
@@ -43,7 +45,8 @@ optimized_weights = model.coef_
 raw_predictions_normalized = model.predict(input_data_normalized)
 raw_predictions = scaler_output.inverse_transform(raw_predictions_normalized.reshape(-1, 1)).flatten()
 
-normalized_predictions = normalize_predictions(raw_predictions, 0, 3)
+#normalized_predictions = normalize_predictions(raw_predictions, 0, 3)
+normalized_predictions = normalize_predictions(raw_predictions, 0, 5)
 
 mse_before_clipping = np.mean((raw_predictions - output_data) ** 2)
 mae_before_clipping = np.mean(np.abs(raw_predictions - output_data))
