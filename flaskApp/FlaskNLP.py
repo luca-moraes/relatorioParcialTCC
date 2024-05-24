@@ -45,7 +45,7 @@ def calculate_freq_and_liv_en(reference, answer_question):
     livDistance = distance(answer_question, reference.reference_response)
     normalizedDistance = 0
     if livDistance < len(reference.reference_response):
-        normalizedDistance = 3 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
+        normalizedDistance = 5 * (len(reference.reference_response) - livDistance) / len(reference.reference_response)
     
     return normalizedFreq, normalizedDistance
 
@@ -127,7 +127,7 @@ def process_questions_en(answer, referenceList):
     livDistances = []
             
     with ThreadPoolExecutor() as executor:
-        future_to_ref = {executor.submit(calculate_freq_and_liv, reference, answer): reference for reference in referenceList}
+        future_to_ref = {executor.submit(calculate_freq_and_liv_en, reference, answer): reference for reference in referenceList}
         for future in future_to_ref:
             normalizedFreq, normalizedDistance = future.result()
             freqSimilarity.append(normalizedFreq)

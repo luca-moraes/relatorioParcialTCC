@@ -46,7 +46,7 @@ def submitEn():
     question_id = int(request.form['number_question'])
     user_answer = request.form['answer']
     
-    question = next((q for q in questions if q.number_question == question_id), None)
+    question = next((q for q in questionsEn if q.number_question == question_id), None)
     refs = question.reference_responses
     
     answer = myNLP.process_questions_en(user_answer, refs)
