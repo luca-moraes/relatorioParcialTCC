@@ -58,7 +58,7 @@ def test_all(peso1, peso2, peso3, answers):
     calculate_general_error(answerTestsList)
     
     answerTestsDict = [asdict(answerTests) for answerTests in answerTestsList]
-    write_to_json(answerTestsDict, '../normalizedData/enDataset/testsResults.json')
+    write_to_json(answerTestsDict, '../normalizedData/esDataset/testsResults.json')
                 
     # return nota
     #return normalize(nota, 0, 3, 0, 10)

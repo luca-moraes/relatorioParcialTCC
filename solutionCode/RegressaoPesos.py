@@ -12,10 +12,11 @@ def normalize_predictions(predictions, min_val=0, max_val=3):
     return np.clip(predictions, min_val, max_val)
 
 #loadedAnswersParamsAll = dcf.loadAnswersParams()
-loadedAnswersParamsAll = dcf.loadEnAnswersParams()
+#loadedAnswersParamsAll = dcf.loadEnAnswersParams()
+loadedAnswersParamsAll = dcf.loadEsAnswersParams()
 
-trainPercent = 0.7
-testPercent = 0.7
+trainPercent = 1
+testPercent = 0.9
 
 loadedAnswersParams = loadedAnswersParamsAll[:int(trainPercent * len(loadedAnswersParamsAll))]
 
