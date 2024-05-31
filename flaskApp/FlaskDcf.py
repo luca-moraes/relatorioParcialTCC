@@ -32,3 +32,9 @@ def loadEnQuestionsOnly():
     loaded_questions = load_from_json(filename)
 
     return loaded_questions
+
+def loadEsQuestionsOnly():
+    filename = './questionsEs.json'
+    loaded_questions = load_from_json(filename)
+
+    return loaded_questions

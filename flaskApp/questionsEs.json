@@ -1,0 +1,222 @@
+[
+    {
+        "number_question": 1,
+        "question_text": "Las frases son piedrecillas que el escritor arroja en el alma del lector. El diámetro de las ondas concéntricas que desplazan depende de las dimensiones del estanque. Según el texto, el estanque se refiere a",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 1,
+                "reference_response": "El mundo del lector"
+            }
+        ]
+    },
+    {
+        "number_question": 2,
+        "question_text": "El amor es una muestra mortal de la inmortalidad. Del texto se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 2,
+                "reference_response": "La esencia de la eternidad se refleja en el amor terrenal"
+            }
+        ]
+    },
+    {
+        "number_question": 3,
+        "question_text": "Lo único constante en la vida es el cambio. Del texto se infiere que:",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 3,
+                "reference_response": "La continua evolución del ser desde el inicio de la creación"
+            }
+        ]
+    },
+    {
+        "number_question": 4,
+        "question_text": "Tendremos el destino que nos hayamos merecido. Del texto se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 4,
+                "reference_response": "Cada persona forja su futuro según las acciones que realice en la vida."
+            }
+        ]
+    },
+    {
+        "number_question": 5,
+        "question_text": "La actividad más importante que un ser humano puede lograr es aprender para entender, porque entender es ser libre. Del texto se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 5,
+                "reference_response": "Vale la pena ser humano para aprender a entender."
+            }
+        ]
+    },
+    {
+        "number_question": 6,
+        "question_text": "Tu nivel más alto de ignorancia es cuando rechazas algo de lo cual no sabes nada. Del texto se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 6,
+                "reference_response": "Cuando el hombre rechaza lo que no se conoce, alcanza el máximo nivel de ignorancia."
+            }
+        ]
+    },
+    {
+        "number_question": 7,
+        "question_text": "Mi soledad no depende de la presencia o ausencia de gente; por el contrario, detesto a los que roban mi soledad sin a cambio ofrecerme verdadera compañía. Del texto se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 7,
+                "reference_response": "Da a entender que la soledad como tal no existe, sino solo el sentimiento de soledad."
+            }
+        ]
+    },
+    {
+        "number_question": 8,
+        "question_text": "Algunas personas causan felicidad a donde van; otras, cuando se van. Del texto se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 8,
+                "reference_response": "Equipara la tipología de personas que esparcen felicidad con las que la restan"
+            }
+        ]
+    },
+    {
+        "number_question": 9,
+        "question_text": "Que la comida sea tu alimento, y el alimento tu medicina. Del texto se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 9,
+                "reference_response": "Persuade a la humanidad a cultivar buenos hábitos de alimentación para vivir prolongadamente."
+            }
+        ]
+    },
+    {
+        "number_question": 10,
+        "question_text": "La simpatía es una pésima limosna. En el texto se alude a la simpatía como",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 10,
+                "reference_response": "Una variante risueña, afectada, aduladora, impúdica y lela de la mala educación."
+            }
+        ]
+    },
+    {
+        "number_question": 11,
+        "question_text": "La duda es uno de los nombres de la inteligencia. El concepto que se puede inferir de inteligencia es que…",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 11,
+                "reference_response": "La inteligencia se basa en la capacidad de cuestionarse."
+            }
+        ]
+    },
+    {
+        "number_question": 12,
+        "question_text": "Ayudar al que lo necesita no sólo es parte del deber, sino de la felicidad. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 12,
+                "reference_response": "La felicidad de las personas está en ser solidarios."
+            }
+        ]
+    },
+    {
+        "number_question": 13,
+        "question_text": "Benevolencia no quiere decir tolerancia de lo ruin, o conformidad con lo inepto, sino voluntad de bien. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 13,
+                "reference_response": "La buena voluntad es deseo de bienestar hacia el otro."
+            }
+        ]
+    },
+    {
+        "number_question": 14,
+        "question_text": "Tened paciencia y tendréis ciencia. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 14,
+                "reference_response": "El trabajo del científico requiere de tiempo y calma."
+            }
+        ]
+    },
+    {
+        "number_question": 15,
+        "question_text": "Incluso los que dicen que no pueden hacer nada para cambiar su destino, miran al cruzar la calle. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 15,
+                "reference_response": "Pese a que para muchos, el destino es algo que no se puede modificar, siempre está la esperanza de poder hacerlo. "
+            }
+        ]
+    },
+    {
+        "number_question": 16,
+        "question_text": "La idea no es vivir para siempre, la idea es crear algo que sí lo haga. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 16,
+                "reference_response": "El legado de la humanidad está en lo que han materializado."
+            }
+        ]
+    },
+    {
+        "number_question": 17,
+        "question_text": "Las palabras acercan, los silencios destruyen. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 17,
+                "reference_response": "La conversación permite el entendimiento de las personas."
+            }
+        ]
+    },
+    {
+        "number_question": 18,
+        "question_text": "El tiempo es tu navío, no tu morada. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 18,
+                "reference_response": "La vida es un transcurrir, no te quedes en el instante."
+            }
+        ]
+    },
+    {
+        "number_question": 19,
+        "question_text": "El tiempo cura lo que la razón en vano procura. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 19,
+                "reference_response": "El tiempo permite superar las adversidades."
+            }
+        ]
+    },
+    {
+        "number_question": 20,
+        "question_text": "Cuando hables, procura que tus palabras sean mejores que el silencio. Del aforismo se infiere que",
+        "keywords": [],
+        "reference_responses": [
+            {
+                "number_question": 20,
+                "reference_response": "Si vas a decir algo, busca que tus palabras aporten."
+            }
+        ]
+    }
+]

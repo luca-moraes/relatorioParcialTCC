@@ -196,7 +196,7 @@ Erro Geral do Algoritmo: 20.53%
 Numero de Erros Graves: 52
 Porcentagem de Erros Graves: 14.25%
 
-Resultado España Large:
+Resultado España Base:
 
 70% m 30% t
 
