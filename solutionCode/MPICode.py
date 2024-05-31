@@ -17,7 +17,7 @@ from mpi4py import MPI
 
 # model_name = "neuralmind/bert-large-portuguese-cased"
 # model_name = "google-bert/bert-large-cased"
-model_name = "google-bert/bert-large-cased"
+model_name = "dccuchile/bert-base-spanish-wwm-cased"
 tokenizer = BertTokenizer.from_pretrained(model_name)
 model = BertModel.from_pretrained(model_name)
 
