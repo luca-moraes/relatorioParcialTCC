@@ -1,4 +1,4 @@
-,answer,id,score,correct,questions,target_answers
+n,answer,id,score,correct,questions,target_answers
 0,Espacio,1,1.0,0.0,"Las frases son piedrecillas que el escritor arroja en el alma del lector. El diámetro de las ondas concéntricas que desplazan depende de las dimensiones del estanque. Según el texto, el estanque se refiere a",El mundo del lector
 1,El entendimiento.,1,3.0,0.0,"Las frases son piedrecillas que el escritor arroja en el alma del lector. El diámetro de las ondas concéntricas que desplazan depende de las dimensiones del estanque. Según el texto, el estanque se refiere a",El mundo del lector
 2,Los sentimientos que tiene una persona en su espíritu,1,3.5,1.0,"Las frases son piedrecillas que el escritor arroja en el alma del lector. El diámetro de las ondas concéntricas que desplazan depende de las dimensiones del estanque. Según el texto, el estanque se refiere a",El mundo del lector
