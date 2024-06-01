@@ -215,6 +215,18 @@ a:hover {
     color: #29cc00;
 }
 
+.port:hover {
+    color: #29cc00;
+}
+
+.eng:hover {
+    color: #1786ee;
+}
+
+.esp:hover {
+    color: #fd9a3d;
+}
+
 .titulos {
     max-width: 800px;
     margin: auto;
