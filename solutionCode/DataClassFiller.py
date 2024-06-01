@@ -79,7 +79,7 @@ def loadEnAnswersParams():
     return loaded_answers_params
 
 def loadEsAnswersParams():
-    filename = '../normalizedData/esDataset/answersParams.json'
+    filename = '../normalizedData/esDataset/answersParamsLarge.json'
     loaded_answers_params = loadAnswersParamsJson(filename)
     return loaded_answers_params
     

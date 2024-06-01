@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import DataClassFiller as dcf
-from transformers import BertModel, BertTokenizer
+from transformers import BertModel, BertTokenizer, RobertaModel, RobertaTokenizer
 import torch
 #from torch.nn.functional import cosine_similarity
 import torch.nn.functional as tnf
@@ -17,9 +17,15 @@ from mpi4py import MPI
 
 # model_name = "neuralmind/bert-large-portuguese-cased"
 # model_name = "google-bert/bert-large-cased"
-model_name = "dccuchile/bert-base-spanish-wwm-cased"
-tokenizer = BertTokenizer.from_pretrained(model_name)
-model = BertModel.from_pretrained(model_name)
+# model_name = "dccuchile/bert-base-spanish-wwm-cased"
+
+# tokenizer = BertTokenizer.from_pretrained(model_name)
+# model = BertModel.from_pretrained(model_name)
+
+model_name = "flax-community/bertin-roberta-large-spanish"
+
+tokenizer = RobertaTokenizer.from_pretrained(model_name)
+model = RobertaModel.from_pretrained(model_name)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
@@ -207,7 +213,7 @@ def main():
         answerParamsDict = [asdict(answerParams) for answerParams in answers_full_list]
         # write_to_json(answerParamsDict, '../normalizedData/ptbrDataset/answersParamsLarge.json')
         # write_to_json(answerParamsDict, '../normalizedData/enDataset/answersParamsLarge.json')
-        write_to_json(answerParamsDict, '../normalizedData/esDataset/answersParams.json')
+        write_to_json(answerParamsDict, '../normalizedData/esDataset/answersParamsLarge.json')
                 
 if __name__ == "__main__":
     main()
