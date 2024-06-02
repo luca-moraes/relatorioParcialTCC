@@ -22,7 +22,8 @@ from mpi4py import MPI
 # tokenizer = BertTokenizer.from_pretrained(model_name)
 # model = BertModel.from_pretrained(model_name)
 
-model_name = "flax-community/bertin-roberta-large-spanish"
+#model_name = "flax-community/bertin-roberta-large-spanish"
+model_name = "bertin-project/bertin-roberta-base-spanish"
 
 tokenizer = RobertaTokenizer.from_pretrained(model_name)
 model = RobertaModel.from_pretrained(model_name)
@@ -213,7 +214,7 @@ def main():
         answerParamsDict = [asdict(answerParams) for answerParams in answers_full_list]
         # write_to_json(answerParamsDict, '../normalizedData/ptbrDataset/answersParamsLarge.json')
         # write_to_json(answerParamsDict, '../normalizedData/enDataset/answersParamsLarge.json')
-        write_to_json(answerParamsDict, '../normalizedData/esDataset/answersParamsLarge.json')
+        write_to_json(answerParamsDict, '../normalizedData/esDataset/answersParamsRoberta.json')
                 
 if __name__ == "__main__":
     main()
