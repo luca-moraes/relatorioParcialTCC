@@ -1,0 +1,4747 @@
+[
+    {
+        "answer_number": 3281,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "You implement a list in which the head pointer points to the element most recently pushed onto the list and the pop function changes the head pointer to point to the next to last element in the list and removes the element head pointer previously pointed to",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.155673622436778,
+        "liv_distance": 0,
+        "bert_score": 4.950132071971893,
+        "nota_atribuida": 6.158860976552929,
+        "percentual_error": 0.1881615741879492
+    },
+    {
+        "answer_number": 3282,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "This is the implementation of the stack using single linked list The operations performed on a stack are 1 - RRB - push - LRB - - RRB - : This is the function which is for insertion - LRB - pushing - RRB - of an element into stack It is similar to the insertion of an element at the end of a single linked list see the function insert end - LRB - - RRB - in the program for operations of single linked list 2 - RRB - pop - LRB - - RRB - : This is the function which is for deletion - LRB - popping up - RRB - of an element from the stack It is similar to the deletion of an element at the end of a single linked list see the function delete end - LRB - - RRB - in the program for operations of single linked list 3 - RRB - stack display - LRB - - RRB - : This is the function which is for displaying the elements of a stack",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.118114724143819,
+        "liv_distance": 0,
+        "bert_score": 4.665075838565826,
+        "nota_atribuida": 6.0190382635034005,
+        "percentual_error": 0.3354420050368998
+    },
+    {
+        "answer_number": 3283,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Using nodes to keep track of the head of the stack Then using Push - LRB - - RRB - and Pop - LRB - - RRB - to create the stack as needed",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.007556722888818,
+        "liv_distance": 1.5359477124183007,
+        "bert_score": 4.923923015594482,
+        "nota_atribuida": 5.354402140383309,
+        "percentual_error": 0.25295114279301223
+    },
+    {
+        "answer_number": 3284,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Use the head as the top of the stack only modify the head when you push or pop push would add a new item to the head pop would remove the item from the head",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.371137997959372,
+        "liv_distance": 1.7647058823529411,
+        "bert_score": 4.905765205621719,
+        "nota_atribuida": 5.640261733532165,
+        "percentual_error": 0.2021646844424162
+    },
+    {
+        "answer_number": 3285,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "you implement a stack with a list by changing the pointer to the first element of the list to the new item and move the pointer from the top of the stack to the next item when removing an item",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.399187895707324,
+        "liv_distance": 0.8169934640522876,
+        "bert_score": 4.956533312797546,
+        "nota_atribuida": 6.081294234882577,
+        "percentual_error": 0.26002593754010495
+    },
+    {
+        "answer_number": 3286,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "You dynamicly create space as the stack grows The stack can be as long as you need",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.3253126141202305,
+        "liv_distance": 1.2091503267973855,
+        "bert_score": 4.9289271235466,
+        "nota_atribuida": 4.765290943840793,
+        "percentual_error": 0.4753730612752437
+    },
+    {
+        "answer_number": 3287,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Declare a pointer that points to the head of the linked list only add and remove nodes from the beginning of the list",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.5277677641345315,
+        "liv_distance": 2.9084967320261437,
+        "bert_score": 4.966138303279877,
+        "nota_atribuida": 5.353424236274375,
+        "percentual_error": 0.06601835025134017
+    },
+    {
+        "answer_number": 3288,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Creating a linked list Add an element to the top of the stack when pushing and deleting an element when popping",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.8123766423931507,
+        "liv_distance": 1.6666666666666667,
+        "bert_score": 4.946357607841492,
+        "nota_atribuida": 5.100154139693021,
+        "percentual_error": 0.21570997847512885
+    },
+    {
+        "answer_number": 3289,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "A singly - linked list is already a lot like a stack it just depends on the way you address moving the head",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.651705531801071,
+        "liv_distance": 1.5032679738562091,
+        "bert_score": 4.91800844669342,
+        "nota_atribuida": 4.986954372123316,
+        "percentual_error": 0.29816883435615016
+    },
+    {
+        "answer_number": 3290,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "make a list make the bottom the head add on the end and make the end top",
+            "grade": 3.5
+        },
+        "frequence_similarity": 4.0740740740740735,
+        "liv_distance": 1.4379084967320261,
+        "bert_score": 4.921925961971283,
+        "nota_atribuida": 5.465231105776733,
+        "percentual_error": 0.3595879236834998
+    },
+    {
+        "answer_number": 3291,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "use the add function with a list as the beginning of the stack and remove for pop",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.3951174787165375,
+        "liv_distance": 1.4705882352941178,
+        "bert_score": 4.951028674840927,
+        "nota_atribuida": 5.803732992258776,
+        "percentual_error": 0.22463696968791314
+    },
+    {
+        "answer_number": 3292,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Use head as the top and push and pop nodes from the head",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.8382584475782764,
+        "liv_distance": 1.4052287581699345,
+        "bert_score": 4.922233819961548,
+        "nota_atribuida": 5.227786787228613,
+        "percentual_error": 0.13921508601050503
+    },
+    {
+        "answer_number": 3293,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "create a node based list that points to the next list item down",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.390870806374748,
+        "liv_distance": 1.3071895424836601,
+        "bert_score": 4.940616190433502,
+        "nota_atribuida": 4.798501698870484,
+        "percentual_error": 0.6874024238955497
+    },
+    {
+        "answer_number": 3294,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "have the head of the list be the last item added and a push just adds a new head",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.166666666666666,
+        "liv_distance": 1.5359477124183007,
+        "bert_score": 4.943017959594727,
+        "nota_atribuida": 5.530523359107077,
+        "percentual_error": 0.18633378655025856
+    },
+    {
+        "answer_number": 3295,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Create a new list Pop elements in the stack as needed Push the stack to remove items unless the stack is empty The top item is at the head of the list The last item is at the end",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.468564963589725,
+        "liv_distance": 1.0457516339869282,
+        "bert_score": 4.932025671005249,
+        "nota_atribuida": 6.051635775378997,
+        "percentual_error": 0.25639939893471564
+    },
+    {
+        "answer_number": 3296,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "adding the element to the end of the list so that it links to the element before it when popping the element it takes the last element in the list and sets the previous one as the end of the list",
+            "grade": 3.5
+        },
+        "frequence_similarity": 4.382708192682296,
+        "liv_distance": 1.0130718954248366,
+        "bert_score": 4.949865639209747,
+        "nota_atribuida": 5.9800204929022795,
+        "percentual_error": 0.4147177247713164
+    },
+    {
+        "answer_number": 3297,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "You can implement a stack using arrays or and linked list By the use of pointers that point element - LRB - node - RRB - to the next element in the stack By the use of pointers the stack becomes a linked list",
+            "grade": 2.5
+        },
+        "frequence_similarity": 4.166963411379544,
+        "liv_distance": 0.49019607843137253,
+        "bert_score": 4.926581680774689,
+        "nota_atribuida": 5.959161744324734,
+        "percentual_error": 0.5804779082593454
+    },
+    {
+        "answer_number": 3298,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Elements are only inserted and removed from the head of the list There is no header node or current pointer",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.8621156878275107,
+        "liv_distance": 1.5686274509803921,
+        "bert_score": 4.930016994476318,
+        "nota_atribuida": 5.188092983562025,
+        "percentual_error": 0.13262926970318023
+    },
+    {
+        "answer_number": 3299,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "use a linked list and keep track of a pointer that points to the first item",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.687827741832997,
+        "liv_distance": 1.3725490196078431,
+        "bert_score": 4.946939051151276,
+        "nota_atribuida": 5.089811753541759,
+        "percentual_error": 0.21411631830654843
+    },
+    {
+        "answer_number": 3300,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "A singly linked list can already be easily used for LIFO data storage Members of a stack can simply be pushed and popped from a list the first item in will be the last out",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.546914390895013,
+        "liv_distance": 0.7843137254901961,
+        "bert_score": 4.94893878698349,
+        "nota_atribuida": 5.184624299274924,
+        "percentual_error": 0.13204897013862116
+    },
+    {
+        "answer_number": 3301,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "using pointer",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.35947712418300654,
+        "bert_score": 4.827024340629578,
+        "nota_atribuida": 4.203428288218479,
+        "percentual_error": 0.6431484262014759
+    },
+    {
+        "answer_number": 3302,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "the top is the first pointer",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.973139127471974,
+        "liv_distance": 0.8169934640522876,
+        "bert_score": 4.880558550357819,
+        "nota_atribuida": 5.6009939193064735,
+        "percentual_error": 0.464380778979409
+    },
+    {
+        "answer_number": 3303,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Keep a pointer pointing to the last element entered at the front of the array and move the pointer back when you delete an element",
+            "grade": 2.5
+        },
+        "frequence_similarity": 4.08113883008419,
+        "liv_distance": 1.8954248366013071,
+        "bert_score": 4.968930184841156,
+        "nota_atribuida": 5.2993058703247105,
+        "percentual_error": 0.5282401014065612
+    },
+    {
+        "answer_number": 3304,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "using linked list you are pushing the node that contains each int to the stack until you get to the end of your linked list",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.9678414098799655,
+        "liv_distance": 1.5686274509803921,
+        "bert_score": 4.966433942317963,
+        "nota_atribuida": 5.31343218664561,
+        "percentual_error": 0.529494324537854
+    },
+    {
+        "answer_number": 3305,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "have a linked list and for each push add an item onto beginning of the list and for each pop remove the first element in the list",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.0913098741604195,
+        "liv_distance": 1.8300653594771241,
+        "bert_score": 4.9539995193481445,
+        "nota_atribuida": 5.332038064498472,
+        "percentual_error": 0.06227226071569758
+    },
+    {
+        "answer_number": 3306,
+        "answer_values": {
+            "number_question": 76,
+            "answer_question": "Using a linked list is one way to implement a stack so that it can handle essentially any number of elements It is usually convenient to put a data structure in its own module thus you will want to create files stack h and a stack c",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.0886810475844637,
+        "liv_distance": 0,
+        "bert_score": 4.815150201320648,
+        "nota_atribuida": 4.975363409599932,
+        "percentual_error": 0.5980193132945801
+    },
+    {
+        "answer_number": 3307,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Array based because they are faster easier to keep track of and less complexity in code",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.9099478125572205,
+        "nota_atribuida": 4.558897354338414,
+        "percentual_error": 0.45162178358306126
+    },
+    {
+        "answer_number": 3308,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "The list - based implementation is preferred since the big O - LRB - 1 - RRB - is very efficient",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.033001790889026,
+        "liv_distance": 0.4794520547945205,
+        "bert_score": 4.907774925231934,
+        "nota_atribuida": 4.749493931711847,
+        "percentual_error": 0.36835375660355507
+    },
+    {
+        "answer_number": 3309,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Linked list implementation is preferred That way the list can be moved along without iteration",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.136986301369863,
+        "bert_score": 4.900606572628021,
+        "nota_atribuida": 4.321549938822708,
+        "percentual_error": 0.30580462045585644
+    },
+    {
+        "answer_number": 3310,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Linked list because it takes up less memory and is scalable",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.727272727272727,
+        "liv_distance": 1.643835616438356,
+        "bert_score": 4.921172261238098,
+        "nota_atribuida": 3.9452976697193503,
+        "percentual_error": 0.23960110208530705
+    },
+    {
+        "answer_number": 3311,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list based because the nodes are easier to work with and can be traversed easier",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.0484543180953483,
+        "liv_distance": 1.7808219178082192,
+        "bert_score": 4.914762079715729,
+        "nota_atribuida": 4.228213745852843,
+        "percentual_error": 0.29048052432484317
+    },
+    {
+        "answer_number": 3312,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Array is preferred Linked list implementation requires extra space to store pointers Space is allocated dynamically in the list - based which takes more time",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.6376204706407953,
+        "liv_distance": 0,
+        "bert_score": 4.889694452285767,
+        "nota_atribuida": 4.5211401063534575,
+        "percentual_error": 0.44704213070353527
+    },
+    {
+        "answer_number": 3313,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Array based implementation requires less memory than a list based inceasing the size of a resizeable array can waste storage and time",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.961593091172498,
+        "liv_distance": 0,
+        "bert_score": 4.878334254026413,
+        "nota_atribuida": 4.862156112021525,
+        "percentual_error": 0.28015474629735515
+    },
+    {
+        "answer_number": 3314,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "i would think a list based would be better because you can change the pointers of the nodes to add or remove things from your stack",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.7849014411490947,
+        "liv_distance": 0,
+        "bert_score": 4.893417954444885,
+        "nota_atribuida": 4.679281720746413,
+        "percentual_error": 0.14516794698098623
+    },
+    {
+        "answer_number": 3315,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "array based list is preferred because it can hold any size as long as u specify it",
+            "grade": 1.0
+        },
+        "frequence_similarity": 3.0056498968474314,
+        "liv_distance": 1.2328767123287672,
+        "bert_score": 4.873126149177551,
+        "nota_atribuida": 4.395496126628832,
+        "percentual_error": 0.7724943962658068
+    },
+    {
+        "answer_number": 3316,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "List based is preferred because it is not constrained to a fix size The down fall is that it takes up more memory because each node has at least two parts the item and the pointer",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9222003309207487,
+        "liv_distance": 0,
+        "bert_score": 4.913432002067566,
+        "nota_atribuida": 4.832498493952775,
+        "percentual_error": 0.03350030120944503
+    },
+    {
+        "answer_number": 3317,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "List based is preferred because the stack you create is not limited in size and can increase or decrease in size as needed",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0598925109558546,
+        "liv_distance": 0,
+        "bert_score": 4.913756400346756,
+        "nota_atribuida": 4.979238760122415,
+        "percentual_error": 0.004152247975516943
+    },
+    {
+        "answer_number": 3318,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Array - based prevents the push operation from adding an item to the stack if the stack size limit which is the size of the array has been reached List - base much simpler to write and does not have a fixed size",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.8553345272593504,
+        "liv_distance": 0,
+        "bert_score": 4.889889508485794,
+        "nota_atribuida": 4.753049361682221,
+        "percentual_error": 0.04939012766355577
+    },
+    {
+        "answer_number": 3319,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Array based because they are faster easier to keep track of and less complexity in code",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.9099478125572205,
+        "nota_atribuida": 4.558897354338414,
+        "percentual_error": 0.45162178358306126
+    },
+    {
+        "answer_number": 3320,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list - based because it does not use a fixed size like an array would",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.127181507505318,
+        "liv_distance": 1.9863013698630136,
+        "bert_score": 4.926786422729492,
+        "nota_atribuida": 4.2309683202148545,
+        "percentual_error": 0.15380633595702908
+    },
+    {
+        "answer_number": 3321,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "usually linked list because it does not have a fixed size But if you know or want to set a max size array is better",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9522670168666454,
+        "liv_distance": 0,
+        "bert_score": 4.914654940366745,
+        "nota_atribuida": 4.864944400820298,
+        "percentual_error": 0.0270111198359404
+    },
+    {
+        "answer_number": 3322,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "List - based Allows more flexablity with size of the stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9767312946227964,
+        "liv_distance": 1.7808219178082192,
+        "bert_score": 4.897977709770203,
+        "nota_atribuida": 4.1459589170779605,
+        "percentual_error": 0.17080821658440792
+    },
+    {
+        "answer_number": 3323,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Linked lists are preferred for implementing stacks because they are not limited to a set number of elements",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1917144638660746,
+        "liv_distance": 0,
+        "bert_score": 4.87395241856575,
+        "nota_atribuida": 5.105674933542871,
+        "percentual_error": 0.020697544383136535
+    },
+    {
+        "answer_number": 3324,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "The list - based implementation is preferred since the big O - LRB - 1 - RRB - is very efficient",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.033001790889026,
+        "liv_distance": 0.4794520547945205,
+        "bert_score": 4.907774925231934,
+        "nota_atribuida": 4.749493931711847,
+        "percentual_error": 0.36835375660355507
+    },
+    {
+        "answer_number": 3325,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Linked list implementation is preferred That way the list can be moved along without iteration",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.136986301369863,
+        "bert_score": 4.900606572628021,
+        "nota_atribuida": 4.321549938822708,
+        "percentual_error": 0.30580462045585644
+    },
+    {
+        "answer_number": 3326,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list because it its size is not determined",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.033001790889026,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.880459010601044,
+        "nota_atribuida": 4.313468194390558,
+        "percentual_error": 0.13730636112188832
+    },
+    {
+        "answer_number": 3327,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Linked list because it takes up less memory and is scalable",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.727272727272727,
+        "liv_distance": 1.643835616438356,
+        "bert_score": 4.921172261238098,
+        "nota_atribuida": 3.9452976697193503,
+        "percentual_error": 0.23960110208530705
+    },
+    {
+        "answer_number": 3328,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "List - based as the list can be grown dynamically and as the head node is easily accessible",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.657173653365483,
+        "liv_distance": 1.0273972602739727,
+        "bert_score": 4.915225058794022,
+        "nota_atribuida": 4.124443162306817,
+        "percentual_error": 0.17511136753863654
+    },
+    {
+        "answer_number": 3329,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list based because the nodes are easier to work with and can be traversed easier",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.0484543180953483,
+        "liv_distance": 1.7808219178082192,
+        "bert_score": 4.914762079715729,
+        "nota_atribuida": 4.228213745852843,
+        "percentual_error": 0.29048052432484317
+    },
+    {
+        "answer_number": 3330,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list based because of the lower processing overhead and nearly unlimited space due to linked list design",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.8458572319330373,
+        "liv_distance": 0.2054794520547945,
+        "bert_score": 4.924898445606232,
+        "nota_atribuida": 4.669925302099011,
+        "percentual_error": 0.06601493958019788
+    },
+    {
+        "answer_number": 3331,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list - based It can grow and shrink dynamically unlike the fixed size array",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9181210050035453,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.918111562728882,
+        "nota_atribuida": 4.204319024724046,
+        "percentual_error": 0.15913619505519083
+    },
+    {
+        "answer_number": 3332,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list based because arrays can become full lists can grow or shrink as needed",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.8768891807222046,
+        "liv_distance": 1.5753424657534247,
+        "bert_score": 4.9103885889053345,
+        "nota_atribuida": 4.129276543417612,
+        "percentual_error": 0.17414469131647758
+    },
+    {
+        "answer_number": 3333,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "List - bases implentation is preferred One of the main reasons is because of that the list has no fixed size",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.927352161723642,
+        "liv_distance": 0,
+        "bert_score": 4.921671897172928,
+        "nota_atribuida": 4.8408702254104465,
+        "percentual_error": 0.03182595491791074
+    },
+    {
+        "answer_number": 3334,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Array is preferred Linked list implementation requires extra space to store pointers Space is allocated dynamically in the list - based which takes more time",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.6376204706407953,
+        "liv_distance": 0,
+        "bert_score": 4.889694452285767,
+        "nota_atribuida": 4.5211401063534575,
+        "percentual_error": 0.44704213070353527
+    },
+    {
+        "answer_number": 3335,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "link list is preferred because it makes pushing elements easier because there is no limit other than memory to the number of elements",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0598925109558546,
+        "liv_distance": 0,
+        "bert_score": 4.905530512332916,
+        "nota_atribuida": 4.976358053443806,
+        "percentual_error": 0.0047283893112387565
+    },
+    {
+        "answer_number": 3336,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "List - based implementation is much easier to implement and allows the stack to scale as necessary It is therefore the preferred implementation",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.6376204706407953,
+        "liv_distance": 0,
+        "bert_score": 4.911757707595825,
+        "nota_atribuida": 4.52886666023027,
+        "percentual_error": 0.09422666795394596
+    },
+    {
+        "answer_number": 3337,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "Array based implementation requires less memory than a list based inceasing the size of a resizeable array can waste storage and time",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.961593091172498,
+        "liv_distance": 0,
+        "bert_score": 4.878334254026413,
+        "nota_atribuida": 4.862156112021525,
+        "percentual_error": 0.28015474629735515
+    },
+    {
+        "answer_number": 3338,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "in an array based stack you would need to pre - determine a size where in a list you can increase or decrease the size however you want",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.882235393578219,
+        "liv_distance": 0,
+        "bert_score": 4.891344904899597,
+        "nota_atribuida": 4.78220543410148,
+        "percentual_error": 0.04355891317970395
+    },
+    {
+        "answer_number": 3339,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "A list - based implementation is preferred because the list is more flexible than a array",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.8656362120635652,
+        "liv_distance": 0.684931506849315,
+        "bert_score": 4.875575751066208,
+        "nota_atribuida": 4.474700348736489,
+        "percentual_error": 0.10505993025270222
+    },
+    {
+        "answer_number": 3340,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "i would think a list based would be better because you can change the pointers of the nodes to add or remove things from your stack",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.7849014411490947,
+        "liv_distance": 0,
+        "bert_score": 4.893417954444885,
+        "nota_atribuida": 4.679281720746413,
+        "percentual_error": 0.14516794698098623
+    },
+    {
+        "answer_number": 3341,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "list based because it is much more flexible easier to use and doesnt need to have a max size defined when it is made",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.919919383216891,
+        "liv_distance": 0,
+        "bert_score": 4.915029853582382,
+        "nota_atribuida": 4.830629109313566,
+        "percentual_error": 0.03387417813728677
+    },
+    {
+        "answer_number": 3342,
+        "answer_values": {
+            "number_question": 77,
+            "answer_question": "array based list is preferred because it can hold any size as long as u specify it",
+            "grade": 1.0
+        },
+        "frequence_similarity": 3.0056498968474314,
+        "liv_distance": 1.2328767123287672,
+        "bert_score": 4.873126149177551,
+        "nota_atribuida": 4.395496126628832,
+        "percentual_error": 0.7724943962658068
+    },
+    {
+        "answer_number": 3343,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "By using parentheses to have order in the expression",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.1063390625908323,
+        "liv_distance": 1.648936170212766,
+        "bert_score": 4.819391369819641,
+        "nota_atribuida": 4.31119976556795,
+        "percentual_error": 0.4201150176415789
+    },
+    {
+        "answer_number": 3344,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "In postfix notation",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.200140042014005,
+        "liv_distance": 0.9042553191489362,
+        "bert_score": 4.744420051574707,
+        "nota_atribuida": 4.6939399510778985,
+        "percentual_error": 0.1478374155422557
+    },
+    {
+        "answer_number": 3345,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "in postfix format",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.200140042014005,
+        "liv_distance": 0.9042553191489362,
+        "bert_score": 4.770681411027908,
+        "nota_atribuida": 4.703136681380927,
+        "percentual_error": 0.1495037735485233
+    },
+    {
+        "answer_number": 3346,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "they use parenthisis and a stack to determine which evaluations need to be made first",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.803169531295416,
+        "liv_distance": 1.648936170212766,
+        "bert_score": 4.907398819923401,
+        "nota_atribuida": 4.019178580725123,
+        "percentual_error": 0.25357882469139936
+    },
+    {
+        "answer_number": 3347,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "By throwing variables into a postfix expression and operands onto a parentheses regulated stack until end parentheses and enough variables to operate on are encountered",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.1755660236665673,
+        "liv_distance": 0,
+        "bert_score": 4.880037605762482,
+        "nota_atribuida": 5.090609696788426,
+        "percentual_error": 0.11601944206428372
+    },
+    {
+        "answer_number": 3348,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "by being passed to the function by a leading term",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.0484543180953483,
+        "liv_distance": 1.4361702127659575,
+        "bert_score": 4.874291270971298,
+        "nota_atribuida": 4.357101460174857,
+        "percentual_error": 0.6557344340703504
+    },
+    {
+        "answer_number": 3349,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "i have an hard time explaining this so i will show how infix is evaluated instead Start with an infix expression like - LRB - - LRB - - LRB - 5 plus 2 - RRB - multiplied by 5 - RRB - plus - LRB - 400 divided by - LRB - 2 plus 3 - RRB - - RRB - - RRB - and push items until you get a - RRB - and once that happens perform the operations until you reach an - LRB - with that complete you will now have - LRB - - LRB - 7 multiplied by 5 - RRB - plus - LRB - 400 divided by - LRB - 2 plus 3 - RRB - - RRB - - RRB - as now the expression that will be evaluated perform last step again - LRB - 35 plus - LRB - 400 divided by - LRB - 2 plus 3 - RRB - - RRB - - RRB - is now the stack repeat agian - LRB - 35 plus - LRB - 400 divided by 5 - RRB - - RRB - is now the stack after that repeat - LRB - 35 plus 80 - RRB - is now the stack repeat again 115 is now the stack and is returned",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.8402069087198862,
+        "liv_distance": 0,
+        "bert_score": 4.605076462030411,
+        "nota_atribuida": 4.6371985989648,
+        "percentual_error": 0.46088140357885565
+    },
+    {
+        "answer_number": 3350,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "infix expressions are pointers evaluated by reference to the memory location",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.0484543180953483,
+        "liv_distance": 1.5425531914893618,
+        "bert_score": 4.8909541964530945,
+        "nota_atribuida": 4.3187785794724345,
+        "percentual_error": 0.6526795777098546
+    },
+    {
+        "answer_number": 3351,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "When an operand is entered the computer Pushes it onto a stack When an operator is entered the computer Applies it to the top two operands of the stack Pops the operands from the stack Pushes the result of the operation onto the stack",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.1501300390130043,
+        "liv_distance": 0,
+        "bert_score": 4.797084331512451,
+        "nota_atribuida": 5.034472994620578,
+        "percentual_error": 0.2054779111390468
+    },
+    {
+        "answer_number": 3352,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "They are converted to post fix expressions It still follow the order of precedence for the operators",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.334622326111986,
+        "liv_distance": 1.648936170212766,
+        "bert_score": 4.886045008897781,
+        "nota_atribuida": 4.577637837063564,
+        "percentual_error": 0.0844724325872871
+    },
+    {
+        "answer_number": 3353,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "They are first converted to postfix expressions and then evaluated",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.6504474832710554,
+        "liv_distance": 1.9148936170212767,
+        "bert_score": 4.923715889453888,
+        "nota_atribuida": 4.81675280339324,
+        "percentual_error": 0.036649439321352006
+    },
+    {
+        "answer_number": 3354,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "Computers cannot evaulate infix expressions it must first convert infix to postfix expression then it can evaluate",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0292561240249634,
+        "liv_distance": 0.6382978723404256,
+        "bert_score": 4.892025589942932,
+        "nota_atribuida": 4.674054895633219,
+        "percentual_error": 0.06518902087335621
+    },
+    {
+        "answer_number": 3355,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "By using parentheses to have order in the expression",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.1063390625908323,
+        "liv_distance": 1.648936170212766,
+        "bert_score": 4.819391369819641,
+        "nota_atribuida": 4.31119976556795,
+        "percentual_error": 0.4201150176415789
+    },
+    {
+        "answer_number": 3356,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "In postfix notation",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.200140042014005,
+        "liv_distance": 0.9042553191489362,
+        "bert_score": 4.744420051574707,
+        "nota_atribuida": 4.6939399510778985,
+        "percentual_error": 0.1478374155422557
+    },
+    {
+        "answer_number": 3357,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "computers usually convert infix expressions to post fix expression and evaluate them using a stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.662050930888041,
+        "liv_distance": 1.2765957446808511,
+        "bert_score": 4.855646342039108,
+        "nota_atribuida": 4.005333280143717,
+        "percentual_error": 0.1989333439712565
+    },
+    {
+        "answer_number": 3358,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "they are converted to postfix",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.8558153613666013,
+        "liv_distance": 1.5425531914893618,
+        "bert_score": 4.867662191390991,
+        "nota_atribuida": 5.170370285942712,
+        "percentual_error": 0.03295127360721495
+    },
+    {
+        "answer_number": 3359,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "Infix expressions are interpreted as postfix expressions by implementing stacks",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.200140042014005,
+        "liv_distance": 1.3297872340425532,
+        "bert_score": 4.8751890659332275,
+        "nota_atribuida": 4.563102316507955,
+        "percentual_error": 0.08737953669840903
+    },
+    {
+        "answer_number": 3360,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "They are first converted into an equivalent postfix expression so it can be read by the computer",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.117647058823529,
+        "liv_distance": 1.3829787234042554,
+        "bert_score": 4.955237507820129,
+        "nota_atribuida": 5.546097791732859,
+        "percentual_error": 0.09846522947123026
+    },
+    {
+        "answer_number": 3361,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "The computer translates the infix expression to a postfix expression then solves",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.439336436627724,
+        "liv_distance": 1.4361702127659575,
+        "bert_score": 4.9057334661483765,
+        "nota_atribuida": 4.784357946222085,
+        "percentual_error": 0.043128410755583046
+    },
+    {
+        "answer_number": 3362,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "in postfix format",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.200140042014005,
+        "liv_distance": 0.9042553191489362,
+        "bert_score": 4.770681411027908,
+        "nota_atribuida": 4.703136681380927,
+        "percentual_error": 0.1495037735485233
+    },
+    {
+        "answer_number": 3363,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "they use parenthisis and a stack to determine which evaluations need to be made first",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.803169531295416,
+        "liv_distance": 1.648936170212766,
+        "bert_score": 4.907398819923401,
+        "nota_atribuida": 4.019178580725123,
+        "percentual_error": 0.25357882469139936
+    },
+    {
+        "answer_number": 3364,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "By throwing variables into a postfix expression and operands onto a parentheses regulated stack until end parentheses and enough variables to operate on are encountered",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.1755660236665673,
+        "liv_distance": 0,
+        "bert_score": 4.880037605762482,
+        "nota_atribuida": 5.090609696788426,
+        "percentual_error": 0.11601944206428372
+    },
+    {
+        "answer_number": 3365,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "by being passed to the function by a leading term",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.0484543180953483,
+        "liv_distance": 1.4361702127659575,
+        "bert_score": 4.874291270971298,
+        "nota_atribuida": 4.357101460174857,
+        "percentual_error": 0.6557344340703504
+    },
+    {
+        "answer_number": 3366,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "i have an hard time explaining this so i will show how infix is evaluated instead Start with an infix expression like - LRB - - LRB - - LRB - 5 plus 2 - RRB - multiplied by 5 - RRB - plus - LRB - 400 divided by - LRB - 2 plus 3 - RRB - - RRB - - RRB - and push items until you get a - RRB - and once that happens perform the operations until you reach an - LRB - with that complete you will now have - LRB - - LRB - 7 multiplied by 5 - RRB - plus - LRB - 400 divided by - LRB - 2 plus 3 - RRB - - RRB - - RRB - as now the expression that will be evaluated perform last step again - LRB - 35 plus - LRB - 400 divided by - LRB - 2 plus 3 - RRB - - RRB - - RRB - is now the stack repeat agian - LRB - 35 plus - LRB - 400 divided by 5 - RRB - - RRB - is now the stack after that repeat - LRB - 35 plus 80 - RRB - is now the stack repeat again 115 is now the stack and is returned",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.8402069087198862,
+        "liv_distance": 0,
+        "bert_score": 4.605076462030411,
+        "nota_atribuida": 4.6371985989648,
+        "percentual_error": 0.46088140357885565
+    },
+    {
+        "answer_number": 3367,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "The infix expression is converted to postfix form",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.7862393885688164,
+        "liv_distance": 1.3829787234042554,
+        "bert_score": 4.919650554656982,
+        "nota_atribuida": 5.180723399204629,
+        "percentual_error": 0.03488381549811648
+    },
+    {
+        "answer_number": 3368,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "by converting them to postfix expressions and putting the operations in a stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.200140042014005,
+        "liv_distance": 1.648936170212766,
+        "bert_score": 4.876889586448669,
+        "nota_atribuida": 4.431223123087348,
+        "percentual_error": 0.11375537538253044
+    },
+    {
+        "answer_number": 3369,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "The computer converts the infix expression to postfix form Then evaluates the postfix expression",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.7376844287208435,
+        "liv_distance": 2.3404255319148937,
+        "bert_score": 4.921318888664246,
+        "nota_atribuida": 4.732177939440146,
+        "percentual_error": 0.053564412111970716
+    },
+    {
+        "answer_number": 3370,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "infix expressions are converted to postfix expressions before they can be evaluated by a computer Operands stay in the same order Operators always follow the operands",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.371213683738064,
+        "liv_distance": 0,
+        "bert_score": 4.889285862445831,
+        "nota_atribuida": 5.3021911569650415,
+        "percentual_error": 0.05699363678506353
+    },
+    {
+        "answer_number": 3371,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "infix expressions are pointers evaluated by reference to the memory location",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.0484543180953483,
+        "liv_distance": 1.5425531914893618,
+        "bert_score": 4.8909541964530945,
+        "nota_atribuida": 4.3187785794724345,
+        "percentual_error": 0.6526795777098546
+    },
+    {
+        "answer_number": 3372,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "computers convert infix expressions to postfix form before evaluation",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.308452083454443,
+        "liv_distance": 1.5957446808510638,
+        "bert_score": 4.8650310933589935,
+        "nota_atribuida": 4.564489520800323,
+        "percentual_error": 0.08710209583993545
+    },
+    {
+        "answer_number": 3373,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "convert infix expressions to postfix expression and evaluate the postfix expression",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.595892509399011,
+        "liv_distance": 2.5531914893617023,
+        "bert_score": 4.911486506462097,
+        "nota_atribuida": 4.489425738724312,
+        "percentual_error": 0.10211485225513761
+    },
+    {
+        "answer_number": 3374,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "When an operand is entered the computer Pushes it onto a stack When an operator is entered the computer Applies it to the top two operands of the stack Pops the operands from the stack Pushes the result of the operation onto the stack",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.1501300390130043,
+        "liv_distance": 0,
+        "bert_score": 4.797084331512451,
+        "nota_atribuida": 5.034472994620578,
+        "percentual_error": 0.2054779111390468
+    },
+    {
+        "answer_number": 3375,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "Computers convert an infix expression into a postfix expression They then push the numbers onto a stack and pop them out as they are needed",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.666900070023341,
+        "liv_distance": 0,
+        "bert_score": 4.920532256364822,
+        "nota_atribuida": 5.628006341555081,
+        "percentual_error": 0.11158593353353541
+    },
+    {
+        "answer_number": 3376,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "infix expressions are converted to postfix - LRB - i e 3 plus 2 is changed to 32 plus - RRB -",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.07166195047503,
+        "liv_distance": 1.5425531914893618,
+        "bert_score": 4.892766773700714,
+        "nota_atribuida": 4.344126858516607,
+        "percentual_error": 0.13117462829667859
+    },
+    {
+        "answer_number": 3377,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "they are transformed into post - fix expressions then evaluated with a stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0484543180953483,
+        "liv_distance": 2.074468085106383,
+        "bert_score": 4.906222224235535,
+        "nota_atribuida": 4.103334251012271,
+        "percentual_error": 0.1793331497975459
+    },
+    {
+        "answer_number": 3378,
+        "answer_values": {
+            "number_question": 78,
+            "answer_question": "Writing arithmetic expressions is called infix notation This is because a binary operator - LRB - like plus - RRB - is written in between its two operands - LRB - as in a plus b - RRB - There are two alternative forms of notation used in certain situations One is prefix notation in which an operator is written before its operands In prefix notation the sum of a and b is written plus a b This is the notation used to write function calls in mathematics and computer science It is also used in the Lisp and Scheme programming languages In postfix notation an operator is written after its operands The sum of a and b is written a b plus - LRB - You may have seen this as reverse Polish notation - RRB - Postfix notation forms the conceptual basis for the way that arithmetic expressions are evaluated by a computer One important characteristic of both postfix and prefix notations is that they are unambiguous; no parentheses are needed to indicate the order of operations",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1551633789629934,
+        "liv_distance": 0,
+        "bert_score": 4.560057520866394,
+        "nota_atribuida": 4.956826125555664,
+        "percentual_error": 0.008634774888867214
+    },
+    {
+        "answer_number": 3379,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "isEmptry - LRB - - RRB - or or determines if the stack is full or not pop - LRB - - RRB - or or to remove the top element if it is not the on you are looking for search - LRB - - RRB - or or you compare each element of the stack to the data you are looking for",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.443299960147786,
+        "liv_distance": 0,
+        "bert_score": 4.7920627892017365,
+        "nota_atribuida": 5.344907392947068,
+        "percentual_error": 0.43871805824761656
+    },
+    {
+        "answer_number": 3380,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "You would have to keep using peek or getTop to see what the top element is then popping the top element until peek or getTop provides the element you are looking for",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.3964214570007956,
+        "liv_distance": 0.9022556390977443,
+        "bert_score": 4.919880628585815,
+        "nota_atribuida": 4.965233899576816,
+        "percentual_error": 0.3957988564736722
+    },
+    {
+        "answer_number": 3381,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Push adds a given node to the top of the stack leaving previous nodes below Pop removes and returns the current top node of the stack",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7777777777777777,
+        "liv_distance": 1.7293233082706767,
+        "bert_score": 4.912261962890625,
+        "nota_atribuida": 5.02536196325309,
+        "percentual_error": 0.4030280759999233
+    },
+    {
+        "answer_number": 3382,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "if the stack is implemented using an array you could simply search the array for the item If the stack is implemented using a linked list you would have to pop the values off of the stack until either the value is found or the stack is empty you would then have to have the items put back into the list",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.00208188857998,
+        "liv_distance": 0,
+        "bert_score": 4.840461164712906,
+        "nota_atribuida": 5.956896319816159,
+        "percentual_error": 0.24457305307961474
+    },
+    {
+        "answer_number": 3383,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "You need to pop each item on the stack and compare the item Once the item is found no more items need to be removed",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.664050492949297,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.932031631469727,
+        "nota_atribuida": 4.989202510397757,
+        "percentual_error": 0.2984850799890727
+    },
+    {
+        "answer_number": 3384,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Basically pop the stack until you find the given element",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.8985773194637896,
+        "liv_distance": 1.4285714285714286,
+        "bert_score": 4.926098436117172,
+        "nota_atribuida": 5.283683730905374,
+        "percentual_error": 0.3375833645137074
+    },
+    {
+        "answer_number": 3385,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Iterate through the stack checking the number against the current element",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.8558153613666013,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.929351806640625,
+        "nota_atribuida": 5.192472019671524,
+        "percentual_error": 0.7111202536446426
+    },
+    {
+        "answer_number": 3386,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "pop and push",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.145497224367903,
+        "liv_distance": 0.41353383458646614,
+        "bert_score": 4.774348586797714,
+        "nota_atribuida": 4.8499248071582794,
+        "percentual_error": 0.38143370891603734
+    },
+    {
+        "answer_number": 3387,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "either traverse the entire list and pop the given part or create a pointer system that automatically points to it",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.3132500607904447,
+        "liv_distance": 1.3909774436090225,
+        "bert_score": 4.887486398220062,
+        "nota_atribuida": 4.662458984789567,
+        "percentual_error": 0.35656270440405813
+    },
+    {
+        "answer_number": 3388,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "if top item ! equals given element pop the stack Repeat until item is found or stack is empty",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.565016084037823,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.905693829059601,
+        "nota_atribuida": 4.874518519671972,
+        "percentual_error": 0.2819803667018317
+    },
+    {
+        "answer_number": 3389,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "could traverse through the list or array to find the element",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.4302605094190635,
+        "liv_distance": 1.3533834586466165,
+        "bert_score": 4.897742718458176,
+        "nota_atribuida": 4.806258487635929,
+        "percentual_error": 0.5838758974064778
+    },
+    {
+        "answer_number": 3390,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you need the pop opertation to go throught the stack and find the element",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.9166666666666665,
+        "liv_distance": 1.5789473684210527,
+        "bert_score": 4.897005259990692,
+        "nota_atribuida": 5.2303392509611415,
+        "percentual_error": 0.33082734559582716
+    },
+    {
+        "answer_number": 3391,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "createStack push isEmpty pop and a boolean return value",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.8952847075210473,
+        "liv_distance": 1.1278195488721805,
+        "bert_score": 4.899372905492783,
+        "nota_atribuida": 4.330769157342072,
+        "percentual_error": 0.30728240388568906
+    },
+    {
+        "answer_number": 3392,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you would have to traverse the stack popping each element to search it",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1735753140545633,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.892864376306534,
+        "nota_atribuida": 4.4531853167290665,
+        "percentual_error": 0.2140457333199859
+    },
+    {
+        "answer_number": 3393,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Pop each element off the stack - LRB - and into another stack for storage - RRB - until the desired element is found",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.9617633655117155,
+        "liv_distance": 1.6541353383458646,
+        "bert_score": 4.923513829708099,
+        "nota_atribuida": 5.256435876643636,
+        "percentual_error": 0.23902809929185342
+    },
+    {
+        "answer_number": 3394,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "pop operation",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 0.41353383458646614,
+        "bert_score": 4.7817263007164,
+        "nota_atribuida": 4.445749107771488,
+        "percentual_error": 0.43766507299527524
+    },
+    {
+        "answer_number": 3395,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "to pop elements then push them back",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.486013297183269,
+        "liv_distance": 1.2030075187969924,
+        "bert_score": 4.861833453178406,
+        "nota_atribuida": 4.915472663139464,
+        "percentual_error": 0.08452344090020947
+    },
+    {
+        "answer_number": 3396,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "A function to keep track of the elements popped and a function to put the popped elements backinto the function",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.5559209893749006,
+        "liv_distance": 1.5037593984962405,
+        "bert_score": 4.927397072315216,
+        "nota_atribuida": 4.8880385370571755,
+        "percentual_error": 0.07938532687812905
+    },
+    {
+        "answer_number": 3397,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you would pop each element and compare it to what you are looking for and then push it back on the stack so that it is not lost",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.467301666813349,
+        "liv_distance": 1.9172932330827068,
+        "bert_score": 4.911965429782867,
+        "nota_atribuida": 4.616612076244028,
+        "percentual_error": 0.02525923216379511
+    },
+    {
+        "answer_number": 3398,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you would need to perform a search through the list of elements - LRB - i dont really understand what this question is asking its not very clear - RRB -",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.021749194749951,
+        "liv_distance": 0.7894736842105263,
+        "bert_score": 4.855193495750427,
+        "nota_atribuida": 4.590411077853146,
+        "percentual_error": 0.6732318795506385
+    },
+    {
+        "answer_number": 3399,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "StackPush - LRB - - RRB - StackPop - LRB - - RRB - StackIsEmpty - LRB - - RRB -",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.9774436090225563,
+        "bert_score": 4.837006032466888,
+        "nota_atribuida": 3.9504137494968523,
+        "percentual_error": 0.24058587524354946
+    },
+    {
+        "answer_number": 3400,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "isEmptry - LRB - - RRB - or or determines if the stack is full or not pop - LRB - - RRB - or or to remove the top element if it is not the on you are looking for search - LRB - - RRB - or or you compare each element of the stack to the data you are looking for",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.443299960147786,
+        "liv_distance": 0,
+        "bert_score": 4.7920627892017365,
+        "nota_atribuida": 5.344907392947068,
+        "percentual_error": 0.43871805824761656
+    },
+    {
+        "answer_number": 3401,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "You would have to keep using peek or getTop to see what the top element is then popping the top element until peek or getTop provides the element you are looking for",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.3964214570007956,
+        "liv_distance": 0.9022556390977443,
+        "bert_score": 4.919880628585815,
+        "nota_atribuida": 4.965233899576816,
+        "percentual_error": 0.3957988564736722
+    },
+    {
+        "answer_number": 3402,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Push adds a given node to the top of the stack leaving previous nodes below Pop removes and returns the current top node of the stack",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7777777777777777,
+        "liv_distance": 1.7293233082706767,
+        "bert_score": 4.912261962890625,
+        "nota_atribuida": 5.02536196325309,
+        "percentual_error": 0.4030280759999233
+    },
+    {
+        "answer_number": 3403,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Using linked lists and stacks you would need a temp stack to retain the values Then you would use the Pop - LRB - - RRB - function to pop off each element and then compare it If its not the element your looking for Push - LRB - - RRB - it to the temp stack Repeat until the element is found When you find it Pop - LRB - - RRB - off the temp stack back onto the regular stack to have a complete stack again",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.900177463427367,
+        "liv_distance": 0,
+        "bert_score": 4.774993062019348,
+        "nota_atribuida": 5.825452650606007,
+        "percentual_error": 0.14169759847247865
+    },
+    {
+        "answer_number": 3404,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Pop each item off the top until you find what you are looking for If the stack ends up empty and you never found the item then it does not exist in the stack It may also be necessary to save the popped values in case you want to recreate the stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.755133491826478,
+        "liv_distance": 0,
+        "bert_score": 4.941335916519165,
+        "nota_atribuida": 5.729250440565022,
+        "percentual_error": 0.12728548841253007
+    },
+    {
+        "answer_number": 3405,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "if the stack is implemented using an array you could simply search the array for the item If the stack is implemented using a linked list you would have to pop the values off of the stack until either the value is found or the stack is empty you would then have to have the items put back into the list",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.00208188857998,
+        "liv_distance": 0,
+        "bert_score": 4.840461164712906,
+        "nota_atribuida": 5.956896319816159,
+        "percentual_error": 0.24457305307961474
+    },
+    {
+        "answer_number": 3406,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "You need to pop each item on the stack and compare the item Once the item is found no more items need to be removed",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.664050492949297,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.932031631469727,
+        "nota_atribuida": 4.989202510397757,
+        "percentual_error": 0.2984850799890727
+    },
+    {
+        "answer_number": 3407,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Pop an element from one stack check to see if it is the desired element if not push it onto another stack When finished pop the items from the second stack and push them back onto the first stack - LRB - this will ensure the order of the elements is maintained - RRB -",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.1420195913661235,
+        "liv_distance": 0,
+        "bert_score": 4.891514182090759,
+        "nota_atribuida": 6.123792981477848,
+        "percentual_error": 0.18351256890572487
+    },
+    {
+        "answer_number": 3408,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Basically pop the stack until you find the given element",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.8985773194637896,
+        "liv_distance": 1.4285714285714286,
+        "bert_score": 4.926098436117172,
+        "nota_atribuida": 5.283683730905374,
+        "percentual_error": 0.3375833645137074
+    },
+    {
+        "answer_number": 3409,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Iterate through the stack checking the number against the current element",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.8558153613666013,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.929351806640625,
+        "nota_atribuida": 5.192472019671524,
+        "percentual_error": 0.7111202536446426
+    },
+    {
+        "answer_number": 3410,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "pop and push",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.145497224367903,
+        "liv_distance": 0.41353383458646614,
+        "bert_score": 4.774348586797714,
+        "nota_atribuida": 4.8499248071582794,
+        "percentual_error": 0.38143370891603734
+    },
+    {
+        "answer_number": 3411,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "pop all elements off stack until you find that element and then push the popped elements back on the stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.473380543440816,
+        "liv_distance": 2.518796992481203,
+        "bert_score": 4.961869120597839,
+        "nota_atribuida": 5.4557723727875835,
+        "percentual_error": 0.08353947739111967
+    },
+    {
+        "answer_number": 3412,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Keep popping nodes and storing them in an alternate stack until the given element is found then pop the given element and push the previously popped nodes back onto the stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.138120311557204,
+        "liv_distance": 1.6917293233082706,
+        "bert_score": 4.969427287578583,
+        "nota_atribuida": 5.444710264788912,
+        "percentual_error": 0.08167748937255037
+    },
+    {
+        "answer_number": 3413,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "either traverse the entire list and pop the given part or create a pointer system that automatically points to it",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.3132500607904447,
+        "liv_distance": 1.3909774436090225,
+        "bert_score": 4.887486398220062,
+        "nota_atribuida": 4.662458984789567,
+        "percentual_error": 0.35656270440405813
+    },
+    {
+        "answer_number": 3414,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Depends on the type of stack on a true stack you will haft to pop all of the elements of the stack until you find the element you want and then after that you will need to push all the elements that where removed back in to the stack in the order that they where removed With a Java style stack where there is a peek function it will return the element you wanted instead of requiring you to perform all the excessive actions that are required from a true stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.067363289193635,
+        "liv_distance": 0,
+        "bert_score": 4.780212938785553,
+        "nota_atribuida": 6.005314724247255,
+        "percentual_error": 0.1674041695413837
+    },
+    {
+        "answer_number": 3415,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "if top item ! equals given element pop the stack Repeat until item is found or stack is empty",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.565016084037823,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.905693829059601,
+        "nota_atribuida": 4.874518519671972,
+        "percentual_error": 0.2819803667018317
+    },
+    {
+        "answer_number": 3416,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "could traverse through the list or array to find the element",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.4302605094190635,
+        "liv_distance": 1.3533834586466165,
+        "bert_score": 4.897742718458176,
+        "nota_atribuida": 4.806258487635929,
+        "percentual_error": 0.5838758974064778
+    },
+    {
+        "answer_number": 3417,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you need the pop opertation to go throught the stack and find the element",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.9166666666666665,
+        "liv_distance": 1.5789473684210527,
+        "bert_score": 4.897005259990692,
+        "nota_atribuida": 5.2303392509611415,
+        "percentual_error": 0.33082734559582716
+    },
+    {
+        "answer_number": 3418,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "createStack push isEmpty pop and a boolean return value",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.8952847075210473,
+        "liv_distance": 1.1278195488721805,
+        "bert_score": 4.899372905492783,
+        "nota_atribuida": 4.330769157342072,
+        "percentual_error": 0.30728240388568906
+    },
+    {
+        "answer_number": 3419,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you would have to traverse the stack popping each element to search it",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1735753140545633,
+        "liv_distance": 1.5413533834586466,
+        "bert_score": 4.892864376306534,
+        "nota_atribuida": 4.4531853167290665,
+        "percentual_error": 0.2140457333199859
+    },
+    {
+        "answer_number": 3420,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "Pop each element off the stack - LRB - and into another stack for storage - RRB - until the desired element is found",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.9617633655117155,
+        "liv_distance": 1.6541353383458646,
+        "bert_score": 4.923513829708099,
+        "nota_atribuida": 5.256435876643636,
+        "percentual_error": 0.23902809929185342
+    },
+    {
+        "answer_number": 3421,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "pop operation",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 0.41353383458646614,
+        "bert_score": 4.7817263007164,
+        "nota_atribuida": 4.445749107771488,
+        "percentual_error": 0.43766507299527524
+    },
+    {
+        "answer_number": 3422,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "to pop elements then push them back",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.486013297183269,
+        "liv_distance": 1.2030075187969924,
+        "bert_score": 4.861833453178406,
+        "nota_atribuida": 4.915472663139464,
+        "percentual_error": 0.08452344090020947
+    },
+    {
+        "answer_number": 3423,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "A function to keep track of the elements popped and a function to put the popped elements backinto the function",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.5559209893749006,
+        "liv_distance": 1.5037593984962405,
+        "bert_score": 4.927397072315216,
+        "nota_atribuida": 4.8880385370571755,
+        "percentual_error": 0.07938532687812905
+    },
+    {
+        "answer_number": 3424,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you would pop each element and compare it to what you are looking for and then push it back on the stack so that it is not lost",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.467301666813349,
+        "liv_distance": 1.9172932330827068,
+        "bert_score": 4.911965429782867,
+        "nota_atribuida": 4.616612076244028,
+        "percentual_error": 0.02525923216379511
+    },
+    {
+        "answer_number": 3425,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "you would need to perform a search through the list of elements - LRB - i dont really understand what this question is asking its not very clear - RRB -",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.021749194749951,
+        "liv_distance": 0.7894736842105263,
+        "bert_score": 4.855193495750427,
+        "nota_atribuida": 4.590411077853146,
+        "percentual_error": 0.6732318795506385
+    },
+    {
+        "answer_number": 3426,
+        "answer_values": {
+            "number_question": 79,
+            "answer_question": "StackPush - LRB - - RRB - StackPop - LRB - - RRB - StackIsEmpty - LRB - - RRB -",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.9774436090225563,
+        "bert_score": 4.837006032466888,
+        "nota_atribuida": 3.9504137494968523,
+        "percentual_error": 0.24058587524354946
+    },
+    {
+        "answer_number": 3427,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "rear and front",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 1.5789473684210527,
+        "bert_score": 4.737447202205658,
+        "nota_atribuida": 4.553277713242946,
+        "percentual_error": 0.450944976905561
+    },
+    {
+        "answer_number": 3428,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue which adds data to the queue and dequeue which deletes data from the queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.4028938981432693,
+        "liv_distance": 0,
+        "bert_score": 4.868636876344681,
+        "nota_atribuida": 5.32869574011521,
+        "percentual_error": 0.06168408859239971
+    },
+    {
+        "answer_number": 3429,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue which inserts a specified element at the head of the specified queue and dequeue which removes the specified element from the queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1384423980690612,
+        "liv_distance": 0,
+        "bert_score": 4.887850135564804,
+        "nota_atribuida": 5.053813165790998,
+        "percentual_error": 0.010648032292775778
+    },
+    {
+        "answer_number": 3430,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "The two main functions are enqueue which inserts an item at the back of the queue and dequeue which removes an item from the front of the queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0685735326841774,
+        "liv_distance": 0,
+        "bert_score": 4.848599433898926,
+        "nota_atribuida": 4.965665095254268,
+        "percentual_error": 0.006866980949146395
+    },
+    {
+        "answer_number": 3431,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "The two main functions are enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.030931089239486,
+        "liv_distance": 0,
+        "bert_score": 4.870960712432861,
+        "nota_atribuida": 5.998298413090069,
+        "percentual_error": 0.1664302681092833
+    },
+    {
+        "answer_number": 3432,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "Enqueue and Dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 4.473684210526316,
+        "bert_score": 4.938810616731644,
+        "nota_atribuida": 5.197038548060726,
+        "percentual_error": 0.03791362065887516
+    },
+    {
+        "answer_number": 3433,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "Enqueue and Dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 4.473684210526316,
+        "bert_score": 4.938810616731644,
+        "nota_atribuida": 5.197038548060726,
+        "percentual_error": 0.03791362065887516
+    },
+    {
+        "answer_number": 3434,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue insert into queue dequeue remove element",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.591089451179962,
+        "liv_distance": 0,
+        "bert_score": 4.871289432048798,
+        "nota_atribuida": 5.53003173067617,
+        "percentual_error": 0.09584605595226159
+    },
+    {
+        "answer_number": 3435,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "Remove the item added first add items to the back",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.856585711240768,
+        "nota_atribuida": 4.362995123000147,
+        "percentual_error": 0.12740097539997064
+    },
+    {
+        "answer_number": 3436,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "The two main functions of a queue are enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.8693063937629155,
+        "liv_distance": 0,
+        "bert_score": 4.854521751403809,
+        "nota_atribuida": 5.8204293925342,
+        "percentual_error": 0.14095684995106295
+    },
+    {
+        "answer_number": 3437,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3438,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3439,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "Enqueue and Dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 4.473684210526316,
+        "bert_score": 4.938810616731644,
+        "nota_atribuida": 5.197038548060726,
+        "percentual_error": 0.03791362065887516
+    },
+    {
+        "answer_number": 3440,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3441,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3442,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enque - LRB - Data - RRB - Deque - LRB - - RRB -",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.845969080924988,
+        "nota_atribuida": 4.359277178165067,
+        "percentual_error": 0.1281445643669865
+    },
+    {
+        "answer_number": 3443,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3444,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3445,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "The two functions are Enqueue and Dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.1366341767699435,
+        "liv_distance": 0,
+        "bert_score": 4.86463725566864,
+        "nota_atribuida": 6.108645819647193,
+        "percentual_error": 0.1814879847971319
+    },
+    {
+        "answer_number": 3446,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.541241452319315,
+        "liv_distance": 3.9473684210526314,
+        "bert_score": 4.924869984388351,
+        "nota_atribuida": 4.922097434728015,
+        "percentual_error": 0.015580513054396894
+    },
+    {
+        "answer_number": 3447,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue that adds an item to the queue dequeue that takes the first item out of the queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0,
+        "bert_score": 4.889517277479172,
+        "nota_atribuida": 4.935772677608314,
+        "percentual_error": 0.01284546447833712
+    },
+    {
+        "answer_number": 3448,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "Enqueue and dequeue which add and remove elements from the queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.101281538050872,
+        "liv_distance": 0,
+        "bert_score": 4.886620044708252,
+        "nota_atribuida": 6.078697616172573,
+        "percentual_error": 0.1774553834200706
+    },
+    {
+        "answer_number": 3449,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "Enqueue and Dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 4.473684210526316,
+        "bert_score": 4.938810616731644,
+        "nota_atribuida": 5.197038548060726,
+        "percentual_error": 0.03791362065887516
+    },
+    {
+        "answer_number": 3450,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "dequeue and enqueue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 3.9473684210526314,
+        "bert_score": 4.994184970855713,
+        "nota_atribuida": 5.434897726821152,
+        "percentual_error": 0.08001948678352078
+    },
+    {
+        "answer_number": 3451,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3452,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue and dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3453,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "enqueue dequeue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.541241452319315,
+        "liv_distance": 3.9473684210526314,
+        "bert_score": 4.924869984388351,
+        "nota_atribuida": 4.922097434728015,
+        "percentual_error": 0.015580513054396894
+    },
+    {
+        "answer_number": 3454,
+        "answer_values": {
+            "number_question": 80,
+            "answer_question": "rear and front",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 1.5789473684210527,
+        "bert_score": 4.737447202205658,
+        "nota_atribuida": 4.553277713242946,
+        "percentual_error": 0.450944976905561
+    },
+    {
+        "answer_number": 3455,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Make use of a front pointer and a tail pointer When the tail pointer reaches the end of an array it gets reset to the front of the array If the two pointers are equal then the queue is either full or just has one element",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.324501122999404,
+        "liv_distance": 0.39473684210526316,
+        "bert_score": 4.882059991359711,
+        "nota_atribuida": 6.150954092809847,
+        "percentual_error": 0.2684061802281582
+    },
+    {
+        "answer_number": 3456,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "you create an array with the max size of your queue and adjust the items to make them follow FIFO procedure",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7742547525710126,
+        "liv_distance": 1.644736842105263,
+        "bert_score": 4.922474026679993,
+        "nota_atribuida": 5.060297383802972,
+        "percentual_error": 0.40714946722253587
+    },
+    {
+        "answer_number": 3457,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "By implementing an array and only adding items to the end of the array and only removing items from the beginning of the array",
+            "grade": 3.0
+        },
+        "frequence_similarity": 4.267766952966369,
+        "liv_distance": 2.0065789473684212,
+        "bert_score": 4.877868741750717,
+        "nota_atribuida": 5.420015398403524,
+        "percentual_error": 0.4464960374681489
+    },
+    {
+        "answer_number": 3458,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "For applications in which a fixed - sized queue does not present a problem you can use an array to represent a queue",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.863696483726654,
+        "liv_distance": 1.480263157894737,
+        "bert_score": 4.891610741615295,
+        "nota_atribuida": 4.148118030234851,
+        "percentual_error": 0.3973170527506762
+    },
+    {
+        "answer_number": 3459,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Keep track of the front and the back of the array as you increase and decrease the elements inside the array",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.48538460649912,
+        "liv_distance": 1.8421052631578947,
+        "bert_score": 4.907902181148529,
+        "nota_atribuida": 5.730542360644703,
+        "percentual_error": 0.3019857897795929
+    },
+    {
+        "answer_number": 3460,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Declare the size of an array and have special conditional statements - LRB - pointers - RRB - to make sure you re - use ALL of the array Say you have an array of 20 elements you load up 18 then dequeue 3 when you enqueue 4 more elements you want to loop back to index 0 and continue from there this process saves resources",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.4173255366707496,
+        "liv_distance": 0,
+        "bert_score": 4.8225292563438416,
+        "nota_atribuida": 5.327916917117172,
+        "percentual_error": 0.15539223490090392
+    },
+    {
+        "answer_number": 3461,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "you could use the first element of the list as the remove point and insert at the end f you do this you would have to shift the elements down each time you remove an item unless you make the array circular",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.9978191146106146,
+        "liv_distance": 0.4276315789473684,
+        "bert_score": 4.927372634410858,
+        "nota_atribuida": 5.805288851099635,
+        "percentual_error": 0.3109731311229549
+    },
+    {
+        "answer_number": 3462,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Utilizing indexes for the front and the back Front is 0 and as you add items the back index is incremented",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.7862393885688164,
+        "liv_distance": 1.5460526315789473,
+        "bert_score": 4.903143048286438,
+        "nota_atribuida": 5.107252537513411,
+        "percentual_error": 0.21680003668910075
+    },
+    {
+        "answer_number": 3463,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Declare two variables front and rear to be used to denote which elements in the array can be accessed Increment rear whenever data is enqueued to the end and increment front whenever data is dequeued",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.5849075915068656,
+        "liv_distance": 0.6907894736842105,
+        "bert_score": 4.886189699172974,
+        "nota_atribuida": 5.241928784988528,
+        "percentual_error": 0.1415373644741631
+    },
+    {
+        "answer_number": 3464,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "It is an array of fixed size A queue of maximum N elements",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.039291857441195,
+        "liv_distance": 1.0855263157894737,
+        "bert_score": 4.821995496749878,
+        "nota_atribuida": 4.4745783656918725,
+        "percentual_error": 0.44128814031544117
+    },
+    {
+        "answer_number": 3465,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "make an array of a size and add on to the front and delete from the back keep track of the two so that you know when it is full and where to add or subtract from",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.8734258264944033,
+        "liv_distance": 1.25,
+        "bert_score": 4.921407848596573,
+        "nota_atribuida": 5.329380337529074,
+        "percentual_error": 0.24944369764110896
+    },
+    {
+        "answer_number": 3466,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "By using the beginning of the array as the removal point of the queue - LRB - or beginning of the queue - RRB - and the ith element as the end of the queue",
+            "grade": 3.5
+        },
+        "frequence_similarity": 4.4688651418434775,
+        "liv_distance": 1.3157894736842106,
+        "bert_score": 4.914522022008896,
+        "nota_atribuida": 5.933736335655335,
+        "percentual_error": 0.41015242302412613
+    },
+    {
+        "answer_number": 3467,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "add in data from the first element to the last take out data from the first element to the last",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7562972690740146,
+        "liv_distance": 1.611842105263158,
+        "bert_score": 4.899938106536865,
+        "nota_atribuida": 5.046936797701393,
+        "percentual_error": 0.4055800339393316
+    },
+    {
+        "answer_number": 3468,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "you can take the array and put it in a queue stack or you can just traverse the list and keep track of top and bottom",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.68732601942758,
+        "liv_distance": 1.611842105263158,
+        "bert_score": 4.910634756088257,
+        "nota_atribuida": 4.9772361534405745,
+        "percentual_error": 0.29679848572574097
+    },
+    {
+        "answer_number": 3469,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "create a fixed array size with with 2 integers to point to the beginning and the end of the que and special cases to know when the que is empty or full",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.0498314730572575,
+        "liv_distance": 1.513157894736842,
+        "bert_score": 4.90386426448822,
+        "nota_atribuida": 5.401855178228319,
+        "percentual_error": 0.259513654471591
+    },
+    {
+        "answer_number": 3470,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Keep track of the front and rear indexes Either : 1 - RRB - Dequeue items by shifting the array left 2 - RRB - Use wrapped configuration",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.888888888888889,
+        "liv_distance": 1.2828947368421053,
+        "bert_score": 4.915834963321686,
+        "nota_atribuida": 5.330240940095898,
+        "percentual_error": 0.24956487990803
+    },
+    {
+        "answer_number": 3471,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "add items into a fixed size array pull the items out by calling on them with the starting index increase starting index so when it calls again its now the next index element in the array",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.6572347642739897,
+        "liv_distance": 0.7894736842105263,
+        "bert_score": 4.901375770568848,
+        "nota_atribuida": 5.283304663811198,
+        "percentual_error": 0.3375358373758409
+    },
+    {
+        "answer_number": 3472,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "To use and array to implement a Queue element or item 0 should be the top element in the array Every time an element is inserted all the items in the array are pushed back one space The top element is always removed first",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.891726898432457,
+        "liv_distance": 0.06578947368421052,
+        "bert_score": 4.868501573801041,
+        "nota_atribuida": 5.821892055104069,
+        "percentual_error": 0.4847036029515711
+    },
+    {
+        "answer_number": 3473,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "fixed size array with max N elements Need to keep track of front and rear of array",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.431694990624912,
+        "liv_distance": 1.611842105263158,
+        "bert_score": 4.876882880926132,
+        "nota_atribuida": 4.693197992925087,
+        "percentual_error": 0.14770269525600033
+    },
+    {
+        "answer_number": 3474,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "A pointer based implementation of a queue could use a linear linked list with two external pointers one to the front and one to the back",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.7379689211803457,
+        "liv_distance": 1.513157894736842,
+        "bert_score": 4.932996928691864,
+        "nota_atribuida": 5.079958950657433,
+        "percentual_error": 0.6062960312423065
+    },
+    {
+        "answer_number": 3475,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "remove the element then shift the elements one space back",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.6226255234242726,
+        "liv_distance": 1.1842105263157894,
+        "bert_score": 4.910627007484436,
+        "nota_atribuida": 5.08583919825372,
+        "percentual_error": 0.41012684769308405
+    },
+    {
+        "answer_number": 3476,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "an array is a type of queue with a fixed length",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.962962962962963,
+        "liv_distance": 1.1513157894736843,
+        "bert_score": 4.835078120231628,
+        "nota_atribuida": 4.370569842327211,
+        "percentual_error": 0.6567953255264101
+    },
+    {
+        "answer_number": 3477,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Make use of a front pointer and a tail pointer When the tail pointer reaches the end of an array it gets reset to the front of the array If the two pointers are equal then the queue is either full or just has one element",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.324501122999404,
+        "liv_distance": 0.39473684210526316,
+        "bert_score": 4.882059991359711,
+        "nota_atribuida": 6.150954092809847,
+        "percentual_error": 0.2684061802281582
+    },
+    {
+        "answer_number": 3478,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "you create an array with the max size of your queue and adjust the items to make them follow FIFO procedure",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7742547525710126,
+        "liv_distance": 1.644736842105263,
+        "bert_score": 4.922474026679993,
+        "nota_atribuida": 5.060297383802972,
+        "percentual_error": 0.40714946722253587
+    },
+    {
+        "answer_number": 3479,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "By implementing an array and only adding items to the end of the array and only removing items from the beginning of the array",
+            "grade": 3.0
+        },
+        "frequence_similarity": 4.267766952966369,
+        "liv_distance": 2.0065789473684212,
+        "bert_score": 4.877868741750717,
+        "nota_atribuida": 5.420015398403524,
+        "percentual_error": 0.4464960374681489
+    },
+    {
+        "answer_number": 3480,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "For applications in which a fixed - sized queue does not present a problem you can use an array to represent a queue",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.863696483726654,
+        "liv_distance": 1.480263157894737,
+        "bert_score": 4.891610741615295,
+        "nota_atribuida": 4.148118030234851,
+        "percentual_error": 0.3973170527506762
+    },
+    {
+        "answer_number": 3481,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Keep track of the front and the back of the array as you increase and decrease the elements inside the array",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.48538460649912,
+        "liv_distance": 1.8421052631578947,
+        "bert_score": 4.907902181148529,
+        "nota_atribuida": 5.730542360644703,
+        "percentual_error": 0.3019857897795929
+    },
+    {
+        "answer_number": 3482,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Declare the size of an array and have special conditional statements - LRB - pointers - RRB - to make sure you re - use ALL of the array Say you have an array of 20 elements you load up 18 then dequeue 3 when you enqueue 4 more elements you want to loop back to index 0 and continue from there this process saves resources",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.4173255366707496,
+        "liv_distance": 0,
+        "bert_score": 4.8225292563438416,
+        "nota_atribuida": 5.327916917117172,
+        "percentual_error": 0.15539223490090392
+    },
+    {
+        "answer_number": 3483,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "you could use the first element of the list as the remove point and insert at the end f you do this you would have to shift the elements down each time you remove an item unless you make the array circular",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.9978191146106146,
+        "liv_distance": 0.4276315789473684,
+        "bert_score": 4.927372634410858,
+        "nota_atribuida": 5.805288851099635,
+        "percentual_error": 0.3109731311229549
+    },
+    {
+        "answer_number": 3484,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Utilizing indexes for the front and the back Front is 0 and as you add items the back index is incremented",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.7862393885688164,
+        "liv_distance": 1.5460526315789473,
+        "bert_score": 4.903143048286438,
+        "nota_atribuida": 5.107252537513411,
+        "percentual_error": 0.21680003668910075
+    },
+    {
+        "answer_number": 3485,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Declare two variables front and rear to be used to denote which elements in the array can be accessed Increment rear whenever data is enqueued to the end and increment front whenever data is dequeued",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.5849075915068656,
+        "liv_distance": 0.6907894736842105,
+        "bert_score": 4.886189699172974,
+        "nota_atribuida": 5.241928784988528,
+        "percentual_error": 0.1415373644741631
+    },
+    {
+        "answer_number": 3486,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "It is an array of fixed size A queue of maximum N elements",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.039291857441195,
+        "liv_distance": 1.0855263157894737,
+        "bert_score": 4.821995496749878,
+        "nota_atribuida": 4.4745783656918725,
+        "percentual_error": 0.44128814031544117
+    },
+    {
+        "answer_number": 3487,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "make an array of a size and add on to the front and delete from the back keep track of the two so that you know when it is full and where to add or subtract from",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.8734258264944033,
+        "liv_distance": 1.25,
+        "bert_score": 4.921407848596573,
+        "nota_atribuida": 5.329380337529074,
+        "percentual_error": 0.24944369764110896
+    },
+    {
+        "answer_number": 3488,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "By using the beginning of the array as the removal point of the queue - LRB - or beginning of the queue - RRB - and the ith element as the end of the queue",
+            "grade": 3.5
+        },
+        "frequence_similarity": 4.4688651418434775,
+        "liv_distance": 1.3157894736842106,
+        "bert_score": 4.914522022008896,
+        "nota_atribuida": 5.933736335655335,
+        "percentual_error": 0.41015242302412613
+    },
+    {
+        "answer_number": 3489,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "add in data from the first element to the last take out data from the first element to the last",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7562972690740146,
+        "liv_distance": 1.611842105263158,
+        "bert_score": 4.899938106536865,
+        "nota_atribuida": 5.046936797701393,
+        "percentual_error": 0.4055800339393316
+    },
+    {
+        "answer_number": 3490,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "you can take the array and put it in a queue stack or you can just traverse the list and keep track of top and bottom",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.68732601942758,
+        "liv_distance": 1.611842105263158,
+        "bert_score": 4.910634756088257,
+        "nota_atribuida": 4.9772361534405745,
+        "percentual_error": 0.29679848572574097
+    },
+    {
+        "answer_number": 3491,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "create a fixed array size with with 2 integers to point to the beginning and the end of the que and special cases to know when the que is empty or full",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.0498314730572575,
+        "liv_distance": 1.513157894736842,
+        "bert_score": 4.90386426448822,
+        "nota_atribuida": 5.401855178228319,
+        "percentual_error": 0.259513654471591
+    },
+    {
+        "answer_number": 3492,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Keep track of the front and rear indexes Either : 1 - RRB - Dequeue items by shifting the array left 2 - RRB - Use wrapped configuration",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.888888888888889,
+        "liv_distance": 1.2828947368421053,
+        "bert_score": 4.915834963321686,
+        "nota_atribuida": 5.330240940095898,
+        "percentual_error": 0.24956487990803
+    },
+    {
+        "answer_number": 3493,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "add items into a fixed size array pull the items out by calling on them with the starting index increase starting index so when it calls again its now the next index element in the array",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.6572347642739897,
+        "liv_distance": 0.7894736842105263,
+        "bert_score": 4.901375770568848,
+        "nota_atribuida": 5.283304663811198,
+        "percentual_error": 0.3375358373758409
+    },
+    {
+        "answer_number": 3494,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "To use and array to implement a Queue element or item 0 should be the top element in the array Every time an element is inserted all the items in the array are pushed back one space The top element is always removed first",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.891726898432457,
+        "liv_distance": 0.06578947368421052,
+        "bert_score": 4.868501573801041,
+        "nota_atribuida": 5.821892055104069,
+        "percentual_error": 0.4847036029515711
+    },
+    {
+        "answer_number": 3495,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "fixed size array with max N elements Need to keep track of front and rear of array",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.431694990624912,
+        "liv_distance": 1.611842105263158,
+        "bert_score": 4.876882880926132,
+        "nota_atribuida": 4.693197992925087,
+        "percentual_error": 0.14770269525600033
+    },
+    {
+        "answer_number": 3496,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "by keeping track of a front item and a rear item or with a circular array that uses the modulo function",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.5559209893749006,
+        "liv_distance": 1.381578947368421,
+        "bert_score": 4.900670200586319,
+        "nota_atribuida": 4.929394355358257,
+        "percentual_error": 0.014121128928348603
+    },
+    {
+        "answer_number": 3497,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Using an array for a queue the size of the array allocated limits the size of the queue An array based queue class must keep track of both the front and back of the queue which may need to wrap around the array",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.395833743615958,
+        "liv_distance": 0.9868421052631579,
+        "bert_score": 4.8272863030433655,
+        "nota_atribuida": 5.96195808879211,
+        "percentual_error": 0.16134935443449283
+    },
+    {
+        "answer_number": 3498,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "A pointer based implementation of a queue could use a linear linked list with two external pointers one to the front and one to the back",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.7379689211803457,
+        "liv_distance": 1.513157894736842,
+        "bert_score": 4.932996928691864,
+        "nota_atribuida": 5.079958950657433,
+        "percentual_error": 0.6062960312423065
+    },
+    {
+        "answer_number": 3499,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "remove the element then shift the elements one space back",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.6226255234242726,
+        "liv_distance": 1.1842105263157894,
+        "bert_score": 4.910627007484436,
+        "nota_atribuida": 5.08583919825372,
+        "percentual_error": 0.41012684769308405
+    },
+    {
+        "answer_number": 3500,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "By having the head pointer point to the first or least current data entered and having the tail point to the most current data entered A method must be created so that the tail pointer does not leave the array",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.006461512629556,
+        "liv_distance": 0.4276315789473684,
+        "bert_score": 4.8953984677791595,
+        "nota_atribuida": 5.80329467563553,
+        "percentual_error": 0.1384204526108369
+    },
+    {
+        "answer_number": 3501,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "an array is a type of queue with a fixed length",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.962962962962963,
+        "liv_distance": 1.1513157894736843,
+        "bert_score": 4.835078120231628,
+        "nota_atribuida": 4.370569842327211,
+        "percentual_error": 0.6567953255264101
+    },
+    {
+        "answer_number": 3502,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "your storage class has an array and you keep track of the index of the first and last item in the array and wrap around when end of the array is full",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.2638906527804235,
+        "liv_distance": 1.5789473684210527,
+        "bert_score": 4.892550706863403,
+        "nota_atribuida": 5.59853369941189,
+        "percentual_error": 0.10690901074235992
+    },
+    {
+        "answer_number": 3503,
+        "answer_values": {
+            "number_question": 81,
+            "answer_question": "Boolean isFullQ - LRB - queue - RRB - : : equals rear equals equals MAX QUEUE SIZE - 1",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.7484519974999766,
+        "liv_distance": 1.0526315789473684,
+        "bert_score": 4.871494770050049,
+        "nota_atribuida": 4.195855517435047,
+        "percentual_error": 0.1608288965129907
+    },
+    {
+        "answer_number": 3504,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "theoretically you could do it two ways one of which uses more processing power and memory no larger than the queue is ever at when full and the other which uses almost infinite memory The more practical method would be two place the items in an array and remove the item in position one of the array after which you can shift the array and add another element if required The other option which can use infinite memory when used for long term queues such as job scheduling that goes nonstop for extended periods that is to implement an array and add the items read item one raise your counter value to two ecetera and continue adding more elements to the array the downside to this method is after you use element one it is still in memory or im crazy who knows",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.857444133011014,
+        "liv_distance": 0,
+        "bert_score": 4.7739772498607635,
+        "nota_atribuida": 5.779590729760981,
+        "percentual_error": 0.6539547359813294
+    },
+    {
+        "answer_number": 3505,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "You can use list to represent the items in a queue",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.5092167846991638,
+        "liv_distance": 0.78125,
+        "bert_score": 4.886604845523834,
+        "nota_atribuida": 5.123922957401644,
+        "percentual_error": 0.7072555515626537
+    },
+    {
+        "answer_number": 3506,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Have a pointer to the last element in the list and then use enqueue to insert items there Link the first and last elements together to dequeue the list",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.9886473612212416,
+        "liv_distance": 1.77734375,
+        "bert_score": 4.929640591144562,
+        "nota_atribuida": 5.236067631641732,
+        "percentual_error": 0.3315594361598039
+    },
+    {
+        "answer_number": 3507,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Utilizing a front pointer and a back pointer The front poiner and back pointer points to the first item into the queue As you add items the front remains the same but the back poiner next points to the new item and the new item is assigned to become the new back pointer",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.031125681527531,
+        "liv_distance": 1.328125,
+        "bert_score": 4.943287670612335,
+        "nota_atribuida": 5.472546528607262,
+        "percentual_error": 0.17771370668542696
+    },
+    {
+        "answer_number": 3508,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Implement a linked list that only allows nodes to be added to the tail and can only be retrieved from the head",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.604451480718528,
+        "liv_distance": 1.3671875,
+        "bert_score": 4.921026825904846,
+        "nota_atribuida": 4.994176463083706,
+        "percentual_error": 0.09895054104247081
+    },
+    {
+        "answer_number": 3509,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Check if list is empty and add elements to the list",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.586310236566852,
+        "liv_distance": 0.8203125,
+        "bert_score": 4.910880625247955,
+        "nota_atribuida": 5.198305826580029,
+        "percentual_error": 0.5190740823256348
+    },
+    {
+        "answer_number": 3510,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "make a linked list and add on to the front and delete from the back keep track of both to do so",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.923803571617217,
+        "liv_distance": 1.30859375,
+        "bert_score": 4.908990561962128,
+        "nota_atribuida": 5.354356896760012,
+        "percentual_error": 0.15956293411763312
+    },
+    {
+        "answer_number": 3511,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "by making the head of the list the beginning of the queue and the last listed item the insertion point of the queue",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.656274638660052,
+        "liv_distance": 1.66015625,
+        "bert_score": 4.939620494842529,
+        "nota_atribuida": 5.999153502330018,
+        "percentual_error": 0.2498941728608478
+    },
+    {
+        "answer_number": 3512,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "throw in data at the head and take it out at the tail",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.731417631852185,
+        "liv_distance": 0.91796875,
+        "bert_score": 4.893329292535782,
+        "nota_atribuida": 5.306146496118316,
+        "percentual_error": 0.15192692035699518
+    },
+    {
+        "answer_number": 3513,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "You create a list of nodes that had a head and a top pointer and the functions are basically the same substituting pop and push with enqueue and dequeue",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.532153529805963,
+        "liv_distance": 1.4453125,
+        "bert_score": 4.909651279449463,
+        "nota_atribuida": 4.8807748653061,
+        "percentual_error": 0.3853434991798472
+    },
+    {
+        "answer_number": 3514,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "fairly easy singly linked list with a pointer to the head and tail of hte list deque first item in que create temp pointer to next element delete head and then make head the temporary pointer enque new item use pointer to end of list add a new item to the next item of the tail and make the tail the next item of the current tail",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.078139765621367,
+        "liv_distance": 1.015625,
+        "bert_score": 4.874620735645294,
+        "nota_atribuida": 5.628278891922519,
+        "percentual_error": 0.20046605962291242
+    },
+    {
+        "answer_number": 3515,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Use a linked list with 2 pointers one to the front and one to the back As long as back ! equals front the queue is not empty",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.8366628175747985,
+        "liv_distance": 1.54296875,
+        "bert_score": 4.906763881444931,
+        "nota_atribuida": 5.163495906224829,
+        "percentual_error": 0.12849742079294657
+    },
+    {
+        "answer_number": 3516,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "create a node with the input data continue to add to the list when dequeueing get the first elements data and set the next element in the list as the new first element",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.158315920138232,
+        "liv_distance": 1.71875,
+        "bert_score": 4.923297017812729,
+        "nota_atribuida": 5.438845545089327,
+        "percentual_error": 0.2645498080724952
+    },
+    {
+        "answer_number": 3517,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "A linked list with Stack principles The Queue top element is the element that is always being removed first Must use nodes to contain each element with a pointer to the top element which also could be called the head pointer",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7394334537179823,
+        "liv_distance": 1.5234375,
+        "bert_score": 4.902015328407288,
+        "nota_atribuida": 5.066401818737352,
+        "percentual_error": 0.40786378433212
+    },
+    {
+        "answer_number": 3518,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "linked list checking for front and rear Keep enqueueing elements until front equal to rear 1",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.9992019148942948,
+        "liv_distance": 1.19140625,
+        "bert_score": 4.844682514667511,
+        "nota_atribuida": 4.395882657115175,
+        "percentual_error": 0.20380040301237334
+    },
+    {
+        "answer_number": 3519,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "a queue can be implemented in a list by keeping track of two pointers a head and a tail",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.061833218719368,
+        "liv_distance": 1.25,
+        "bert_score": 4.928073137998581,
+        "nota_atribuida": 4.467459814281324,
+        "percentual_error": 0.007231152381927952
+    },
+    {
+        "answer_number": 3520,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Implement the operation dequeue - LRB - - RRB - as the list operation remove - LRB - 1 - RRB - and the operation getFront - LRB - queueFront - RRB - as the list operation retrieve - LRB - 1 queueFront - RRB -",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.6854591075010545,
+        "liv_distance": 1.6796875,
+        "bert_score": 4.929281920194626,
+        "nota_atribuida": 4.953616569558805,
+        "percentual_error": 0.19250916096716364
+    },
+    {
+        "answer_number": 3521,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "remove the first element and reference the second element as the new head of the list",
+            "grade": 3.5
+        },
+        "frequence_similarity": 4.3009848907972295,
+        "liv_distance": 1.2890625,
+        "bert_score": 4.921122789382935,
+        "nota_atribuida": 5.768368399055948,
+        "percentual_error": 0.3932426367614089
+    },
+    {
+        "answer_number": 3522,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "you would have your list and add a back pointer so that your program knows where the end is",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.278498944161523,
+        "liv_distance": 1.1328125,
+        "bert_score": 4.88286554813385,
+        "nota_atribuida": 4.73099576422444,
+        "percentual_error": 0.1545120310088195
+    },
+    {
+        "answer_number": 3523,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "your queue storage class has a list and for enqueue you add the item to the end of the list and for dequeue you return the first item in the list",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.25890964871903,
+        "liv_distance": 1.85546875,
+        "bert_score": 4.944474548101425,
+        "nota_atribuida": 5.496632671538194,
+        "percentual_error": 0.1813169500481271
+    },
+    {
+        "answer_number": 3524,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "temp implies next equals NULL; if - LRB - front - RRB - - LRB - rear - RRB - implies next equals temp; else front equals temp; rear equals temp;",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.575543268183223,
+        "liv_distance": 1.23046875,
+        "bert_score": 4.803557842969894,
+        "nota_atribuida": 3.914117703220563,
+        "percentual_error": 0.10580103477210823
+    },
+    {
+        "answer_number": 3525,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "A list can have unlimited elements in it You can push a node onto the end of the list and pop the one in the front",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.134029899273688,
+        "liv_distance": 1.484375,
+        "bert_score": 4.9000583589077,
+        "nota_atribuida": 5.502131607622123,
+        "percentual_error": 0.09126128624886365
+    },
+    {
+        "answer_number": 3526,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "theoretically you could do it two ways one of which uses more processing power and memory no larger than the queue is ever at when full and the other which uses almost infinite memory The more practical method would be two place the items in an array and remove the item in position one of the array after which you can shift the array and add another element if required The other option which can use infinite memory when used for long term queues such as job scheduling that goes nonstop for extended periods that is to implement an array and add the items read item one raise your counter value to two ecetera and continue adding more elements to the array the downside to this method is after you use element one it is still in memory or im crazy who knows",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.857444133011014,
+        "liv_distance": 0,
+        "bert_score": 4.7739772498607635,
+        "nota_atribuida": 5.779590729760981,
+        "percentual_error": 0.6539547359813294
+    },
+    {
+        "answer_number": 3527,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "By implementing a list in which a tail pointer points to the item most recently inserted onto the back of the list and a head pointer which points to the item least recently inserted onto the list Also items can only be removed from the front of the list and can only be added to the back of the list",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.366439721393979,
+        "liv_distance": 1.2109375,
+        "bert_score": 4.953722059726715,
+        "nota_atribuida": 5.881915394419381,
+        "percentual_error": 0.1499367697903511
+    },
+    {
+        "answer_number": 3528,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "You can use list to represent the items in a queue",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.5092167846991638,
+        "liv_distance": 0.78125,
+        "bert_score": 4.886604845523834,
+        "nota_atribuida": 5.123922957401644,
+        "percentual_error": 0.7072555515626537
+    },
+    {
+        "answer_number": 3529,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Have a pointer to the last element in the list and then use enqueue to insert items there Link the first and last elements together to dequeue the list",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.9886473612212416,
+        "liv_distance": 1.77734375,
+        "bert_score": 4.929640591144562,
+        "nota_atribuida": 5.236067631641732,
+        "percentual_error": 0.3315594361598039
+    },
+    {
+        "answer_number": 3530,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Enqueue to the end of the linked list dequeue items from the beginning - LRB - head - RRB - of the list",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.584235014108437,
+        "liv_distance": 1.6015625,
+        "bert_score": 4.927774965763092,
+        "nota_atribuida": 5.942612641420586,
+        "percentual_error": 0.15861923000844524
+    },
+    {
+        "answer_number": 3531,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "you use the first element in the list as the remove point for the queue and insert items at the end of the list",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.5160491225300206,
+        "liv_distance": 1.6796875,
+        "bert_score": 4.948437213897705,
+        "nota_atribuida": 5.844809562021553,
+        "percentual_error": 0.1445401348079779
+    },
+    {
+        "answer_number": 3532,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Utilizing a front pointer and a back pointer The front poiner and back pointer points to the first item into the queue As you add items the front remains the same but the back poiner next points to the new item and the new item is assigned to become the new back pointer",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.031125681527531,
+        "liv_distance": 1.328125,
+        "bert_score": 4.943287670612335,
+        "nota_atribuida": 5.472546528607262,
+        "percentual_error": 0.17771370668542696
+    },
+    {
+        "answer_number": 3533,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Implement a linked list that only allows nodes to be added to the tail and can only be retrieved from the head",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.604451480718528,
+        "liv_distance": 1.3671875,
+        "bert_score": 4.921026825904846,
+        "nota_atribuida": 4.994176463083706,
+        "percentual_error": 0.09895054104247081
+    },
+    {
+        "answer_number": 3534,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Check if list is empty and add elements to the list",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.586310236566852,
+        "liv_distance": 0.8203125,
+        "bert_score": 4.910880625247955,
+        "nota_atribuida": 5.198305826580029,
+        "percentual_error": 0.5190740823256348
+    },
+    {
+        "answer_number": 3535,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "make a linked list and add on to the front and delete from the back keep track of both to do so",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.923803571617217,
+        "liv_distance": 1.30859375,
+        "bert_score": 4.908990561962128,
+        "nota_atribuida": 5.354356896760012,
+        "percentual_error": 0.15956293411763312
+    },
+    {
+        "answer_number": 3536,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "by making the head of the list the beginning of the queue and the last listed item the insertion point of the queue",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.656274638660052,
+        "liv_distance": 1.66015625,
+        "bert_score": 4.939620494842529,
+        "nota_atribuida": 5.999153502330018,
+        "percentual_error": 0.2498941728608478
+    },
+    {
+        "answer_number": 3537,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "throw in data at the head and take it out at the tail",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.731417631852185,
+        "liv_distance": 0.91796875,
+        "bert_score": 4.893329292535782,
+        "nota_atribuida": 5.306146496118316,
+        "percentual_error": 0.15192692035699518
+    },
+    {
+        "answer_number": 3538,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "You create a list of nodes that had a head and a top pointer and the functions are basically the same substituting pop and push with enqueue and dequeue",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.532153529805963,
+        "liv_distance": 1.4453125,
+        "bert_score": 4.909651279449463,
+        "nota_atribuida": 4.8807748653061,
+        "percentual_error": 0.3853434991798472
+    },
+    {
+        "answer_number": 3539,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "fairly easy singly linked list with a pointer to the head and tail of hte list deque first item in que create temp pointer to next element delete head and then make head the temporary pointer enque new item use pointer to end of list add a new item to the next item of the tail and make the tail the next item of the current tail",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.078139765621367,
+        "liv_distance": 1.015625,
+        "bert_score": 4.874620735645294,
+        "nota_atribuida": 5.628278891922519,
+        "percentual_error": 0.20046605962291242
+    },
+    {
+        "answer_number": 3540,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Use a linked list with 2 pointers one to the front and one to the back As long as back ! equals front the queue is not empty",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.8366628175747985,
+        "liv_distance": 1.54296875,
+        "bert_score": 4.906763881444931,
+        "nota_atribuida": 5.163495906224829,
+        "percentual_error": 0.12849742079294657
+    },
+    {
+        "answer_number": 3541,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "create a node with the input data continue to add to the list when dequeueing get the first elements data and set the next element in the list as the new first element",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.158315920138232,
+        "liv_distance": 1.71875,
+        "bert_score": 4.923297017812729,
+        "nota_atribuida": 5.438845545089327,
+        "percentual_error": 0.2645498080724952
+    },
+    {
+        "answer_number": 3542,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "A linked list with Stack principles The Queue top element is the element that is always being removed first Must use nodes to contain each element with a pointer to the top element which also could be called the head pointer",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.7394334537179823,
+        "liv_distance": 1.5234375,
+        "bert_score": 4.902015328407288,
+        "nota_atribuida": 5.066401818737352,
+        "percentual_error": 0.40786378433212
+    },
+    {
+        "answer_number": 3543,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "linked list checking for front and rear Keep enqueueing elements until front equal to rear 1",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.9992019148942948,
+        "liv_distance": 1.19140625,
+        "bert_score": 4.844682514667511,
+        "nota_atribuida": 4.395882657115175,
+        "percentual_error": 0.20380040301237334
+    },
+    {
+        "answer_number": 3544,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "a queue can be implemented in a list by keeping track of two pointers a head and a tail",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.061833218719368,
+        "liv_distance": 1.25,
+        "bert_score": 4.928073137998581,
+        "nota_atribuida": 4.467459814281324,
+        "percentual_error": 0.007231152381927952
+    },
+    {
+        "answer_number": 3545,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "each element of a queue can be allocated in the nodes of an linked list New elements should be added to the head of the list with each dequeued element coming off the tail",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.199723534122512,
+        "liv_distance": 2.05078125,
+        "bert_score": 4.9415163695812225,
+        "nota_atribuida": 5.351498405735922,
+        "percentual_error": 0.0656822405775499
+    },
+    {
+        "answer_number": 3546,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "Implement the operation dequeue - LRB - - RRB - as the list operation remove - LRB - 1 - RRB - and the operation getFront - LRB - queueFront - RRB - as the list operation retrieve - LRB - 1 queueFront - RRB -",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.6854591075010545,
+        "liv_distance": 1.6796875,
+        "bert_score": 4.929281920194626,
+        "nota_atribuida": 4.953616569558805,
+        "percentual_error": 0.19250916096716364
+    },
+    {
+        "answer_number": 3547,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "remove the first element and reference the second element as the new head of the list",
+            "grade": 3.5
+        },
+        "frequence_similarity": 4.3009848907972295,
+        "liv_distance": 1.2890625,
+        "bert_score": 4.921122789382935,
+        "nota_atribuida": 5.768368399055948,
+        "percentual_error": 0.3932426367614089
+    },
+    {
+        "answer_number": 3548,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "By creating and adding nodes at the end of the list and removing the nodes from the beginning of the list",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.489458925207975,
+        "liv_distance": 1.7578125,
+        "bert_score": 4.889551997184753,
+        "nota_atribuida": 5.76344368267668,
+        "percentual_error": 0.13246311141572897
+    },
+    {
+        "answer_number": 3549,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "you would have your list and add a back pointer so that your program knows where the end is",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.278498944161523,
+        "liv_distance": 1.1328125,
+        "bert_score": 4.88286554813385,
+        "nota_atribuida": 4.73099576422444,
+        "percentual_error": 0.1545120310088195
+    },
+    {
+        "answer_number": 3550,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "your queue storage class has a list and for enqueue you add the item to the end of the list and for dequeue you return the first item in the list",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.25890964871903,
+        "liv_distance": 1.85546875,
+        "bert_score": 4.944474548101425,
+        "nota_atribuida": 5.496632671538194,
+        "percentual_error": 0.1813169500481271
+    },
+    {
+        "answer_number": 3551,
+        "answer_values": {
+            "number_question": 82,
+            "answer_question": "temp implies next equals NULL; if - LRB - front - RRB - - LRB - rear - RRB - implies next equals temp; else front equals temp; rear equals temp;",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.575543268183223,
+        "liv_distance": 1.23046875,
+        "bert_score": 4.803557842969894,
+        "nota_atribuida": 3.914117703220563,
+        "percentual_error": 0.10580103477210823
+    },
+    {
+        "answer_number": 3552,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List based Because it is on the run time order of N also it does not have a limited size like an array does",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.943484296991812,
+        "liv_distance": 0.0684931506849315,
+        "bert_score": 4.924369752407074,
+        "nota_atribuida": 4.8305632746718565,
+        "percentual_error": 0.06843162088469112
+    },
+    {
+        "answer_number": 3553,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "A list - based implementation would be preferred The array is slightly more complicated where you would need to keep track of both front and rear",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.647828098997271,
+        "liv_distance": 0,
+        "bert_score": 4.9017734825611115,
+        "nota_atribuida": 4.536240158173819,
+        "percentual_error": 0.2284359121301427
+    },
+    {
+        "answer_number": 3554,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List - based Array - based queues have a way to complicate things to an extent",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8656362120635652,
+        "liv_distance": 1.4383561643835616,
+        "bert_score": 4.887194931507111,
+        "nota_atribuida": 4.166032272125991,
+        "percentual_error": 0.15987208658518237
+    },
+    {
+        "answer_number": 3555,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "array - based is preferred because all you have to keep track of is the array itself and the count",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.8015113445777633,
+        "liv_distance": 0.410958904109589,
+        "bert_score": 4.90122064948082,
+        "nota_atribuida": 4.529118020710848,
+        "percentual_error": 0.6688096902883149
+    },
+    {
+        "answer_number": 3556,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List - based because when you enqueue - LRB - or dequeue depending upon your implementation - RRB - you would need to shift all elements to another space with an array causing a horrid time complexity for large data sets where as you can just modify the pointers in a list for a constant time complexity",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.873978796003383,
+        "liv_distance": 0,
+        "bert_score": 4.874352812767029,
+        "nota_atribuida": 4.767462455618069,
+        "percentual_error": 0.05610163857774819
+    },
+    {
+        "answer_number": 3557,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based its much simpler and the run time is better",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.727272727272727,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.868482351303101,
+        "nota_atribuida": 3.9837069523617004,
+        "percentual_error": 0.00407326190957491
+    },
+    {
+        "answer_number": 3558,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "I think array based is batter because of fixed size but on other had list base is more flaxible You do not have to worry about the size",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.0415303610738826,
+        "liv_distance": 0,
+        "bert_score": 4.895294159650803,
+        "nota_atribuida": 4.953219660586542,
+        "percentual_error": 0.19244445550667644
+    },
+    {
+        "answer_number": 3559,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based because you dont need to shift the elements like you do in array based queues",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.9934637712198264,
+        "liv_distance": 1.0273972602739727,
+        "bert_score": 4.885925054550171,
+        "nota_atribuida": 4.472293393586403,
+        "percentual_error": 0.10560429560898366
+    },
+    {
+        "answer_number": 3560,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List based Because it is on the run time order of N also it does not have a limited size like an array does",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.943484296991812,
+        "liv_distance": 0.0684931506849315,
+        "bert_score": 4.924369752407074,
+        "nota_atribuida": 4.8305632746718565,
+        "percentual_error": 0.06843162088469112
+    },
+    {
+        "answer_number": 3561,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "linked list based because it does not store the items linearly in memory but instead as individual blocks",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.8553345272593504,
+        "liv_distance": 0.273972602739726,
+        "bert_score": 4.92083340883255,
+        "nota_atribuida": 4.650163331080917,
+        "percentual_error": 0.06996733378381648
+    },
+    {
+        "answer_number": 3562,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List based is preferred because there are no size restrictions",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.6918282365569906,
+        "liv_distance": 1.9863013698630136,
+        "bert_score": 4.880034029483795,
+        "nota_atribuida": 4.815880791851614,
+        "percentual_error": 0.03682384162967711
+    },
+    {
+        "answer_number": 3563,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "A list - based implementation would be preferred The array is slightly more complicated where you would need to keep track of both front and rear",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.647828098997271,
+        "liv_distance": 0,
+        "bert_score": 4.9017734825611115,
+        "nota_atribuida": 4.536240158173819,
+        "percentual_error": 0.2284359121301427
+    },
+    {
+        "answer_number": 3564,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List - based Array - based queues have a way to complicate things to an extent",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8656362120635652,
+        "liv_distance": 1.4383561643835616,
+        "bert_score": 4.887194931507111,
+        "nota_atribuida": 4.166032272125991,
+        "percentual_error": 0.15987208658518237
+    },
+    {
+        "answer_number": 3565,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List - based Less code and no size limitation or declaration which means it is also more efficient and versatile",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9934637712198264,
+        "liv_distance": 0,
+        "bert_score": 4.905385971069336,
+        "nota_atribuida": 4.905568309904192,
+        "percentual_error": 0.01888633801916162
+    },
+    {
+        "answer_number": 3566,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based is prefered because it does not have a set size and insertion and deletion can be done very quickly of you keep pointers to first element and last",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.882235393578219,
+        "liv_distance": 0,
+        "bert_score": 4.897629767656326,
+        "nota_atribuida": 4.784406393570779,
+        "percentual_error": 0.04311872128584415
+    },
+    {
+        "answer_number": 3567,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List based is preferred because there are space issues with array based due to rightward drift The fix for rightward drift requires constant shifting of the queue data",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.002518907629606,
+        "liv_distance": 0,
+        "bert_score": 4.918684363365173,
+        "nota_atribuida": 4.919868108302672,
+        "percentual_error": 0.01602637833946563
+    },
+    {
+        "answer_number": 3568,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "Similar to stacks linked lists are preferable for queues because the size can be adjusted",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0838742081211423,
+        "liv_distance": 0.3424657534246575,
+        "bert_score": 4.9109748005867,
+        "nota_atribuida": 4.86164921589251,
+        "percentual_error": 0.027670156821497982
+    },
+    {
+        "answer_number": 3569,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "array - based is preferred because all you have to keep track of is the array itself and the count",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.8015113445777633,
+        "liv_distance": 0.410958904109589,
+        "bert_score": 4.90122064948082,
+        "nota_atribuida": 4.529118020710848,
+        "percentual_error": 0.6688096902883149
+    },
+    {
+        "answer_number": 3570,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list because its size is not defined",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0698028822981898,
+        "liv_distance": 1.4383561643835616,
+        "bert_score": 4.908181726932526,
+        "nota_atribuida": 4.390796355791999,
+        "percentual_error": 0.12184072884160013
+    },
+    {
+        "answer_number": 3571,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List - based because when you enqueue - LRB - or dequeue depending upon your implementation - RRB - you would need to shift all elements to another space with an array causing a horrid time complexity for large data sets where as you can just modify the pointers in a list for a constant time complexity",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.873978796003383,
+        "liv_distance": 0,
+        "bert_score": 4.874352812767029,
+        "nota_atribuida": 4.767462455618069,
+        "percentual_error": 0.05610163857774819
+    },
+    {
+        "answer_number": 3572,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "queue are best with lists especially if the tail is kept track of as the list can be dynamically grown without losing track of the head or tail",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.619182823655699,
+        "liv_distance": 0,
+        "bert_score": 4.916113317012787,
+        "nota_atribuida": 4.510757977824321,
+        "percentual_error": 0.09784840443513576
+    },
+    {
+        "answer_number": 3573,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based its much simpler and the run time is better",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.727272727272727,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.868482351303101,
+        "nota_atribuida": 3.9837069523617004,
+        "percentual_error": 0.00407326190957491
+    },
+    {
+        "answer_number": 3574,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based because of the lessened memory usage initially and the increased limits on how large the que can become",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.795656197994542,
+        "liv_distance": 0,
+        "bert_score": 4.908931851387024,
+        "nota_atribuida": 4.696167293375485,
+        "percentual_error": 0.060766541324903
+    },
+    {
+        "answer_number": 3575,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List - based because it is not fixed size",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.2995026863335393,
+        "liv_distance": 1.917808219178082,
+        "bert_score": 4.917675256729126,
+        "nota_atribuida": 4.439710880803195,
+        "percentual_error": 0.11205782383936103
+    },
+    {
+        "answer_number": 3576,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list its dynamic and no size needs to be declared",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.2150969419341946,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.89124059677124,
+        "nota_atribuida": 4.511154731146999,
+        "percentual_error": 0.09776905377060019
+    },
+    {
+        "answer_number": 3577,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list bases implementatoin is best because you use pointers to keep track of the front and back pointers Easier to maintain but uses more memory",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.6399731277389638,
+        "liv_distance": 0,
+        "bert_score": 4.917529225349426,
+        "nota_atribuida": 4.533393161038431,
+        "percentual_error": 0.09332136779231381
+    },
+    {
+        "answer_number": 3578,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based It can dynamically grow and has fewer restrictions",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.738365647311398,
+        "liv_distance": 1.5068493150684932,
+        "bert_score": 4.896438270807266,
+        "nota_atribuida": 4.005309828054499,
+        "percentual_error": 0.19893803438910018
+    },
+    {
+        "answer_number": 3579,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based is preferred because memory allocation is not an issue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9181210050035453,
+        "liv_distance": 1.4383561643835616,
+        "bert_score": 4.86066073179245,
+        "nota_atribuida": 4.212630385648388,
+        "percentual_error": 0.15747392287032247
+    },
+    {
+        "answer_number": 3580,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List based solutions are preferred because they allow for queues of any size",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.5453025125088633,
+        "liv_distance": 1.0273972602739727,
+        "bert_score": 4.887196570634842,
+        "nota_atribuida": 5.060384778080459,
+        "percentual_error": 0.011932843198410703
+    },
+    {
+        "answer_number": 3581,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "I think array based is batter because of fixed size but on other had list base is more flaxible You do not have to worry about the size",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.0415303610738826,
+        "liv_distance": 0,
+        "bert_score": 4.895294159650803,
+        "nota_atribuida": 4.953219660586542,
+        "percentual_error": 0.19244445550667644
+    },
+    {
+        "answer_number": 3582,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based because you dont need to shift the elements like you do in array based queues",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.9934637712198264,
+        "liv_distance": 1.0273972602739727,
+        "bert_score": 4.885925054550171,
+        "nota_atribuida": 4.472293393586403,
+        "percentual_error": 0.10560429560898366
+    },
+    {
+        "answer_number": 3583,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "List - based because memory is not constricted",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0698028822981898,
+        "liv_distance": 2.3972602739726026,
+        "bert_score": 4.905505180358887,
+        "nota_atribuida": 3.9918299740299936,
+        "percentual_error": 0.20163400519400132
+    },
+    {
+        "answer_number": 3584,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based because the array based has to have a fixed size it cannot be added to or removed from as easily",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1030226891555275,
+        "liv_distance": 0.273972602739726,
+        "bert_score": 4.920724630355835,
+        "nota_atribuida": 4.9138852292685495,
+        "percentual_error": 0.017222954146290048
+    },
+    {
+        "answer_number": 3585,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list - based array is easier and more scalable",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.766500895444513,
+        "liv_distance": 1.5753424657534247,
+        "bert_score": 4.875809699296951,
+        "nota_atribuida": 3.999615923846748,
+        "percentual_error": 0.20007681523065046
+    },
+    {
+        "answer_number": 3586,
+        "answer_values": {
+            "number_question": 83,
+            "answer_question": "list based becuase an arrary based has to have an arrary size and needs to be pre - defined and cannot be changed dynamically",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.882235393578219,
+        "liv_distance": 0,
+        "bert_score": 4.900750666856766,
+        "nota_atribuida": 4.785499332734897,
+        "percentual_error": 0.04290013345302057
+    },
+    {
+        "answer_number": 3587,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "The stack operation is almost the opposite of the enqueue operation",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.712917059659958,
+        "nota_atribuida": 4.312682349057765,
+        "percentual_error": 0.42031436640674447
+    },
+    {
+        "answer_number": 3588,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push equals enqueue pop equals dequeue",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.3838834764831844,
+        "liv_distance": 0,
+        "bert_score": 4.748988747596741,
+        "nota_atribuida": 5.266550997598801,
+        "percentual_error": 0.1455508544298343
+    },
+    {
+        "answer_number": 3589,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "enqueue corresponds with push dequeue corresponds with pop",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0,
+        "bert_score": 4.794609844684601,
+        "nota_atribuida": 5.109807423046432,
+        "percentual_error": 0.11934058812002524
+    },
+    {
+        "answer_number": 3590,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "FIFO : First in First out",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.7386594116687775,
+        "nota_atribuida": 4.321697322909847,
+        "percentual_error": 0.6529141474003012
+    },
+    {
+        "answer_number": 3591,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "Push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 3.75,
+        "bert_score": 4.838356226682663,
+        "nota_atribuida": 5.4622516406462776,
+        "percentual_error": 0.08462657362881676
+    },
+    {
+        "answer_number": 3592,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push which inserts something at the top of the stack",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0,
+        "bert_score": 4.841863960027695,
+        "nota_atribuida": 5.126355818238734,
+        "percentual_error": 0.024648273104488916
+    },
+    {
+        "answer_number": 3593,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "The stack operation corresponding to enqueue in queues is the push operation",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.125,
+        "liv_distance": 0,
+        "bert_score": 4.743072986602783,
+        "nota_atribuida": 4.988797556202077,
+        "percentual_error": 0.0022404887595846024
+    },
+    {
+        "answer_number": 3594,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "Push in a stack operation corresponds to the enqueue operation in queues These operations insert a new item into one end - LRB - the top and back respectively - RRB - of the ADT",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.900320384512718,
+        "liv_distance": 0,
+        "bert_score": 4.701655805110931,
+        "nota_atribuida": 4.7350347735242195,
+        "percentual_error": 0.05299304529515614
+    },
+    {
+        "answer_number": 3595,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "The stack operation is almost the opposite of the enqueue operation",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.712917059659958,
+        "nota_atribuida": 4.312682349057765,
+        "percentual_error": 0.42031436640674447
+    },
+    {
+        "answer_number": 3596,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push equals enqueue pop equals dequeue",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.3838834764831844,
+        "liv_distance": 0,
+        "bert_score": 4.748988747596741,
+        "nota_atribuida": 5.266550997598801,
+        "percentual_error": 0.1455508544298343
+    },
+    {
+        "answer_number": 3597,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3598,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "Not sure what this question means You can use the stack push operation and the enqueue operation to detect palindromes",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.010310363079829,
+        "liv_distance": 0,
+        "bert_score": 4.800826758146286,
+        "nota_atribuida": 4.886891387392834,
+        "percentual_error": 0.02262172252143324
+    },
+    {
+        "answer_number": 3599,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "Enqueue is the queue equivalent of push and dequeue is the queue equivalent to pop",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.021286035142687,
+        "liv_distance": 0,
+        "bert_score": 4.827514588832855,
+        "nota_atribuida": 4.907925322387156,
+        "percentual_error": 0.018414935522568898
+    },
+    {
+        "answer_number": 3600,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "Push operation",
+            "grade": 5.0
+        },
+        "frequence_similarity": 4.267766952966369,
+        "liv_distance": 0,
+        "bert_score": 4.760322719812393,
+        "nota_atribuida": 6.211756496000727,
+        "percentual_error": 0.1950746937329053
+    },
+    {
+        "answer_number": 3601,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3602,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3603,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3604,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3605,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "that would be the push operation if it put the item at the end of the list",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9642383454426295,
+        "liv_distance": 0,
+        "bert_score": 4.816986918449402,
+        "nota_atribuida": 4.843489167742504,
+        "percentual_error": 0.03130216645149919
+    },
+    {
+        "answer_number": 3606,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3607,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3608,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "the Push method in the stack operations",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 0,
+        "bert_score": 4.7571006417274475,
+        "nota_atribuida": 5.215561575206178,
+        "percentual_error": 0.04133046309546373
+    },
+    {
+        "answer_number": 3609,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3610,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "enqueue corresponds with push dequeue corresponds with pop",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0,
+        "bert_score": 4.794609844684601,
+        "nota_atribuida": 5.109807423046432,
+        "percentual_error": 0.11934058812002524
+    },
+    {
+        "answer_number": 3611,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "Push corresponds with enqueue both very similarly place new elements into their stack or queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1454972243679027,
+        "liv_distance": 0,
+        "bert_score": 4.783723056316376,
+        "nota_atribuida": 5.02486044916693,
+        "percentual_error": 0.0049474904663374675
+    },
+    {
+        "answer_number": 3612,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "FIFO : First in First out",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.7386594116687775,
+        "nota_atribuida": 4.321697322909847,
+        "percentual_error": 0.6529141474003012
+    },
+    {
+        "answer_number": 3613,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3614,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "Push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 3.75,
+        "bert_score": 4.838356226682663,
+        "nota_atribuida": 5.4622516406462776,
+        "percentual_error": 0.08462657362881676
+    },
+    {
+        "answer_number": 3615,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3616,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3617,
+        "answer_values": {
+            "number_question": 84,
+            "answer_question": "push",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3618,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "A stack some printing jobs might have a higher priority than others and they can be easily inserted at the front of the list or anywhere between",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.7931914031505585,
+        "nota_atribuida": 4.340794430941849,
+        "percentual_error": 0.6544411342523457
+    },
+    {
+        "answer_number": 3619,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "A stack some printing jobs might have a higher priority than others and they can be easily inserted at the front of the list or anywhere between",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.7931914031505585,
+        "nota_atribuida": 4.340794430941849,
+        "percentual_error": 0.6544411342523457
+    },
+    {
+        "answer_number": 3620,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue otherwise some things would never be printed",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.3838834764831844,
+        "liv_distance": 0,
+        "bert_score": 4.848533719778061,
+        "nota_atribuida": 5.301411655281262,
+        "percentual_error": 0.05685498031095093
+    },
+    {
+        "answer_number": 3621,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "A queue is more appropriate for scheduling printing jobs because queues have first in first out behavior",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0,
+        "bert_score": 4.823202937841415,
+        "nota_atribuida": 4.978795366512353,
+        "percentual_error": 0.004240926697529401
+    },
+    {
+        "answer_number": 3622,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queue its better to be FIFO than LIFO - LRB - stack - RRB -",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 0,
+        "bert_score": 4.84283059835434,
+        "nota_atribuida": 5.160867129412872,
+        "percentual_error": 0.03117056211272251
+    },
+    {
+        "answer_number": 3623,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queue of course !",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.9433756729740645,
+        "liv_distance": 0,
+        "bert_score": 4.827769249677658,
+        "nota_atribuida": 5.889936103240623,
+        "percentual_error": 0.15109435614267241
+    },
+    {
+        "answer_number": 3624,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queue the person who wanted to print first should be first served",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1681531047810605,
+        "liv_distance": 0,
+        "bert_score": 4.851709753274918,
+        "nota_atribuida": 5.072795356840128,
+        "percentual_error": 0.014350146560115351
+    },
+    {
+        "answer_number": 3625,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "queue because it guarantees that job are executed in the order they come in",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.125,
+        "liv_distance": 0,
+        "bert_score": 4.867887943983078,
+        "nota_atribuida": 5.032507764839837,
+        "percentual_error": 0.006459555823630447
+    },
+    {
+        "answer_number": 3626,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3627,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queues would be preferable to stacks for use as scheduling print jobs because it would print jobs in the order that they were sent to the printer",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.841698110103607,
+        "nota_atribuida": 4.357781483821964,
+        "percentual_error": 0.12844370323560717
+    },
+    {
+        "answer_number": 3628,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 3.0,
+        "bert_score": 4.918557107448578,
+        "nota_atribuida": 5.801653578123183,
+        "percentual_error": 0.13817674001530367
+    },
+    {
+        "answer_number": 3629,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3630,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 3.0,
+        "bert_score": 4.918557107448578,
+        "nota_atribuida": 5.801653578123183,
+        "percentual_error": 0.13817674001530367
+    },
+    {
+        "answer_number": 3631,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queue are more appropriate as printers are usually first come first serve",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.125,
+        "liv_distance": 0,
+        "bert_score": 4.8354074358940125,
+        "nota_atribuida": 5.021133088158197,
+        "percentual_error": 0.0042088285227963596
+    },
+    {
+        "answer_number": 3632,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    },
+    {
+        "answer_number": 3633,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "queue because of the first in first out principles and if it was a stack it would be last in last out because it could possibly not let the first item that was added get removed in a timely manner",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.807728727448332,
+        "liv_distance": 0,
+        "bert_score": 4.858783483505249,
+        "nota_atribuida": 4.691461214698,
+        "percentual_error": 0.06170775706039999
+    },
+    {
+        "answer_number": 3634,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 4.0,
+        "bert_score": 4.923785477876663,
+        "nota_atribuida": 5.388397110895948,
+        "percentual_error": 0.07208026856642857
+    },
+    {
+        "answer_number": 3635,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 3.0,
+        "bert_score": 4.918557107448578,
+        "nota_atribuida": 5.801653578123183,
+        "percentual_error": 0.13817674001530367
+    },
+    {
+        "answer_number": 3636,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "A Queue data structure is more appropriate for scheduling printing jobs at a printer The first job sent to the printer is the first job printed",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9055535528269063,
+        "liv_distance": 0,
+        "bert_score": 4.848988354206085,
+        "nota_atribuida": 4.792203379468167,
+        "percentual_error": 0.041559324106366646
+    },
+    {
+        "answer_number": 3637,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue It would not be unfair for the first job to finish last",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.193375245281537,
+        "liv_distance": 0,
+        "bert_score": 4.859750866889954,
+        "nota_atribuida": 5.102470094078449,
+        "percentual_error": 0.02008244873348075
+    },
+    {
+        "answer_number": 3638,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue because it takes the job that has waited the longest",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.193375245281537,
+        "liv_distance": 0,
+        "bert_score": 4.860787391662598,
+        "nota_atribuida": 5.102833085141552,
+        "percentual_error": 0.020152155366590763
+    },
+    {
+        "answer_number": 3639,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "A queue is more appropriate because the clients which have waited the longest should be the first served",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.021286035142687,
+        "liv_distance": 0,
+        "bert_score": 4.8481422662734985,
+        "nota_atribuida": 4.9151491367726035,
+        "percentual_error": 0.016970172645479287
+    },
+    {
+        "answer_number": 3640,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 4.0,
+        "bert_score": 4.923785477876663,
+        "nota_atribuida": 5.388397110895948,
+        "percentual_error": 0.07208026856642857
+    },
+    {
+        "answer_number": 3641,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 3.0,
+        "bert_score": 4.918557107448578,
+        "nota_atribuida": 5.801653578123183,
+        "percentual_error": 0.13817674001530367
+    },
+    {
+        "answer_number": 3642,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "Queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 4.0,
+        "bert_score": 4.923785477876663,
+        "nota_atribuida": 5.388397110895948,
+        "percentual_error": 0.07208026856642857
+    },
+    {
+        "answer_number": 3643,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "i would say that a queue is better because the first thing you try to print should be the first one to come out of the printer - LRB - FIFO - RRB -",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.9055535528269063,
+        "liv_distance": 0,
+        "bert_score": 4.8491619527339935,
+        "nota_atribuida": 4.792264173687332,
+        "percentual_error": 0.04154716526253355
+    },
+    {
+        "answer_number": 3644,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "a queue because you want the jobs to execute in the order that they are received",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1063390625908327,
+        "liv_distance": 0,
+        "bert_score": 4.87458810210228,
+        "nota_atribuida": 5.014982364437998,
+        "percentual_error": 0.0029875208623344474
+    },
+    {
+        "answer_number": 3645,
+        "answer_values": {
+            "number_question": 85,
+            "answer_question": "queue",
+            "grade": 5.0
+        },
+        "frequence_similarity": 5,
+        "liv_distance": 5.0,
+        "bert_score": 5,
+        "nota_atribuida": 5.0,
+        "percentual_error": 0.0
+    }
+]
