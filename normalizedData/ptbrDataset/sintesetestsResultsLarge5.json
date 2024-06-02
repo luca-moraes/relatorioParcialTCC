@@ -1,0 +1,22 @@
+Português Large Percentual Treino com 1
+Total de dados: 23378
+Quantidade de dados de treino: 23378
+Quantidade de dados de teste: 2338
+Erro quadrático médio (antes da clippagem): 0.6393006381420181
+Erro médio absoluto (antes da clippagem): 0.6163082738008595
+Pesos otimizados: [0.54579623 0.37248172 1.02607946]
+Erro quadrático médio (após clippagem): 0.6284818206180363
+Erro médio absoluto (após clippagem): 0.5943721012823022
+Numero de Testes: 2338
+Erro Geral do Algoritmo: 43.05%
+Erro por faixa de porcentagem:
+0-10% Quantidade: 69 - Percentual: 0.02951240376390077
+10-20% Quantidade: 639 - Percentual: 0.27331052181351584
+20-30% Quantidade: 375 - Percentual: 0.16039349871685202
+30-40% Quantidade: 8 - Percentual: 0.003421727972626176
+40-50% Quantidade: 0 - Percentual: 0.0
+50-60% Quantidade: 363 - Percentual: 0.15526090675791274
+60-70% Quantidade: 663 - Percentual: 0.28357570573139435
+70-80% Quantidade: 213 - Percentual: 0.09110350727117195
+80-90% Quantidade: 8 - Percentual: 0.003421727972626176
+90-100% Quantidade: 0 - Percentual: 0.0
