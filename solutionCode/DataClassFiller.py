@@ -1,6 +1,8 @@
 import json
 from Models import Answer, RefResponse, Keywords, Question, AnswerParams
 
+baseString = '../'
+
 def loadAnswersParamsJson(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -45,7 +47,7 @@ def load_from_json(filename):
     return question_list
 
 def loadQuestions():
-    filename = '../normalizedData/ptbrDataset/ptbrData.json'
+    filename = baseString + 'normalizedData/ptbrDataset/ptbrData.json'
     loaded_questions = load_from_json(filename)
 
     # for question in loaded_questions:
@@ -57,29 +59,49 @@ def loadQuestions():
     return loaded_questions
 
 def loadEnQuestions():
-    filename = '../normalizedData/enDataset/enData.json'
+    filename = baseString + 'normalizedData/enDataset/enData.json'
     loaded_questions = load_from_json(filename)
     
     return loaded_questions
 
 def loadEsQuestions():
-    filename = '../normalizedData/esDataset/esData.json'
+    filename = baseString + 'normalizedData/esDataset/esData.json'
     loaded_questions = load_from_json(filename)
     
     return loaded_questions
 
 def loadAnswersParams():
-    filename = '../normalizedData/ptbrDataset/answersParamsLarge.json'
+    filename = baseString + 'normalizedData/ptbrDataset/answersParams.json'
+    loaded_answers_params = loadAnswersParamsJson(filename)
+    return loaded_answers_params
+
+def loadAnswersParamsLarge():
+    filename = baseString + 'normalizedData/ptbrDataset/answersParamsLarge.json'
     loaded_answers_params = loadAnswersParamsJson(filename)
     return loaded_answers_params
 
 def loadEnAnswersParams():
-    filename = '../normalizedData/enDataset/answersParams.json'
+    filename = baseString + 'normalizedData/enDataset/answersParams.json'
+    loaded_answers_params = loadAnswersParamsJson(filename)
+    return loaded_answers_params
+
+def loadEnAnswersParamsLarge():
+    filename = baseString + 'normalizedData/enDataset/answersParamsLarge.json'
     loaded_answers_params = loadAnswersParamsJson(filename)
     return loaded_answers_params
 
 def loadEsAnswersParams():
-    filename = '../normalizedData/esDataset/answersParamsLarge.json'
+    filename = baseString + 'normalizedData/esDataset/answersParams.json'
+    loaded_answers_params = loadAnswersParamsJson(filename)
+    return loaded_answers_params
+
+def loadEsAnswersParamsBerta():
+    filename = baseString + 'normalizedData/esDataset/answersParamsRoberta.json'
+    loaded_answers_params = loadAnswersParamsJson(filename)
+    return loaded_answers_params
+
+def loadEsAnswersParamsLarge():
+    filename = baseString + 'normalizedData/esDataset/answersParamsLarge.json'
     loaded_answers_params = loadAnswersParamsJson(filename)
     return loaded_answers_params
     
