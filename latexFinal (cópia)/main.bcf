@@ -2423,7 +2423,7 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">referencias.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" nocite="1">bitcoinWhitePaper</bcf:citekey>
@@ -2440,23 +2440,25 @@
     <bcf:citekey order="19">blockchainInfo</bcf:citekey>
     <bcf:citekey order="20">bitcoinFernandoUlrich</bcf:citekey>
     <bcf:citekey order="21">sinteticos</bcf:citekey>
-    <bcf:citekey order="22">redeHibridaMeshComLora</bcf:citekey>
-    <bcf:citekey order="23">topologiaMeshComLora</bcf:citekey>
-    <bcf:citekey order="24">taproot</bcf:citekey>
-    <bcf:citekey order="25">bitcoinWhitePaper</bcf:citekey>
-    <bcf:citekey order="26">bitcoinFernandoUlrich</bcf:citekey>
-    <bcf:citekey order="27">awsDataManagement</bcf:citekey>
-    <bcf:citekey order="28">computacaoNuvemIfrn</bcf:citekey>
-    <bcf:citekey order="29">computacaoNuvemUfc</bcf:citekey>
-    <bcf:citekey order="30">cryptoManifesto</bcf:citekey>
-    <bcf:citekey order="31">assange</bcf:citekey>
-    <bcf:citekey order="32">predecessoresBtc</bcf:citekey>
-    <bcf:citekey order="33">p2pFoundation</bcf:citekey>
-    <bcf:citekey order="34">blockchainInfo</bcf:citekey>
-    <bcf:citekey order="35">sinteticos</bcf:citekey>
-    <bcf:citekey order="36">redeHibridaMeshComLora</bcf:citekey>
-    <bcf:citekey order="37">topologiaMeshComLora</bcf:citekey>
-    <bcf:citekey order="38">taproot</bcf:citekey>
+    <bcf:citekey order="22">btcRadio</bcf:citekey>
+    <bcf:citekey order="23">redeHibridaMeshComLora</bcf:citekey>
+    <bcf:citekey order="24">topologiaMeshComLora</bcf:citekey>
+    <bcf:citekey order="25">taproot</bcf:citekey>
+    <bcf:citekey order="26">bitcoinWhitePaper</bcf:citekey>
+    <bcf:citekey order="27">bitcoinFernandoUlrich</bcf:citekey>
+    <bcf:citekey order="28">awsDataManagement</bcf:citekey>
+    <bcf:citekey order="29">computacaoNuvemIfrn</bcf:citekey>
+    <bcf:citekey order="30">computacaoNuvemUfc</bcf:citekey>
+    <bcf:citekey order="31">cryptoManifesto</bcf:citekey>
+    <bcf:citekey order="32">assange</bcf:citekey>
+    <bcf:citekey order="33">predecessoresBtc</bcf:citekey>
+    <bcf:citekey order="34">p2pFoundation</bcf:citekey>
+    <bcf:citekey order="35">blockchainInfo</bcf:citekey>
+    <bcf:citekey order="36">sinteticos</bcf:citekey>
+    <bcf:citekey order="37">btcRadio</bcf:citekey>
+    <bcf:citekey order="38">redeHibridaMeshComLora</bcf:citekey>
+    <bcf:citekey order="39">topologiaMeshComLora</bcf:citekey>
+    <bcf:citekey order="40">taproot</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.2)  2 JUN 2024 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.2)  3 JUN 2024 02:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -149,10 +149,7 @@ Type  H <return>  for immediate help.
                                                   
 l.87   \expandafter\let\csname #1\endcsname}
                                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 \stockheight=\skip50
 \stockwidth=\skip51
 \trimtop=\skip52
@@ -403,23 +400,19 @@ LaTeX Info: Redefining \emph on input line 7662.
                    \relax 
 l.11115 \@namelet{endverbatim*}\endverbatim
                                            
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
+? 
 ! Extra \endgroup.
 \endverbatim ->\endtrivlist \endgroup 
                                       \@doendpe 
 l.11115 \@namelet{endverbatim*}\endverbatim
                                            
-Things are pretty mixed up, but I think the worst is over.
-
+? 
 ! Extra \endcsname.
 \XC@let@Nc ...\expandafter #1\csname #2\endcsname 
                                                   
 l.11115 \@namelet{endverbatim*}\endverbatim
                                            
-I'm ignoring this, since I wasn't doing a \csname.
-
+? 
 \verbatim@in@stream=\read2
 \verbatimindent=\skip182
 \verbatim@out=\write3
@@ -432,32 +425,12 @@ e 11385.
 (/home/eu/texmf/tex/latex/newtx/tex/ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
-! Font OT1/minntx/m/n/12=ntx-Regular-tlf-ot1 at 12.0pt not loadable: Metric (TF
-M) file not found.
-<to be read again> 
-                   relax 
-l.11385 \settowidth{\bvnumlength}{\normalfont 999}
-                                                  
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 9 in font nullfont!
 ! Undefined control sequence.
 <argument> \endboxverbatim 
                            
 l.11441 ...melet{endboxedverbatim*}\endboxverbatim
                                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+? 
 \fb@frw=\dimen193
 \fb@frh=\dimen194
 \FrameRule=\dimen195
@@ -484,22 +457,6 @@ LaTeX hooks Warning: Generic hook 'package/before/framed' is deprecated.
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
-! Font OT1/minntx/m/n/10.95=ntx-Regular-tlf-ot1 at 10.95pt not loadable: Metric
- (TFM) file not found.
-<to be read again> 
-                   relax 
-l.13029 ...towidth{\bvnumlength}{\vlvnumfont 9999}
-                                                  
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 9 in font nullfont!
 \c@figure=\count312
 \c@lofdepth=\count313
 \cftbeforefigureskip=\skip185
@@ -541,6 +498,7 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 
+
 LaTeX hooks Warning: Generic hook 'package/before/float' is deprecated.
 (hooks)              Use hook 'package/float/before' instead.
 
@@ -556,20 +514,8 @@ LaTeX Font Info:    Trying to load font information for T1+minntx on input line
 
 (/home/eu/texmf/tex/latex/newtx/tex/t1minntx.fd
 File: t1minntx.fd 2023/09/09 v1.1 font definition file for T1/minntx
-)
-! Font T1/minntx/m/n/12=ntx-Regular-tlf-t1 at 12.0pt not loadable: Metric (TFM)
- file not found.
-<to be read again> 
-                   relax 
-l.112 ...\familydefault\seriesdefault\shapedefault
-                                                  
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
 \MT@toks=\toks29
 \MT@count=\count316
@@ -2075,44 +2021,42 @@ LaTeX Info: Redefining \hbar on input line 50.
 \cftbeforesubfigureskip=\skip349
 \cftsubfigureindent=\skip350
 \cftsubfigurenumwidth=\skip351
+
+
+! Package biblatex Error: '\bibliographystyle' invalid for 'biblatex'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \bibliographystyle{plain}
+                              
+? 
 \main@idxfile=\write21
 \openout4 = `main.idx'.
-
 
 Writing index file main.idx
 \glswrite=\write22
 \glo@acronym@file=\write23
 \openout4 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 25.
+Package glossaries Info: Writing glossary file main.acn on input line 26.
 \glo@symbols@file=\write24
 \openout4 = `main.slo'.
 
-Package glossaries Info: Writing glossary file main.slo on input line 25.
+Package glossaries Info: Writing glossary file main.slo on input line 26.
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 26.
+ 27.
 (/home/eu/texmf/tex/latex/newtx/tex/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
-
-! Font T1/ntxtlf/m/n/12=ntx-Regular-tlf-t1 at 12.0pt not loadable: Metric (TFM)
- file not found.
-<to be read again> 
-                   relax 
-l.26 \begin{document}
-                     
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
+(Font)              scaled to size 12.0pt on input line 27.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+
 
 LaTeX Warning: Unused global option(s):
     [acronym].
@@ -2120,24 +2064,24 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count558
@@ -2162,35 +2106,1094 @@ e
 ))
 \c@mv@tabular=\count564
 \c@mv@boldtabular=\count565
-LaTeX Info: Redefining \microtypecontext on input line 26.
-Package microtype Info: Applying patch `item' on input line 26.
-Package microtype Info: Applying patch `toc' on input line 26.
-Package microtype Info: Applying patch `eqnum' on input line 26.
-Package microtype Info: Applying patch `footnote' on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 27.
+Package microtype Info: Applying patch `item' on input line 27.
+Package microtype Info: Applying patch `toc' on input line 27.
+Package microtype Info: Applying patch `eqnum' on input line 27.
+Package microtype Info: Applying patch `footnote' on input line 27.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 26.
+LaTeX Info: Redefining \showhyphens on input line 27.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-! pdfTeX error (font): invalid font identifier.
-MT@font ->T1/ntxtlf/m/n/12 
-                           
-l.26 \begin{document}
-                     
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
- 
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count566
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
+(./main.out) (./main.out)
+\@outlinefile=\write25
+\openout4 = `main.out'.
+
+Package biblatex Info: Trying to load language 'brazil' -> 'brazil-abnt'...
+Package biblatex Info: ... file 'brazil-abnt.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/brazil-abnt.lbx
+File: brazil-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+
+
+Package biblatex Warning: File 'brazilian-abnt-abnt.lbx' not found!
+(biblatex)                Ignoring mapping 'brazilian-abnt' -> 'brazilian-abnt-
+abnt'.
+
+Package biblatex Info: Trying to load language 'brazilian-abnt'...
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'brazilian-abnt'...
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazil.lbx
+File: brazil.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazil.lbx
+File: brazil.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'.
+..
+Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/brazilian-abnt.lbx
+File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazil'...
+Package biblatex Info: ... file 'brazil.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazil.lbx
+File: brazil.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))))))
+Package biblatex Info: Trying to load language 'english' -> 'english-abnt'...
+Package biblatex Info: ... file 'english-abnt.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/english-abnt.lbx
+File: english-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'ascii' forced by
+(biblatex)             'safeinputenc' option.
+\openout4 = `main.bcf'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 30.
+\openout4 = `main.mw'.
+
+ [1
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.xdy'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.xdy'.
+
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 33.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 33.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 33.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 33.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.33 \end{folhaderosto}
+                       
+\openout4 = `main.mw'.
+
+ [1
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Citation 'bitcoinWhitePaper' undefined on input line 36.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'bitcoinFernandoUlrich' undefined on input line 37.
+
+\openout4 = `main.mw'.
+
+[2
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+ (./main.toc)
+\openout4 = `main.mw'.
+
+ [3
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 46.
+\openout4 = `main.mw'.
+
+ [4
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Citation 'awsDataManagement' on page 5 undefined on input line 4
+8.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'computacaoNuvemIfrn' on page 5 undefined on input line
+ 48.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'computacaoNuvemUfc' on page 5 undefined on input line 
+50.
+
+\openout4 = `main.mw'.
+
+[5
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 55.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Citation 'cryptoManifesto' on page 6 undefined on input line 55.
+
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'assange' on page 6 undefined on input line 55.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'predecessoresBtc' on page 6 undefined on input line 57
+.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'bitcoinWhitePaper' on page 6 undefined on input line 5
+9.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'p2pFoundation' on page 6 undefined on input line 59.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'blockchainInfo' on page 6 undefined on input line 65.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'blockchainInfo' on page 6 undefined on input line 67.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'bitcoinFernandoUlrich' on page 6 undefined on input li
+ne 69.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'sinteticos' on page 6 undefined on input line 71.
+
+\openout4 = `main.mw'.
+
+[6
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [7] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Citation 'btcRadio' on page 8 undefined on input line 89.
+
+\openout4 = `main.mw'.
+
+[8
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Citation 'redeHibridaMeshComLora' on page 9 undefined on input l
+ine 94.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'topologiaMeshComLora' on page 9 undefined on input lin
+e 94.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+LaTeX Warning: Citation 'taproot' on page 9 undefined on input line 96.
+
+\openout4 = `main.mw'.
+
+[9
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Empty bibliography on input line 110.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+\openout4 = `main.mw'.
+
+[10
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\tf@toc=\write26
+\openout4 = `main.toc'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ (./main.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+\openout4 = `main.out'.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 025890ACB18D3079243C2446B03D2373;741.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.bcf'.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+\openout4 = `main.idx'.
+
+\openout4 = `main.acn'.
+
+\openout4 = `main.slo'.
+
+\openout4 = `main.toc'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 40233 strings out of 480154
- 711503 string characters out of 5893789
- 1346199 words of memory out of 5000000
- 57660 multiletter control sequences out of 15000+600000
- 469857 words of font info for 30 fonts, out of 8000000 for 9000
+ 42108 strings out of 480154
+ 749423 string characters out of 5893789
+ 1932923 words of memory out of 5000000
+ 59330 multiletter control sequences out of 15000+600000
+ 492994 words of font info for 78 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 121i,1n,119p,1149b,2393s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 121i,12n,119p,1149b,4444s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/sha
+re/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (11 pages, 139911 bytes).
+PDF statistics:
+ 126 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 12869 words of extra memory for PDF output out of 14400 (max. 10000000)
+
