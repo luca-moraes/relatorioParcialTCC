@@ -23,10 +23,11 @@ def parse_data(file_path):
         eqm_before = float(re.search(r'Erro quadrático médio \(antes da clippagem\): ([\d\.]+)', lines[4]).group(1))
         ema_before = float(re.search(r'Erro médio absoluto \(antes da clippagem\): ([\d\.]+)', lines[5]).group(1))
         
-        # Ajustando a regex para pesos otimizados
-        pesos_otimizados_match = re.search(r'Pesos otimizados: \[([\d\.\s]+)\]', lines[6])
+        # Ajustando a regex para pesos otimizados com possibilidade de sinais negativos
+        pesos_otimizados_match = re.search(r'Pesos otimizados: \[([\d\.\s, -]+)\]', lines[6])
         if pesos_otimizados_match:
-            pesos_otimizados = list(map(float, pesos_otimizados_match.group(1).split()))
+            pesos_otimizados_str = pesos_otimizados_match.group(1).replace(',', ' ')
+            pesos_otimizados = list(map(float, pesos_otimizados_str.split()))
         else:
             pesos_otimizados = []
 
@@ -72,7 +73,6 @@ def plot_bars(erro_faixa, title, output_dir):
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, title + '_quantidade.png'))
-    #plt.show()
     plt.close()
     
     plt.figure(figsize=(10, 6))
@@ -83,11 +83,10 @@ def plot_bars(erro_faixa, title, output_dir):
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, title + '_percentual.png'))
-    #plt.show()
     plt.close()
 
 def create_table(data, output_dir, filename):
-    df = pd.DataFrame(data, columns=['Percentual Treino', 'Total Data', 'Treino Data', 'Teste Data', 'EQM Before', 'EMA Before', 'Pesos Otimizados', 'EQM After', 'EMA After', 'Num Testes', 'Erro Geral'])
+    df = pd.DataFrame(data, columns=['Info', 'Total Data', 'Treino Data', 'Teste Data', 'EQM Before', 'EMA Before', 'Pesos Otimizados', 'EQM After', 'EMA After', 'Num Testes', 'Erro Geral'])
     df.to_csv(os.path.join(output_dir, filename), index=False)
 
 def main(input_file):
