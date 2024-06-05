@@ -1,0 +1,75 @@
+\chapter{Conceitos}
+
+Nesta seção serão apresentados alguns conceitos fundamentais para o entendimento da porposta desse projeto. Serão abordados conceitos de processamento de lingugagem natural, formas de representação de texto em formato númerico e metricas para comparação de textos e avalialção de desempenho.
+
+\section{Processamento de linguagem natural}
+
+O Processamento de Linguagem Natural (PLN) refere-se à aplicação de técnicas computacionais para a interpretação e manipulação de linguagem humana. Envolve o desenvolvimento de algoritmos e modelos que capacitam computadores a compreender, analisar e gerar texto de maneira semelhante ao entendimento humano.
+
+\section{Representação de textos}
+
+A Representação de Textos é crucial para permitir que algoritmos compreendam palavras e documentos. Duas técnicas comuns são TFIDF (Term Frequency-Inverse Document Frequency) e Word Embedding. O TFIDF avalia a importância de uma palavra em um documento, enquanto o Word Embedding mapeia palavras em vetores contínuos, capturando relações semânticas.
+
+%\subsection{TFIDF}
+%O TFIDF é uma técnica que atribui pesos a palavras com base em sua frequência no documento e em todo o conjunto de documentos. Palavras frequentes em um documento, mas raras no conjunto de documentos, recebem pontuações mais altas, destacando sua relevância no contexto do documento específico.
+
+\subsection{Word embedding}
+O Word Embedding é uma técnica que mapeia palavras em vetores de números reais, capturando relações semânticas e contextuais. Essa representação densa permite que algoritmos de processamento de linguagem natural compreendam a similaridade e a semântica entre palavras \cite{NLP}. Considere as palavras "rei" e "rainha." Se estiverem bem representadas por embeddings, a subtração dos vetores "rei" e "homem" deve ser aproximadamente igual à subtração dos vetores "rainha" e "mulher," refletindo a relação semântica de gênero.
+
+\section{Similaridade de textos}
+A Similaridade de Textos é fundamental para comparar documentos ou palavras. Diversas métricas são empregadas para avaliar essa similaridade, como Distância de Jaccard, Distância de Cosseno, Distância Euclidiana e Modelos de Linguagem.
+
+\subsection{Frequência de Termos e Count Vectorization}
+
+A frequência de termos (TF) e a \textit{Count Vectorization} são técnicas fundamentais em processamento de linguagem natural para representar e analisar textos. A TF mede a frequência com que cada termo (palavra) aparece em um documento, enquanto a count vectorization transforma um texto em um vetor numérico que representa a frequência de cada termo.
+
+\subsection{Distância de Cosseno}
+A Distância de Cosseno mede o ângulo entre dois vetores de palavras, representando a similaridade direcional entre eles. Quanto menor o ângulo, maior a similaridade. Considere dois vetores de palavras representando documentos. Se esses vetores apontarem na mesma direção, a distância de cosseno indicará alta similaridade. Se apontarem em direções opostas, a distância indicará baixa similaridade.
+
+\subsection{Distância de Levenshtein}
+A Distância de Levenshtein, também conhecida como Edição de Texto ou Distância de Edição, é uma métrica fundamental em processamento de linguagem natural para medir a similaridade entre sequências de caracteres, como palavras ou frases. Ela quantifica a diferença mínima entre duas sequências, considerando o número de operações de edição (inserção, deleção ou substituição) necessárias para transformá-las uma na outra. Além de medir um valor de similaridade através da edição de texto, seu valor também é relevanta para analisar mudanças necessárias na sintaxe e na parte léxica de um texto em relação a outro.
+
+\subsection{Language Models}
+Os Modelos de Linguagem, como os de Parafraseamento, buscam entender a similaridade semântica entre frases ou documentos, indo além da análise baseada em palavras. Supondo que um modelo de linguagem deve prever palavras em frases. Na frase "O gato está na", o modelo de linguagem pode prever as palavras "casa", "árvore" e rua por exemplo. Com base em um conjunto de dados de treinamento a probabilidade da palavra "casa" pode ser maior.
+Eles também vão além da análise baseada em palavras, buscando capturar as nuances da linguagem e a similaridade semântica entre frases ou documentos. Podemos destacar para o presente trabalho os seguintes modelos:
+
+\begin{enumerate}
+    \item \textbf{BERT}: O BERT (\textit{Bidirectional Encoder Representations from Transformers}) é um dos modelos de linguagem muito usado em processamento de linguagem natural. Ele é treinado em um enorme conjunto de dados de texto e código, permitindo que ele aprenda a representar a linguagem de forma contextual e bidirecional \cite{bert}.
+    \item \textbf{BERTimbau}: O BERTimbau é a versão brasileira do BERT, treinada em um conjunto de dados de texto em português brasileiro. Ele foi aprimorado por pesquisadores brasileiros e oferece melhor desempenho em tarefas específicas para o português brasileiro, como tradução automática, resposta a perguntas, similaridade de senteças textuais e sumarização de texto \cite{bertimbau}.
+    \item \textbf{BETO}: O BETO é versão espanhola do BERT, treinada com um conjunto de dados de texto em espanhol. Foi desenvolvido por um grupo de pesquisadores da Universidade do Chile. Ele oferece desempenho aprimorado nas mesmas tarefas que os outros modelos, mas voltado especificamente para o idioma espanhol \cite{beto}.
+\end{enumerate}
+
+Todos os três modelos possuem uma versão \textit{Base} (12 camadas e 110 milhões de parâmetros) e uma versão \text{Large} (24 camadas e 335 milhões de parâmetros). Esses modelos geram \textit{embeddings} das frases, que são representações vetoriais que capturam o significado semântico das frases, permitindo a comparação dos valores para verificar a similaridade semântica entre elas.
+
+\section{Geração de Valores de Peso}
+É preciso determinar para as avaliações geradas pelo algoritmo os valores dos pesos mais adequados em representar a influência de cada fator dentro de uma métrica. Os pesos podem ser inicializados com valores aleatórios dentro de um intervalo predefinido. Essa é uma técnica simples e comumente utilizada como ponto de partida para outras técnicas. Para melhorar a acurácia da métrica com pesos determinados de forma mais precisa, técnicas dentro do conjunto de Inteligência Artificial e análise de dados podem ser usadas, como por exemplo a regressão linear.
+
+\subsection{Regressão Linear}
+Na regressão linear, os pesos representam a importância relativa de cada variável independente na previsão da variável dependente. Em geral, a técnica tem como objetivo tratar de um valor que não se consegue estimar inicialmente. Para isso ela prevê o valor de dados desconhecidos usando valores de dados relacionados e conhecidos, assim, modelando matematicamente a variável desconhecida ou dependente e a variável conhecida ou independente como uma equação linear \cite{ML}. Por isso a escolha dos valores de peso tem um impacto determinante no desempenho do algoritmo nas avaliações feitas ao final.
+
+\section{Métricas de avaliação}
+As Métricas de Avaliação quantificam o desempenho de modelos de processamento de linguagem natural. A acurácia é uma medida fundamental, representando a proporção de predições corretas em relação ao total. Outras métricas, como erro médio, erro quadrático médio (EQM) e erro médio absoluto (EMA) são essenciais.
+
+\subsection{Acurácia}
+A acurácia é uma métrica fundamental de avaliação, comumente usada para medir o desempenho geral de modelos de processamento de linguagem natural. Uma alta acurácia indica bom desempenho geral, mas pode mascarar problemas em classes minoritárias. A medida representa a proporção de predições corretas em relação ao total de predições. Embora seja uma medida direta, a Acurácia pode ser limitada em cenários desbalanceados, sendo complementada por métricas adicionais, como precisão, revocação e F1-Score, para avaliação mais abrangente do desempenho do modelo. A Acurácia geral também pode ser expressa em forma de uma porcentagem
+
+\subsection{Erro Médio}
+A soma dos erros absolutos de todas as predições, dividida pelo número total de predições. Mede a magnitude média do erro.
+
+\subsection{Erro Quadrático Médio (EQM)}
+A média dos erros quadrados de todas as predições. Mede a magnitude média do erro ao quadrado, penalizando erros maiores mais fortemente.
+
+\subsection{Erro Médio Absoluto (EMA)}
+A média dos erros absolutos de todas as predições. Mede a magnitude média do erro sem considerar o sinal, útil para avaliar a distância entre valores preditivos e reais.
+
+%\section*{Técnicas de classificação/similaridade de texto}
+
+%As principais técnicas utilizadas nos artigos selecionados foram:
+
+%\begin{itemize}
+%    \item Artigo \cite{DeterminingDegreeRelevanceReviewsUsingGraphBasedTextRepresentation}: O algoritmo \textit{K-nearest neighbor classification} é usado para construção de um modelo. A representação de texto é baseada em um grafo para identificar igualdade de sintaxe entre textos. As métricas baseadas em \textit{string} incorporam conceitos de paráfrase e plágio para identificar a similaridade de textos. Métricas como \textit{, }
+%
+%    \item Artigo 
+%\end{itemize}
+
+\newpage

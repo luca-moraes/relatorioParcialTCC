@@ -1,0 +1,24 @@
+\chapter{CONCLUSÃO}
+Levando em consideração tudo o que foi exposto ao longo de todos os capítulos, pode-se concluir, deste trabalho, que propôs uma abordagem para automatizar o processo de avaliação de respostas dissertativas, que os resultados obtidos apontam para uma direção interessante e promissora. Foi possível gerar uma grande quantidade de avaliações com resultados próximos aos de avaliações de professores. A métrica proposta, que levou em consideração a frequência de termos, distância de Levenshtein e similaridade semântica obtidas através de modelos BERT, visando simplificar o processo de correção manual para possibilitar a análise do desempenho dos alunos mais rapidamente, demonstrou seu funcionamento com resultados razoáveis e compreensíveis dentro dos limites do que este trabalho teve como proposta. Ao utilizar os \textit{DataSets} de diferentes temáticas e idiomas, foi possível estimar pesos para os fatores que compõem a métrica de avaliação. Com eles, gerar avaliações automáticas e coletar os dados de acurácia da métrica, que apresentaram um resultado que pode ser considerado satisfatório para os fatores presentes e a quantidade de dados disponibilizados, além do tempo disponível para conclusão deste trabalho.
+
+Algumas limitações foram observadas nos resultados, em que no caso de alguns \textit{datasets}, foi possível ver uma quantidade grande de erros em faixas percentuais muito altas. Avaliações com uma diferença de valor alta quando comparadas com as avaliações dos professores. Uma explicação para muitos desses casos é a falta de compreensão de mais fatores relativos ao texto que o algoritmo ainda não possui a capacidade de avaliar.
+
+Tendo isso em vista, como possibilidades de trabalhos futuros para melhoria dos resultados, algumas abordagens podem ser consideradas, como por exemplo:
+
+\begin{itemize}
+    \item \textbf{Inclusão de mais fatores no algoritmo}: Avaliar a inclusão de mais fatores ou características no algoritmo pode ajudar a capturar melhor a complexidade das respostas dissertativas em diferentes idiomas. Fatores como identificação de paráfrases e mais características da semântica do texto podem ajudar a alcançar uma métrica mais acertiva.
+    \item \textbf{Uso de outros modelos ou redes neurais}: Comparar o desempenho do algoritmo de regressão linear com outros modelos ou redes neurais pode fornecer boas considerações sobre qual abordagem é mais eficaz para determinação dos pesos.
+\end{itemize}
+
+Essas abordagens podem ajudar a aprimorar a precisão e a generalização do algoritmo para qualquer temática, tornando-o mais robusto e eficaz na avaliação de respostas dissertativas em português, inglês, espanhol ou até outros idiomas, eventualmente.
+
+Em relação às questões de pesquisa levantadas para este trabalho, podemos considerar que:
+
+\begin{enumerate}
+    \item Os parâmetros extraídos foram capazes de avaliar uma grande quantidade de respostas, embora com a complementação de mais fatores e mais dados para treinamento com outros modelos, os resultados podem ser melhorados.
+    \item Esses parâmetros foram capazes de definir uma pontuação que funcionou de maneira geral para avaliação de respostas dissertativas, embora houvessem limitações na acurácia da métrica.
+    \item Os fatores devem ser ponderados com pesos, que podem ser otimizados com um volume maior de dados ou outros algoritmos de inteligência artificial, como redes neurais, para determiná-los.
+    \item Podemos constatar que a acurácia da métrica variou consideravelmente comparando os idiomas e também o volume de dados para treinamento e teste. Isso fez com que os valores de acurácia do algoritmo fossem mais próximos quando treinados com os \textit{datasets} em inglês e espanhol.
+\end{enumerate}
+
+Em última análise, este trabalho almejou não apenas uma solução para as limitações atuais na avaliação de respostas dissertativas, mas também contribuir para a determinação de quais parâmetros são relevantes em uma métrica para esse problema de pesquisa. Com a determinação mais detalhada e profunda desses parâmetros em trabalhos futuros, abre-se a possibilidade do surgimento de uma contribuição significativa para os processos educacionais, proporcionando aos professores uma ferramenta valiosa para avaliação e acompanhamento do progresso dos alunos.

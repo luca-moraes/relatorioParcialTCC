@@ -1,0 +1,45 @@
+\chapter{DIFICULDADES E SOLUÇÕES}
+
+Durante o desenvolvimento do algoritmo para a avaliação automática de respostas dissertativas, várias dificuldades foram enfrentadas, cada uma exigindo soluções específicas para garantir o sucesso do projeto, nessa secção serão abordadas as dificuldades encontradas e as soluções escolhidas para resoolve-las.
+
+\section{Seleção e Implementação de Métricas Adequadas}
+
+Um desafio significativo enfrentado foi a seleção e implementação de métricas apropriadas para avaliar a qualidade das respostas dissertativas. Foi necessário realizar uma pesquisa extensiva de técnicas avançadas de processamento de linguagem natural e inteligência artificial, adaptando-as ao contexto específico da avaliação educacional. Colaboração com especialistas em aprendizado de máquina e linguística computacional foi crucial para identificar e implementar as métricas mais relevantes de maneira eficiente.
+
+\subsection{Regressão Linear}
+
+A regressão linear foi uma das métricas escolhidas para avaliar a relação entre as avaliações realizadas pelo algoritmo e as avaliações dos professores. Utilizando técnicas estatísticas avançadas, pudemos modelar essa relação e quantificar a precisão do algoritmo em relação às avaliações humanas.
+
+\subsection{Mean Squared Error (MSE) e Mean Absolute Error (MAE)}
+
+O MSE e o MAE foram utilizados para avaliar a precisão das previsões do modelo de regressão linear. O MSE quantifica o erro médio quadrático entre as previsões do modelo e os valores reais, enquanto o MAE calcula o erro médio absoluto. Essas métricas foram essenciais para avaliar a eficácia do modelo de regressão linear na predição das avaliações das respostas dissertativas.
+
+\subsection{Erro Médio Geral e Faixas de Erro Percentual}
+
+Além disso, calculamos o erro médio geral entre as avaliações realizadas pelo algoritmo e as avaliações dos professores, bem como as faixas de erro percentual para entender melhor a distribuição dos erros.
+
+\section{Otimização da Execução do Algoritmo}
+
+Uma dificuldade adicional foi otimizar a execução do algoritmo para lidar com grandes volumes de dados de forma eficiente. Isso exigiu a implementação de estratégias avançadas de otimização, incluindo:
+
+\subsection{Paralelização com Multi-Thread}
+
+Para lidar com a computação simultânea de tarefas, implementamos paralelização com multi-threading, permitindo que o algoritmo execute múltiplas tarefas em paralelo, o que acelera significativamente o processamento de grandes conjuntos de dados, pois paralelizamos o calculo dos tres fatores dentro dos textos das respostas.
+
+\subsection{Programação Dinâmica}
+
+Utilizamos técnicas de programação dinâmica para otimizar o uso de recursos computacionais e reduzir a complexidade algorítmica, garantindo uma execução mais eficiente do algoritmo e menos repetições desnecessárias de trechos de código.
+
+\subsection{Mensageria com MPI}
+
+Para comunicação eficiente entre processos em sistemas distribuídos, implementamos mensageria com MPI (Message Passing Interface), permitindo que diferentes partes do algoritmo troquem dados de forma assíncrona e coordenada, dividindo a carga de trabalho.
+
+\subsection{Execução dos Modelos na GPU com CUDA}
+
+Para acelerar o processamento de dados, utilizamos a GPU (Graphics Processing Unit) com CUDA (Compute Unified Device Architecture) para executar os modelos de forma paralela, aproveitando o poder de processamento massivo das GPUs para lidar com grandes volumes de dados de forma eficiente.
+
+Essas técnicas de otimização garantiram uma execução eficiente do algoritmo, permitindo lidar com grandes volumes de dados e garantir tempos de execução adequados para a avaliação que retirava os fatores dos textos das respostas.
+
+Essas dificuldades foram superadas com a experiência técnica e o conhecimento especializado obtido ao longo da graduação, tudo isso foi fundamental para superar os desafios enfrentados durante o desenvolvimento do algoritmo e garantir sua eficácia e otimização nos tempos de execução.
+
+\newpage

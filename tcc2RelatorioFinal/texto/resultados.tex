@@ -1,0 +1,39 @@
+\chapter{RESULTADOS OBTIDOS}
+
+\section{Desempenho do Algoritmo}
+
+Os resultados obtidos demonstram o desempenho do algoritmo em diferentes configurações de treinamento e teste. Abaixo estão os resultados para cada conjunto de dados de treinamento e teste:
+
+%------------ port
+
+\input{texto/textGrafsPort/tablesPort}
+
+%------------ esp
+
+\input{texto/textGrafsEsp/tablesEsp.tex}
+
+%------------ eng
+
+\input{texto/textGrafsEng/tablesEng}
+
+\newpage
+
+\subsection{Análise dos Resultados}
+
+Os resultados obtidos indicam uma melhoria no desempenho do algoritmo à medida que mais dados de treinamento são utilizados. No entanto, mesmo com uma quantidade substancial de dados de treinamento, ainda há espaço para melhorias.
+
+\subsubsection{Comparação entre os Conjuntos de Dados}
+
+Ao comparar os resultados entre os conjuntos de dados em português, inglês e espanhol, observa-se que:
+
+\begin{itemize}
+    \item Para o conjunto de dados em português, o melhor resultado obtido foi de 63,43\%, enquanto para o conjunto de dados em espanhol, foi de 83.58\%. Já para o conjunto de dados em inglês, a taxa de erro geral foi de 81.63\%.
+    \item As diferenças nos pesos otimizados entre os três conjuntos de dados podem indicar variações nas características mais importantes para cada idioma e também na quantidade de dados disponíveis no \textit{dataset} de cada um deles, o que pode ter afetado o resultado da regressão linear.
+    \item Outras tendências ou discrepâncias grandes em valores de avaliações, podem ser exploradas para entender melhor como o algoritmo entendeu o fator para aquele texto e buscar compreender o sentido por trás das notas geradas nesses caso. Em tipos específicos de respostas, um fator pode estar pesando mais do que deveria. 
+\end{itemize}
+
+\section{Reprodutibilidade da experimentação}
+
+Para que o experimento realizado no presente trabalho tenha transparência e integridade na sua condução, todos os códigos-fonte desenvolvidos ao longo do processo, juntamento com os dados de treinamento, testes e resultados obtidos estão todos disponibilizados públicamente no Github\footnote[1]{O repositório do Github pode ser acessado através do link: https://github.com/luca-moraes/relatorioParcialTCC}. Assim, qualque um pode executar os códigos para validação dos resultados apresentados neste trabalho ou, eventualmente, para comparação com outras possíveis abordagens propostas futuramente relacionadas a mesma temática deste trabalho.
+
+\newpage
