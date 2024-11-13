@@ -77,13 +77,13 @@ nas bases de dados os três fatores que são usados pela regressão linear e
 posteriormente nos testes de geração de avaliações. A métrica utilizada na
 metodologia pode ser matematicamente descrita como uma média ponderada:
 
-![metrica](https://github.com/luca-moraes/relatorioParcialTCC/assets/83236822/2a79bc38-017f-4f32-b412-de576b96a320)
+![metrica](https://github.com/luca-moraes/relatorioParcialTCCPrivate/assets/83236822/2a79bc38-017f-4f32-b412-de576b96a320)
 
 A primeira etapa envolve a formatação dos dados oriundos de diferentes
 bases, convertendo-os em um modelo comum que pode ser representado no
 diagrama abaixo:
 
-![classes](https://github.com/luca-moraes/relatorioParcialTCC/assets/83236822/efe9aee1-899e-4d28-93ab-63ed5708ca7b)
+![classes](https://github.com/luca-moraes/relatorioParcialTCCPrivate/assets/83236822/efe9aee1-899e-4d28-93ab-63ed5708ca7b)
 
 Após a formatação, os dados são processados pelo algoritmo para a
 extração dos fatores que influenciam a avaliação. Com os fatores
@@ -94,7 +94,7 @@ avaliações geradas pelo algoritmo são comparadas com as notas originais
 fornecidas pelos professores na base de dados. Todo o processo da metodologia
 foi modelado no fluxograma abaixo:
 
-![metodologia](https://github.com/luca-moraes/relatorioParcialTCC/assets/83236822/65fb0b27-cd58-4c3e-8b60-54508731a572)
+![metodologia](https://github.com/luca-moraes/relatorioParcialTCCPrivate/assets/83236822/65fb0b27-cd58-4c3e-8b60-54508731a572)
 
 # RESULTADOS
 Os resultados obtidos indicam uma
@@ -111,7 +111,7 @@ conjunto de dados em inglês foi de 81.63%.
 As faixas de variação de erro percentual
 podem ser vistas nos gráficos abaixo:
 
-![graficos](https://github.com/luca-moraes/relatorioParcialTCC/assets/83236822/92d160b5-312f-4979-8b66-41798bd14104)
+![graficos](https://github.com/luca-moraes/relatorioParcialTCCPrivate/assets/83236822/92d160b5-312f-4979-8b66-41798bd14104)
 
 # CONCLUSÃO
 Pode-se concluir, deste trabalho, que,
