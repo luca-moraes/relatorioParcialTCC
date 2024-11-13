@@ -1,0 +1,169 @@
+\documentclass[acronym,symbols]{fei}
+
+\usepackage[utf8]{inputenc}
+
+%%%% -- Configuracoes Iniciais
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{Nome do Autor}
+%\cidade{Cidade}
+%\instituicao{Instituição de Ensino}
+\title{Título do Trabalho}
+
+% comando para inserção de subfloats do tipo figure, usado aqui no template
+% remova este comando se for usar o pacote subfig
+% não recomendo o pacote subcaption
+\newsubfloat{figure}
+
+\subtitulo{subtítulo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% -- Entradas Listas de Abreviaturas e Simbolos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% -- Abreviaturas
+\newacronym[user1=Computational Aided Design]{cad}{CAD}{Desenho assistido por computador}
+\newacronym{fei}{FEI}{Centro Universitário da FEI}
+
+%% -- Simbolos
+\newglossaryentry{A}{type=symbols,name={\ensuremath{A}},sort=a,description={exchanger total heat transfer area, $m^2$}}
+\newglossaryentry{G}{type=symbols,name={\ensuremath{G}},sort=g,description={exchanger flow-stream mass velocity, $kg/(s m^2)$}}
+\newglossaryentry{f}{type=symbols,name={\ensuremath{j}},sort=j,description={friction factor, dimensionless}}
+\newglossaryentry{deltap}{type=symbols,name={\ensuremath{\Delta P}},sort=p,description={pressure drop, $Pa$}}
+\newglossaryentry{nu}{type=symbols,name={\ensuremath{\nu}},sort=b,description={specific volume, $m^3/kg$}}
+\newglossaryentry{beta}{type=symbols,name={\ensuremath{\beta}},sort=b,description={ratio of free-flow area $A_{ff}$ and frontal area $A_{fr}$ of one side of exchanger, dimensionless}}
+\newglossaryentry{fr}{type=symbols,name={\ensuremath{fr}},sort=fr,description={frontal}}
+\newglossaryentry{in}{type=symbols,name={\ensuremath{i}},sort=in,description={inlet}}
+\newglossaryentry{out}{type=symbols,name={\ensuremath{o}},sort=out,description={outlet}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addbibresource{referencias.bib}
+
+\makeindex
+
+\makeglossaries
+
+\begin{document}
+
+\maketitle
+
+\begin{folhaderosto}
+Dissertação de Mestrado, apresentada ao Centro Universitário da FEI para obtenção do título de Mestre em Engenharia Braquistócrona. Orientado pelo Prof. Dr. Donald Knuth.
+\end{folhaderosto}
+
+\fichacatalografica
+\folhadeaprovacao
+
+\dedicatoria{A quem eu quero dedicar o texto.}
+
+\begin{agradecimentos}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam  ipsum primis in faucibus. Pellentesque porttitor mauris adipiscing dolor semper condimentum. Donec in nibh sapien. Cras \index{exemplo}exemplo 
+\end{agradecimentos}
+
+\begin{epigrafe}
+	\epig{Beware of bugs in the above code; I have only proved it correct, not tried it.}{Donald E. Knuth \nocite{knuth77}}
+	\epig{Something is rotten in the state of Denmark.}{William Shakespeare \nocite{shakespeare1885tragedy}}
+\end{epigrafe}
+
+\begin{resumo}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam 
+\palavraschave{Palavras. Chave. Vão. Aqui.}
+\end{resumo}
+
+\begin{abstract}
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam  \index{FEI}FEI fames ac ante ipsum primis in faucibus. Pellentesque porttitor mauris adipiscing dolor semper condimentum. Donec in nibh 
+  \keywords{Keywords. Go. Here.}
+\end{abstract}
+
+\listoffigures
+\listoftables
+\listofalgorithms
+\printglossaries
+\tableofcontents
+
+\chapter{Lorem ipsum}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam 
+
+\begin{equation}
+\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+\end{equation}
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per 
+
+\section{CLASS APTENT TACITI}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam 
+
+\section{NUNC MOLESTIE NUNC}
+
+Nunc molestie nunc ac lorem dictum, sit amet placerat tellus congue. In os, in ultrices orci auctor at. Mauris ac ante orci. In nec mauris \index{FEI}FEI arcu. In pulvinar tortor a felis interdum pretium. Donec tristique laoreet sollicitudin. Proin erat metus, blandit sed cursus 
+
+\chapter{Vestibulum rutrum}
+
+Vestibulum rutrum varius velit, id iaculis ante vestibulum quis. Aenean 
+
+\begin{enumerate}
+  \item Lorem ipsum dolor sit amet;
+  \item Aenean quam turpis, ullamcorper quis laoreet ac, malesuada sed mi;
+  \item Quisque orci nunc, placerat quis mauris vel, luctus dictum tellus.
+\end{enumerate}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quam 
+
+\begin{table}[ht!]
+  \caption{Donec accumsan tellus nec enim porttitor}%
+  \label{tbl:exemplo}
+  \centering
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+            & \(x_1\) & \(x_2\) & \(x_3\) \\
+    \hline
+    \(y_1\) & 1       & 0       & 0       \\
+    \hline
+    \(y_2\) & 0       & 1       & 0       \\
+    \hline
+    \(y_3\) & 0       & 0       & 1       \\
+    \hline
+  \end{tabular}
+  \smallcaption{Fonte: o Autor}
+\end{table}
+
+\section{CLASS APTENT TACITI}
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per \index{latex@\LaTeX} inceptos himenaeos. Duis ut dolor erat. Fusce 
+\begin{algorithm}
+  \Entrada{Inteiro \(a\)}
+  \Saida{Inteiro \(b\)}
+
+  \(c=\sqrt{a^2 + b^2}\)
+
+  \Retorna \(c\)
+
+  \caption{Algoritmo que calcula o teorema de Pitágoras, de acordo com \textcite{heath1921history}. latex porcaria \cite{art1}}
+  \label{lst:alg}
+\end{algorithm}
+
+\begin{figure}
+  \centering
+  \caption{Verbatim texts}
+  \begin{minipage}    {0.3\textwidth}
+    \rule{2cm}{2cm}
+    \subcaption{First text}
+  \end{minipage}
+  \hfill
+  \begin{minipage}
+    {0.3\textwidth}
+    \rule{2cm}{2cm}
+    \subcaption{Second text}
+  \end{minipage}
+  \smallcaption{Verbatim texts}
+\end{figure}
+
+\printbibliography
+
+%\bibliographystyle{plain}
+%\bibliography{referencias}
+
+\printindex
+
+\end{document}

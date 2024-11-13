@@ -1,0 +1,4916 @@
+[
+    {
+        "answer_number": 3394,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No hay que darle mucha cuerda razonable a las cosas, con el tiempo de sanan",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.3183170883849717,
+        "liv_distance": 0,
+        "bert_score": 3.721870630979538,
+        "nota_atribuida": 3.957039780534052,
+        "percentual_error": 0.11550042604635347
+    },
+    {
+        "answer_number": 3395,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La razón a veces es dañina",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.1627906976744187,
+        "bert_score": 3.499944508075714,
+        "nota_atribuida": 3.170911586492753,
+        "percentual_error": 0.36926655144865195
+    },
+    {
+        "answer_number": 3396,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo eventualmente repara todo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.9767441860465116,
+        "bert_score": 3.104296773672104,
+        "nota_atribuida": 3.450655200932458,
+        "percentual_error": 0.014098514019297737
+    },
+    {
+        "answer_number": 3397,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo hace que todo caiga en su lugar.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.7391509860754013,
+        "nota_atribuida": 3.6311446032979386,
+        "percentual_error": 0.036116601684997196
+    },
+    {
+        "answer_number": 3398,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Forzar no es la solución, todo pasa",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.9302325581395349,
+        "bert_score": 3.4729325026273727,
+        "nota_atribuida": 3.1883675863170553,
+        "percentual_error": 0.2158996940224831
+    },
+    {
+        "answer_number": 3399,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que la vida se encarga de sanar todas tus heridas y mostrarte el porqué de las cosas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 0,
+        "bert_score": 3.497157022356987,
+        "nota_atribuida": 3.6307443932147128,
+        "percentual_error": 0.03601035464216462
+    },
+    {
+        "answer_number": 3400,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Todas las cosas dirigidas por nuestro razón el cual nos afectaron con el tiempo dejan de afectar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.436585811581694,
+        "liv_distance": 0,
+        "bert_score": 3.5825857520103455,
+        "nota_atribuida": 3.9637743931972773,
+        "percentual_error": 0.11700322651895068
+    },
+    {
+        "answer_number": 3401,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Los errores quedaran en el pasado",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.916666666666667,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.470296189188957,
+        "nota_atribuida": 3.391541001068057,
+        "percentual_error": 0.41029756108796434
+    },
+    {
+        "answer_number": 3402,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No todo es para siempre. El dolor con el tiempo deja de lastimar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.290569415042095,
+        "liv_distance": 0,
+        "bert_score": 3.6065559089183807,
+        "nota_atribuida": 3.8823717128845225,
+        "percentual_error": 0.09848920741296774
+    },
+    {
+        "answer_number": 3403,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "con el tiempo te olvidas de muchas cosas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.5116279069767442,
+        "bert_score": 3.5265739262104034,
+        "nota_atribuida": 3.5987113943009454,
+        "percentual_error": 0.027429650084546564
+    },
+    {
+        "answer_number": 3404,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No siempre el corazón tiene la razón, pero no hay nada que el tiempo no cure.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.125,
+        "liv_distance": 0,
+        "bert_score": 3.6242933571338654,
+        "nota_atribuida": 3.7854051151640262,
+        "percentual_error": 0.0753961878533731
+    },
+    {
+        "answer_number": 3405,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces es mejor esperar y no darse mala vida por las cosas, porque después de un tiempo nos daremos cuenta que hay cosas que realmente no eran tan graves o importantes como creíamos.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.8355780276070117,
+        "liv_distance": 0,
+        "bert_score": 3.597053214907646,
+        "nota_atribuida": 3.587138232964597,
+        "percentual_error": 0.16367873074112216
+    },
+    {
+        "answer_number": 3406,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo repara las espectativas e ilusiones que tenemos",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.5825317547305486,
+        "liv_distance": 0.9302325581395349,
+        "bert_score": 3.199525773525238,
+        "nota_atribuida": 3.7446069306661056,
+        "percentual_error": 0.0638482673334736
+    },
+    {
+        "answer_number": 3407,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es lo que sana las heridas que provoca la razón.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.3183170883849717,
+        "liv_distance": 0.813953488372093,
+        "bert_score": 3.7105680257081985,
+        "nota_atribuida": 3.8436712508985966,
+        "percentual_error": 0.039082187275350844
+    },
+    {
+        "answer_number": 3408,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No desgastar la mente en preocupaciones y dejar que el tiempo fluya.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.115457454896664,
+        "liv_distance": 0,
+        "bert_score": 3.8311253488063812,
+        "nota_atribuida": 3.8814578538081808,
+        "percentual_error": 0.09827695370540335
+    },
+    {
+        "answer_number": 3409,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La razón en vano es la que la mayoria de las veces nos trae los males, los cuales con el tiempo se desvanecerán",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.049926681330075,
+        "liv_distance": 0,
+        "bert_score": 3.473726809024811,
+        "nota_atribuida": 3.663107160289489,
+        "percentual_error": 0.044526996659469464
+    },
+    {
+        "answer_number": 3410,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo permite comprender muchas cosas que la razón intenta explicar.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.4231861823449954,
+        "liv_distance": 0.3488372093023256,
+        "bert_score": 4.215497523546219,
+        "nota_atribuida": 4.221594058222089,
+        "percentual_error": 0.1709292860161894
+    },
+    {
+        "answer_number": 3411,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces es mejor esperar que las cosas se asienten para accionar.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.807728727448332,
+        "liv_distance": 0,
+        "bert_score": 3.736460581421852,
+        "nota_atribuida": 3.6382025713580775,
+        "percentual_error": 0.3128474979152154
+    },
+    {
+        "answer_number": 3412,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo se olvida aquello que no tiene sentido pensar.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.115457454896664,
+        "liv_distance": 0.5813953488372093,
+        "bert_score": 3.8489800691604614,
+        "nota_atribuida": 3.8132851650705937,
+        "percentual_error": 0.21327677576285797
+    },
+    {
+        "answer_number": 3413,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "el tiempo cura las heridas",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.8693063937629155,
+        "liv_distance": 2.6744186046511627,
+        "bert_score": 2.719845734536648,
+        "nota_atribuida": 3.459863910272911,
+        "percentual_error": 0.1350340224317722
+    },
+    {
+        "answer_number": 3414,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "el tiempo te hará entender",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 2.0930232558139537,
+        "bert_score": 3.8806483149528503,
+        "nota_atribuida": 3.8186668487730975,
+        "percentual_error": 0.2143855123251005
+    },
+    {
+        "answer_number": 3415,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Por más que nos mortifiquemos pensando en algo, lo mejor es esperar que el tiempo pase y sane la herida. ",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 0,
+        "bert_score": 3.67721751332283,
+        "nota_atribuida": 3.696879060389219,
+        "percentual_error": 0.07578023490269525
+    },
+    {
+        "answer_number": 3416,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "el tiempo hace ver las cosas mejor, olvidar lo que no sirve y valorar lo que realmente importa",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1681531047810605,
+        "liv_distance": 0,
+        "bert_score": 3.5811422020196915,
+        "nota_atribuida": 3.791650400802867,
+        "percentual_error": 0.07691911700010934
+    },
+    {
+        "answer_number": 3417,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Sin las palabras adecuadas no se soluciona nada",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.8608439182435164,
+        "liv_distance": 0.46511627906976744,
+        "bert_score": 3.8207465410232544,
+        "nota_atribuida": 3.6521531402420506,
+        "percentual_error": 0.7261889188103092
+    },
+    {
+        "answer_number": 3418,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La importancia de las cosas va disminuyendo con el tiempo.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.468245836551854,
+        "liv_distance": 0,
+        "bert_score": 3.953593373298645,
+        "nota_atribuida": 4.167217488787151,
+        "percentual_error": 0.28009516948127045
+    },
+    {
+        "answer_number": 3419,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cierra cualquier herida",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 2.2093023255813953,
+        "bert_score": 2.9519541561603546,
+        "nota_atribuida": 3.3446229506595095,
+        "percentual_error": 0.16384426233512261
+    },
+    {
+        "answer_number": 3420,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es el único que cura heridas en el alma.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.490147542976674,
+        "liv_distance": 1.627906976744186,
+        "bert_score": 3.9129236340522766,
+        "nota_atribuida": 3.945544673570785,
+        "percentual_error": 0.013613831607303783
+    },
+    {
+        "answer_number": 3421,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Solo con el tiempo las heridas se curan.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.5825317547305486,
+        "liv_distance": 1.1627906976744187,
+        "bert_score": 3.473549783229828,
+        "nota_atribuida": 3.849140522142675,
+        "percentual_error": 0.037714869464331224
+    },
+    {
+        "answer_number": 3422,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo apacigua episodios dolorosos de la vida",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.2790697674418605,
+        "bert_score": 3.554314523935318,
+        "nota_atribuida": 3.6432075685648484,
+        "percentual_error": 0.0891981078587879
+    },
+    {
+        "answer_number": 3423,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es capaz de sanar situaciones del pasado aún cuando en nuestra mente sigamos pensando en ellos",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.9564354645876385,
+        "liv_distance": 0,
+        "bert_score": 3.6608192324638367,
+        "nota_atribuida": 3.6958048167684536,
+        "percentual_error": 0.0760487958078866
+    },
+    {
+        "answer_number": 3424,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A pesar de lo que hagamos, con el paso del tiempo puede que mejoremos",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0,
+        "bert_score": 3.5379111766815186,
+        "nota_atribuida": 3.680194745202942,
+        "percentual_error": 0.048963372233989055
+    },
+    {
+        "answer_number": 3425,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No podemos forzar el reparnos, hay cosas que solo sanan con el tiempo",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.290569415042095,
+        "liv_distance": 0,
+        "bert_score": 3.590202182531357,
+        "nota_atribuida": 3.874295245490939,
+        "percentual_error": 0.031426188627265206
+    },
+    {
+        "answer_number": 3426,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es el remedio para los errores cometidos",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.4231861823449954,
+        "liv_distance": 1.627906976744186,
+        "bert_score": 3.939002752304077,
+        "nota_atribuida": 3.9156651139553547,
+        "percentual_error": 0.233846635835108
+    },
+    {
+        "answer_number": 3427,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Lo que en realidad cura heridas siempre va a ser el tiempo.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.115457454896664,
+        "liv_distance": 0.23255813953488372,
+        "bert_score": 3.6834943294525146,
+        "nota_atribuida": 3.777752478034246,
+        "percentual_error": 0.05556188049143851
+    },
+    {
+        "answer_number": 3428,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Solo hay que esperar a que el tiempo lo cure y no razonarla",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.0661385170722975,
+        "liv_distance": 0,
+        "bert_score": 3.5746751725673676,
+        "nota_atribuida": 3.72331388987893,
+        "percentual_error": 0.06917152753026745
+    },
+    {
+        "answer_number": 3429,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo las heridas se sanaran sin importar cuantas razones tengamos para dejarlas",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.3183170883849717,
+        "liv_distance": 0,
+        "bert_score": 3.6153538525104523,
+        "nota_atribuida": 3.9044352995848213,
+        "percentual_error": 0.023891175103794682
+    },
+    {
+        "answer_number": 3430,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo se encarga de curar las heridas que has hecho hasta lo imposible por sanar",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2654655446197434,
+        "liv_distance": 0,
+        "bert_score": 3.4491055458784103,
+        "nota_atribuida": 3.7885827297405545,
+        "percentual_error": 0.052854317564861364
+    },
+    {
+        "answer_number": 3431,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Dejar que las cosas tomen su tiempo debido",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0.5813953488372093,
+        "bert_score": 3.653828054666519,
+        "nota_atribuida": 3.784741944885325,
+        "percentual_error": 0.07523417686907907
+    },
+    {
+        "answer_number": 3432,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo sana las heridas",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.8693063937629155,
+        "liv_distance": 2.6744186046511627,
+        "bert_score": 3.1521927565336227,
+        "nota_atribuida": 3.6733832356691214,
+        "percentual_error": 0.08165419108271965
+    },
+    {
+        "answer_number": 3433,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo se encarga de poner todo en su lugar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.145497224367903,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.6091040074825287,
+        "nota_atribuida": 3.6062153959290577,
+        "percentual_error": 0.02945342534141493
+    },
+    {
+        "answer_number": 3434,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo Cura todo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.744186046511628,
+        "bert_score": 2.8895559161901474,
+        "nota_atribuida": 3.4442042326834157,
+        "percentual_error": 0.01594164780473839
+    },
+    {
+        "answer_number": 3435,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Solo le permitimos al tiempo curar aquello que queremos olvidar.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.8227486121839513,
+        "liv_distance": 0,
+        "bert_score": 3.7183575332164764,
+        "nota_atribuida": 3.6388533183830987,
+        "percentual_error": 0.1755644601434413
+    },
+    {
+        "answer_number": 3436,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay cosas que aunque pensemos una solución no la hallamos, pero cuando ha pasado el tiempo podemos superar dicho problema",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.1846531968814578,
+        "liv_distance": 0,
+        "bert_score": 3.6048568040132523,
+        "nota_atribuida": 3.8138984586934366,
+        "percentual_error": 0.15246700917923628
+    },
+    {
+        "answer_number": 3437,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay heridas que solo sana el paso del tiempo, por más que intentemos sanarlas nosotros mismos. ",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 0,
+        "bert_score": 3.6464088410139084,
+        "nota_atribuida": 3.7044540431310855,
+        "percentual_error": 0.07388648921722862
+    },
+    {
+        "answer_number": 3438,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "al final las heridas sanan",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.9564354645876385,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.5534146428108215,
+        "nota_atribuida": 3.4579848281446846,
+        "percentual_error": 0.27703557874158546
+    },
+    {
+        "answer_number": 3439,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La razón se impone con el tiempo",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 0.9302325581395349,
+        "bert_score": 3.5848885774612427,
+        "nota_atribuida": 3.736320042792722,
+        "percentual_error": 0.46471394926193343
+    },
+    {
+        "answer_number": 3440,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Dejar que pase el tiempo es más efectivo que la razón en curar heridas.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.010310363079829,
+        "liv_distance": 0,
+        "bert_score": 3.8698723912239075,
+        "nota_atribuida": 3.8334505089987125,
+        "percentual_error": 0.14812210911139723
+    },
+    {
+        "answer_number": 3441,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo podemos entender cosas que las emociones nos nubla",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.4231861823449954,
+        "liv_distance": 0,
+        "bert_score": 2.9103388637304306,
+        "nota_atribuida": 3.6232213822579173,
+        "percentual_error": 0.03400879197205675
+    },
+    {
+        "answer_number": 3442,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Para las grandes heridas el tiempo es la mejor medicina",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.468245836551854,
+        "liv_distance": 0.11627906976744186,
+        "bert_score": 3.7877875566482544,
+        "nota_atribuida": 4.069934377447192,
+        "percentual_error": 0.14003527442736674
+    },
+    {
+        "answer_number": 3443,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo sana toda herida, la razón y el pensamiento abren la herida.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0,
+        "bert_score": 3.6776967346668243,
+        "nota_atribuida": 3.8735201931471925,
+        "percentual_error": 0.031619951713201866
+    },
+    {
+        "answer_number": 3444,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El transcurso del tiempo se encarga de sanar aquello que consciente o inconscientemente hacemos y que nos genera daño.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.9682929057908467,
+        "liv_distance": 0,
+        "bert_score": 3.770572543144226,
+        "nota_atribuida": 3.7575794128373228,
+        "percentual_error": 0.060605146790669306
+    },
+    {
+        "answer_number": 3445,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Eventualmente se llega a tener paz mental después de pasar por tiempos difíciles",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 3.651927560567856,
+        "nota_atribuida": 3.3999509632117597,
+        "percentual_error": 0.4117562218865938
+    },
+    {
+        "answer_number": 3446,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Solo con el tiempo podemos sanar las heridas",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.5825317547305486,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.6607804894447327,
+        "nota_atribuida": 3.8492179366266974,
+        "percentual_error": 0.037695515843325644
+    },
+    {
+        "answer_number": 3447,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A medida que pasa el tiempo podemos sanar la cosas que nos aquejan.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.045544725589981,
+        "liv_distance": 0,
+        "bert_score": 4.078713655471802,
+        "nota_atribuida": 3.9590884062166145,
+        "percentual_error": 0.010227898445846373
+    },
+    {
+        "answer_number": 3448,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay cosas que se escapan de la razón y solo se sanan con el tiempo",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.010310363079829,
+        "liv_distance": 0,
+        "bert_score": 3.516927734017372,
+        "nota_atribuida": 3.6591449135516765,
+        "percentual_error": 0.18685668587740523
+    },
+    {
+        "answer_number": 3449,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es capaz de logras cosas que otras no",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.145497224367903,
+        "liv_distance": 1.627906976744186,
+        "bert_score": 3.6068229377269745,
+        "nota_atribuida": 3.5742926891816302,
+        "percentual_error": 0.3005609172503442
+    },
+    {
+        "answer_number": 3450,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "En ocasiones la razón nos aleja de sanar nuestras heridas, por su parte, el tiempo se encarga de curarnos en realidad.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.908248290463863,
+        "liv_distance": 0,
+        "bert_score": 3.458954766392708,
+        "nota_atribuida": 3.565341307273406,
+        "percentual_error": 0.10866467318164852
+    },
+    {
+        "answer_number": 3451,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Las cosas no se solucionan de la noche a la mañana.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 0.23255813953488372,
+        "bert_score": 3.6578086018562317,
+        "nota_atribuida": 3.5601975063655917,
+        "percentual_error": 0.2977917670213439
+    },
+    {
+        "answer_number": 3452,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No hay dolor que dure para siempre",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.187186047434807,
+        "nota_atribuida": 2.985656210200351,
+        "percentual_error": 0.004781263266549707
+    },
+    {
+        "answer_number": 3453,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es la mejor cura para todo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 2.0930232558139537,
+        "bert_score": 3.934216946363449,
+        "nota_atribuida": 3.7230399385682507,
+        "percentual_error": 0.059908016633854255
+    },
+    {
+        "answer_number": 3454,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo te hace olvidar",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 2.2093023255813953,
+        "bert_score": 3.076395206153393,
+        "nota_atribuida": 3.406079529967914,
+        "percentual_error": 0.11922197541046242
+    },
+    {
+        "answer_number": 3455,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es buen doctor",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.0090754479169846,
+        "nota_atribuida": 3.419027191064522,
+        "percentual_error": 0.12255743158745014
+    },
+    {
+        "answer_number": 3456,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Superar el dolor requiere de tiempo, no de tratar de justificarlo",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2426106572325057,
+        "liv_distance": 0,
+        "bert_score": 3.687901049852371,
+        "nota_atribuida": 3.8919202364846606,
+        "percentual_error": 0.02701994087883486
+    },
+    {
+        "answer_number": 3457,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tipo puede ser usado en nuestro favor para reparar danos.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.807728727448332,
+        "liv_distance": 0.6976744186046512,
+        "bert_score": 3.903718888759613,
+        "nota_atribuida": 3.6284163972944214,
+        "percentual_error": 0.0353918578336756
+    },
+    {
+        "answer_number": 3458,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo dirá todo",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.627906976744186,
+        "bert_score": 3.5314664244651794,
+        "nota_atribuida": 3.7766168751673996,
+        "percentual_error": 0.33803187280171576
+    },
+    {
+        "answer_number": 3459,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Al transcurrir  el tiempo se entienden mejor las cosas",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 0.3488372093023256,
+        "bert_score": 3.7401577830314636,
+        "nota_atribuida": 4.0490603593811425,
+        "percentual_error": 0.25908736009593114
+    },
+    {
+        "answer_number": 3460,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "el tiempo muestra lo que en realidad sucede, inherentemente de lo que pensemos o queramos",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 0,
+        "bert_score": 3.5490645468235016,
+        "nota_atribuida": 3.656379494286729,
+        "percentual_error": 0.3162635322984467
+    },
+    {
+        "answer_number": 3461,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Querer curar algo no lo cura, el tiempo si.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 0.6976744186046512,
+        "bert_score": 3.827163577079773,
+        "nota_atribuida": 3.828591465006519,
+        "percentual_error": 0.04285213374837027
+    },
+    {
+        "answer_number": 3462,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo siempre curará cualquier daño.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 2.558139534883721,
+        "bert_score": 4.286532700061798,
+        "nota_atribuida": 3.9067352278193224,
+        "percentual_error": 0.02331619304516941
+    },
+    {
+        "answer_number": 3463,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Sanar toma tiempo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0.5813953488372093,
+        "bert_score": 3.0027910321950912,
+        "nota_atribuida": 3.378653923978234,
+        "percentual_error": 0.03467030743479038
+    },
+    {
+        "answer_number": 3464,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo las cosas dejan de importar tanto",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.1627906976744187,
+        "bert_score": 3.550547882914543,
+        "nota_atribuida": 3.847632813789477,
+        "percentual_error": 0.3502498494554145
+    },
+    {
+        "answer_number": 3465,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.6785113019775793,
+        "liv_distance": 1.5116279069767442,
+        "bert_score": 3.021610304713249,
+        "nota_atribuida": 3.64103993025937,
+        "percentual_error": 0.038736166853661214
+    },
+    {
+        "answer_number": 3466,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay desilusiones que, por más que duelen, con el tiempo se van olvidando.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0,
+        "bert_score": 3.734995722770691,
+        "nota_atribuida": 3.7775271129213728,
+        "percentual_error": 0.2058296577837313
+    },
+    {
+        "answer_number": 3467,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces el tiempo cura mucho más que el tratar de responder preguntas que tal vez nos atormentan.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.1681531047810605,
+        "liv_distance": 0,
+        "bert_score": 3.54570671916008,
+        "nota_atribuida": 3.774150198395261,
+        "percentual_error": 0.056462450401184805
+    },
+    {
+        "answer_number": 3468,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo todo se vuelve mejor",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.6876575648784637,
+        "nota_atribuida": 3.7254812851779024,
+        "percentual_error": 0.19473491601320947
+    },
+    {
+        "answer_number": 3469,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces solo el tiempo es el único que puede sanar las heridas",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.591089451179962,
+        "liv_distance": 0.3488372093023256,
+        "bert_score": 3.004329353570938,
+        "nota_atribuida": 3.730662097910781,
+        "percentual_error": 0.06733447552230476
+    },
+    {
+        "answer_number": 3470,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo le gana a la razón.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 2.3255813953488373,
+        "bert_score": 4.296792894601822,
+        "nota_atribuida": 3.942598512978423,
+        "percentual_error": 0.01435037175539422
+    },
+    {
+        "answer_number": 3471,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo da respuesta a cualquier problema.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 1.744186046511628,
+        "bert_score": 4.547027498483658,
+        "nota_atribuida": 4.143170058986684,
+        "percentual_error": 0.03455568005859244
+    },
+    {
+        "answer_number": 3472,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo todo se conoce y sana",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 1.2790697674418605,
+        "bert_score": 3.931916654109955,
+        "nota_atribuida": 3.861509406855319,
+        "percentual_error": 0.09361867828511128
+    },
+    {
+        "answer_number": 3473,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo te ayuda a olvidar y sanar las heridas, y las razones que te pueden dar en ese momento, en vez de ayudar, te atosigan ",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2106690545187018,
+        "liv_distance": 0,
+        "bert_score": 3.6991092562675476,
+        "nota_atribuida": 3.8770588203769356,
+        "percentual_error": 0.030735294905766097
+    },
+    {
+        "answer_number": 3474,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "que el tiempo es nuestro mejor amigo",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 1.5116279069767442,
+        "bert_score": 3.9103052020072937,
+        "nota_atribuida": 3.820040178475012,
+        "percentual_error": 0.47644529728522
+    },
+    {
+        "answer_number": 3475,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo se cura todo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 4.053267240524292,
+        "nota_atribuida": 3.9455153955850197,
+        "percentual_error": 0.11291690715072245
+    },
+    {
+        "answer_number": 3476,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es la mejor manera de superae aflicciones",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.6052897572517395,
+        "nota_atribuida": 3.626628115999782,
+        "percentual_error": 0.2746743768000436
+    },
+    {
+        "answer_number": 3477,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que el tiempo cura",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 0.9302325581395349,
+        "bert_score": 3.1464432179927826,
+        "nota_atribuida": 3.678857462023272,
+        "percentual_error": 0.048617665639294705
+    },
+    {
+        "answer_number": 3478,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo hace olvidar todo",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.1224768981337547,
+        "nota_atribuida": 3.4750317427725386,
+        "percentual_error": 0.1366985334049169
+    },
+    {
+        "answer_number": 3479,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "el tiempo es la mejor medicina para el corazon",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.4231861823449954,
+        "liv_distance": 1.2790697674418605,
+        "bert_score": 3.7553873658180237,
+        "nota_atribuida": 3.871178901734878,
+        "percentual_error": 0.22504227364549256
+    },
+    {
+        "answer_number": 3480,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que el tiempo le da la razón al que la tiene",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 2.94523686170578,
+        "nota_atribuida": 3.2027189728813332,
+        "percentual_error": 0.5316479489143184
+    },
+    {
+        "answer_number": 3481,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Nada pernace al paso apresurado del tiempo, ni siquera la razon..",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.807728727448332,
+        "liv_distance": 0,
+        "bert_score": 3.602196127176285,
+        "nota_atribuida": 3.571894595966484,
+        "percentual_error": 0.4400730631137676
+    },
+    {
+        "answer_number": 3482,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo no está de nuestro lado",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 1.9767441860465116,
+        "bert_score": 3.5763975232839584,
+        "nota_atribuida": 3.593543853150036,
+        "percentual_error": 0.5825847516275259
+    },
+    {
+        "answer_number": 3483,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay cosas que solo el tiempo puede sanar, y no sirve afanarse en pensar sobre ello.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0,
+        "bert_score": 3.571792393922806,
+        "nota_atribuida": 3.6969273564640246,
+        "percentual_error": 0.05326784582869881
+    },
+    {
+        "answer_number": 3484,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No hay que pensar de más, sobre algunas cosas, solo darle tiempo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 0,
+        "bert_score": 3.6732500791549683,
+        "nota_atribuida": 3.598619624922496,
+        "percentual_error": 0.027404848303360207
+    },
+    {
+        "answer_number": 3485,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Entre más pase el tiempo las cosas mejorarán de a poco no todo puede ser rápido",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.290569415042095,
+        "liv_distance": 0,
+        "bert_score": 3.6489851027727127,
+        "nota_atribuida": 3.903325836280671,
+        "percentual_error": 0.23142465532455148
+    },
+    {
+        "answer_number": 3486,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Luego de un tiempo, todas las fichas encajan.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.0465116279069768,
+        "bert_score": 3.832535594701767,
+        "nota_atribuida": 3.8114062755343565,
+        "percentual_error": 0.3440741240188304
+    },
+    {
+        "answer_number": 3487,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que la memoria es pasajera y las experiencias enriquecedoras pueden ser olvidadas",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.807728727448332,
+        "liv_distance": 0,
+        "bert_score": 3.625885546207428,
+        "nota_atribuida": 3.583593875742241,
+        "percentual_error": 0.5814257831631893
+    },
+    {
+        "answer_number": 3488,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Dejar ir las cosas da paz.",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.916666666666667,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.893292397260666,
+        "nota_atribuida": 3.600442324304783,
+        "percentual_error": 0.5833845219865761
+    },
+    {
+        "answer_number": 3489,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el pasar del tiempo se puede entender mejor cómo funcionan algunos fenómenos vitales que a veces la mente humana supone sin fundamento.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.9351941398892443,
+        "liv_distance": 0,
+        "bert_score": 3.811371773481369,
+        "nota_atribuida": 3.7565929277994052,
+        "percentual_error": 0.20140402283156456
+    },
+    {
+        "answer_number": 3490,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el paso del tiempo sanan las heridas provocadas por la razón.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.383883476483185,
+        "liv_distance": 0,
+        "bert_score": 3.777446746826172,
+        "nota_atribuida": 4.026354897102927,
+        "percentual_error": 0.0065455971409499325
+    },
+    {
+        "answer_number": 3491,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La razón busca cosas vanas que pueden causar daño",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.23255813953488372,
+        "bert_score": 4.054970145225525,
+        "nota_atribuida": 3.568201794974431,
+        "percentual_error": 0.299366979882954
+    },
+    {
+        "answer_number": 3492,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo lo cura todo aunque la mente se encargue de recordarlo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0.11627906976744186,
+        "bert_score": 3.5590817779302597,
+        "nota_atribuida": 3.714976569439721,
+        "percentual_error": 0.0578675438246824
+    },
+    {
+        "answer_number": 3493,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Sólo el tiempo puede curar algunas heridas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 2.0930232558139537,
+        "bert_score": 3.8525499403476715,
+        "nota_atribuida": 3.714526669675299,
+        "percentual_error": 0.05775343368151176
+    },
+    {
+        "answer_number": 3494,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "enredado para mi",
+            "grade": 0.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.0465116279069768,
+        "bert_score": 3.536326512694359,
+        "nota_atribuida": 3.204277326764484,
+        "percentual_error": 0.6408554653528968
+    },
+    {
+        "answer_number": 3495,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo hace sanar heridas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 2.558139534883721,
+        "bert_score": 3.027094379067421,
+        "nota_atribuida": 3.3355375119347626,
+        "percentual_error": 0.04698928230435351
+    },
+    {
+        "answer_number": 3496,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo da todas ls respuestas que uno necesita",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.16272035241127,
+        "nota_atribuida": 3.408060354561147,
+        "percentual_error": 0.11973389908280907
+    },
+    {
+        "answer_number": 3497,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo te ayuda y la razón no.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 2.2093023255813953,
+        "bert_score": 3.7518134713172913,
+        "nota_atribuida": 3.6493787703315337,
+        "percentual_error": 0.3149518980259527
+    },
+    {
+        "answer_number": 3498,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Todo sana al cabo de un tiempo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8857583749052296,
+        "liv_distance": 0.9302325581395349,
+        "bert_score": 3.866160362958908,
+        "nota_atribuida": 3.6288983437062896,
+        "percentual_error": 0.03551996542692959
+    },
+    {
+        "answer_number": 3499,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo ayuda a olvidar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 2.2093023255813953,
+        "bert_score": 3.0842937529087067,
+        "nota_atribuida": 3.478785301414538,
+        "percentual_error": 0.006061342452989171
+    },
+    {
+        "answer_number": 3500,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura las heridas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.8693063937629155,
+        "liv_distance": 2.7906976744186047,
+        "bert_score": 3.2128194719552994,
+        "nota_atribuida": 3.6879263172620265,
+        "percentual_error": 0.050957177854232705
+    },
+    {
+        "answer_number": 3501,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo nos vamos olvidando de los malos ratos",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.145497224367903,
+        "liv_distance": 0.813953488372093,
+        "bert_score": 3.6061806976795197,
+        "nota_atribuida": 3.681762125762968,
+        "percentual_error": 0.32097731613176195
+    },
+    {
+        "answer_number": 3502,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Al pasar el tiempo se entiende el porqué de todo y se procede a sanar y soltar.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0,
+        "bert_score": 3.9113587141036987,
+        "nota_atribuida": 3.988916728064123,
+        "percentual_error": 0.002770817983969276
+    },
+    {
+        "answer_number": 3503,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo todo lo cura.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.9767441860465116,
+        "bert_score": 3.7476183474063873,
+        "nota_atribuida": 3.7683666258940796,
+        "percentual_error": 0.07121563598669411
+    },
+    {
+        "answer_number": 3504,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que el tiempo es la mejor medicina.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 1.627906976744186,
+        "bert_score": 3.8197678327560425,
+        "nota_atribuida": 3.759929216576611,
+        "percentual_error": 0.20211263904284904
+    },
+    {
+        "answer_number": 3505,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "con el tiempo todo sana",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.1627906976744187,
+        "bert_score": 3.839580863714218,
+        "nota_atribuida": 3.9215699385042866,
+        "percentual_error": 0.10750029837924457
+    },
+    {
+        "answer_number": 3506,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura todo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.744186046511628,
+        "bert_score": 3.072851225733757,
+        "nota_atribuida": 3.534726634482947,
+        "percentual_error": 0.009824418710112415
+    },
+    {
+        "answer_number": 3507,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo nos ayuda a sanar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.9767441860465116,
+        "bert_score": 3.195265159010887,
+        "nota_atribuida": 3.495580937162128,
+        "percentual_error": 0.001262589382249213
+    },
+    {
+        "answer_number": 3508,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay que saber esperar",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.2790697674418605,
+        "bert_score": 3.1941724568605423,
+        "nota_atribuida": 3.0045046129263784,
+        "percentual_error": 0.5007496432035747
+    },
+    {
+        "answer_number": 3509,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que con el tiempo la persona entiende las cosas y las puede sanar",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.591089451179962,
+        "liv_distance": 0.23255813953488372,
+        "bert_score": 3.589504659175873,
+        "nota_atribuida": 4.0350554374182295,
+        "percentual_error": 0.008687721386216984
+    },
+    {
+        "answer_number": 3510,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El paso del tiempo cura las heridas hechas para etiquetarnos de por vida.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.349207775608447,
+        "liv_distance": 0,
+        "bert_score": 3.5337726771831512,
+        "nota_atribuida": 3.8838711767728142,
+        "percentual_error": 0.02903220580679644
+    },
+    {
+        "answer_number": 3511,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "dale tiempo al tiempo",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 1.2790697674418605,
+        "bert_score": 3.35126131772995,
+        "nota_atribuida": 3.6142201479917064,
+        "percentual_error": 0.44663027759630836
+    },
+    {
+        "answer_number": 3512,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo ayuda a superar las cosas.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 4.166666666666668,
+        "liv_distance": 3.13953488372093,
+        "bert_score": 4.043921083211899,
+        "nota_atribuida": 4.2420638534580775,
+        "percentual_error": 0.05731914367598279
+    },
+    {
+        "answer_number": 3513,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que la razón le da muchas vueltas a las cosas, mientras que el tiempo solo hace sanar todo",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2024393586862705,
+        "liv_distance": 0,
+        "bert_score": 3.5264745354652405,
+        "nota_atribuida": 3.7865460916866556,
+        "percentual_error": 0.05336347707833611
+    },
+    {
+        "answer_number": 3514,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "por más que te esfuerces en sanar un trauma, el tiempo es el que ayuda más que nada",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0786375623578444,
+        "liv_distance": 0,
+        "bert_score": 3.5810600221157074,
+        "nota_atribuida": 3.7344485404466123,
+        "percentual_error": 0.06277996279969467
+    },
+    {
+        "answer_number": 3515,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo te dara ma razon",
+            "grade": 1.0
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 2.3255813953488373,
+        "bert_score": 3.4810692071914673,
+        "nota_atribuida": 3.539744410639338,
+        "percentual_error": 0.7174937272323052
+    },
+    {
+        "answer_number": 3516,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo pensamos mejor",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.3953488372093024,
+        "bert_score": 3.5409587621688843,
+        "nota_atribuida": 3.743295958414647,
+        "percentual_error": 0.33213936921546683
+    },
+    {
+        "answer_number": 3517,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Es mejor dejar que el tiempo nos dé respuesta y dejar sanar las heridas sin hundir las los dedos en la yaga",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.3164965809277263,
+        "liv_distance": 0,
+        "bert_score": 3.5863646864891052,
+        "nota_atribuida": 3.8889561736271157,
+        "percentual_error": 0.10001557134143468
+    },
+    {
+        "answer_number": 3518,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es la mejor medicina.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 2.2093023255813953,
+        "bert_score": 4.354950934648514,
+        "nota_atribuida": 3.9867185875183178,
+        "percentual_error": 0.2475014390550545
+    },
+    {
+        "answer_number": 3519,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Meramente el tiempo no lo cura todo, es solo una de tantas herrramientas que, utilizadas a la vez, abren paso a superar ciertas experiencias",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.1527912098338673,
+        "liv_distance": 0,
+        "bert_score": 3.529292494058609,
+        "nota_atribuida": 3.7562343219152186,
+        "percentual_error": 0.06094141952119536
+    },
+    {
+        "answer_number": 3520,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es la solución",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.9767441860465116,
+        "bert_score": 3.970448523759842,
+        "nota_atribuida": 3.878413755889671,
+        "percentual_error": 0.22648789200371722
+    },
+    {
+        "answer_number": 3521,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "el tiempo es la solución para todo",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 1.744186046511628,
+        "bert_score": 3.905107229948044,
+        "nota_atribuida": 3.786676927487786,
+        "percentual_error": 0.20774862565571317
+    },
+    {
+        "answer_number": 3522,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Todo lo cura el tiempo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 1.0465116279069768,
+        "bert_score": 3.0568604916334152,
+        "nota_atribuida": 3.5504129736224668,
+        "percentual_error": 0.01419918584035329
+    },
+    {
+        "answer_number": 3523,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo se sanan las heridas.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.657275124715689,
+        "liv_distance": 2.441860465116279,
+        "bert_score": 3.863237500190735,
+        "nota_atribuida": 3.919941435033273,
+        "percentual_error": 0.02001464124168173
+    },
+    {
+        "answer_number": 3524,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Al pasar tiempo las heridas se curan, pero los sentimientos tienden a aflorar.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0,
+        "bert_score": 3.695855960249901,
+        "nota_atribuida": 3.797922089303235,
+        "percentual_error": 0.07844344415129678
+    },
+    {
+        "answer_number": 3525,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que por mal que la hayamos pasado y nos consima por dentro, el tiempo al final curara todos los males.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.925628265379374,
+        "liv_distance": 0,
+        "bert_score": 3.657887727022171,
+        "nota_atribuida": 3.67468473627896,
+        "percentual_error": 0.18340339193800892
+    },
+    {
+        "answer_number": 3526,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura la mayoría de cosas.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 2.3255813953488373,
+        "bert_score": 3.8068370521068573,
+        "nota_atribuida": 3.6611546823456447,
+        "percentual_error": 0.04401744704279886
+    },
+    {
+        "answer_number": 3527,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La persona sabe algo pero lo oculta engañandose asi mismo",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.056606590747833,
+        "nota_atribuida": 3.5998061469641898,
+        "percentual_error": 0.7222072636207575
+    },
+    {
+        "answer_number": 3528,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La muerte sólo tiene importancia en la medida en que nos hace reflexionar sobre el valor que trae la vida",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.6863389981249823,
+        "liv_distance": 0,
+        "bert_score": 3.7143464386463165,
+        "nota_atribuida": 3.5497663214214743,
+        "percentual_error": 0.7182913156943924
+    },
+    {
+        "answer_number": 3529,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura la terquedad",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 2.441860465116279,
+        "bert_score": 3.4941833466291428,
+        "nota_atribuida": 3.581612616425729,
+        "percentual_error": 0.16238847656454525
+    },
+    {
+        "answer_number": 3530,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo al final lo cura todo y la razon pueda afectar los resultados.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0661385170722975,
+        "liv_distance": 0,
+        "bert_score": 4.066462367773056,
+        "nota_atribuida": 3.966188397661587,
+        "percentual_error": 0.1175406589198954
+    },
+    {
+        "answer_number": 3531,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo borra las penas, la razón solo se forza en un vano intento de olvidar las heridas.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 0,
+        "bert_score": 3.6500831693410873,
+        "nota_atribuida": 3.981965297809483,
+        "percentual_error": 0.004508675547629237
+    },
+    {
+        "answer_number": 3532,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo siempre dará respuesta a tus intensiones.",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.2715167498104596,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.8343386352062225,
+        "nota_atribuida": 3.7363289920066065,
+        "percentual_error": 0.46471523137316284
+    },
+    {
+        "answer_number": 3533,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "el tiempo al final hace que olvidemos los problemas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.0465116279069768,
+        "bert_score": 3.5760752856731415,
+        "nota_atribuida": 3.6583944914329063,
+        "percentual_error": 0.043296175905531475
+    },
+    {
+        "answer_number": 3534,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo siempre será la sanación de todo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 2.2093023255813953,
+        "bert_score": 4.174675792455673,
+        "nota_atribuida": 3.8263950930372057,
+        "percentual_error": 0.08530093863833832
+    },
+    {
+        "answer_number": 3535,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que el tiempo cura solo cuando hay razon",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.2790697674418605,
+        "bert_score": 3.0376895517110825,
+        "nota_atribuida": 3.3880666518016325,
+        "percentual_error": 0.409692840919619
+    },
+    {
+        "answer_number": 3536,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "La razón nos muestra la verdad, y se sabe que lastima, pero es el tiempo quien hace que se olvide o cure lo que pasó. ",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.855334527259351,
+        "liv_distance": 0,
+        "bert_score": 3.6949270218610764,
+        "nota_atribuida": 3.6480900487133523,
+        "percentual_error": 0.45176791874822786
+    },
+    {
+        "answer_number": 3537,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Que el tiempo cura todas las heridas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.657275124715689,
+        "liv_distance": 2.2093023255813953,
+        "bert_score": 2.9007818177342415,
+        "nota_atribuida": 3.475418300738945,
+        "percentual_error": 0.007023342646015673
+    },
+    {
+        "answer_number": 3538,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo hace lo que la razón no puede",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 2.0930232558139537,
+        "bert_score": 4.143093973398209,
+        "nota_atribuida": 3.799840108806152,
+        "percentual_error": 0.47366206399974886
+    },
+    {
+        "answer_number": 3539,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay cosas que solo el tiempo puede curar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0.5813953488372093,
+        "bert_score": 3.57177771627903,
+        "nota_atribuida": 3.7442204840918474,
+        "percentual_error": 0.06522598899543242
+    },
+    {
+        "answer_number": 3540,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Mientras más tiempo pasa, la razón se vuelve más clara.",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 0.3488372093023256,
+        "bert_score": 3.8018977642059326,
+        "nota_atribuida": 3.615959434064284,
+        "percentual_error": 0.44689644989959687
+    },
+    {
+        "answer_number": 3541,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el pasar del tiempo las cosas se olvidan.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.0465116279069768,
+        "bert_score": 3.9884531497955322,
+        "nota_atribuida": 4.079295227166872,
+        "percentual_error": 0.38714903904214715
+    },
+    {
+        "answer_number": 3542,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Olvidar",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.5813953488372093,
+        "bert_score": 3.1146270036697388,
+        "nota_atribuida": 3.0576087433842507,
+        "percentual_error": 0.6729470367444166
+    },
+    {
+        "answer_number": 3543,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo todo se olvida, a pesar de que queramos racionalmente mantener la herida abierta.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0,
+        "bert_score": 3.658478632569313,
+        "nota_atribuida": 3.7397383075177513,
+        "percentual_error": 0.3315040266388657
+    },
+    {
+        "answer_number": 3544,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura todo.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.3848661184310913,
+        "nota_atribuida": 3.6734205284870383,
+        "percentual_error": 0.04720954955801493
+    },
+    {
+        "answer_number": 3545,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "todo pasa, el tiempo ayuda a la solución de los conflictos.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.145497224367903,
+        "liv_distance": 0.11627906976744186,
+        "bert_score": 3.106447234749794,
+        "nota_atribuida": 3.527351792573954,
+        "percentual_error": 0.14950360031686505
+    },
+    {
+        "answer_number": 3546,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con tiempo se puede lograr todo",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.916666666666667,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.8897232711315155,
+        "nota_atribuida": 3.53708732137514,
+        "percentual_error": 0.2932037654563596
+    },
+    {
+        "answer_number": 3547,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo y las reflexiones curan cualquier daño.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.657275124715689,
+        "liv_distance": 1.5116279069767442,
+        "bert_score": 3.785565495491028,
+        "nota_atribuida": 4.004766964000107,
+        "percentual_error": 0.12604153213847125
+    },
+    {
+        "answer_number": 3548,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Algunas situaciones se solucionan solo con el tiempo.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0.23255813953488372,
+        "bert_score": 4.224629104137421,
+        "nota_atribuida": 4.112832575519728,
+        "percentual_error": 0.02743427393357234
+    },
+    {
+        "answer_number": 3549,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura lo que en algún momento pensamos que fue correcto y no lo fue",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 0,
+        "bert_score": 3.5438326746225357,
+        "nota_atribuida": 3.6310054927957123,
+        "percentual_error": 0.03607967353826391
+    },
+    {
+        "answer_number": 3550,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Cuando sufrimos pese a que tratamos de sentirnos mejor, es inútil, solo mejoramos cuando poco recordamos. ",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 3.675466477870941,
+        "nota_atribuida": 3.4115759160561145,
+        "percentual_error": 0.5603204979433536
+    },
+    {
+        "answer_number": 3551,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A medida que pasa el tiempo este nos ayuda ya sea a aprender o a olvidar, cosa que por más que intentemos la razón no podrá solucionar inmediatamente.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8726779962499647,
+        "liv_distance": 0,
+        "bert_score": 3.7078730762004852,
+        "nota_atribuida": 3.665558489986359,
+        "percentual_error": 0.04516596596088551
+    },
+    {
+        "answer_number": 3552,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura lo que la razón intenta curar.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 3.8142257928848267,
+        "nota_atribuida": 3.66822112120746,
+        "percentual_error": 0.04585904601958324
+    },
+    {
+        "answer_number": 3553,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo es buena cura",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.412870929175277,
+        "liv_distance": 2.0930232558139537,
+        "bert_score": 3.3375856280326843,
+        "nota_atribuida": 3.5504693762348034,
+        "percentual_error": 0.014214846232056488
+    },
+    {
+        "answer_number": 3554,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "No hay nada que tiempo no cure y así sea que nuestra mente este empecinada en eliminar no se alcanzará sino con tiempo.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8608439182435164,
+        "liv_distance": 0,
+        "bert_score": 3.6330948770046234,
+        "nota_atribuida": 3.6210716557281186,
+        "percentual_error": 0.03343531065909655
+    },
+    {
+        "answer_number": 3555,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Aunque que se traten de manera racional, hay problemas que solo el tiempo arregla",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.010310363079829,
+        "liv_distance": 0,
+        "bert_score": 3.5664866119623184,
+        "nota_atribuida": 3.683620109743202,
+        "percentual_error": 0.0790949725641995
+    },
+    {
+        "answer_number": 3556,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces solo se necesita un poco de tiempo para poder superar algunas situaciones.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.0661385170722975,
+        "liv_distance": 0,
+        "bert_score": 3.9058147370815277,
+        "nota_atribuida": 3.886850800808671,
+        "percentual_error": 0.028287299797832288
+    },
+    {
+        "answer_number": 3557,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Sólo el tiempo y el olvido curan realmente",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.1627906976744187,
+        "bert_score": 3.5330738872289658,
+        "nota_atribuida": 3.839003089098585,
+        "percentual_error": 0.08830497950398486
+    },
+    {
+        "answer_number": 3558,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "hay que darle tiempo al tiempo",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.1627906976744187,
+        "bert_score": 3.914036303758621,
+        "nota_atribuida": 3.836258208148651,
+        "percentual_error": 0.47865865865030377
+    },
+    {
+        "answer_number": 3559,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A medida que pasa el tiempo se tiene más claridad de las cosas que las que se pueden tener con la razón en un momento determinado.",
+            "grade": 2.0
+        },
+        "frequence_similarity": 3.1900655593423544,
+        "liv_distance": 0,
+        "bert_score": 3.5586632043123245,
+        "nota_atribuida": 3.794541374212311,
+        "percentual_error": 0.4729270805710559
+    },
+    {
+        "answer_number": 3560,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Dejar que las heridas sanen y la mente se aclare.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.0465116279069768,
+        "bert_score": 3.5996128618717194,
+        "nota_atribuida": 3.4527753836773485,
+        "percentual_error": 0.2759447915962038
+    },
+    {
+        "answer_number": 3561,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo piensas mejor las cosas",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.657275124715689,
+        "liv_distance": 1.9767441860465116,
+        "bert_score": 3.63805428147316,
+        "nota_atribuida": 3.8703245800121624,
+        "percentual_error": 0.35405934352096546
+    },
+    {
+        "answer_number": 3562,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo permite sanar obviando lo que la razón intenta",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.468245836551854,
+        "liv_distance": 1.5116279069767442,
+        "bert_score": 2.964596338570118,
+        "nota_atribuida": 3.478615300699649,
+        "percentual_error": 0.006109914085814516
+    },
+    {
+        "answer_number": 3563,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo se encarga de curarnos, por esto dejar de darle mente a un problema y esperar es una mejor opción",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 0,
+        "bert_score": 3.665890544652939,
+        "nota_atribuida": 3.691285112504467,
+        "percentual_error": 0.05182073632201323
+    },
+    {
+        "answer_number": 3564,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Todo pasa, el tiempo se encarga de eso",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.1627906976744187,
+        "bert_score": 3.7407417595386505,
+        "nota_atribuida": 3.75067479414528,
+        "percentual_error": 0.20014393018479404
+    },
+    {
+        "answer_number": 3565,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura lo que nuestro cerebro quiere sanar.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.5116279069767442,
+        "bert_score": 3.7748554348945618,
+        "nota_atribuida": 3.694971900591366,
+        "percentual_error": 0.05276681550952034
+    },
+    {
+        "answer_number": 3566,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el tiempo, las penas se olvidan.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.657275124715689,
+        "liv_distance": 1.744186046511628,
+        "bert_score": 4.1777729988098145,
+        "nota_atribuida": 4.167666771838975,
+        "percentual_error": 0.04023036893734
+    },
+    {
+        "answer_number": 3567,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "En ocasiones no es cuestión de entender aquello que hace daño, sino con el tiempo dejar que todo sane.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 0,
+        "bert_score": 3.629385456442833,
+        "nota_atribuida": 3.673256673746756,
+        "percentual_error": 0.04716704797272786
+    },
+    {
+        "answer_number": 3568,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces, por muchas razones que se presenten, solo el tiempo permite que las personas olviden, interioricen, reflexionen, etc. acerca de lo que les está sucediendo.  ",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.2332355751067663,
+        "liv_distance": 0,
+        "bert_score": 3.6966080218553543,
+        "nota_atribuida": 3.8902336936944337,
+        "percentual_error": 0.1003111186679998
+    },
+    {
+        "answer_number": 3569,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Hay veces que el tiempo es el único que puede sanar el pasado",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.3908708063747484,
+        "liv_distance": 0,
+        "bert_score": 3.542734533548355,
+        "nota_atribuida": 3.9149015400081506,
+        "percentual_error": 0.1059800701928475
+    },
+    {
+        "answer_number": 3570,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces es cuestión de dejar las cosas pasar en lugar de darle muchas vueltas.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.7551551815399145,
+        "liv_distance": 0,
+        "bert_score": 3.7547659873962402,
+        "nota_atribuida": 3.613671398513452,
+        "percentual_error": 0.3081828079253638
+    },
+    {
+        "answer_number": 3571,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Solo el tiempo permite olvidar las heridas.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 4.043033499620919,
+        "liv_distance": 3.0232558139534884,
+        "bert_score": 3.838486522436142,
+        "nota_atribuida": 4.077058313972658,
+        "percentual_error": 0.018900468925982183
+    },
+    {
+        "answer_number": 3572,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "El tiempo cura todo lo malo",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.333333333333334,
+        "liv_distance": 1.8604651162790697,
+        "bert_score": 2.894318550825119,
+        "nota_atribuida": 3.3115635053434866,
+        "percentual_error": 0.17210912366412834
+    },
+    {
+        "answer_number": 3573,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A veces es mejor dejar que el tiempo pase para resolver algunos asuntos.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0,
+        "bert_score": 3.763894736766815,
+        "nota_atribuida": 3.831523786374196,
+        "percentual_error": 0.08652531077927095
+    },
+    {
+        "answer_number": 3574,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "Con el paso del tiempo es posible olvidar situaciones difíciles.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.145497224367903,
+        "liv_distance": 0,
+        "bert_score": 4.146001935005188,
+        "nota_atribuida": 4.056145386699978,
+        "percentual_error": 0.09863435851111602
+    },
+    {
+        "answer_number": 3575,
+        "answer_values": {
+            "number_question": 19,
+            "answer_question": "A medida que envejeces te das cuenta de lo que realmente necesitas.",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 3.667175769805908,
+        "nota_atribuida": 3.4074814588191336,
+        "percentual_error": 0.7065281170021243
+    },
+    {
+        "answer_number": 3576,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "A no hablar cosas necias e ignorantes.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.8418683409690857,
+        "nota_atribuida": 3.3154928269773625,
+        "percentual_error": 0.245964286317224
+    },
+    {
+        "answer_number": 3577,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Tus palabras sean de construcción y no de ignorancia",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0.6730769230769231,
+        "bert_score": 3.912164568901062,
+        "nota_atribuida": 3.775892655072715,
+        "percentual_error": 0.16091274331717442
+    },
+    {
+        "answer_number": 3578,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No debes destruir la paz del silencio para decir cosas hirientes o incoherentes",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.7405626121623436,
+        "liv_distance": 0,
+        "bert_score": 3.262019604444504,
+        "nota_atribuida": 3.3610049167091605,
+        "percentual_error": 0.15974877082270988
+    },
+    {
+        "answer_number": 3579,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Ten cuidado con lo que dices",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.10392789542675,
+        "nota_atribuida": 3.206495333402377,
+        "percentual_error": 0.08385847617074937
+    },
+    {
+        "answer_number": 3580,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabras pueden destruir o crear, elígelas bien para no dañar.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 0.19230769230769232,
+        "bert_score": 3.953026682138443,
+        "nota_atribuida": 3.6914620160594085,
+        "percentual_error": 0.07713449598514788
+    },
+    {
+        "answer_number": 3581,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que ser prudentes al momento de referenirnos a algo o a alguien",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0.28846153846153844,
+        "bert_score": 4.152004420757294,
+        "nota_atribuida": 3.9452723363674416,
+        "percentual_error": 0.23959621941784348
+    },
+    {
+        "answer_number": 3582,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Cada cosa que digas tenga un sentido trascendental y relevente acerca de algo",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 0,
+        "bert_score": 4.019473195075989,
+        "nota_atribuida": 3.8886959718502467,
+        "percentual_error": 0.22853315823180798
+    },
+    {
+        "answer_number": 3583,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Tus palabras sean beneficiosas si no mejor guardar silencio",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 0.38461538461538464,
+        "bert_score": 3.103408068418503,
+        "nota_atribuida": 3.610261927023197,
+        "percentual_error": 0.1977195717726229
+    },
+    {
+        "answer_number": 3584,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No hay que hablar impertinetemente",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.8726779962499647,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.141964077949524,
+        "nota_atribuida": 3.2460147410369564,
+        "percentual_error": 0.07578977936445408
+    },
+    {
+        "answer_number": 3585,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Pensar antes de hablar. Si lo que comunicas no hace el bien es mejor callar",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.930331482911935,
+        "liv_distance": 0,
+        "bert_score": 4.057571440935135,
+        "nota_atribuida": 3.8750762269072716,
+        "percentual_error": 0.0312309432731821
+    },
+    {
+        "answer_number": 3586,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "cuando hables lo que aportes sea constructivo.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.25,
+        "bert_score": 3.861076831817627,
+        "nota_atribuida": 3.538840489883661,
+        "percentual_error": 0.21359100224807526
+    },
+    {
+        "answer_number": 3587,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe ser prudente al hablar.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 3.8557398319244385,
+        "nota_atribuida": 3.2968773470248234,
+        "percentual_error": 0.05803504370719337
+    },
+    {
+        "answer_number": 3588,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe pensar bien las cosas antes de hablar, para expresar las cosas de la mejor forma posible",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.0602293610572815,
+        "nota_atribuida": 3.6015952918713667,
+        "percentual_error": 0.028208414227068324
+    },
+    {
+        "answer_number": 3589,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hablar con las palabras indicadas, no decir tonterías ",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0.7692307692307693,
+        "bert_score": 3.6024127155542374,
+        "nota_atribuida": 3.6499098441375835,
+        "percentual_error": 0.04107220466784023
+    },
+    {
+        "answer_number": 3590,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No decir nada a veces es mejor.",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.6346153846153846,
+        "bert_score": 3.4244371205568314,
+        "nota_atribuida": 3.288384130126023,
+        "percentual_error": 0.3917985488138964
+    },
+    {
+        "answer_number": 3591,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "A veces es mejor quedarse callado y no empeoran las situacion con comentarios erroneos",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.107778966426849,
+        "nota_atribuida": 3.625078186733164,
+        "percentual_error": 0.17243164272174494
+    },
+    {
+        "answer_number": 3592,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Siempre hay que analizar lo que se dice, y tener en cuenta que muchas veces la mejor respuesta posible es el silencio",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 0,
+        "bert_score": 4.009517431259155,
+        "nota_atribuida": 3.883779208542487,
+        "percentual_error": 0.09881591819080582
+    },
+    {
+        "answer_number": 3593,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada bueno o importante que decir, entonces es mejor no perturbar a nadie.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.125,
+        "liv_distance": 0,
+        "bert_score": 4.285051375627518,
+        "nota_atribuida": 4.111727719879199,
+        "percentual_error": 0.1487763202124608
+    },
+    {
+        "answer_number": 3594,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se van a decir cosas valiosas y/o importantes, es mejor quedarse callado.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 0,
+        "bert_score": 4.124259203672409,
+        "nota_atribuida": 3.9404456930883542,
+        "percentual_error": 0.12434540153592133
+    },
+    {
+        "answer_number": 3595,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada que decir, mejor quédate callado. ",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 0.8653846153846154,
+        "bert_score": 3.925398588180542,
+        "nota_atribuida": 3.952545803061617,
+        "percentual_error": 0.24099551289798615
+    },
+    {
+        "answer_number": 3596,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "es mejor decir algo con sentido a oraciones sin fundamento",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.4839605540037155,
+        "nota_atribuida": 3.5189591873533366,
+        "percentual_error": 0.14747519357951233
+    },
+    {
+        "answer_number": 3597,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe tener buenos argumentos",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.9581885933876038,
+        "nota_atribuida": 3.372938861210697,
+        "percentual_error": 0.7035226426721961
+    },
+    {
+        "answer_number": 3598,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si el hablar no va a aportar nada o va a perjudicar a alguien, es mejor callar.",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.7151657414559676,
+        "liv_distance": 0,
+        "bert_score": 4.1901662945747375,
+        "nota_atribuida": 3.8031628626615004,
+        "percentual_error": 0.2393674274676999
+    },
+    {
+        "answer_number": 3599,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "si no hay cosas positivas por decir, es mejor no decir nada",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.125,
+        "liv_distance": 0.4807692307692308,
+        "bert_score": 4.029248654842377,
+        "nota_atribuida": 3.9217315663819035,
+        "percentual_error": 0.12850409635957705
+    },
+    {
+        "answer_number": 3600,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que se piense bien antes de hablar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.5666174441576004,
+        "nota_atribuida": 3.4061515212190967,
+        "percentual_error": 0.026813851080258133
+    },
+    {
+        "answer_number": 3601,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor quedarse callado, que decir algo de lo que uno pueda arrepentirse.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.3606629658238703,
+        "liv_distance": 0.4807692307692308,
+        "bert_score": 4.126687049865723,
+        "nota_atribuida": 4.1203381372859,
+        "percentual_error": 0.2719044165690431
+    },
+    {
+        "answer_number": 3602,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Aveces es mejor callar",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.1547827273607254,
+        "nota_atribuida": 3.0016341183669057,
+        "percentual_error": 0.1671203413158926
+    },
+    {
+        "answer_number": 3603,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No hay que hablar por hablar.",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.6843083053827286,
+        "nota_atribuida": 3.4258183745945834,
+        "percentual_error": 0.4161978887054446
+    },
+    {
+        "answer_number": 3604,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "El propósito de hablar  deber ser aportar mas a lo ya hablado o dicho.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0,
+        "bert_score": 4.035918563604355,
+        "nota_atribuida": 3.5895891375372466,
+        "percentual_error": 0.10260271561568834
+    },
+    {
+        "answer_number": 3605,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "se diga algo con valor, sino mejor callate",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.7238727509975433,
+        "nota_atribuida": 3.4453577106083504,
+        "percentual_error": 0.23436495319814432
+    },
+    {
+        "answer_number": 3606,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "El silencio es preciado y precioso y no merece la pena cambiarlo a menos que se tenga algo más preciado y precioso para decir",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.010310363079829,
+        "liv_distance": 0,
+        "bert_score": 4.069348126649857,
+        "nota_atribuida": 3.9319637918341837,
+        "percentual_error": 0.12623026848129248
+    },
+    {
+        "answer_number": 3607,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Uno busque decir algo que si pueda tener un buen impacto en la otra persona",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.3606629658238703,
+        "liv_distance": 0.5769230769230769,
+        "bert_score": 3.853006064891815,
+        "nota_atribuida": 3.9724447428874954,
+        "percentual_error": 0.3706646254863203
+    },
+    {
+        "answer_number": 3608,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Intentar decir cosas sensatas, pensar primero, no hablar por hablar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7405626121623436,
+        "liv_distance": 0.38461538461538464,
+        "bert_score": 4.048891961574554,
+        "nota_atribuida": 3.6986783364771663,
+        "percentual_error": 0.053716035405879325
+    },
+    {
+        "answer_number": 3609,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si se va a decir algo, que sea productivo. De lo contrario no decirlo.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.424500327042048,
+        "liv_distance": 1.25,
+        "bert_score": 4.189755916595459,
+        "nota_atribuida": 4.0903852668630165,
+        "percentual_error": 0.09102549625266299
+    },
+    {
+        "answer_number": 3610,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "El silencio es mejor que decir palabras sin ningún valor.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.290569415042095,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.878650516271591,
+        "nota_atribuida": 3.863952214522955,
+        "percentual_error": 0.0340119463692613
+    },
+    {
+        "answer_number": 3611,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Piensa antes de hablar para no causar dano",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.25,
+        "bert_score": 3.8302209973335266,
+        "nota_atribuida": 3.322473692454618,
+        "percentual_error": 0.05072180215582345
+    },
+    {
+        "answer_number": 3612,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor solo hablar si algo importante será dicho",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 0.7692307692307693,
+        "bert_score": 3.293100520968437,
+        "nota_atribuida": 3.475633000002334,
+        "percentual_error": 0.006961999999333224
+    },
+    {
+        "answer_number": 3613,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Debes pensar las cosas antes de hablar o mejor guarda silencio",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.38461538461538464,
+        "bert_score": 3.815404325723648,
+        "nota_atribuida": 3.4297536229627212,
+        "percentual_error": 0.020070393439222456
+    },
+    {
+        "answer_number": 3614,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que saber que hablar y cuando hacerlo.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.50489005446434,
+        "nota_atribuida": 3.5292954510301184,
+        "percentual_error": 0.14997198686656554
+    },
+    {
+        "answer_number": 3615,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Siempre se debe buscar que las palabras contribuyan",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 2.3076923076923075,
+        "bert_score": 3.5323356837034225,
+        "nota_atribuida": 3.4115729873621863,
+        "percentual_error": 0.14710675315945343
+    },
+    {
+        "answer_number": 3616,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Al hablar, pensar bien que decir y estar 100% seguros para que valga la pena decir algo. ",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.431694990624912,
+        "liv_distance": 0,
+        "bert_score": 3.9542855322360992,
+        "nota_atribuida": 4.144219316935763,
+        "percentual_error": 0.03480011695963969
+    },
+    {
+        "answer_number": 3617,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si vas a decir algo que sea para bien y no para empeorar las cosas mas de lo que ya están",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.542572070285374,
+        "liv_distance": 0,
+        "bert_score": 4.018183797597885,
+        "nota_atribuida": 4.246578130141749,
+        "percentual_error": 0.05806513446475048
+    },
+    {
+        "answer_number": 3618,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "A veces es mejor callar que hablar",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 3.502001315355301,
+        "nota_atribuida": 3.3394230936931164,
+        "percentual_error": 0.25136769739613507
+    },
+    {
+        "answer_number": 3619,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se motivo de alegria cuando hables",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.590216562151909,
+        "nota_atribuida": 3.191211832049691,
+        "percentual_error": 0.059918251157547564
+    },
+    {
+        "answer_number": 3620,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Romper el silencio no implica decir cualquier cosa.",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.8198551535606384,
+        "nota_atribuida": 3.530958776487243,
+        "percentual_error": 0.4335816058465315
+    },
+    {
+        "answer_number": 3621,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si vas a hacer un aporte, que sea positivo",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.3838834764831844,
+        "liv_distance": 2.1153846153846154,
+        "bert_score": 4.028017669916153,
+        "nota_atribuida": 3.869975350291904,
+        "percentual_error": 0.03250616242702398
+    },
+    {
+        "answer_number": 3622,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se va a decir algo coherente y significante, es mejor callar. ",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 3.8663557171821594,
+        "nota_atribuida": 3.859852971298102,
+        "percentual_error": 0.14225489526708845
+    },
+    {
+        "answer_number": 3623,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "siempre decir cosas constructivas y de la mejor forma",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.6085245013237,
+        "nota_atribuida": 3.413857778721374,
+        "percentual_error": 0.14653555531965645
+    },
+    {
+        "answer_number": 3624,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No hables porque sí, que valga la pena lo que digas",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.9622501635210243,
+        "liv_distance": 0.8653846153846154,
+        "bert_score": 3.9486077427864075,
+        "nota_atribuida": 3.7270480760314366,
+        "percentual_error": 0.06091900919968751
+    },
+    {
+        "answer_number": 3625,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si al hablar no aportamos nada, es mejor callar",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.7777777777777777,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.9274969696998596,
+        "nota_atribuida": 3.53515995768352,
+        "percentual_error": 0.29296800846329596
+    },
+    {
+        "answer_number": 3626,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe hablar con propósito.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.25,
+        "bert_score": 4.05029758810997,
+        "nota_atribuida": 3.431160933969636,
+        "percentual_error": 0.2713836371680596
+    },
+    {
+        "answer_number": 3627,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Piensa bien lo que vas a decir",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.520620726159658,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 3.2585489004850388,
+        "nota_atribuida": 3.6536782412678805,
+        "percentual_error": 0.17890963519574854
+    },
+    {
+        "answer_number": 3628,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "De nada sirve decir palabras sino aportan algo conciso",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 1.25,
+        "bert_score": 3.1096190214157104,
+        "nota_atribuida": 3.4987319678593156,
+        "percentual_error": 0.000362294897338411
+    },
+    {
+        "answer_number": 3629,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor callar y pensar lo que se va a decir que decir lo que se piensa sin razonarlo.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.273730575737716,
+        "liv_distance": 0,
+        "bert_score": 4.085389971733093,
+        "nota_atribuida": 4.108096521450476,
+        "percentual_error": 0.2697347824386639
+    },
+    {
+        "answer_number": 3630,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Pensar antes de hablar es importante para evitar que un comentario se convierta en un desperdicio de palabras.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8553345272593504,
+        "liv_distance": 0,
+        "bert_score": 4.1252148151397705,
+        "nota_atribuida": 3.860592401389978,
+        "percentual_error": 0.09340338577575547
+    },
+    {
+        "answer_number": 3631,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe hablar con un propósito, no opinar a todo sí no se va a proponer algo que valga la pena escuchar.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 0,
+        "bert_score": 4.293767809867859,
+        "nota_atribuida": 3.9341742181124513,
+        "percentual_error": 0.016456445471887182
+    },
+    {
+        "answer_number": 3632,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no hay nada productivo que decir es mejor quedarse callado",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 0.4807692307692308,
+        "bert_score": 3.837469667196274,
+        "nota_atribuida": 3.9092524485371967,
+        "percentual_error": 0.022686887865700833
+    },
+    {
+        "answer_number": 3633,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Debemos pensar antes de hablar, puede que ls palabras que querramos decir sean dañinas.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 0,
+        "bert_score": 4.164933115243912,
+        "nota_atribuida": 4.185439866641764,
+        "percentual_error": 0.16376770147978137
+    },
+    {
+        "answer_number": 3634,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si tus palabras no llevan un mensaje significativo, es mejor callar",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 0.09615384615384616,
+        "bert_score": 3.853759467601776,
+        "nota_atribuida": 3.968229481612961,
+        "percentual_error": 0.007942629596759732
+    },
+    {
+        "answer_number": 3635,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No hablar por hable pensar antes de hacerlo ya que se puede herir o dañar a alguien",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7151657414559676,
+        "liv_distance": 0,
+        "bert_score": 4.033315479755402,
+        "nota_atribuida": 3.725700365028512,
+        "percentual_error": 0.060579312052858825
+    },
+    {
+        "answer_number": 3636,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si lo que vamos a decir empeorará la situación actual, es preferible optar por permanecer en silencio.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.125,
+        "liv_distance": 0,
+        "bert_score": 4.126085340976715,
+        "nota_atribuida": 4.0332205977004145,
+        "percentual_error": 0.13220714929514055
+    },
+    {
+        "answer_number": 3637,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Cuando se realice un aporte este debe servir para algo, de lo contrario es mejor no opinar.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.7021130208636106,
+        "liv_distance": 0,
+        "bert_score": 4.2117346823215485,
+        "nota_atribuida": 3.8054796690225343,
+        "percentual_error": 0.15433785132832567
+    },
+    {
+        "answer_number": 3638,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que ser prudente",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.916666666666667,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.7651997804641724,
+        "nota_atribuida": 3.5818960563613977,
+        "percentual_error": 0.3020456315140595
+    },
+    {
+        "answer_number": 3639,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Lo que expresas siempre deben ser pensados antes de ser libres, porque pueden ser bueno o maños",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.6776672636296754,
+        "liv_distance": 0,
+        "bert_score": 4.138056188821793,
+        "nota_atribuida": 3.7534825901894138,
+        "percentual_error": 0.20074226324076017
+    },
+    {
+        "answer_number": 3640,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Una accion vale mas que mil palabras",
+            "grade": 1.0
+        },
+        "frequence_similarity": 3.129940788348712,
+        "liv_distance": 2.1153846153846154,
+        "bert_score": 3.4322290122509003,
+        "nota_atribuida": 3.4135802821933807,
+        "percentual_error": 0.7070524442573078
+    },
+    {
+        "answer_number": 3641,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Pensar antes de hablar",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.25,
+        "bert_score": 4.037233889102936,
+        "nota_atribuida": 3.424709282732911,
+        "percentual_error": 0.1240132366488036
+    },
+    {
+        "answer_number": 3642,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No digas cosas que no sean beneficiosas, de lo contrario calla",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.731125081760512,
+        "liv_distance": 0.28846153846153844,
+        "bert_score": 3.8450855016708374,
+        "nota_atribuida": 3.604732858173777,
+        "percentual_error": 0.19894825373916059
+    },
+    {
+        "answer_number": 3643,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Deben ser acertadas nuestras palabras.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.8726779962499647,
+        "liv_distance": 1.9230769230769231,
+        "bert_score": 3.822203576564789,
+        "nota_atribuida": 3.4673611821623846,
+        "percentual_error": 0.13315970445940384
+    },
+    {
+        "answer_number": 3644,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay veces que es mejor callar",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.530004918575287,
+        "nota_atribuida": 3.378719048829508,
+        "percentual_error": 0.2600746129317627
+    },
+    {
+        "answer_number": 3645,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se tiene algo importante que decir es mejor no decir nada",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.5105651043180544,
+        "liv_distance": 0.7692307692307693,
+        "bert_score": 3.2804355025291443,
+        "nota_atribuida": 3.759930308798824,
+        "percentual_error": 0.16445993137803905
+    },
+    {
+        "answer_number": 3646,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "no hablar sin pensar primero",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.4323790669441223,
+        "nota_atribuida": 3.1132620514698903,
+        "percentual_error": 0.1104965567228885
+    },
+    {
+        "answer_number": 3647,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se habla nada productivo, es mejor no hablar ",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.7405626121623436,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 3.946288079023361,
+        "nota_atribuida": 3.571608077807962,
+        "percentual_error": 0.2063093160426751
+    },
+    {
+        "answer_number": 3648,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Aveces hablan cosas que no tienen ningún sentido y que pueden ser peor que quedarse callados",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.045544725589981,
+        "liv_distance": 0,
+        "bert_score": 3.910796642303467,
+        "nota_atribuida": 3.8761607449859556,
+        "percentual_error": 0.09704467119237559
+    },
+    {
+        "answer_number": 3649,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que saber qué decir y cuando decirlo. Y si no estamos seguros mejor no decirlo.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0,
+        "bert_score": 4.101814776659012,
+        "nota_atribuida": 3.998409309541157,
+        "percentual_error": 0.24970162688414976
+    },
+    {
+        "answer_number": 3650,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor hablar que callar",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.8726779962499647,
+        "liv_distance": 1.4423076923076923,
+        "bert_score": 3.2800275087356567,
+        "nota_atribuida": 3.2632667464880116,
+        "percentual_error": 0.6935586093057766
+    },
+    {
+        "answer_number": 3651,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se va a aportar con algo de valor, es mejor quedarse callado ",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.9622501635210243,
+        "liv_distance": 0.38461538461538464,
+        "bert_score": 3.98497998714447,
+        "nota_atribuida": 3.8086760786815947,
+        "percentual_error": 0.047830980329601314
+    },
+    {
+        "answer_number": 3652,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que cuando hablemos aportemos algo sino mejor nos quedamos callados",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 0.09615384615384616,
+        "bert_score": 3.2247325778007507,
+        "nota_atribuida": 3.5127950203637743,
+        "percentual_error": 0.14597920385080454
+    },
+    {
+        "answer_number": 3653,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "En ocasiones, callar es la mejor opción.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.4423076923076923,
+        "bert_score": 3.6525724828243256,
+        "nota_atribuida": 3.2092739542879536,
+        "percentual_error": 0.22100760620335425
+    },
+    {
+        "answer_number": 3654,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada bueno que decir mejor no digas nada.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1454972243679027,
+        "liv_distance": 1.25,
+        "bert_score": 4.548103958368301,
+        "nota_atribuida": 4.0891984445835625,
+        "percentual_error": 0.14408653739071975
+    },
+    {
+        "answer_number": 3655,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Piensa antes de hablar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.25,
+        "bert_score": 3.6633169651031494,
+        "nota_atribuida": 3.24004630298601,
+        "percentual_error": 0.07427248486114002
+    },
+    {
+        "answer_number": 3656,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No arruinarlo.",
+            "grade": 1.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.7692307692307693,
+        "bert_score": 3.829863518476486,
+        "nota_atribuida": 3.3859623178826213,
+        "percentual_error": 0.7046629861417535
+    },
+    {
+        "answer_number": 3657,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor callar cuando nada bueno se tiene por decir.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 4.101606011390686,
+        "nota_atribuida": 3.6375092091214722,
+        "percentual_error": 0.0378031232956475
+    },
+    {
+        "answer_number": 3658,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe pensar antes de actuar.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 4.072651267051697,
+        "nota_atribuida": 3.429467509773876,
+        "percentual_error": 0.12522862763677067
+    },
+    {
+        "answer_number": 3659,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Muchas veces es mejor ser prudentes con lo que decimos",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.583790808916092,
+        "nota_atribuida": 3.3945135181340667,
+        "percentual_error": 0.15137162046648334
+    },
+    {
+        "answer_number": 3660,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "las palabras pueden hacer más daño que muchas armas",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.6227931082248688,
+        "nota_atribuida": 3.5875231690905363,
+        "percentual_error": 0.30314038901837437
+    },
+    {
+        "answer_number": 3661,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada bueno que ser, mejor quédate callado",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.8068334758281708,
+        "nota_atribuida": 3.672941601648824,
+        "percentual_error": 0.18321598180236054
+    },
+    {
+        "answer_number": 3662,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "que el silencio debe hablar por nosotros",
+            "grade": 1.5
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.3031030744314194,
+        "nota_atribuida": 3.2887450895385717,
+        "percentual_error": 0.5438989769163113
+    },
+    {
+        "answer_number": 3663,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Medir las palabras que se dicen",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.6492761969566345,
+        "nota_atribuida": 3.6548658779272154,
+        "percentual_error": 0.04237252011421133
+    },
+    {
+        "answer_number": 3664,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se va a realizar un comentario significativo respecto a un tema es mejor no opinar",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.691179778225468,
+        "liv_distance": 0,
+        "bert_score": 3.8106295466423035,
+        "nota_atribuida": 3.6004079327947034,
+        "percentual_error": 0.19990934826784368
+    },
+    {
+        "answer_number": 3665,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que hay pensar antes de hablar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.25,
+        "bert_score": 3.859945833683014,
+        "nota_atribuida": 3.5543970276423633,
+        "percentual_error": 0.01530415066727786
+    },
+    {
+        "answer_number": 3666,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabras influyen mucho en las personas",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.7777777777777777,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.5640566796064377,
+        "nota_atribuida": 3.3556709786589503,
+        "percentual_error": 0.2549925138968505
+    },
+    {
+        "answer_number": 3667,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "mejor ser de pocas palabras, a ser parlanchin e incoherente",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 0.7692307692307693,
+        "bert_score": 3.5315097123384476,
+        "nota_atribuida": 3.4068930265446307,
+        "percentual_error": 0.26619357270058686
+    },
+    {
+        "answer_number": 3668,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "El silencio no es buen pero al hablar no siempre es ser sabio",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.28846153846153844,
+        "bert_score": 3.3508577942848206,
+        "nota_atribuida": 3.2130652502303945,
+        "percentual_error": 0.22192678787935094
+    },
+    {
+        "answer_number": 3669,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Del anonimato al desprestigio nunca se debe pasar, si se utilizan palabras, estas deben ser edificantes.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.892837100659193,
+        "liv_distance": 0,
+        "bert_score": 4.157324731349945,
+        "nota_atribuida": 3.900397975868912,
+        "percentual_error": 0.1026556721509202
+    },
+    {
+        "answer_number": 3670,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Aveces es mejor quedarse callado que hablar sin sentido",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7777777777777777,
+        "liv_distance": 1.25,
+        "bert_score": 3.418990448117256,
+        "nota_atribuida": 3.2967614609943574,
+        "percentual_error": 0.05806815400161214
+    },
+    {
+        "answer_number": 3671,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor no decir nada si no va a aportar algo el comentario.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.1681531047810605,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 4.057029485702515,
+        "nota_atribuida": 3.899342222071297,
+        "percentual_error": 0.13347950620637838
+    },
+    {
+        "answer_number": 3672,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se deben hacer buenos aportes al hablar",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 3.6258279532194138,
+        "nota_atribuida": 3.183332840542677,
+        "percentual_error": 0.29259270210162736
+    },
+    {
+        "answer_number": 3673,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "A veces el silencio es necesario",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.25,
+        "bert_score": 3.4258300811052322,
+        "nota_atribuida": 3.1227607969416593,
+        "percentual_error": 0.19942635297316813
+    },
+    {
+        "answer_number": 3674,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabra tiene poder.",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.309529274702072,
+        "nota_atribuida": 3.0525913322790212,
+        "percentual_error": 0.34481894813387015
+    },
+    {
+        "answer_number": 3675,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que expresarse adecuadamente al hablar. Las palabras pueden ser más dañinas que el silencio.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.1063390625908323,
+        "liv_distance": 0,
+        "bert_score": 4.276046603918076,
+        "nota_atribuida": 4.09536443830069,
+        "percentual_error": 0.02328594676674489
+    },
+    {
+        "answer_number": 3676,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No hablar incoherencias ni sin sentidos.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.8643307983875275,
+        "nota_atribuida": 3.364785260457342,
+        "percentual_error": 0.10841264218084457
+    },
+    {
+        "answer_number": 3677,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "La palabra es lo único que nos pertenece y representa ante el otro, por lo tanto debemos cuidar del uso que hacemos de ella. ",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.8207501495497924,
+        "liv_distance": 0,
+        "bert_score": 4.039469361305237,
+        "nota_atribuida": 3.7961617781042656,
+        "percentual_error": 0.20972809501860967
+    },
+    {
+        "answer_number": 3678,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se habla para edificar, mejor no hablar.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.7512594538148027,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.9707517623901367,
+        "nota_atribuida": 3.565054271121126,
+        "percentual_error": 0.2077657175286387
+    },
+    {
+        "answer_number": 3679,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabras deben ser pensadas antes de salir de nuestros labios",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.731125081760512,
+        "liv_distance": 0.19230769230769232,
+        "bert_score": 4.073820561170578,
+        "nota_atribuida": 3.730429213623642,
+        "percentual_error": 0.06739269659408953
+    },
+    {
+        "answer_number": 3680,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no vamos a decir algo bueno mejor no lo digamos",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 2.1153846153846154,
+        "bert_score": 3.622107654809952,
+        "nota_atribuida": 3.565940166243649,
+        "percentual_error": 0.10851495843908776
+    },
+    {
+        "answer_number": 3681,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que pensar bien antes de hablar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.843728005886078,
+        "nota_atribuida": 3.543005615708137,
+        "percentual_error": 0.012138173170674338
+    },
+    {
+        "answer_number": 3682,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "aveces el silencio gana",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.0869268998503685,
+        "nota_atribuida": 2.9808558067297772,
+        "percentual_error": 0.329051745648123
+    },
+    {
+        "answer_number": 3683,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que hablar sabiamente",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.916666666666667,
+        "liv_distance": 1.25,
+        "bert_score": 3.5809364169836044,
+        "nota_atribuida": 3.4654295023775683,
+        "percentual_error": 0.009877285034980532
+    },
+    {
+        "answer_number": 3684,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Debido a que el silencio dice mas que mil palabras",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 1.4423076923076923,
+        "bert_score": 3.7052227556705475,
+        "nota_atribuida": 3.71661051820133,
+        "percentual_error": 0.5964064588812681
+    },
+    {
+        "answer_number": 3685,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabras deben ser mejores que los silencios.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 1.25,
+        "bert_score": 3.6307989060878754,
+        "nota_atribuida": 3.600263505817906,
+        "percentual_error": 0.027848935405945574
+    },
+    {
+        "answer_number": 3686,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que tus palabras sean lógicas y no digas nada sin sentido",
+            "grade": 3.0
+        },
+        "frequence_similarity": 3.290569415042095,
+        "liv_distance": 0.8653846153846154,
+        "bert_score": 3.757825046777725,
+        "nota_atribuida": 3.8424803315276583,
+        "percentual_error": 0.21925429900449556
+    },
+    {
+        "answer_number": 3687,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No hay que hablar para destruir",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.25,
+        "bert_score": 3.2408833503723145,
+        "nota_atribuida": 3.2486662209305086,
+        "percentual_error": 0.18783344476737285
+    },
+    {
+        "answer_number": 3688,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Algunos silencios valen más que palabras",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.8269230769230769,
+        "bert_score": 3.4717731177806854,
+        "nota_atribuida": 3.5035388624245303,
+        "percentual_error": 0.286435773037225
+    },
+    {
+        "answer_number": 3689,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe hablar para aportar algo relevante",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.737414926290512,
+        "nota_atribuida": 3.4650356655697374,
+        "percentual_error": 0.13374108360756565
+    },
+    {
+        "answer_number": 3690,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada bueno para decir no digas nada",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.548634424805641,
+        "nota_atribuida": 3.480580481171732,
+        "percentual_error": 0.129854879707067
+    },
+    {
+        "answer_number": 3691,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que a pesar de tener rabia o no debemos saber hablar de la mejor manera.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7151657414559676,
+        "liv_distance": 0,
+        "bert_score": 4.024001657962799,
+        "nota_atribuida": 3.721100631840039,
+        "percentual_error": 0.05941807376778929
+    },
+    {
+        "answer_number": 3692,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No siempre es bueno decir las cosas cuando van a destruir a otra persona",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7405626121623436,
+        "liv_distance": 0.38461538461538464,
+        "bert_score": 3.2053373754024506,
+        "nota_atribuida": 3.282079639110386,
+        "percentual_error": 0.06226296025417544
+    },
+    {
+        "answer_number": 3693,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es de sabios saber cuándo callar y cuándo aportar.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.25,
+        "bert_score": 3.880062848329544,
+        "nota_atribuida": 3.347088637995384,
+        "percentual_error": 0.043688960572747404
+    },
+    {
+        "answer_number": 3694,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "A veces es mejor callar.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.792458474636078,
+        "nota_atribuida": 3.291091221807026,
+        "percentual_error": 0.24037353220876834
+    },
+    {
+        "answer_number": 3695,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No solo es hablar, es decir cosas con sentido.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.7512594538148027,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.7670965492725372,
+        "nota_atribuida": 3.464476907323312,
+        "percentual_error": 0.13406840909849538
+    },
+    {
+        "answer_number": 3696,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "di algo que valga la pena",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.8269230769230769,
+        "bert_score": 3.2983122766017914,
+        "nota_atribuida": 3.4178733208415104,
+        "percentual_error": 0.02346476547385412
+    },
+    {
+        "answer_number": 3697,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si vas decir algo que sea algo que vale la pena",
+            "grade": 3.5
+        },
+        "frequence_similarity": 4.006160190191773,
+        "liv_distance": 2.7884615384615383,
+        "bert_score": 3.0093733966350555,
+        "nota_atribuida": 3.6751380676228633,
+        "percentual_error": 0.04765482667597987
+    },
+    {
+        "answer_number": 3698,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No decir estupideces",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.306269496679306,
+        "nota_atribuida": 3.3836760833992163,
+        "percentual_error": 0.408926873995925
+    },
+    {
+        "answer_number": 3699,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no se va a aportar algo mejor quedarse callado",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 3.3641762286424637,
+        "nota_atribuida": 3.4088702464201206,
+        "percentual_error": 0.3182259507159759
+    },
+    {
+        "answer_number": 3700,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que si no tienes nada bueno que decir mejor no lo digas",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 3.202335610985756,
+        "nota_atribuida": 3.5827201761222924,
+        "percentual_error": 0.20383996086171274
+    },
+    {
+        "answer_number": 3701,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que escuchar antes que hablar, prudencia.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 1.4423076923076923,
+        "bert_score": 3.7092772126197815,
+        "nota_atribuida": 3.5920351917513154,
+        "percentual_error": 0.3040157274235634
+    },
+    {
+        "answer_number": 3702,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Solo hables si vale la pena",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.4797856211662292,
+        "nota_atribuida": 3.353917697232067,
+        "percentual_error": 0.04173780079083811
+    },
+    {
+        "answer_number": 3703,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Cuando vayas a expresarte busca las mejores palabras para dar a conocer lo que quieres decir.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.390870806374748,
+        "liv_distance": 0,
+        "bert_score": 4.227782636880875,
+        "nota_atribuida": 4.253220069905497,
+        "percentual_error": 0.1770940740252439
+    },
+    {
+        "answer_number": 3704,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que mejor te quedes callado si tus palabras no van a construir",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.505037815259212,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 3.1349602341651917,
+        "nota_atribuida": 3.6590901616966653,
+        "percentual_error": 0.18686885295629663
+    },
+    {
+        "answer_number": 3705,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "si vas a hablar que sean útiles, productivas y no dañinas tus palabras",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.7562972690740146,
+        "liv_distance": 0.28846153846153844,
+        "bert_score": 3.9341185986995697,
+        "nota_atribuida": 4.303339418593797,
+        "percentual_error": 0.04370235142360057
+    },
+    {
+        "answer_number": 3706,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hablar con coherencia es mejor que hablar cualquier cosa",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.7512594538148027,
+        "liv_distance": 0.7692307692307693,
+        "bert_score": 3.3371399343013763,
+        "nota_atribuida": 3.303070246921551,
+        "percentual_error": 0.09175410277877427
+    },
+    {
+        "answer_number": 3707,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Solo debemos hablar si tenemos algo bueno que decir",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.611111111111111,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 3.350507915019989,
+        "nota_atribuida": 3.8332751878109823,
+        "percentual_error": 0.14816106937533724
+    },
+    {
+        "answer_number": 3708,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que el silencio puede decir tanto como ls palabras",
+            "grade": 2.5
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.4837456047534943,
+        "nota_atribuida": 3.7089645582881667,
+        "percentual_error": 0.3259574307839036
+    },
+    {
+        "answer_number": 3709,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No sé debe interrumpir un momento lleno de gloria para decir incoherencias",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7405626121623436,
+        "liv_distance": 0,
+        "bert_score": 4.051244556903839,
+        "nota_atribuida": 3.750772327749989,
+        "percentual_error": 0.066858850881099
+    },
+    {
+        "answer_number": 3710,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "A veces guardar silencio es mejor que decir tonterías.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 3.6971060186624527,
+        "nota_atribuida": 3.6712091038043204,
+        "percentual_error": 0.04663561757539325
+    },
+    {
+        "answer_number": 3711,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor no interrumpir el pacífico silencio cuando no se tiene algo valioso que aportar, que se equipare o supere al mencionado silencio",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.9564354645876385,
+        "liv_distance": 0,
+        "bert_score": 4.001980572938919,
+        "nota_atribuida": 3.864291091828343,
+        "percentual_error": 0.14126864626036828
+    },
+    {
+        "answer_number": 3712,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Pensar antes de hablar para no lastimar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.8430166244506836,
+        "nota_atribuida": 3.3415259875017895,
+        "percentual_error": 0.045278289285202944
+    },
+    {
+        "answer_number": 3713,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe ser cuidadoso con las palabras",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.8269230769230769,
+        "bert_score": 3.4006819128990173,
+        "nota_atribuida": 3.2350711981897398,
+        "percentual_error": 0.07569394337436008
+    },
+    {
+        "answer_number": 3714,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hablar para construir y no para destruir",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.25,
+        "bert_score": 3.572625070810318,
+        "nota_atribuida": 3.1952571148961586,
+        "percentual_error": 0.20118572127596035
+    },
+    {
+        "answer_number": 3715,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que tus palabras inspiren asertividad para no quedar como un necio.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 0,
+        "bert_score": 3.7558679282665253,
+        "nota_atribuida": 3.932617703800851,
+        "percentual_error": 0.11000756655871446
+    },
+    {
+        "answer_number": 3716,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No digas algo sin pensarlo bien antes",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.6346153846153846,
+        "bert_score": 3.088817596435547,
+        "nota_atribuida": 3.1065196483301727,
+        "percentual_error": 0.03428906312806668
+    },
+    {
+        "answer_number": 3717,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "A palabras necias oidos sordos. Deberiamos deicr palabras constructivas y no destructivas.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 0,
+        "bert_score": 3.4401628375053406,
+        "nota_atribuida": 3.602597189043348,
+        "percentual_error": 0.09935070273916302
+    },
+    {
+        "answer_number": 3718,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "No hablar por hablar.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.980177491903305,
+        "nota_atribuida": 3.409264388367767,
+        "percentual_error": 0.266703982087787
+    },
+    {
+        "answer_number": 3719,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Pensar de una manera coherente antes de hablar.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 4.2890797555446625,
+        "nota_atribuida": 3.5618191640232504,
+        "percentual_error": 0.1577337697820257
+    },
+    {
+        "answer_number": 3720,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hasta un necio pasa por sabio si guarda silencio; se le considera prudente si cierra la boca",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.882359556450936,
+        "liv_distance": 0,
+        "bert_score": 4.096918702125549,
+        "nota_atribuida": 3.863875227314196,
+        "percentual_error": 0.48238494197179016
+    },
+    {
+        "answer_number": 3721,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Cuando se quiera comentar algo, que sea un comentario que edifique, de lo contrario, quedarnos callados",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.0892556509887896,
+        "liv_distance": 0,
+        "bert_score": 3.9951933920383453,
+        "nota_atribuida": 3.9457531676950497,
+        "percentual_error": 0.12316596273443337
+    },
+    {
+        "answer_number": 3722,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hablar no es siempre la mejor opción",
+            "grade": 2.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.5031087696552277,
+        "nota_atribuida": 3.1481926919970165,
+        "percentual_error": 0.3647148711436322
+    },
+    {
+        "answer_number": 3723,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor quedarse callado que ser necio",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.814970394174356,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.398743122816086,
+        "nota_atribuida": 3.335977977873576,
+        "percentual_error": 0.2505945732910523
+    },
+    {
+        "answer_number": 3724,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Decir algo que aporte.",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.75,
+        "liv_distance": 2.019230769230769,
+        "bert_score": 3.9404691755771637,
+        "nota_atribuida": 4.073259907368913,
+        "percentual_error": 0.18534801852621752
+    },
+    {
+        "answer_number": 3725,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabras tienen el poder de sanar o dañar, escógelas bien.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 0.5769230769230769,
+        "bert_score": 4.0828293561935425,
+        "nota_atribuida": 3.704634356068742,
+        "percentual_error": 0.05523739629891422
+    },
+    {
+        "answer_number": 3726,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor quedarse callado a menos que lo que vas a decir sea realmente sabio.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.3606629658238703,
+        "liv_distance": 0,
+        "bert_score": 4.122143387794495,
+        "nota_atribuida": 4.181759370155608,
+        "percentual_error": 0.0434648084853444
+    },
+    {
+        "answer_number": 3727,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "hay que tratar de opinar, pensando antes en lo que se dice",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 0.5769230769230769,
+        "bert_score": 3.9585556089878082,
+        "nota_atribuida": 3.7594227645995306,
+        "percentual_error": 0.06900600992321904
+    },
+    {
+        "answer_number": 3728,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Lo que hablemos sea de utilidad y de aporte para otra persona",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.731125081760512,
+        "liv_distance": 0.8653846153846154,
+        "bert_score": 4.031968116760254,
+        "nota_atribuida": 3.620628685872035,
+        "percentual_error": 0.19541584758399222
+    },
+    {
+        "answer_number": 3729,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Pensar antes de actuar",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.3316797763109207,
+        "nota_atribuida": 3.0889966688985715,
+        "percentual_error": 0.02881086593411719
+    },
+    {
+        "answer_number": 3730,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada que aportar, no opines",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.0270462766947297,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 4.096052050590515,
+        "nota_atribuida": 3.752110201072347,
+        "percentual_error": 0.06197244973191329
+    },
+    {
+        "answer_number": 3731,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "El silencio dice algo, pero las palabras expresan todo lo que que de verdad puedes sentir, así que es mejor dejarlo claro. ",
+            "grade": 1.5
+        },
+        "frequence_similarity": 3.28742598543589,
+        "liv_distance": 0,
+        "bert_score": 3.994135856628418,
+        "nota_atribuida": 4.071775050464495,
+        "percentual_error": 0.6316102973741429
+    },
+    {
+        "answer_number": 3732,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que es mejor el silencio que pronunciar palabras no pertinentes",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.7002889811992645,
+        "nota_atribuida": 3.7064151454279766,
+        "percentual_error": 0.07339621364300586
+    },
+    {
+        "answer_number": 3733,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor callar a decir algo irracional",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.1804138174397716,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.590705245733261,
+        "nota_atribuida": 3.6259399703651263,
+        "percentual_error": 0.034733054434004984
+    },
+    {
+        "answer_number": 3734,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Quédate en silencio si no dirás nada con sentido",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7777777777777777,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.258124217391014,
+        "nota_atribuida": 3.2427819742284916,
+        "percentual_error": 0.07349086450614528
+    },
+    {
+        "answer_number": 3735,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor estar callado a decir cosas que no construyen.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 4.217311441898346,
+        "nota_atribuida": 3.906598646044223,
+        "percentual_error": 0.13186696754572824
+    },
+    {
+        "answer_number": 3736,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabras que digas deben ser constructivas.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.129940788348712,
+        "liv_distance": 0.8653846153846154,
+        "bert_score": 3.834017515182495,
+        "nota_atribuida": 3.7775373900651448,
+        "percentual_error": 0.05561565248371381
+    },
+    {
+        "answer_number": 3737,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Aportar algo importante",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.981125224324688,
+        "liv_distance": 1.25,
+        "bert_score": 3.4344178438186646,
+        "nota_atribuida": 3.4342305180639987,
+        "percentual_error": 0.14144237048400032
+    },
+    {
+        "answer_number": 3738,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Mejor ser asertivo o no decir nada",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 3.1139441579580307,
+        "nota_atribuida": 3.2241750087223093,
+        "percentual_error": 0.19395624781942267
+    },
+    {
+        "answer_number": 3739,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si lo que vas a decir es peor a quedarte callado lo mejor es que guardes silencio.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.409241209316635,
+        "liv_distance": 0,
+        "bert_score": 4.147142916917801,
+        "nota_atribuida": 4.22512591024573,
+        "percentual_error": 0.05328265122225351
+    },
+    {
+        "answer_number": 3740,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "hay que pensar antes de expresarnos.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.8402069087198853,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.8075727224349976,
+        "nota_atribuida": 3.5157989573670707,
+        "percentual_error": 0.004493703297216545
+    },
+    {
+        "answer_number": 3741,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "El silencio es mejor que decir algo fuera de lugar",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.290569415042095,
+        "liv_distance": 1.0576923076923077,
+        "bert_score": 3.9829163253307343,
+        "nota_atribuida": 3.9281780635636543,
+        "percentual_error": 0.10900169407677252
+    },
+    {
+        "answer_number": 3742,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor callar que decir palabras que no ayuden a nada,",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.4622504486493764,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 4.161010384559631,
+        "nota_atribuida": 4.138493887026498,
+        "percentual_error": 0.0334648040584653
+    },
+    {
+        "answer_number": 3743,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor callar cuando se va a decir algo ofensivo.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.055555555555556,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.9768049120903015,
+        "nota_atribuida": 3.7623557866358275,
+        "percentual_error": 0.05941105334104313
+    },
+    {
+        "answer_number": 3744,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que cualquier intervención debe ser lo suficientemente valiosa o de lo contrario, quedarse callado ",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.7151657414559676,
+        "liv_distance": 0,
+        "bert_score": 4.004096984863281,
+        "nota_atribuida": 3.7112704904114926,
+        "percentual_error": 0.17527322435300163
+    },
+    {
+        "answer_number": 3745,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si vas a hablar basura mejor quédate callado.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.129940788348712,
+        "liv_distance": 1.9230769230769231,
+        "bert_score": 4.015343338251114,
+        "nota_atribuida": 3.7270237647043585,
+        "percentual_error": 0.06091288358671543
+    },
+    {
+        "answer_number": 3746,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que ser cuidadoso son las palabras que decimos, procurando que sean estas coherentes y sin ánimo de hacer daño, de lo contrario causarán molestia para quien las escucha.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.040738070435875,
+        "liv_distance": 0,
+        "bert_score": 4.246701598167419,
+        "nota_atribuida": 4.038981746700574,
+        "percentual_error": 0.009651379764817669
+    },
+    {
+        "answer_number": 3747,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si lo que decimos no aporta algo bueno, es mejor mantenerse en silencio.",
+            "grade": 5.0
+        },
+        "frequence_similarity": 3.193375245281537,
+        "liv_distance": 0.38461538461538464,
+        "bert_score": 4.398674666881561,
+        "nota_atribuida": 4.160571566404769,
+        "percentual_error": 0.16788568671904613
+    },
+    {
+        "answer_number": 3748,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada bueno que decir no hables",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 3.2571013271808624,
+        "nota_atribuida": 3.482567794846601,
+        "percentual_error": 0.22609604558964425
+    },
+    {
+        "answer_number": 3749,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Cada vez que desee expresar algo, esto debe tener coherencia y cohesión sino mejor calle.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 0,
+        "bert_score": 4.380114674568176,
+        "nota_atribuida": 4.044012543577795,
+        "percentual_error": 0.1345229614684872
+    },
+    {
+        "answer_number": 3750,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor callar si no se tiene nada bueno por decir.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.002518907629606,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 4.241071790456772,
+        "nota_atribuida": 3.8335336006626286,
+        "percentual_error": 0.1481036442971937
+    },
+    {
+        "answer_number": 3751,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Se debe pensar antes de lanzar cualquier expresión.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 4.164810627698898,
+        "nota_atribuida": 3.4749814222404085,
+        "percentual_error": 0.007148165074169044
+    },
+    {
+        "answer_number": 3752,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor hacer silencio que decir estupideces",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.129940788348712,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.412248119711876,
+        "nota_atribuida": 3.5310428395331734,
+        "percentual_error": 0.008791408358352681
+    },
+    {
+        "answer_number": 3753,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Debes aportar algo productivo",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.916666666666667,
+        "liv_distance": 1.25,
+        "bert_score": 3.4880028665065765,
+        "nota_atribuida": 3.4195332477604423,
+        "percentual_error": 0.022990500639873623
+    },
+    {
+        "answer_number": 3754,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "habla cosas con sentido, si no es asi, mejor calla ",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.7635231383473653,
+        "liv_distance": 0.6730769230769231,
+        "bert_score": 3.528205528855324,
+        "nota_atribuida": 3.4179942532983265,
+        "percentual_error": 0.023430213343335282
+    },
+    {
+        "answer_number": 3755,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay pensar antes de decir algo inadecuado.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.129940788348712,
+        "liv_distance": 1.1538461538461537,
+        "bert_score": 3.980129063129425,
+        "nota_atribuida": 3.811497080628251,
+        "percentual_error": 0.08172565111263486
+    },
+    {
+        "answer_number": 3756,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Que a retorica sea tu mejor arma y el silencio tu mejor escudo.",
+            "grade": 2.5
+        },
+        "frequence_similarity": 2.7151657414559676,
+        "liv_distance": 0.28846153846153844,
+        "bert_score": 3.7371209263801575,
+        "nota_atribuida": 3.5412223294874265,
+        "percentual_error": 0.2940290760106379
+    },
+    {
+        "answer_number": 3757,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada bueno que decir mejor calla",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.333333333333333,
+        "liv_distance": 1.4423076923076923,
+        "bert_score": 3.9722029864788055,
+        "nota_atribuida": 3.8992624648810352,
+        "percentual_error": 0.13349723002643665
+    },
+    {
+        "answer_number": 3758,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Pensar para luego actuar en consecuencia de manera precisa",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 0.7692307692307693,
+        "bert_score": 3.833796977996826,
+        "nota_atribuida": 3.3879049000689796,
+        "percentual_error": 0.11449698604617908
+    },
+    {
+        "answer_number": 3759,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que medir nuestras palabras al momento de hablar porque la idea es aportar una opinion, pensamiento o incluso una idea sin pasar por encima de nadie. ",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.794627825494395,
+        "liv_distance": 0,
+        "bert_score": 4.010710120201111,
+        "nota_atribuida": 3.7652779726070422,
+        "percentual_error": 0.07045375521727182
+    },
+    {
+        "answer_number": 3760,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que ser sabios al decir algo, si no es nada constructivo callar mejor.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.390870806374748,
+        "liv_distance": 0.38461538461538464,
+        "bert_score": 4.154865741729736,
+        "nota_atribuida": 4.166277124139071,
+        "percentual_error": 0.07416063908020654
+    },
+    {
+        "answer_number": 3761,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si no tienes nada bueno que decir, no lo digas.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 1.5384615384615385,
+        "bert_score": 4.289022535085678,
+        "nota_atribuida": 3.971701609117766,
+        "percentual_error": 0.11739964241827427
+    },
+    {
+        "answer_number": 3762,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Piensa antes de hablar o quédate callado.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.5,
+        "liv_distance": 1.3461538461538463,
+        "bert_score": 3.9620450139045715,
+        "nota_atribuida": 3.3748433968390996,
+        "percentual_error": 0.035759029474543014
+    },
+    {
+        "answer_number": 3763,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Las palabras pueden herir, porque al igual que algunos silencios solo demuestran rechazo y odio.",
+            "grade": 3.0
+        },
+        "frequence_similarity": 2.945435403187374,
+        "liv_distance": 0,
+        "bert_score": 4.341689348220825,
+        "nota_atribuida": 4.0250357741255165,
+        "percentual_error": 0.25466500961676963
+    },
+    {
+        "answer_number": 3764,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Somos esclavos de nuestras palabras, por lo que hay que pensar muy bien lo que se va a decir porque habrá momentos en los que nuestro silencio será la mejor respuesta.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 3.253778361444409,
+        "liv_distance": 0,
+        "bert_score": 4.141932725906372,
+        "nota_atribuida": 4.123280044368241,
+        "percentual_error": 0.1511612205965841
+    },
+    {
+        "answer_number": 3765,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor callar si no tienes nada constructivo, amable o inteligente que decir",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.2216878364870323,
+        "liv_distance": 0,
+        "bert_score": 4.138406962156296,
+        "nota_atribuida": 4.101046999096546,
+        "percentual_error": 0.08865622242298976
+    },
+    {
+        "answer_number": 3766,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor solo hablar cuando lo que se dirá construya más que la paz del silencio.",
+            "grade": 4.0
+        },
+        "frequence_similarity": 2.892837100659193,
+        "liv_distance": 0,
+        "bert_score": 4.244455695152283,
+        "nota_atribuida": 3.943428559325381,
+        "percentual_error": 0.014142860168654736
+    },
+    {
+        "answer_number": 3767,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Solo se debe hablar para expresar algo que para el receptor merezca la pena.",
+            "grade": 3.5
+        },
+        "frequence_similarity": 2.916666666666667,
+        "liv_distance": 0,
+        "bert_score": 3.911731243133545,
+        "nota_atribuida": 3.794325603228168,
+        "percentual_error": 0.0775699383779187
+    },
+    {
+        "answer_number": 3768,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hay que evitar que al expresarnos, nuestras ideas o comentarios no sean negativos o malintencionados. Si me expreso con esos fines, es mejor no decir nada",
+            "grade": 4.0
+        },
+        "frequence_similarity": 3.129940788348712,
+        "liv_distance": 0,
+        "bert_score": 4.152952581644058,
+        "nota_atribuida": 4.049644282104454,
+        "percentual_error": 0.012258924153865647
+    },
+    {
+        "answer_number": 3769,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Hablar es útil cuando lo que se dice aporta a la conversación y/o situación, sino, es mejor quedarse callado.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 2.691179778225468,
+        "liv_distance": 0,
+        "bert_score": 3.8885997235774994,
+        "nota_atribuida": 3.638914361041462,
+        "percentual_error": 0.1913523642130085
+    },
+    {
+        "answer_number": 3770,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Es mejor estar seguro que se va a aportar algo de valor, de no ser así es mejor quedarse callado.",
+            "grade": 5.0
+        },
+        "frequence_similarity": 2.833333333333333,
+        "liv_distance": 0,
+        "bert_score": 4.210928380489349,
+        "nota_atribuida": 3.888873848095933,
+        "percentual_error": 0.22222523038081343
+    },
+    {
+        "answer_number": 3771,
+        "answer_values": {
+            "number_question": 20,
+            "answer_question": "Si vas a decir algo que aporte poco a la conversación, mejor no digas nada.",
+            "grade": 4.5
+        },
+        "frequence_similarity": 3.655625408802561,
+        "liv_distance": 0.9615384615384616,
+        "bert_score": 4.204958230257034,
+        "nota_atribuida": 4.28368002502424,
+        "percentual_error": 0.04807110555016891
+    }
+]

@@ -1,0 +1,124 @@
+\documentclass[acronym,symbols]{fei}
+
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{outlines}
+\usepackage{ulem}
+\usepackage{caption}
+\usepackage{makecell}
+\usepackage{csquotes}
+\usepackage{lipsum}  
+\usepackage{lscape}
+\usepackage{placeins}
+
+\usepackage{color, colortbl}
+	
+\definecolor{Green}{rgb}{0.88,1,1}
+\definecolor{Gray}{gray}{0.9}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,    
+    urlcolor=blue,
+}
+
+%%%% -- Configuracoes Iniciais%%%%%%%%%%%%%%%
+
+\author{
+ Lucas Mateus de  Moraes 
+ %- RA: 22.220.004-0
+}
+
+\title{APLICAÇÃO DE TÉCNICAS DE PROCESSAMENTO DE LINGUAGEM NATURAL PARA AVALIAÇÃO AUTOMÁTICA DE QUESTÕES DISSERTATIVAS}
+
+% comando para inserção de subfloats do tipo figure, usado aqui no template
+% remova este comando se for usar o pacote subfig
+% não recomendo o pacote subcaption
+\newsubfloat{figure}
+
+%\subtitulo{subtítulo}
+
+%% -- Abreviaturas
+\newacronym[user1=Computational Aided Design]{cad}{CAD}{Desenho assistido por computador}
+\newacronym{fei}{FEI}{Centro Universitário da FEI}
+
+%% -- Simbolos
+\newglossaryentry{A}{type=symbols,name={\ensuremath{A}},sort=a,description={exchanger total heat transfer area, $m^2$}}
+\newglossaryentry{G}{type=symbols,name={\ensuremath{G}},sort=g,description={exchanger flow-stream mass velocity, $kg/(s m^2)$}}
+\newglossaryentry{f}{type=symbols,name={\ensuremath{j}},sort=j,description={friction factor, dimensionless}}
+\newglossaryentry{deltap}{type=symbols,name={\ensuremath{\Delta P}},sort=p,description={pressure drop, $Pa$}}
+\newglossaryentry{nu}{type=symbols,name={\ensuremath{\nu}},sort=b,description={specific volume, $m^3/kg$}}
+\newglossaryentry{beta}{type=symbols,name={\ensuremath{\beta}},sort=b,description={ratio of free-flow area $A_{ff}$ and frontal area $A_{fr}$ of one side of exchanger, dimensionless}}
+\newglossaryentry{fr}{type=symbols,name={\ensuremath{fr}},sort=fr,description={frontal}}
+\newglossaryentry{in}{type=symbols,name={\ensuremath{i}},sort=in,description={inlet}}
+\newglossaryentry{out}{type=symbols,name={\ensuremath{o}},sort=out,description={outlet}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addbibresource{referencias.bib}
+
+\makeindex
+
+\makeglossaries
+
+\begin{document}
+
+\maketitle 
+
+\begin{folhaderosto}
+Trabalho de conclusão de curso, apresentado ao Centro Universitário FEI, como parte dos requisitos necessários para obtenção do título de Bacharel em Ciência da Computação. Orientado pelo Professor Dr. Charles Henrique Porto Ferreira.
+\end{folhaderosto}
+
+%\fichacatalografica
+%\folhadeaprovacao
+
+\dedicatoria{Dedico este trabalho especialmente aos Professores Dr. Guilherme Wachs e Dr. Charles Ferreira. Ao primeiro, pela inspiração que me despertou um interesse genuíno na ciência da computação, e ao segundo, pela orientação para realizar este trabalho. Aprendi com ambos como problemas complexos podem ser resolvidos de forma elucidativa. Por isso, nutro profunda gratidão e respeito por eles e pelos demais docentes da FEI.}
+
+\begin{agradecimentos}
+Neste momento de conclusão da graduação, agradeço a Deus pela oportunidade de ter estudado em uma instituição de ensino de grande excelência como a FEI. Dentro dessa instituição, gostaria de agradecer com profunda gratidão os professores da FEI, especialmente aos professores do Departamento de Ciência da Computação, por todo o ensino durante essa formação acadêmica. Por último, mas não menos importante, gostaria de agradecer especialmente ao professor Dr. Charles Ferreira pela paciência, auxílio e disponibilidade que ofereceu ao orientar este trabalho. Sem o seu suporte, não seria possível que este projeto fosse concluído com os resultados finais que obtivemos. Seu exemplo como docente e acadêmico com certeza será um modelo que terei em mente em minha jornada daqui para frente. Guardo com zelo todo o aprendizado dos últimos anos e realmente vejo o valor enriquecedor para a compreensão de questões técnicas e científicas. Além desse aprendizado, os exemplos dos professores são uma inspiração edificante como guias para a jornada de um aluno, que também guardarei com afinco.
+\end{agradecimentos}
+
+\begin{epigrafe}
+	\epig{As raízes do estudo são amargas, mas seus frutos são doces.}{Aristóteles}
+	\epig{Ciência da Computação está tão relacionada aos computadores quanto a Astronomia aos telescópios, Biologia aos microscópios, ou Química aos tubos de ensaio. A Ciência não estuda ferramentas. Ela estuda como nós as utilizamos, e o que descobrimos com elas.}{Edsger Dijkstra}
+\end{epigrafe}
+
+\begin{resumo}
+
+No contexto educacional, a correção de avaliações, principalmente as dissertativas, demanda um tempo considerável dos docentes. Este trabalho propõe um algoritmo para gerar avaliações automáticas de respostas a questões dissertativas, utilizando uma média ponderada de diferentes fatores extraídos do texto através de técnicas de Processamento de Linguagem Natural (PLN). Cada fator recebe um peso específico, determinado por regressão linear treinada com bases em diferentes idiomas, resultando em pesos distintos para cada versão do algoritmo. Os resultados demonstraram acurácia de 63,43\% para a versão em português (\textit{dataset} de questões de Biologia), 83,58\% para a versão em espanhol (\textit{dataset} de questões de Literatura) e 81,63\% para a versão em inglês (\textit{dataset} de questões de Ciência da Computação). De forma geral, o algoritmo apresentou desempenho regular, gerando avaliações próximas às realizadas por docentes na maior parte dos casos. Os resultados indicam que, com aprofundamento, essa abordagem pode ser promissora para soluções relacionadas à problemática abordada neste trabalho.
+
+\palavraschave{Similaridade Semântica; Distância de Levenshtein; Frequência de Palavras; Processamento de Linguagem Natural; Avaliação de Respostas Dissertativas; Regressão Linear}
+
+\end{resumo}
+
+\begin{abstract}
+
+In the educational context, grading assessments, especially essay questions, is a time-consuming task for teachers. This work proposes an algorithm to generate automatic evaluations of essay question answers using a weighted average that evaluates different factors extracted from the text using Natural Language Processing (NLP) techniques. Each factor receives a specific weight, determined by linear regression trained with bases in different languages, resulting in distinct weights for each version of the algorithm. The results showed an accuracy of 63.43\% for the version trained with a Portuguese dataset, whose question theme was Biology; 83.58\% for the version trained with Spanish data, with questions about Literature; and 81.63\% for the version trained with English data, with questions about Computer Science. Thus, in general, the algorithm demonstrated the ability to generate evaluations with values close to those made by teachers, showing regular performance in most cases. These results indicate that, with further deepening, this approach can be a promising direction for solutions involving the problem addressed in this work.
+
+\keywords{Semantic Similarity; Levenshtein Distance; Word Frequency; Natural Language Processing; Evaluation of Descriptive Answers; Linear Regression}
+
+\end{abstract}
+
+\listoffigures
+\listoftables
+%\listofalgorithms
+\printglossaries
+\tableofcontents
+
+\include{texto/introducao}
+\include{texto/revisao_bibliografica}
+\include{texto/conceitos}
+\include{texto/metodologia}
+
+%\include{texto/proposta_experimental}
+%\include{texto/dificuldades}
+
+\include{texto/resultados}
+\include{texto/conclusao}
+
+\printbibliography
+
+%\printindex
+
+\end{document}

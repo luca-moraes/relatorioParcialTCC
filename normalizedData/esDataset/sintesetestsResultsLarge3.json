@@ -1,0 +1,22 @@
+Espanhol Large Percentual Treino com 0.8
+Total de dados: 3772
+Quantidade de dados de treino: 3017
+Quantidade de dados de teste: 755
+Erro quadrático médio (antes da clippagem): 0.94502601088691
+Erro médio absoluto (antes da clippagem): 0.7753693268745901
+Pesos otimizados: [ 0.16376599 -0.00098909  0.12995417]
+Erro quadrático médio (após clippagem): 0.94502601088691
+Erro médio absoluto (após clippagem): 0.7753693268745901
+Numero de Testes: 755
+Erro Geral do Algoritmo: 20.82%
+Erro por faixa de porcentagem:
+0-10% Quantidade: 243 - Percentual: 0.3218543046357616
+10-20% Quantidade: 204 - Percentual: 0.27019867549668874
+20-30% Quantidade: 134 - Percentual: 0.17748344370860927
+30-40% Quantidade: 68 - Percentual: 0.09006622516556291
+40-50% Quantidade: 39 - Percentual: 0.051655629139072845
+50-60% Quantidade: 35 - Percentual: 0.046357615894039736
+60-70% Quantidade: 23 - Percentual: 0.030463576158940398
+70-80% Quantidade: 9 - Percentual: 0.011920529801324504
+80-90% Quantidade: 0 - Percentual: 0.0
+90-100% Quantidade: 0 - Percentual: 0.0

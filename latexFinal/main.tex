@@ -1,0 +1,111 @@
+
+\documentclass[acronym,symbols]{fei}
+
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx} % times alternativa a bosta da fei q n funciona
+
+%%%% -- Configuracoes Iniciais
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{Lucas Mateus de Moraes - RA: 22.220.004-0}
+\cidade{São Bernardo do Campo}
+\instituicao{Centro universitário FEI}
+\title{Gerenciamento de dados em nuvens e blockchains}
+
+% comando para inserção de subfloats do tipo figure, usado aqui no template
+% remova este comando se for usar o pacote subfig
+% não recomendo o pacote subcaption
+\newsubfloat{figure}
+
+\addbibresource{referencias.bib}
+
+\makeindex
+
+\makeglossaries
+
+\begin{document}
+
+\maketitle
+
+\begin{folhaderosto}
+Relatório inicial para a disciplina de Tópicos avançados de bancos de dados, ministrada pela professora Dra. Leila Bergamasco.
+\end{folhaderosto}
+
+\begin{epigrafe}
+	\epig{I'm sure that in 20 years there will either be very large transaction volume or no volume.}{Satoshi Nakamoto \nocite{bitcoinWhitePaper}}
+	\epig{A blockchain é uma forma inovadora de criar consenso sobre registros de transferência de valor.}{Fernando Ulrich \nocite{bitcoinFernandoUlrich}}
+\end{epigrafe}
+
+\tableofcontents
+
+\chapter{Introdução}
+
+O objetivo deste relatório é estudar o tema "Gerenciamento de dados em nuvens e blockchains".
+
+\chapter{O estado atual do gerenciamento de dado em nuvem}
+
+O gerenciamento de dados em nuvem consiste no processo de coletar,  nuvem uma metáfora para a Internet(\textcite{awsDataManagement}), esse  dados (\textcite{computacaoNuvemIfrn}).
+
+ rápida e medição de serviços (\textcite{computacaoNuvemUfc}).
+
+
+\chapter{O surgimento da tecnologia blockchain}
+
+ Bitcoin e ao movimento \textit{Cypherpunk}, esse movimento surge em 1988 com Timothy C. May e outros engenheiros e cientista da computação.  Criptoanarquista (\textcite{cryptoManifesto}), em que defende a ideia da criação de sistemas de comunicação e negócios completamente  ativista e jornalista Julian Assange em seus livros \cite{assange}. 
+
+ forma de dinheiro, separado do sistema financeiro convencional, foram criadas, como a \textit{B-Money}, \textit{E-Gold}, \textit{DigiCash}, \textit{Hashcash} e \textit{BitGold}, mas todas elas acabaram falhando com o tempo (\textcite{predecessoresBtc}), todas elas enfrentavam dois  Nick Szabo da \textit{BitGold} e Wei Dai da \textit{B-Money}.
+
+Após isso, no ano de 2008, um usuário anonimo do fórum \textit{P2P Foundation}, usando o pseudônimo de Satoshi Nakamoto, publica um artigo intitulado \textit{Bitcoin: A Peer-to-Peer Eletronic Cash System} (\textcite{bitcoinWhitePaper}), nesse artigo ele propõem uma nova forma  governos, essa solução foi inicialmente nomeada de \textit{Timechain} na publicação original do \textit{white paper}, porém, o nome não  tecnologia para \textit{Blockchain}, nome pelo qual popularizou-se e é conhecida até hoje (\textcite{p2pFoundation}), a tecnologia nasceu e foi sendo aprimorada no ambiente \textit{open source} até o seu estado
+ 
+\section{O funcionamento da blockchain e seu uso para registro de dados do Bitcoin}
+
+ magnetismo, som (a expressão inglesa \textit{"sound money"} era usada para referir-se ao barulho característico que duas moedas de ouro com alta pureza emitiam quando colidiam-se) e selos oficiais cunhados por países, atualmente, no caso do padrão monetário \textit{Fiat} (padrão  informações são chamados de \textit{nodes} (nós em português).
+
+Os \textit{nodes} guardam todas as transações já feitas na história do Bitcoin, atualmente existem cerca de 10000 \textit{nodes} rodando na \cite{blockchainInfo}, o que significado que existem 10000 máquinas no \textit{nodes}.
+
+ das atividades na rede, são os chamador \textit{miners} (mineradores m validadas, esse o chamado \textit{hashrate} de uma blockchain, atualmente o Bitcoin possui 370 milhões de terahashes por segundo aplicados a rede (\cite{blockchainInfo}).
+
+ monetária e um controle de juros se torna inviável \cite{bitcoinFernandoUlrich}.
+
+ bancárias algorítmicas e tokens sintéticos de moedas como o Real e o Dólar de forma digital \cite{sinteticos}, assim aumentando a escalabilidade na segunda camada (chamada de \textit{Layer 2}) e mantendo a segurança na primeira camada da blockchain (chamada de \textit{Layer 1}).
+
+\chapter{As principais diferenças entre uma blockchain e um banco de dados convencional}
+
+ da necessidade de cada situação, os principais pontos são:
+
+\begin{itemize}
+    \item Centralização: Uma blockchain é descentralizada e sem um .
+    \item Arquitetura: Uma blockchain usa uma arquitetura com a .
+    \item Integridade: Uma blockcahin tem maior integridade dos dados, .
+    \item Transparência: Uma blockchain oferece transparência total das .
+    \item Operações: Um banco de dados suporta todas as operações CRUD .
+    \item Custos: Um banco de dados oferece menor custo e maior .
+    \item Performance: Como abordado anteriormente a escalabilidade não .
+    \item Automações: Os bancos de dados possibilitam a criação de tarefas automáticas com \textit{triggers}, já as blockchain possibilitam a criação dos chamados \textit{smart contracts} que     
+\end{itemize}
+
+%Levando em consideração esses aspectos, um banco de dados é recomendado  principalmente a necessidade de processamento rápido de informações.
+%\cite{btcRadio}, verificação de dados confiáveis de forma pública,
+
+
+\chapter{Perspectivas futuras e desafios para a blockchain}
+
+ por estudos de Nelson Almeida \cite{redeHibridaMeshComLora} e Matheus George Abel \cite{topologiaMeshComLora}.
+
+ proposta do Taproot \cite{taproot} no próprio Bitcoin, mas ao que tudo 
+
+\chapter{Conclusões e proposta de apresentação}
+ funcionamento da tecnologia, seguindo os tópicos:
+
+\begin{enumerate}
+    \item O estado atual do gerenciamento de dados em nuvem
+    \item O surgimento da tecnologia blockchain.
+    \item As diferenças entre uma blockchain e um banco de dados
+    \item Perspectivas futuras e desafios da tecnologia
+\end{enumerate}
+
+Como um forma de demostração pretendo exemplificar o uso de uma blockchain através da \textit{Testnet}, uma rede paralela para testes, 
+
+\printbibliography
+
+\end{document}

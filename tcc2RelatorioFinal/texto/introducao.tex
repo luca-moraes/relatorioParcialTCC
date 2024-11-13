@@ -1,0 +1,57 @@
+\chapter{Introdução}
+
+Na atualidade das instituições de ensino, uma variedade de métodos de avaliação são empregados para mensurar o aprendizado dos alunos, destacando-se entre eles as questões dissertativas, nas quais os alunos devem fornecer suas respostas de maneira textual. Esse método proporciona ao professor uma compreensão mais aprofundada da linha de raciocínio do aluno durante a correção, possibilitando assim, uma avaliação mais precisa do nível de aprendizado alcançado e um melhor acompanhamento da evolução do aluno ao longo do tempo \cite{artigoPorcentagemQuestoes}.
+
+Embora a precisão da avaliação seja uma vantagem desse método, o mesmo exige maior tempo de leitura, análise e compreensão de cada questão por parte do professor, uma vez que ele precisará analisar integralmente o conteúdo dos textos fornecidos como resposta pelos alunos. 
+
+Tal dificuldade pode levar o docente a preferir questões objetivas, que, por possuírem um gabarito, demandam um tempo menor de correção. Entretanto, é importante ressaltar que as questões objetivas não atingem o mesmo nível de precisão na avaliação em comparação com as questões dissertativas, uma vez que possibilitam que o aluno escolha uma alternativa de maneira aleatória e possa obter a resposta correta mesmo sem ter nenhum conhecimento da mesma, ao contrário das questões dissertativas, em que essa possibilidade não existe.
+
+A utilização de avaliações dissertativas é utilizado em apenas 30\% das formas de avaliação aplicadas aos alunos, conforme demonstrado em um estudo realizado por % pelas pesquisadoras Katya Luciane de Oliveira, Mestre em Psicologia pela Universidade São Francisco, e Acácia Aparecida Angeli dos Santos, Doutora em Psicologia Escolar e do Desenvolvimento Humano pela USP.
+\textcite{artigoPorcentagemQuestoes}. Este estudo aborda as vantagens das avaliações dissertativas e sua maior adequação para a avaliação do desempenho e acompanhamento do progresso dos alunos no processo de aprendizado. Considerando esse contexto, seria benéfico para as instituições de ensino adotar mais frequentemente avaliações dissertativas \cite{artigoPorcentagemQuestoes}. No entanto, como mencionado anteriormente, um dos principais impeditivos da adoção desse método seria o aumento na carga de trabalho dos professores responsáveis pelas correções. 
+
+Por conta disso, o presente trabalho propõe uma abordagem para realizar avaliação automática das respostas dissertativas dos alunos, comparando-as com uma resposta padrão fornecida por um especialista da área como modelo do conhecimento esperado para aquela questão.
+
+De forma geral, o algoritmo desenvolvido neste trabalho avalia o "grau de similaridade" entre as respostas das questões levando em consideração propriedades da parte léxica, da parte de sintaxe e da parte semântica dos textos. No fim, o algoritmo utiliza uma métrica de média ponderada para mensurar a similaridade entre as respostas e as referências de professores ou especialistas e gerar uma avaliação automática das respostas fornecidas para determinadas questões. Para que essa avaliação fosse efetivamente realizada, alguns fatores eram extraídos do texto, os quais podemos considerar como elementos relevantes na composição do texto de uma resposta. Esses fatores foram:
+
+\begin{itemize}
+    \item Similaridade semântica
+    \item Frequência de termos
+    \item Distância de Levenshtein
+\end{itemize}
+
+% presença de palavas chaves, número de modificações para 
+% transformar uma resposta na outra, ordem das palavras, similaridade de texto, grau de parafraseamento, entre outros.
+
+%Como um desses fatores podemos considerar a presença de palavras-chave que devem constar na resposta, podendo ser especificadas pelo professor, cada uma podendo ter um peso na avaliação da similaridade semântica. Outros fatores, como a quantidade de modificações necessárias para transformar a resposta do aluno na resposta original %(o que pode ser chamado de grau de parafraseamento), , a distância entre os cossenos dos dois textos (que fornece um grau de proximidade entre o conteúdo de ambos) e a ordem das palavras (que diz respeito à sintaxe do texto) também podem ser considerados, cada um com pesos apropriados.  Além disso, pretende-se investigar se toda resposta correta é, em algum grau, uma paráfrase da resposta padrão, em que o sentido semântico é preservado.
+%Porém, levando em conta que a correção de respostas dissertativas é algo 
+
+%Sendo assim, o objetivo é propor uma métrica que avalie as respostas fornecidas em comparação com uma resposta correta definida como modelo para uma determinada questão, visando que essa métrica possa ser usada para avaliações da forma mais ampla possível.
+
+\section{Objetivo}
+
+O objetivo final do trabalho foi desenvolver e implementar o algoritmo para uma abordagem automatizada de avaliação para respostas dissertativas. A proposta teve como alvo simplificar o processo de correção manual dessas respostas, promovendo uma análise dos fatores extraídos do texto e sua relação com as avaliações geradas. As metas planejadas no trabalho foram especificadas nos seguintes tópicos:
+
+\begin{itemize}
+\item Desenvolver um algoritmo para mensurar a similaridade semântica entre respostas dissertativas e uma resposta padrão de um professor como referência.
+\item Considerar os fatores de similaridade semântica, frequência de termos e distância de Levenshtein.
+\item Validar a eficácia do algoritmo comparando-o com dados de avaliações já corrigidas.
+\item Como última meta, planejada para o caso das anteriores serem alcançadas, foi feito um protótipo para testes práticos do algoritmo visando elucidar os conceitos abordados no trabalho.
+\end{itemize}
+
+% \item Considerar fatores como a presença de palavras-chave, quantidade de repetições de palavras, grau de parafraseamento, distância entre cossenos dos textos e ordem das palavras na avaliação automática.
+
+\section{Questões de Pesquisa}
+
+O tema abordado levanta importantes questões de pesquisa, nas quais o presente trabalho buscou responder questões tais como:
+
+\begin{enumerate}
+\item Quais parâmetros podemos extrair como fatores do texto que devem ser considerados como componentes relevantes para pontuar a similaridade semântica entre as respostas e as referências?
+\item Esses parâmetros podem definir uma pontuação que funcione de maneira geral quando aplicada a casos práticos de correções dissertativas?
+\item Como os fatores devem ser ponderados dentro de uma métrica para as avaliações?
+\item Como a acurácia da métrica para as avaliações varia conforme os eventuais pesos, dados para treino e dados para teste dos fatores também variam?
+\end{enumerate}
+
+% \item Toda resposta correta pode ser considerada, em algum grau, uma paráfrase de uma resposta padrão?
+% \item A partir de qual ponto pode-se dizer que o grau de paráfrase entre os textos da resposta de um aluno e a resposta padrão indica corretude? Ou, em vez de uma saída binária, o resultado deve ser representado por uma escala variável?
+
+\newpage

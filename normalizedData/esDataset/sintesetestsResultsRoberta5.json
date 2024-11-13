@@ -1,0 +1,22 @@
+Espanhol Roberta Percentual Treino com 1
+Total de dados: 3772
+Quantidade de dados de treino: 3772
+Quantidade de dados de teste: 378
+Erro quadrático médio (antes da clippagem): 0.9317385635771298
+Erro médio absoluto (antes da clippagem): 0.7687738047174502
+Pesos otimizados: [ 0.21320186 -0.06751884  0.17607864]
+Erro quadrático médio (após clippagem): 0.9317385635771298
+Erro médio absoluto (após clippagem): 0.7687738047174502
+Numero de Testes: 378
+Erro Geral do Algoritmo: 27.24%
+Erro por faixa de porcentagem:
+0-10% Quantidade: 58 - Percentual: 0.15343915343915343
+10-20% Quantidade: 82 - Percentual: 0.21693121693121692
+20-30% Quantidade: 113 - Percentual: 0.29894179894179895
+30-40% Quantidade: 50 - Percentual: 0.13227513227513227
+40-50% Quantidade: 33 - Percentual: 0.0873015873015873
+50-60% Quantidade: 22 - Percentual: 0.0582010582010582
+60-70% Quantidade: 9 - Percentual: 0.023809523809523808
+70-80% Quantidade: 10 - Percentual: 0.026455026455026454
+80-90% Quantidade: 1 - Percentual: 0.0026455026455026454
+90-100% Quantidade: 0 - Percentual: 0.0

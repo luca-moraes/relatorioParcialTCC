@@ -1,0 +1,73 @@
+\chapter{Conceitos}
+
+Nesta seção serão apresentados alguns conceitos fundamentais para o entendimento da porposta desse projeto. Serão abordados conceitos de processamento de lingugagem natural, formas de representação de texto em formato númerico e metricas para comparação de textos e avalialção de desempenho. Assim livros como \textit{Introduction to natural language processing} \cite{NLP} e \textit{Machine Learning: An Algorithmic Perspective} \cite{ML}, são importantes fontes para o aprofundamento nesses tópicos.
+%Para o bom desenvolvimento do projeto é necessário a revisão de assuntos basilares para \textit{NLP} e um aprofundamento nos principais tópicos relacionados as técnicas utilizadas na área. 
+
+\section{Processamento de linguagem natural}
+
+O Processamento de Linguagem Natural (PLN) refere-se à aplicação de técnicas computacionais para a interpretação e manipulação de linguagem humana. Envolve o desenvolvimento de algoritmos e modelos que capacitam computadores a compreender, analisar e gerar texto de maneira semelhante ao entendimento humano.
+
+\section{Representação de textos}
+
+A Representação de Textos é crucial para permitir que algoritmos compreendam palavras e documentos. Duas técnicas comuns são TFIDF (Term Frequency-Inverse Document Frequency) e Word Embedding. O TFIDF avalia a importância de uma palavra em um documento, enquanto o Word Embedding mapeia palavras em vetores contínuos, capturando relações semânticas.
+
+%\subsection{TFIDF}
+%O TFIDF é uma técnica que atribui pesos a palavras com base em sua frequência no documento e em todo o conjunto de documentos. Palavras frequentes em um documento, mas raras no conjunto de documentos, recebem pontuações mais altas, destacando sua relevância no contexto do documento específico.
+
+\subsection{Word embedding}
+O Word Embedding é uma técnica que mapeia palavras em vetores de números reais, capturando relações semânticas e contextuais. Essa representação densa permite que algoritmos de processamento de linguagem natural compreendam a similaridade e a semântica entre palavras. Considere as palavras "rei" e "rainha." Se estiverem bem representadas por embeddings, a subtração dos vetores "rei" e "homem" deve ser aproximadamente igual à subtração dos vetores "rainha" e "mulher," refletindo a relação semântica de gênero.
+
+\section{Similaridade de textos}
+A Similaridade de Textos é fundamental para comparar documentos ou palavras. Diversas métricas são empregadas, como Palavras-Chave, Frequência de Palavras, Distância de Jaccard, Distância de Cosseno, Distância Euclidiana e Modelos de Linguagem.
+
+\subsection{Palavras-chave}
+A similaridade pode ser avaliada considerando as palavras-chave mais relevantes em documentos. A sobreposição ou relevância compartilhada entre essas palavras indica o grau de similaridade.Considere dois documentos sobre inteligência artificial. Se ambos compartilharem palavras-chave como "aprendizado de máquina", "algoritmos" e "processamento de linguagem natural," é provável que sejam semanticamente similares.
+
+\subsection{Frequência de Sentidos de Palavras}
+
+A frequência de sentidos de lalavras (SFD) é uma métrica que avalia a distribuição de frequência dos diferentes sentidos ou significados associados a uma palavra ao longo de um conjunto de documentos. Em outras palavras, visa entender como a polissemia (múltiplos significados) de uma palavra se distribui em contextos específicos. Essa métrica é relevante para a detecção de mudanças semânticas em textos ao longo do tempo. Considerando a palavra "bateria" por exemplo que pode ser um instrumento musical ou um dispositivo eletrônico para armazenar energia elétrica. Se, ao longo do tempo, a frequência de uso de "bateria" em contextos relacionados a música diminuir enquanto o uso em contextos de armazenamento de energia aumentar, a SFD refletirá essa mudança semântica
+
+\subsection{Distância de Jaccard}
+A Distância de Jaccard avalia a similaridade entre conjuntos, medindo a proporção de elementos comuns entre dois conjuntos. Para texto, representa a sobreposição de palavras entre dois documentos. Considere dois conjuntos de palavras em dois documentos. Se o Conjunto A contiver as palavras \{a, b, c\} e o Conjunto B as palavras \{b, c, d\}, a Distância de Jaccard seria de 50\% de similaridade, como na demonstrado na Equação 1. 
+\begin{equation}
+\frac{|A \cap B|}{|A \cup B|} = \frac{2}{4} = 0.5
+\end{equation}
+
+\subsection{Distância de Cosseno}
+A Distância de Cosseno mede o ângulo entre dois vetores de palavras, representando a similaridade direcional entre documentos. Quanto menor o ângulo, maior a similaridade. Considere dois vetores de palavras representando documentos. Se esses vetores apontarem na mesma direção, a distância de cosseno será próxima de zero, indicando alta similaridade. Se apontarem em direções opostas, a distância será próxima de 1, indicando baixa similaridade.
+
+\subsection{Distância Euclidiana}
+A Distância Euclidiana calcula a distância geométrica entre pontos em um espaço vetorial. Em texto, representa a dissimilaridade entre as distribuições de palavras. Considere dois documentos representados como pontos em um espaço vetorial. Se os pontos (representando os documentos) estiverem próximos no espaço, a distância euclidiana será pequena, indicando alta similaridade. Se estiverem distantes, a distância será grande, indicando baixa similaridade.
+
+\subsection{Distância Jensen-Shannon}
+A Distância Jensen-Shannon (JSD) é uma medida de divergência estatística entre duas distribuições de probabilidade que é utilizada em processamento de linguagem natural para avaliar a similaridade entre textos com base na distribuição de frequência das palavras. O cálculo da JSD envolve a criação de uma distribuição média ponderada e o uso da entropia de Kullback-Leibler. Ela considera não apenas a presença ou ausência de palavras, mas também a probabilidade de ocorrência dessas palavras nos textos. Quanto menor a distância obtida, maior é a similaridade semântica entre os textos.
+
+\subsection{Language Models}
+Os Modelos de Linguagem, como os de Parafraseamento, buscam entender a similaridade semântica entre frases ou documentos, indo além da análise baseada em palavras. Supondo que um modelo de linguagem deve prever palavras em frases. Na frase "O gato está na", o modelo de linguagem pode prever as palavras "casa", "árvore" e rua por exemplo. Com base em um conjunto de dados de treinamento a probabilidade da palavra "casa" pode ser maior.
+
+\subsubsection{Parafraseamento}
+Modelos de Parafraseamento são específicos para avaliar a similaridade entre frases ou documentos que expressam a mesma ideia de maneira diferente. Esses modelos buscam capturar nuances semânticas e estruturais, identificando relações de equivalência entre diferentes formulações. As frases "O clima estava agradável para um passeio no parque" e "Por conta do clima agradável, o parque seria um bom passeio" devem ser reconhecidas por um modelo de parafraseamento já que ambas as frases têm uma intenção semelhante, apesar das diferenças na escrita
+
+\section{Métricas de avaliação}
+As Métricas de Avaliação quantificam o desempenho de modelos de processamento de linguagem natural. A acurácia é uma medida fundamental, representando a proporção de predições corretas em relação ao total. Outras métricas, como precisão, revocação e F1-Score, oferecem insights adicionais sobre o desempenho do modelo em diferentes aspectos da classificação ou similaridade.
+
+\subsection{Acurácia}
+A acurácia é uma métrica fundamental de avaliação, comumente usada para medir o desempenho geral de modelos de processamento de linguagem natural. Representa a proporção de predições corretas em relação ao total de predições. Embora seja uma medida direta, a Acurácia pode ser limitada em cenários desbalanceados, sendo complementada por métricas adicionais, como precisão, revocação e F1-Score, para avaliação mais abrangente do desempenho do modelo. No entanto, em cenários desbalanceados, a acurácia pode ser limitada. Para avaliação mais abrangente, métricas adicionais, como BLEU (Bilingual Evaluation Understudy) e ROUGE (Recall-Oriented Understudy for Gisting Evaluation), podem ser utilizadas.
+
+\subsubsection{BLEU (Bilingual Evaluation Understudy)}
+O BLEU é comumente usado para avaliar a qualidade de traduções automáticas em tarefas de processamento de linguagem natural. Ele calcula a sobreposição de palavras entre a tradução gerada pelo modelo e a tradução de referência. Quanto mais sobreposição, maior é o escore BLEU.
+
+\subsubsection{ROUGE (Recall-Oriented Understudy for Gisting Evaluation)}
+O ROUGE é empregado para avaliar a qualidade de resumos automáticos, focando na recordação (revocação) das palavras-chave. Ele mede a sobreposição de n-gramas (sequências contínuas de n palavras) entre o resumo gerado e o resumo de referência. Maior sobreposição resulta em um escore ROUGE mais alto.
+
+%\section*{Técnicas de classificação/similaridade de texto}
+
+%As principais técnicas utilizadas nos artigos selecionados foram:
+
+%\begin{itemize}
+%    \item Artigo \cite{DeterminingDegreeRelevanceReviewsUsingGraphBasedTextRepresentation}: O algoritmo \textit{K-nearest neighbor classification} é usado para construção de um modelo. A representação de texto é baseada em um grafo para identificar igualdade de sintaxe entre textos. As métricas baseadas em \textit{string} incorporam conceitos de paráfrase e plágio para identificar a similaridade de textos. Métricas como \textit{, }
+%
+%    \item Artigo 
+%\end{itemize}
+
+\newpage

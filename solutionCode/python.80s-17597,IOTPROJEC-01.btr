@@ -1,0 +1,11 @@
+
+python:17597 terminated with signal 11 at PC=7fa0a7d7b3fc SP=7fa0a43fdf70.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(+0x453fc)[0x7fa0a7d7b3fc]
+/lib/x86_64-linux-gnu/libc.so.6(on_exit+0x0)[0x7fa0a7d7b610]
+/lib/x86_64-linux-gnu/libinfinipath.so.4(+0x42a7)[0x7f9fbbc462a7]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7fa0a7d78520]
+/lib/x86_64-linux-gnu/libc.so.6(+0x91117)[0x7fa0a7dc7117]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_cond_wait+0x211)[0x7fa0a7dc9a41]
+/home/alunos/.local/lib/python3.10/site-packages/numpy/core/../../numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so(+0x3506fb)[0x7fa0a50416fb]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3)[0x7fa0a7dcaac3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x126850)[0x7fa0a7e5c850]

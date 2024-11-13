@@ -1,0 +1,18 @@
+@dataclass
+class Answer:
+    #identification_student: int
+    number_question: int
+    answer_question: str
+    grade: int
+
+@dataclass
+class RefResponse:
+    number_question: int
+    reference_response: str
+
+@dataclass
+class Question:
+    number_question: int
+    question_text: str
+    reference_responses: List[RefResponse]
+    responses_students: List[Answer]

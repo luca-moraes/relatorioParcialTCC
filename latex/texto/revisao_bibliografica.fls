@@ -1,0 +1,8 @@
+PWD /home/alunos/Desktop/relatorioParcialTCC/latex/texto
+INPUT /home/alunos/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
+INPUT revisao_bibliografica.tex
+OUTPUT revisao_bibliografica.log
+INPUT /home/alunos/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT revisao_bibliografica.pdf
+INPUT /home/alunos/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT /home/alunos/.miktex/texmfs/install/fonts/tfm/public/cm/cmti10.tfm

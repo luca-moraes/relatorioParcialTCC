@@ -1,0 +1,22 @@
+Espanhol Base Percentual Treino com 1
+Total de dados: 3772
+Quantidade de dados de treino: 3772
+Quantidade de dados de teste: 378
+Erro quadrático médio (antes da clippagem): 0.8634178023455499
+Erro médio absoluto (antes da clippagem): 0.7366839197212106
+Pesos otimizados: [ 0.119936   -0.06784675  0.45454225]
+Erro quadrático médio (após clippagem): 0.8634178023455499
+Erro médio absoluto (após clippagem): 0.7366839197212106
+Numero de Testes: 378
+Erro Geral do Algoritmo: 29.62%
+Erro por faixa de porcentagem:
+0-10% Quantidade: 45 - Percentual: 0.11904761904761904
+10-20% Quantidade: 75 - Percentual: 0.1984126984126984
+20-30% Quantidade: 118 - Percentual: 0.31216931216931215
+30-40% Quantidade: 56 - Percentual: 0.14814814814814814
+40-50% Quantidade: 42 - Percentual: 0.1111111111111111
+50-60% Quantidade: 22 - Percentual: 0.0582010582010582
+60-70% Quantidade: 8 - Percentual: 0.021164021164021163
+70-80% Quantidade: 11 - Percentual: 0.0291005291005291
+80-90% Quantidade: 1 - Percentual: 0.0026455026455026454
+90-100% Quantidade: 0 - Percentual: 0.0

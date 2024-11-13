@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-12-05T14:37:09.140Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OeIAI2AvQHXPTVCRp-PZ" version="21.8.2" type="github">
+  <diagram name="Page-1" id="BDgSTfWJlghPY3i5HT4K">
+    <mxGraphModel dx="1114" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAERnnMu-BSp0ZsiOh84-1" target="FAERnnMu-BSp0ZsiOh84-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-1" value="Parcela de dados &lt;br&gt;do Dataset ASQA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAERnnMu-BSp0ZsiOh84-2" target="FAERnnMu-BSp0ZsiOh84-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-2" value="Parcela de dados&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;do ENADE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAERnnMu-BSp0ZsiOh84-3" target="FAERnnMu-BSp0ZsiOh84-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-3" value="Testes para mensurar&amp;nbsp;&lt;br&gt;os fatores e pesos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAERnnMu-BSp0ZsiOh84-4" target="FAERnnMu-BSp0ZsiOh84-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-4" value="Ajustes da métrica" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-8" value="Testes para validação&lt;br&gt;&amp;nbsp;dos resultados" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAERnnMu-BSp0ZsiOh84-10" target="FAERnnMu-BSp0ZsiOh84-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-10" value="Dados restantes&lt;br&gt;do Dataset ASQA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FAERnnMu-BSp0ZsiOh84-13" target="FAERnnMu-BSp0ZsiOh84-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAERnnMu-BSp0ZsiOh84-13" value="Dados restantes&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;do ENADE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

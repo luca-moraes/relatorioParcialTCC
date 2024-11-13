@@ -1,0 +1,79 @@
+\documentclass[acronym,symbols]{fei}
+
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{outlines}
+\usepackage{ulem}
+\usepackage{caption}
+\usepackage{makecell}
+\usepackage{csquotes}
+\usepackage{lipsum}  
+\usepackage{lscape}
+
+\usepackage{color, colortbl}
+	
+\definecolor{Green}{rgb}{0.88,1,1}
+\definecolor{Gray}{gray}{0.9}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,    
+    urlcolor=blue,
+}
+
+
+%%%% -- Configuracoes Iniciais%%%%%%%%%%%%%%%
+
+\author{
+ Lucas Mateus de  Moraes - RA: 22.220.004-0
+}
+
+\title{APLICAÇÃO 1 DE TÉCNICAS DE PROCESSAMENTO DE LINGUAGEM NATURAL PARA AVALIAÇÃO AUTOMÁTICA DE QUESTÕES DISSERTATIVAS}
+
+% comando para inserção de subfloats do tipo figure, usado aqui no template
+% remova este comando se for usar o pacote subfig
+% não recomendo o pacote subcaption
+\newsubfloat{figure}
+
+\addbibresource{referencias.bib}
+
+\begin{document}
+\maketitle 
+
+\begin{resumo}
+
+Este trabalho propõe uma abordagem para a avaliação automática de respostas dissertativas em ambientes educacionais. A métrica proposta pelo presente trabalho combina a presença de palavras-chave, a frequência de sentidos de palavras, a análise da sintaxe do texto e a distância semântica através do cosseno para oferecer uma solução que simplifica o processo de correção manual. Utilizando o \textit{DataSet ASQA} do \textit{Google} e dados de respostas do ENADE, a pesquisa busca validar a eficácia da técnica proposta considerando fatores relevantes para processamento de linguagem natural.
+
+A proposta possui seus desafios de pesquisa, estudo e desenvolvimento, porém, não possui problemas significativos em relação a obter bases de dados ou lidar com dados sensíveis. Além de que, possui uma valor de contribuição valioso para a presente instituição de ensino e outras universidades, também sendo capaz de contribuir com o ensino de forma geral, pois, o uso de inteligência artificial (\textit{AI}) e processamento de linguagem natural (\textit{NLP}) aplicados a educação ainda é um tópico pouco explorado e de grande relevância, podendo assim, tornar a universidade e o presente trabalho uma possível referência no assunto, abrindo espaço para aplicações reais caso seu desenvolvimento futuro seja bem sucedido.
+
+\palavraschave{Semantic Similarity; Paraphrase Detection; Natural Language Processing; Evaluation of Descriptive Answers}
+
+\end{resumo}
+
+\begin{abstract}
+
+This article proposes an innovative approach for the automated evaluation of essay-type responses in educational environments. In contrast to the preference for objective questions, the proposed metric combines keyword presence, word sense frequency, syntax analysis, and semantic distance using cosine similarity to offer a solution that streamlines the manual correction process. Utilizing Google's ASQA DataSet and data from ENADE's exam, the research aims to validate the effectiveness of the technique, considering relevant factors for natural language processing.
+
+The proposal presents challenges in research, study, and development; however, it does not encounter significant issues regarding obtaining databases or handling sensitive data. Moreover, it holds valuable contribution potential for the current educational institution and other universities. It is also capable of contribute to education in general, as the use of artificial intelligence (\textit{AI}) and natural language processing (\textit{NLP}) applied to education is still a relatively unexplored and highly relevant topic. Therefore, the university and the present work could become a reference in the field, opening space for real applications if its future development is succeeds.
+
+\keywords{Semantic Similarity; Paraphrase Detection; Natural Language Processing; Evaluation of Descriptive Answers}
+
+\end{abstract}
+
+\listoffigures
+\listoftables
+
+\tableofcontents
+
+\include{texto/introducao}
+\include{texto/conceitos}
+\include{texto/revisao_bibliografica}
+\include{texto/metodologia}
+\include{texto/proposta_experimental}
+\include{texto/conclusao}
+
+\printbibliography
+
+\end{document}

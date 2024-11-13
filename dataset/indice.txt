@@ -1,0 +1,15 @@
+ASAP-SAS - https://github.com/benhamner/ASAP-SAS?tab=readme-ov-file
+
+ASAG-Dataset - https://github.com/DigiKlausur/ASAG-Dataset
+
+Learning-Models-on-ASAG - https://github.com/gsasikiran/Comparative-Evaluation-of-Pretrained-Transfer-Learning-Models-on-ASAG?tab=readme-ov-file
+
+Short Answer Grading Using One-shot Prompting - https://arxiv.org/pdf/2305.18638.pdf
+
+Automatic Short-Answer Grading via BERT - https://ieeexplore.ieee.org/document/9779091
+
+ASAG Method - https://github.com/wuhan-1222/ASAG
+
+French language dataset of Questions-Answers - https://data.europa.eu/data/datasets/5e83c3ed38f46c1808801fbb?locale=en
+
+asag beetle and sci - https://www.kaggle.com/datasets/johnpaulk/asag-beetle-and-sci

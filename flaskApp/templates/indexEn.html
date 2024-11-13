@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sabo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            Dr. Sabo
+        </div>
+        <div class="navbar-center">
+            <a class="port" href="/">Português 🇵🇹</a>
+            <a class="eng" href="/english">English 🇬🇧</a>
+            <a class="esp" href="/espanol">Español 🇪🇸</a>
+        </div>
+        <div class="navbar-right">
+            <img src="{{ url_for('static', filename='images/header.jpg') }}" alt="Logo">
+        </div>
+    </div>
+    <div class="titulos">
+        <h1 style="color: red;text-shadow: 1px 1px 2px black;" >TENTE RESPONDER NOSSO QUESTIONÁRIO!</h1>
+        <h1 style="color: orange;text-shadow: 1px 1px 2px black;" >Nosso algoritmo treinado com IA e NLP, Dr. Sabo, um professor virtual inteligente, irá corrigi-lo.</h1>
+    </div>
+    <div class="container">
+        <h1>Escolha uma questão e submeta sua resposta, sua avaliação será fornecida na mesma hora!</h1>
+        <hr>
+        <div class="cards-container">
+            {% for question in questionsEn %}
+            <div class="card" data-question-id="{{ question.number_question }}">
+                <p>{{ question.question_text }}?</p>
+                <button class="show-answer-form">Responder</button>
+                <div class="answer-form" style="display: none;">
+                    <form action="/submitEn" method="post">
+                        <input type="hidden" name="number_question" value="{{ question.number_question }}">
+                        <textarea name="answer" rows="4" placeholder="Escreva sua resposta aqui..."></textarea>
+                        <button type="submit">Submeter Resposta</button>
+                    </form>
+                    <div class="result" style="display: none;">
+                        <span class="result-text response"></span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.show-answer-form').forEach(button => {
+            button.addEventListener('click', () => {
+                const answerForm = button.nextElementSibling;
+                answerForm.style.display = 'block';
+                button.style.display = 'none';
+            });
+        });
+
+        document.querySelectorAll('.answer-form form').forEach(form => {
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const formData = new FormData(form);
+                const response = await fetch('/submitEn', {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+                const resultDiv = form.nextElementSibling;
+                const resultText = resultDiv.querySelector('.result-text');
+                resultText.innerHTML = result.message;
+                resultText.className = `result-text ${result.color_class}`; // Adiciona a classe de cor correta
+                resultDiv.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+
+<footer>
+	<p>&copy; 2023 + 1 - Todos os direitos reservados a mim mesmo.</p>
+	<p>Assinado: <i><b>Lucas Moraes &#x1F44D; &#x271D;	 &#x1F947;</b></i></p>
+    &#x1F1FB;&#x1F1E6; &#x26EA; &#x1F1E7;&#x1F1F7;
+	<nav>
+        <br><i><b>Contato: </b></i>
+        <div class="social">
+            <ul>
+                <li><a target="_blank" href="https://www.linkedin.com/in/lucas-moraes-58263a225/">Linkedin</a></li>
+                <li><a target="_blank" href="https://github.com/luca-moraes">Github</a></li>
+            </ul>
+        </div>
+        <hr>
+        <img alt="Logo FEI Dept. C.C." style="border: 1px solid black;" src="{{ url_for('static', filename='images/feiCc.png') }}"/>
+        <hr>
+		<img alt="Logo Inova FEI" style="border: 1px solid black;" src="{{ url_for('static', filename='images/inova.jpg') }}"/>
+
+	</nav>
+</footer>
+  
+</html>

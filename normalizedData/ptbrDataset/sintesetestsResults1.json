@@ -1,0 +1,22 @@
+Português Base Percentual Treino com 0.6
+Total de dados: 23378
+Quantidade de dados de treino: 14026
+Quantidade de dados de teste: 9352
+Erro quadrático médio (antes da clippagem): 0.5246584997866593
+Erro médio absoluto (antes da clippagem): 0.5487146833167558
+Pesos otimizados: [0.65395275 0.26488913 0.26790483]
+Erro quadrático médio (após clippagem): 0.5210774190955527
+Erro médio absoluto (após clippagem): 0.5284071960138537
+Numero de Testes: 9352
+Erro Geral do Algoritmo: 40.65%
+Erro por faixa de porcentagem:
+0-10% Quantidade: 1560 - Percentual: 0.16680923866552608
+10-20% Quantidade: 457 - Percentual: 0.04886655260906758
+20-30% Quantidade: 357 - Percentual: 0.03817365269461078
+30-40% Quantidade: 943 - Percentual: 0.10083404619332763
+40-50% Quantidade: 2017 - Percentual: 0.21567579127459366
+50-60% Quantidade: 2864 - Percentual: 0.30624465355004277
+60-70% Quantidade: 974 - Percentual: 0.10414884516680924
+70-80% Quantidade: 164 - Percentual: 0.017536355859709155
+80-90% Quantidade: 13 - Percentual: 0.001390076988879384
+90-100% Quantidade: 3 - Percentual: 0.00032078699743370403

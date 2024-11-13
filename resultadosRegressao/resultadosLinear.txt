@@ -1,0 +1,297 @@
+Resultado Br Base:
+70% m 30% t
+
+Erro quadrático médio (antes da clippagem): 0.5219413519800621
+Erro médio absoluto (antes da clippagem): 0.5515484992713936
+Pesos otimizados: [0.60642229 0.29398505 0.29732018]
+Erro quadrático médio (após clippagem): 0.5165414015906149
+Erro médio absoluto (após clippagem): 0.5262061700941503
+Numero de Testes: 7014
+Erro Geral do Algoritmo: 38.54%
+Numero de Erros Graves: 4190
+Porcentagem de Erros Graves: 59.74%
+
+80% m 20% t
+
+Erro quadrático médio (antes da clippagem): 0.5432131171597929
+Erro médio absoluto (antes da clippagem): 0.5592619614938954
+Pesos otimizados: [0.57723772 0.25741402 0.33623243]
+Erro quadrático médio (após clippagem): 0.5385185708338147
+Erro médio absoluto (após clippagem): 0.5374640697246373
+Numero de Testes: 4676
+Erro Geral do Algoritmo: 36.57%
+Numero de Erros Graves: 2462
+Porcentagem de Erros Graves: 52.65%
+
+90% m 10$ t
+
+Erro quadrático médio (antes da clippagem): 0.5999990999337274
+Erro médio absoluto (antes da clippagem): 0.5899205330067158
+Pesos otimizados: [0.49705159 0.2797773  0.42613657]
+Erro quadrático médio (após clippagem): 0.5949700451088573
+Erro médio absoluto (após clippagem): 0.56857090041211
+Numero de Testes: 2338
+Erro Geral do Algoritmo: 37.74%
+Numero de Erros Graves: 1249
+Porcentagem de Erros Graves: 53.42%
+
+100% m 10% t
+
+Erro quadrático médio (antes da clippagem): 0.6231344749491989
+Erro médio absoluto (antes da clippagem): 0.6096773232553895
+Pesos otimizados: [0.47001387 0.27656985 0.51803803]
+Erro quadrático médio (após clippagem): 0.6157199767254812
+Erro médio absoluto (após clippagem): 0.5837452962887733
+Numero de Testes: 2338
+Erro Geral do Algoritmo: 38.64%
+Numero de Erros Graves: 1249
+Porcentagem de Erros Graves: 53.42%
+
+Resultado Br Large:
+
+70% m 30% t
+
+Erro quadrático médio (antes da clippagem): 0.5259246839677915
+Erro médio absoluto (antes da clippagem): 0.5548789502770193
+Pesos otimizados: [0.65381311 0.3433597  0.58822818]
+Erro quadrático médio (após clippagem): 0.5200517093143531
+Erro médio absoluto (após clippagem): 0.531650347195112
+Numero de Testes: 7014
+Erro Geral do Algoritmo: 41.86%
+Numero de Erros Graves: 4222
+Porcentagem de Erros Graves: 60.19%
+
+80% m 20% t
+
+Erro quadrático médio (antes da clippagem): 0.5491697835570432
+Erro médio absoluto (antes da clippagem): 0.5637046934943681
+Pesos otimizados: [0.63345436 0.3060708  0.66428992]
+Erro quadrático médio (após clippagem): 0.5438125104785707
+Erro médio absoluto (após clippagem): 0.5443082060693399
+Numero de Testes: 4676
+Erro Geral do Algoritmo: 40.17%
+Numero de Erros Graves: 2510
+Porcentagem de Erros Graves: 53.68%
+
+90% m 10$ t
+
+Erro quadrático médio (antes da clippagem): 0.6105339456284352
+Erro médio absoluto (antes da clippagem): 0.5938443727485434
+Pesos otimizados: [0.56729639 0.3484164  0.84156265]
+Erro quadrático médio (após clippagem): 0.6037331529345534
+Erro médio absoluto (após clippagem): 0.5764945856766575
+Numero de Testes: 2338
+Erro Geral do Algoritmo: 42.09%
+Numero de Erros Graves: 1247
+Porcentagem de Erros Graves: 53.34%
+
+100% m 10% t
+
+Erro quadrático médio (antes da clippagem): 0.6393006381420181
+Erro médio absoluto (antes da clippagem): 0.6163082738008595
+Pesos otimizados: [0.54579623 0.37248172 1.02607946]
+Erro quadrático médio (após clippagem): 0.6284818206180363
+Erro médio absoluto (após clippagem): 0.5943721012823022
+Numero de Testes: 2338
+Erro Geral do Algoritmo: 43.05%
+Numero de Erros Graves: 1247
+Porcentagem de Erros Graves: 53.34%
+
+Resultados América Base:
+70% m 30% t
+
+Erro quadrático médio (antes da clippagem): 1.172595346067684
+Erro médio absoluto (antes da clippagem): 0.8486252641638968
+Pesos otimizados: [ 0.46434899 -0.16217602  0.11399002]
+Erro quadrático médio (após clippagem): 1.1672231745912414
+Erro médio absoluto (após clippagem): 0.8456257841804341
+Numero de Testes: 1094
+Erro Geral do Algoritmo: 20.05%
+Numero de Erros Graves: 150
+Porcentagem de Erros Graves: 13.71%
+
+80% m 20% t
+
+Erro quadrático médio (antes da clippagem): 1.1125205808527239
+Erro médio absoluto (antes da clippagem): 0.8265874295304279
+Pesos otimizados: [ 0.44686598 -0.17052877  0.1459444 ]
+Erro quadrático médio (após clippagem): 1.1086132218564322
+Erro médio absoluto (após clippagem): 0.8242294619629158
+Numero de Testes: 730
+Erro Geral do Algoritmo: 21.50%
+Numero de Erros Graves: 130
+Porcentagem de Erros Graves: 17.81%
+
+90% m 10$ t
+
+Erro quadrático médio (antes da clippagem): 1.1062414215342844
+Erro médio absoluto (antes da clippagem): 0.825525127531596
+Pesos otimizados: [ 0.4312074  -0.16808236  0.14180736]
+Erro quadrático médio (após clippagem): 1.1034352241309224
+Erro médio absoluto (após clippagem): 0.8235807740834801
+Numero de Testes: 365
+Erro Geral do Algoritmo: 21.85%
+Numero de Erros Graves: 71
+Porcentagem de Erros Graves: 19.45%
+
+100% m 10% t
+
+Erro quadrático médio (antes da clippagem): 1.1031745449588093
+Erro médio absoluto (antes da clippagem): 0.8282501623019782
+Pesos otimizados: [ 0.41559304 -0.16848201  0.15370208]
+Erro quadrático médio (após clippagem): 1.1013073019168331
+Erro médio absoluto (após clippagem): 0.8268481958652802
+Numero de Testes: 365
+Erro Geral do Algoritmo: 22.21%
+Numero de Erros Graves: 75
+Porcentagem de Erros Graves: 20.55%
+
+Resultado América Large:
+
+70% m 30% t
+
+Erro quadrático médio (antes da clippagem): 1.1684228387911866
+Erro médio absoluto (antes da clippagem): 0.847793099852295
+Pesos otimizados: [ 0.46981321 -0.14866068  0.18141518]
+Erro quadrático médio (após clippagem): 1.1641520899829445
+Erro médio absoluto (após clippagem): 0.8450809845934011
+Numero de Testes: 1094
+Erro Geral do Algoritmo: 18.55%
+Numero de Erros Graves: 127
+Porcentagem de Erros Graves: 11.61%
+
+80% m 20% t
+
+Erro quadrático médio (antes da clippagem): 1.1100673912211738
+Erro médio absoluto (antes da clippagem): 0.8260856809404798
+Pesos otimizados: [ 0.45303614 -0.14936951  0.19872587]
+Erro quadrático médio (após clippagem): 1.1072093883943104
+Erro médio absoluto (após clippagem): 0.8239949637087699
+Numero de Testes: 730
+Erro Geral do Algoritmo: 19.59%
+Numero de Erros Graves: 96
+Porcentagem de Erros Graves: 13.15%
+
+90% m 10$ t
+
+Erro quadrático médio (antes da clippagem): 1.105390377552886
+Erro médio absoluto (antes da clippagem): 0.8254060666753228
+Pesos otimizados: [ 0.43881231 -0.14865995  0.17272811]
+Erro quadrático médio (após clippagem): 1.10339181076553
+Erro médio absoluto (após clippagem): 0.8237129231387542
+Numero de Testes: 365
+Erro Geral do Algoritmo: 20.28%
+Numero de Erros Graves: 52
+Porcentagem de Erros Graves: 14.25%
+
+100% m 10% t
+
+Erro quadrático médio (antes da clippagem): 1.1071095178335155
+Erro médio absoluto (antes da clippagem): 0.8286781240702599
+Pesos otimizados: [ 0.42999051 -0.14796439  0.13033427]
+Erro quadrático médio (após clippagem): 1.1058576068802535
+Erro médio absoluto (após clippagem): 0.8275089714886672
+Numero de Testes: 365
+Erro Geral do Algoritmo: 20.53%
+Numero de Erros Graves: 52
+Porcentagem de Erros Graves: 14.25%
+
+Resultado España Base:
+
+70% m 30% t
+
+Erro quadrático médio (antes da clippagem): 0.9009623533013691
+Erro médio absoluto (antes da clippagem): 0.7536192561310423
+Pesos otimizados: [ 0.11190575 -0.03870219  0.46193132]
+Erro quadrático médio (após clippagem): 0.9009623533013691
+Erro médio absoluto (após clippagem): 0.7536192561310423
+Numero de Testes: 1132
+Erro Geral do Algoritmo: 33.42%
+Numero de Erros Graves: 412
+Porcentagem de Erros Graves: 36.40%
+
+80% m 20% t
+
+Erro quadrático médio (antes da clippagem): 0.8702343649076508
+Erro médio absoluto (antes da clippagem): 0.7390300184755043
+Pesos otimizados: [ 0.1076801  -0.04534353  0.47091695]
+Erro quadrático médio (após clippagem): 0.8702343649076508
+Erro médio absoluto (após clippagem): 0.7390300184755043
+Numero de Testes: 755
+Erro Geral do Algoritmo: 33.72%
+Numero de Erros Graves: 257
+Porcentagem de Erros Graves: 34.04%
+
+90% m 10$ t
+
+Erro quadrático médio (antes da clippagem): 0.8821526434402448
+Erro médio absoluto (antes da clippagem): 0.7449094405416822
+Pesos otimizados: [ 0.10336491 -0.04858511  0.45042231]
+Erro quadrático médio (após clippagem): 0.8821526434402448
+Erro médio absoluto (após clippagem): 0.7449094405416822
+Numero de Testes: 378
+Erro Geral do Algoritmo: 28.30%
+Numero de Erros Graves: 81
+Porcentagem de Erros Graves: 21.43%
+
+100% m 10% t
+
+Erro quadrático médio (antes da clippagem): 0.8634178023455499
+Erro médio absoluto (antes da clippagem): 0.7366839197212106
+Pesos otimizados: [ 0.119936   -0.06784675  0.45454225]
+Erro quadrático médio (após clippagem): 0.8634178023455499
+Erro médio absoluto (após clippagem): 0.7366839197212106
+Numero de Testes: 378
+Erro Geral do Algoritmo: 29.62%
+Numero de Erros Graves: 84
+Porcentagem de Erros Graves: 22.22%
+
+Resultado España Large:
+
+70% m 30% t
+
+Erro quadrático médio (antes da clippagem): 0.9703115373865406
+Erro médio absoluto (antes da clippagem): 0.7834878865744738
+Pesos otimizados: [0.16336229 0.00491239 0.13656753]
+Erro quadrático médio (após clippagem): 0.9703115373865406
+Erro médio absoluto (após clippagem): 0.7834878865744738
+Numero de Testes: 1132
+Erro Geral do Algoritmo: 21.26%
+Numero de Erros Graves: 149
+Porcentagem de Erros Graves: 13.16%
+
+80% m 20% t
+
+Erro quadrático médio (antes da clippagem): 0.94502601088691
+Erro médio absoluto (antes da clippagem): 0.7753693268745901
+Pesos otimizados: [ 0.16376599 -0.00098909  0.12995417]
+Erro quadrático médio (após clippagem): 0.94502601088691
+Erro médio absoluto (após clippagem): 0.7753693268745901
+Numero de Testes: 755
+Erro Geral do Algoritmo: 20.82%
+Numero de Erros Graves: 106
+Porcentagem de Erros Graves: 14.04%
+
+90% m 10$ t
+
+Erro quadrático médio (antes da clippagem): 0.9441430217990414
+Erro médio absoluto (antes da clippagem): 0.7782513138528976
+Pesos otimizados: [ 0.15089497 -0.00850965  0.14387555]
+Erro quadrático médio (após clippagem): 0.9441430217990414
+Erro médio absoluto (após clippagem): 0.7782513138528976
+Numero de Testes: 378
+Erro Geral do Algoritmo: 16.42%
+Numero de Erros Graves: 31
+Porcentagem de Erros Graves: 8.20%
+
+100% m 10% t
+
+Erro quadrático médio (antes da clippagem): 0.9257791568791579
+Erro médio absoluto (antes da clippagem): 0.7712637952984536
+Pesos otimizados: [ 0.17774029 -0.03685935  0.13746342]
+Erro quadrático médio (após clippagem): 0.9257791568791579
+Erro médio absoluto (após clippagem): 0.7712637952984536
+Numero de Testes: 378
+Erro Geral do Algoritmo: 16.60%
+Numero de Erros Graves: 37
+Porcentagem de Erros Graves: 9.79%
